@@ -7,19 +7,19 @@ const projects = [
   {
     title: "Concentrix FC&C",
     image: "https://cdn.myportfolio.com/27f655f377cdf66b3b5e2e264fa0158c/2e52e1be-dd56-4b0a-8bfc-3dbb582c7934_car_16x9.png?h=9fc36228b3247b47ee4d78345de84b9f",
-    link: "https://marileehutzel.com/financial-crimes-compliance",
+    link: "/projects/concentrix-fc",
     description: "Financial crimes & compliance platform design"
   },
   {
     title: "Machine Learning",
     image: "https://cdn.myportfolio.com/27f655f377cdf66b3b5e2e264fa0158c/d58cfaaf-4cf6-4329-85c6-652351e6ae05_rwc_173x113x437x246x437.png?h=b7cbdadc010365c88ff5618080214d61",
-    link: "https://marileehutzel.com/concentrix-cxs",
+    link: "/projects/machine-learning",
     description: "AI-powered customer experience solution"
   },
   {
     title: "AI Data Explorer",
     image: "https://cdn.myportfolio.com/27f655f377cdf66b3b5e2e264fa0158c/1d1e07e2-38e0-410f-8f69-1923bb4cfbba_rwc_0x0x1916x1080x1916.png?h=2df38a18350ccfa89b016dd77da6e0f9",
-    link: "https://marileehutzel.com/ai-ellie",
+    link: "/projects/ai-data-explorer",
     description: "Intelligent data exploration interface"
   },
   {

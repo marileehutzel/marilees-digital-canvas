@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { ArrowUpRight } from "lucide-react";
+import { Link } from "react-router-dom";
 
 interface ProjectCardProps {
   title: string;
@@ -10,14 +11,10 @@ interface ProjectCardProps {
 
 const ProjectCard = ({ title, image, link, description }: ProjectCardProps) => {
   const [isHovered, setIsHovered] = useState(false);
+  const isExternal = link.startsWith("http");
 
-  return (
-    <a
-      href={link}
-      className="group block relative overflow-hidden rounded-2xl bg-card shadow-card hover:shadow-elegant transition-all duration-500 hover:scale-[1.02]"
-      onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}
-    >
+  const cardContent = (
+    <>
       <div className="aspect-[4/3] overflow-hidden bg-muted">
         <img
           src={image}
@@ -43,7 +40,36 @@ const ProjectCard = ({ title, image, link, description }: ProjectCardProps) => {
           />
         </div>
       </div>
-    </a>
+    </>
+  );
+
+  const commonClasses =
+    "group block relative overflow-hidden rounded-2xl bg-card shadow-card hover:shadow-elegant transition-all duration-500 hover:scale-[1.02]";
+
+  if (isExternal) {
+    return (
+      <a
+        href={link}
+        className={commonClasses}
+        onMouseEnter={() => setIsHovered(true)}
+        onMouseLeave={() => setIsHovered(false)}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        {cardContent}
+      </a>
+    );
+  }
+
+  return (
+    <Link
+      to={link}
+      className={commonClasses}
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
+    >
+      {cardContent}
+    </Link>
   );
 };
 
