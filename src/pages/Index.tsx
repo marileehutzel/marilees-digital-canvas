@@ -28,16 +28,9 @@ const projects = [
     categories: ["Machine Learning", "Data Visualization"]
   },
   {
-    title: "Unstructured Data",
-    image: "https://cdn.myportfolio.com/27f655f377cdf66b3b5e2e264fa0158c/4e5f621a-e203-48d6-ac81-3c9d2749741b_rwc_1506x484x665x375x665.png?h=d6c59b44875011fba5dc4bfc0d83d834",
-    link: "https://marileehutzel.com/unstructured-data",
-    description: "Data analysis and visualization tools",
-    categories: ["Data Visualization", "Enterprise"]
-  },
-  {
     title: "Dashboard Builder",
     image: "https://cdn.myportfolio.com/27f655f377cdf66b3b5e2e264fa0158c/5d62295a-c647-49b0-8f2b-ad0ab9aac94b_rwc_0x186x1170x659x1170.png?h=0d76f8514cc82eebbf0ea51d98c603a5",
-    link: "https://marileehutzel.com/concentrix-cx",
+    link: "/projects/dashboard-builder",
     description: "Customizable dashboard creation platform",
     categories: ["Data Visualization", "Enterprise"]
   },
@@ -51,23 +44,58 @@ const projects = [
   {
     title: "CX Mobile",
     image: "https://cdn.myportfolio.com/27f655f377cdf66b3b5e2e264fa0158c/96d47458-a9a4-40b4-8f73-143f979dbcf6_rwc_0x0x1920x1082x1920.png?h=63ba38d8877dcfbc6bfb3175a0551f36",
-    link: "https://marileehutzel.com/concentrix-mobile",
+    link: "/projects/cx-mobile",
     description: "Mobile-first customer experience platform",
     categories: ["Mobile", "Enterprise"]
   },
   {
-    title: "Self-Service Data",
-    image: "https://cdn.myportfolio.com/27f655f377cdf66b3b5e2e264fa0158c/a06c14b4-3e3c-47f2-aa55-c5e6b5d7ee0e_rwc_0x0x1916x1080x1916.png?h=75c73d7dd47b638a788688bc87266466",
-    link: "https://marileehutzel.com/concentrix-cs",
-    description: "Empowering users with self-service analytics",
+    title: "Hack-a-Thon",
+    image: "https://cdn.myportfolio.com/27f655f377cdf66b3b5e2e264fa0158c/6f12e1637d65f132f05c8749dd16a1c54ad279e4bf3fd48e19510ad3456a1bef2610edd428574b84_car_16x9.png?h=3f9095fa6e3a1c52100cc5307fd48418",
+    link: "/projects/hack-a-thon",
+    description: "AI-powered coaching for call center agents",
+    categories: ["Machine Learning", "Innovation"]
+  },
+  {
+    title: "First Watch",
+    image: "https://cdn.myportfolio.com/27f655f377cdf66b3b5e2e264fa0158c/002232c4-ce58-41d4-a386-bf58e259d10c_car_16x9.png?h=03f14179ffda474627ad54fb961f8b95",
+    link: "/projects/first-watch",
+    description: "Restaurant website with digital waitlist",
+    categories: ["Web Design", "Mobile"]
+  },
+  {
+    title: "Marco's Pizza",
+    image: "https://cdn.myportfolio.com/27f655f377cdf66b3b5e2e264fa0158c/60f07836-7f5d-4c5d-861a-0f7fb4c52eef_car_16x9.png?h=adb37c4618aeef94e470f414ef3bfcce",
+    link: "/projects/marcos",
+    description: "Custom pizza builder & mobile ordering",
+    categories: ["Web Design", "Mobile"]
+  },
+  {
+    title: "NCR Collaboration",
+    image: "https://cdn.myportfolio.com/27f655f377cdf66b3b5e2e264fa0158c/0be95f17-6542-47e6-875b-f7dbe3769e55_car_16x9.png?h=e30dd163c7e64af145e9d8c4383ba8d8",
+    link: "/projects/ncr-collaboration",
+    description: "Restaurant analytics dashboard",
+    categories: ["Data Visualization", "Web Design"]
+  },
+  {
+    title: "Unstructured Data",
+    image: "https://cdn.myportfolio.com/27f655f377cdf66b3b5e2e264fa0158c/4e5f621a-e203-48d6-ac81-3c9d2749741b_rwc_1506x484x665x375x665.png?h=d6c59b44875011fba5dc4bfc0d83d834",
+    link: "https://marileehutzel.com/unstructured-data",
+    description: "Data analysis and visualization tools",
     categories: ["Data Visualization", "Enterprise"]
   },
   {
-    title: "Executive Dashboard",
-    image: "https://cdn.myportfolio.com/27f655f377cdf66b3b5e2e264fa0158c/f46dd72d-a64f-4ee0-a8aa-d46cbf7b5e32_rwc_0x0x1920x1080x1920.png?h=baa3819f93c9c05a0f19f7b1c1c2fc9c",
-    link: "https://marileehutzel.com/concentrix-cx-exec",
-    description: "High-level insights and KPI tracking",
-    categories: ["Data Visualization", "Enterprise"]
+    title: "McAlister's Deli",
+    image: "https://cdn.myportfolio.com/27f655f377cdf66b3b5e2e264fa0158c/2b1b48b9-6f14-4671-b278-cc4b2b6b8c76_car_16x9.png?h=35ca698c97baca1581fb76f6390438f2",
+    link: "https://marileehutzel.com/mcalisters-deli",
+    description: "Restaurant branding & digital experience",
+    categories: ["Web Design", "Branding"]
+  },
+  {
+    title: "Zipscene Analytics",
+    image: "https://cdn.myportfolio.com/27f655f377cdf66b3b5e2e264fa0158c/843cfa72-ecbd-4107-8d6f-0accf0cba2f5_car_16x9.png?h=a1429bb2baf80e4b740a6d2c60dda58a",
+    link: "https://marileehutzel.com/analytics-dashboard",
+    description: "Analytics dashboard with custom iconography",
+    categories: ["Data Visualization", "Design Systems"]
   },
 ];
 
