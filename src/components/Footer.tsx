@@ -26,7 +26,7 @@ const Footer = () => {
             </a>
             <a
               href="https://linkedin.com"
-              target="_blank"
+              target="www.linkedin.com/in/marileehutzel"
               rel="noopener noreferrer"
               className="p-3 bg-primary-foreground/10 rounded-full hover:bg-background hover:text-primary transition-all duration-300"
               aria-label="LinkedIn"
