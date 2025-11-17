@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { NavLink } from "./NavLink";
 import { Menu, X } from "lucide-react";
+import butterflyLogo from "@/assets/butterfly-logo.png";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -27,8 +28,9 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <NavLink
             to="/"
-            className="text-2xl font-bold text-foreground hover:text-primary transition-colors"
+            className="text-2xl font-bold text-foreground hover:text-primary transition-colors flex items-center gap-3"
           >
+            <img src={butterflyLogo} alt="Butterfly logo" className="h-8 w-8" />
             Marilee Hutzel
           </NavLink>
 
