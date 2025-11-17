@@ -15,23 +15,23 @@ const About = () => {
             {/* Image Collage */}
             <div className="grid grid-cols-2 gap-4 animate-fade-in">
               <div className="col-span-1 row-span-2">
-                <img 
-                  src={hikingImg} 
-                  alt="Hiking on a snowy mountain summit" 
+                <img
+                  src={hikingImg}
+                  alt="Hiking on a snowy mountain summit"
                   className="w-full h-full object-cover rounded-2xl shadow-card"
                 />
               </div>
               <div className="col-span-1">
-                <img 
-                  src={kayakingImg} 
-                  alt="Kayaking adventure" 
+                <img
+                  src={kayakingImg}
+                  alt="Kayaking adventure"
                   className="w-full h-full object-cover rounded-2xl shadow-card"
                 />
               </div>
               <div className="col-span-1">
-                <img 
-                  src={adventureImg} 
-                  alt="Adventure moments" 
+                <img
+                  src={adventureImg}
+                  alt="Adventure moments"
                   className="w-full h-full object-cover rounded-2xl shadow-card"
                 />
               </div>
@@ -44,14 +44,19 @@ const About = () => {
               <div className="space-y-6 text-lg text-foreground/80 animate-fade-in" style={{ animationDelay: "0.2s" }}>
                 <p>
                   I'm a Senior Product Designer passionate about creating intuitive, data-driven experiences that solve
-                  complex business challenges. With expertise in enterprise software design, B2B, B2C, SaaS, and mobile I
-                  specialize in transforming intricate data sets and workflows into elegant, user-friendly interfaces.
+                  complex business challenges. With expertise in enterprise software design, B2B, B2C, SaaS, and mobile
+                  I specialize in transforming intricate data sets and workflows into elegant, user-friendly interfaces.
                 </p>
 
                 <p>
-                  My work spans across various domains including financial compliance, machine learning interfaces, AI, data
-                  visualization, mobile, and design systems. I believe in the power of thoughtful design to bridge the gap
-                  between technical complexity and user understanding.
+                  My work spans across various domains including financial compliance, machine learning interfaces, AI,
+                  data visualization, mobile, and design systems. I believe in the power of thoughtful design to bridge
+                  the gap between technical complexity and user understanding.
+                </p>
+
+                <p>
+                  When I'm not designing, you could find me hiking, skiing, making wine, learning aerial silks, hanging
+                  out with my son, or advernturing with my partner.
                 </p>
               </div>
             </div>
