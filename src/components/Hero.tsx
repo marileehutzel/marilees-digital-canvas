@@ -4,15 +4,11 @@ const Hero = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="text-center space-y-6 animate-fade-in">
           <h1 className="text-5xl md:text-7xl font-bold text-foreground leading-tight">
-            Creating{" "}
-            <span className="bg-gradient-primary bg-clip-text text-transparent">
-              intuitive
-            </span>{" "}
-            experiences
+            Creating <span className="bg-gradient-primary bg-clip-text text-transparent">intuitive</span> experiences
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto">
-            UX/UI Designer specializing in data visualization, machine learning
-            interfaces, and enterprise design systems
+            Senior Prodcut Designer specializing in data visualization, machine learning, AI, mobile, and enterprise
+            design systems
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-8">
             <a

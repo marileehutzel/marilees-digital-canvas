@@ -9,11 +9,9 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="text-center md:text-left">
             <h3 className="text-2xl font-bold mb-2">Marilee Hutzel</h3>
-            <p className="text-secondary-foreground/70">
-              UX/UI Designer & Problem Solver
-            </p>
+            <p className="text-secondary-foreground/70">Senior Product Designer & Problem Solver</p>
           </div>
-          
+
           <div className="flex items-center gap-4">
             <a
               href="mailto:contact@marileehutzel.com"
@@ -33,7 +31,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        
+
         <div className="mt-8 pt-8 border-t border-secondary-foreground/20 text-center text-sm text-secondary-foreground/60">
           <p>&copy; {currentYear} Marilee Hutzel. All rights reserved.</p>
         </div>
