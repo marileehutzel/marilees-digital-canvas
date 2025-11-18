@@ -9,12 +9,9 @@ const Header = () => {
   const [isDarkBackground, setIsDarkBackground] = useState(false);
 
   useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 20);
-
-      // Check background brightness at header position
+    const checkBackground = () => {
       const headerElement = document.querySelector("header");
-      if (headerElement && !isScrolled) {
+      if (headerElement) {
         const rect = headerElement.getBoundingClientRect();
         const elementBelow = document.elementFromPoint(rect.left + rect.width / 2, rect.top + rect.height + 10);
 
@@ -32,15 +29,40 @@ const Header = () => {
             setIsDarkBackground(luminance < 0.5);
           }
         }
+      }
+    };
+
+    const handleScroll = () => {
+      const scrolled = window.scrollY > 20;
+      setIsScrolled(scrolled);
+      
+      // Check if page can scroll
+      const canScroll = document.documentElement.scrollHeight > window.innerHeight;
+      
+      // If page can't scroll or not scrolled, check background
+      if (!canScroll || !scrolled) {
+        checkBackground();
       } else {
         setIsDarkBackground(false);
       }
     };
 
+    // Initial check
     handleScroll();
+    checkBackground();
+    
     window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, [isScrolled]);
+    window.addEventListener("resize", handleScroll);
+    
+    // Recheck after a short delay to ensure page is fully rendered
+    const timer = setTimeout(checkBackground, 100);
+    
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener("resize", handleScroll);
+      clearTimeout(timer);
+    };
+  }, []);
 
   return (
     <header
