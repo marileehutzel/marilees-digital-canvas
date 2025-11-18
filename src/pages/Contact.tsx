@@ -41,33 +41,7 @@ const Contact = () => {
                 just want to say hi, feel free to reach out!
               </p>
 
-              <div className="space-y-4">
-                <a
-                  href="mailto:marileehutzel@gmail.com"
-                  className="flex items-center gap-3 p-4 bg-card rounded-lg shadow-card hover:shadow-elegant transition-all duration-300 group"
-                >
-                  <div className="p-2 bg-primary/10 rounded-lg group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
-                    <Mail size={24} />
-                  </div>
-                  <div>
-                    <p className="font-semibold text-foreground">Email</p>
-                    <p className="text-sm text-muted-foreground">contact@marileehutzel.com</p>
-                  </div>
-                </a>
-
-                <a
-                  href="https://linkedin.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-3 p-4 bg-card rounded-lg shadow-card hover:shadow-elegant transition-all duration-300 group"
-                >
-                  <div className="p-2 bg-primary/10 rounded-lg group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
-                    <Linkedin size={24} />
-                  </div>
-                  <div>
-                    <p className="font-semibold text-foreground">LinkedIn</p>
-                    <p className="text-sm text-muted-foreground">Connect with me</p>
-                  </div>
+             
                 </a>
               </div>
             </div>
