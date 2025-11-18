@@ -53,14 +53,18 @@ const Header = () => {
           <NavLink
             to="/"
             className={`text-2xl font-bold transition-colors flex items-center gap-3 ${
-              isDarkBackground && !isScrolled ? "text-white hover:text-white/80" : "text-foreground hover:text-primary"
+              isScrolled 
+                ? "text-foreground hover:text-primary" 
+                : isDarkBackground 
+                  ? "text-white hover:text-white/80" 
+                  : "text-foreground hover:text-primary"
             }`}
           >
             <img
               src={butterflyLogo}
               alt="Butterfly logo"
-              className="h-8 w-8"
-              style={isDarkBackground && !isScrolled ? { filter: "brightness(0) invert(1)" } : {}}
+              className="h-8 w-8 transition-all"
+              style={!isScrolled && isDarkBackground ? { filter: "brightness(0) invert(1)" } : {}}
             />
             Marilee Hutzel
           </NavLink>
@@ -70,33 +74,39 @@ const Header = () => {
             <NavLink
               to="/"
               className={`transition-colors font-medium ${
-                isDarkBackground && !isScrolled
-                  ? "text-white/80 hover:text-white"
-                  : "text-foreground/80 hover:text-primary"
+                isScrolled
+                  ? "text-foreground/80 hover:text-primary"
+                  : isDarkBackground
+                    ? "text-white/80 hover:text-white"
+                    : "text-foreground/80 hover:text-primary"
               }`}
-              activeClassName={isDarkBackground && !isScrolled ? "text-white" : "text-primary"}
+              activeClassName={isScrolled ? "text-primary" : isDarkBackground ? "text-white" : "text-primary"}
             >
               My Work
             </NavLink>
             <NavLink
               to="/about"
               className={`transition-colors font-medium ${
-                isDarkBackground && !isScrolled
-                  ? "text-white/80 hover:text-white"
-                  : "text-foreground/80 hover:text-primary"
+                isScrolled
+                  ? "text-foreground/80 hover:text-primary"
+                  : isDarkBackground
+                    ? "text-white/80 hover:text-white"
+                    : "text-foreground/80 hover:text-primary"
               }`}
-              activeClassName={isDarkBackground && !isScrolled ? "text-white" : "text-primary"}
+              activeClassName={isScrolled ? "text-primary" : isDarkBackground ? "text-white" : "text-primary"}
             >
               About
             </NavLink>
             <NavLink
               to="/contact"
               className={`transition-colors font-medium ${
-                isDarkBackground && !isScrolled
-                  ? "text-white/80 hover:text-white"
-                  : "text-foreground/80 hover:text-primary"
+                isScrolled
+                  ? "text-foreground/80 hover:text-primary"
+                  : isDarkBackground
+                    ? "text-white/80 hover:text-white"
+                    : "text-foreground/80 hover:text-primary"
               }`}
-              activeClassName={isDarkBackground && !isScrolled ? "text-white" : "text-primary"}
+              activeClassName={isScrolled ? "text-primary" : isDarkBackground ? "text-white" : "text-primary"}
             >
               Contact
             </NavLink>
@@ -104,7 +114,13 @@ const Header = () => {
 
           {/* Mobile Menu Button */}
           <button
-            className={`md:hidden ${isDarkBackground && !isScrolled ? "text-white" : "text-foreground"}`}
+            className={`md:hidden ${
+              isScrolled 
+                ? "text-foreground" 
+                : isDarkBackground 
+                  ? "text-white" 
+                  : "text-foreground"
+            }`}
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
             {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
