@@ -1,6 +1,8 @@
+import { ChevronDown } from "lucide-react";
+
 const Hero = () => {
   return (
-    <section className="min-h-screen flex items-center justify-center px-6 pt-20">
+    <section className="min-h-screen flex items-center justify-center px-6 pt-20 relative">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center space-y-6 animate-fade-in">
           <h1 className="text-5xl md:text-7xl font-bold text-foreground leading-tight">
@@ -26,6 +28,13 @@ const Hero = () => {
           </div>
         </div>
       </div>
+      <a 
+        href="#projects" 
+        className="absolute bottom-8 left-1/2 -translate-x-1/2 text-muted-foreground hover:text-primary transition-colors animate-bounce"
+        aria-label="Scroll to projects"
+      >
+        <ChevronDown size={32} />
+      </a>
     </section>
   );
 };
