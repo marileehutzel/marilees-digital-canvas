@@ -22,7 +22,7 @@ const ConcentrixFC = () => {
       description="I led the design of a comprehensive financial crimes and compliance platform that empowers analysts to detect, investigate, and prevent fraudulent activities with unprecedented efficiency and accuracy."
       disclaimer="To comply with my non-disclosure agreement, I have omitted and obfuscated confidential information in this case study. All information in this case study is my own and does not necessarily reflect the views of Concentrix."
     >
-      <div className="space-y-24">
+      <div className="space-y-32">
         <section className="space-y-8 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground">
             Internal Business Stakeholder Idea
