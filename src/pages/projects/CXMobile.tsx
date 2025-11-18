@@ -1,4 +1,5 @@
 import CaseStudyLayout from "@/components/CaseStudyLayout";
+import heroImage from "@/assets/cx-mobile-hero.png";
 
 const CXMobile = () => {
   return (
@@ -10,6 +11,10 @@ const CXMobile = () => {
       disclaimer="Due to confidentiality agreements, some details and data have been anonymized or modified."
     >
       <div className="space-y-12 animate-fade-in">
+        <section className="space-y-8 animate-fade-in">
+          <img src={heroImage} alt="CX Mobile platform interface" className="w-full rounded-lg shadow-elegant" />
+        </section>
+
         <section>
           <h2 className="text-3xl font-bold mb-6">My Role</h2>
           <p className="text-lg text-muted-foreground leading-relaxed">

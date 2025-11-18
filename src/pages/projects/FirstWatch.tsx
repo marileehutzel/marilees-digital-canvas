@@ -1,4 +1,5 @@
 import CaseStudyLayout from "@/components/CaseStudyLayout";
+import heroImage from "@/assets/firstwatch-hero.png";
 
 const FirstWatch = () => {
   return (
@@ -10,6 +11,10 @@ const FirstWatch = () => {
       disclaimer="Work completed as part of agency engagement with First Watch restaurants."
     >
       <div className="space-y-12 animate-fade-in">
+        <section className="space-y-8 animate-fade-in">
+          <img src={heroImage} alt="First Watch website redesign" className="w-full rounded-lg shadow-elegant" />
+        </section>
+
         <section>
           <h2 className="text-3xl font-bold mb-6">The Challenge</h2>
           <p className="text-lg text-muted-foreground leading-relaxed">
