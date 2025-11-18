@@ -1,7 +1,7 @@
 import { ReactNode } from "react";
 import Header from "./Header";
 import Footer from "./Footer";
-import { ArrowLeft } from "lucide-react";
+import { ArrowLeft, ChevronDown } from "lucide-react";
 import { Link } from "react-router-dom";
 
 interface CaseStudyLayoutProps {
@@ -25,7 +25,7 @@ const CaseStudyLayout = ({
     <div className="min-h-screen bg-secondary">
       <Header />
 
-      <section className="min-h-screen flex items-center justify-center px-6 pt-20">
+      <section className="min-h-screen flex items-center justify-center px-6 pt-20 relative">
         <div className="container mx-auto max-w-4xl text-center">
           <Link
             to="/"
@@ -58,10 +58,18 @@ const CaseStudyLayout = ({
             )}
           </div>
         </div>
+        
+        <a 
+          href="#content" 
+          className="absolute bottom-8 left-1/2 -translate-x-1/2 text-secondary-foreground/60 hover:text-primary transition-colors animate-bounce"
+          aria-label="Scroll to content"
+        >
+          <ChevronDown size={32} />
+        </a>
       </section>
 
       {children && (
-        <section className="py-20 px-6 bg-background">
+        <section id="content" className="py-20 px-6 bg-background">
           <div className="container mx-auto max-w-6xl">{children}</div>
         </section>
       )}
