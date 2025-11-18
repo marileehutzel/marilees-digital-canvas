@@ -1,4 +1,11 @@
 import CaseStudyLayout from "@/components/CaseStudyLayout";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
 import wireframeImg from "@/assets/concentrix-fc-wireframe.png";
 import persona1Img from "@/assets/concentrix-fc-persona1.png";
 import persona2Img from "@/assets/concentrix-fc-persona2.png";
@@ -39,29 +46,46 @@ const ConcentrixFC = () => {
           </p>
         </section>
 
-        <section className="space-y-8 animate-fade-in">
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground">
-            Personas & User Journeys
-          </h2>
-          <p className="text-lg md:text-xl text-muted-foreground font-serif leading-relaxed max-w-4xl">
-            Here we see 3 personas and user journey flows. We identified a third previously unknown persona and many pain points from existing users. This was exciting as we had uncovered a great opportunity to improve our product for customers.
-          </p>
-          <div className="space-y-6">
-            <img 
-              src={persona1Img} 
-              alt="User persona and journey map 1" 
-              className="w-full rounded-lg shadow-elegant"
-            />
-            <img 
-              src={persona2Img} 
-              alt="User persona and journey map 2" 
-              className="w-full rounded-lg shadow-elegant"
-            />
-            <img 
-              src={persona3Img} 
-              alt="User persona and journey map 3" 
-              className="w-full rounded-lg shadow-elegant"
-            />
+        <section className="animate-fade-in">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div className="space-y-6">
+              <h2 className="text-4xl md:text-5xl font-bold text-foreground">
+                Personas & User Journeys
+              </h2>
+              <p className="text-lg md:text-xl text-muted-foreground font-serif leading-relaxed">
+                Here we see 3 personas and user journey flows. We identified a third previously unknown persona and many pain points from existing users. This was exciting as we had uncovered a great opportunity to improve our product for customers.
+              </p>
+            </div>
+            
+            <div className="relative px-12">
+              <Carousel className="w-full">
+                <CarouselContent>
+                  <CarouselItem>
+                    <img 
+                      src={persona1Img} 
+                      alt="Agent persona and user journey" 
+                      className="w-full rounded-lg shadow-elegant"
+                    />
+                  </CarouselItem>
+                  <CarouselItem>
+                    <img 
+                      src={persona2Img} 
+                      alt="Supervisor persona and user journey" 
+                      className="w-full rounded-lg shadow-elegant"
+                    />
+                  </CarouselItem>
+                  <CarouselItem>
+                    <img 
+                      src={persona3Img} 
+                      alt="Manager persona and user journey" 
+                      className="w-full rounded-lg shadow-elegant"
+                    />
+                  </CarouselItem>
+                </CarouselContent>
+                <CarouselPrevious />
+                <CarouselNext />
+              </Carousel>
+            </div>
           </div>
         </section>
 
