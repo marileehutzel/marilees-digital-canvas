@@ -37,17 +37,19 @@ const ConcentrixFC = () => {
           />
         </section>
 
-        <section className="space-y-8 animate-fade-in">
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground">
-            No Skipping Steps
-          </h2>
-          <p className="text-lg md:text-xl text-muted-foreground font-serif leading-relaxed max-w-4xl">
-            I identified the need to create faster product for agents by conducting user interviews and getting to the root cause and identified major pain points. I concluded that better architecture was needed to help streamline user experience and implement AI on the backend to glean as much information to pre-fill and background check customers. Also, implement an AI assistant for front end agents to call out specific use cases and bring attention to problems with staff or productivity. I was able to clearly detail and get to the root of what we needed to build.
-          </p>
+        <section className="space-y-8 animate-fade-in -mx-6 md:-mx-12 lg:-mx-[calc((100vw-1024px)/2)] px-6 md:px-12 lg:px-[calc((100vw-1024px)/2)] py-16 bg-muted/60">
+          <div className="max-w-7xl mx-auto">
+            <h2 className="text-4xl md:text-5xl font-bold text-foreground">
+              No Skipping Steps
+            </h2>
+            <p className="text-lg md:text-xl text-muted-foreground font-serif leading-relaxed max-w-4xl">
+              I identified the need to create faster product for agents by conducting user interviews and getting to the root cause and identified major pain points. I concluded that better architecture was needed to help streamline user experience and implement AI on the backend to glean as much information to pre-fill and background check customers. Also, implement an AI assistant for front end agents to call out specific use cases and bring attention to problems with staff or productivity. I was able to clearly detail and get to the root of what we needed to build.
+            </p>
+          </div>
         </section>
 
-        <section className="animate-fade-in -mx-6 md:-mx-12 lg:-mx-[calc((100vw-1024px)/2)] px-6 md:px-12 lg:px-[calc((100vw-1024px)/2)] py-16 bg-muted/60">
-          <div className="grid md:grid-cols-2 gap-12 items-center max-w-7xl mx-auto">
+        <section className="animate-fade-in">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <h2 className="text-4xl md:text-5xl font-bold text-foreground">
                 Personas & User Journeys
