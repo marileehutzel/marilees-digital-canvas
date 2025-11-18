@@ -7,6 +7,7 @@ const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isDarkBackground, setIsDarkBackground] = useState(false);
+  const [canScroll, setCanScroll] = useState(false);
 
   useEffect(() => {
     const checkBackground = () => {
@@ -20,12 +21,10 @@ const Header = () => {
           const rgb = bgColor.match(/\d+/g);
 
           if (rgb && rgb.length >= 3) {
-            // Calculate relative luminance
             const r = parseInt(rgb[0]) / 255;
             const g = parseInt(rgb[1]) / 255;
             const b = parseInt(rgb[2]) / 255;
             const luminance = 0.2126 * r + 0.7152 * g + 0.0722 * b;
-
             setIsDarkBackground(luminance < 0.5);
           }
         }
@@ -36,26 +35,26 @@ const Header = () => {
       const scrolled = window.scrollY > 20;
       setIsScrolled(scrolled);
       
-      // Check if page can scroll
-      const canScroll = document.documentElement.scrollHeight > window.innerHeight;
+      const pageCanScroll = document.documentElement.scrollHeight > window.innerHeight;
+      setCanScroll(pageCanScroll);
       
-      // If page can't scroll or not scrolled, check background
-      if (!canScroll || !scrolled) {
+      if (!pageCanScroll || !scrolled) {
         checkBackground();
       } else {
         setIsDarkBackground(false);
       }
     };
 
-    // Initial check
     handleScroll();
     checkBackground();
     
     window.addEventListener("scroll", handleScroll);
     window.addEventListener("resize", handleScroll);
     
-    // Recheck after a short delay to ensure page is fully rendered
-    const timer = setTimeout(checkBackground, 100);
+    const timer = setTimeout(() => {
+      handleScroll();
+      checkBackground();
+    }, 100);
     
     return () => {
       window.removeEventListener("scroll", handleScroll);
@@ -63,14 +62,16 @@ const Header = () => {
       clearTimeout(timer);
     };
   }, []);
-
-  // Check if page can scroll
-  const canScroll = typeof window !== 'undefined' && document.documentElement.scrollHeight > window.innerHeight;
+  
+  // Show background when scrolled or when page can't scroll
+  const showBackground = isScrolled || !canScroll;
+  // Use light text on dark backgrounds (when transparent header over dark content)
+  const useLightText = !showBackground && isDarkBackground;
   
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled || !canScroll ? "bg-background/95 backdrop-blur-md shadow-card" : "bg-transparent"
+        showBackground ? "bg-background/95 backdrop-blur-md shadow-card" : "bg-transparent"
       }`}
     >
       <nav className="container mx-auto px-6 py-4">
@@ -78,17 +79,13 @@ const Header = () => {
           <NavLink
             to="/"
             className={`text-2xl font-bold transition-colors flex items-center gap-3 ${
-              isScrolled || !canScroll
-                ? "text-foreground hover:text-primary" 
-                : isDarkBackground 
-                  ? "text-white hover:text-white/80" 
-                  : "text-foreground hover:text-primary"
+              useLightText ? "text-white hover:text-white/80" : "text-foreground hover:text-primary"
             }`}
           >
             <img
               src={butterflyLogo}
               alt="Butterfly logo"
-              className="h-8 w-8 transition-all"
+              className={`h-8 w-8 transition-all ${useLightText ? "brightness-0 invert" : ""}`}
             />
             Marilee Hutzel
           </NavLink>
@@ -98,11 +95,7 @@ const Header = () => {
             <NavLink
               to="/"
               className={`transition-colors font-medium ${
-                isScrolled || !canScroll
-                  ? "text-foreground/80 hover:text-primary"
-                  : isDarkBackground
-                    ? "text-white/80 hover:text-white"
-                    : "text-foreground/80 hover:text-primary"
+                useLightText ? "text-white/80 hover:text-white" : "text-foreground/80 hover:text-primary"
               }`}
               activeClassName="text-primary"
             >
@@ -111,11 +104,7 @@ const Header = () => {
             <NavLink
               to="/about"
               className={`transition-colors font-medium ${
-                isScrolled || !canScroll
-                  ? "text-foreground/80 hover:text-primary"
-                  : isDarkBackground
-                    ? "text-white/80 hover:text-white"
-                    : "text-foreground/80 hover:text-primary"
+                useLightText ? "text-white/80 hover:text-white" : "text-foreground/80 hover:text-primary"
               }`}
               activeClassName="text-primary"
             >
@@ -124,11 +113,7 @@ const Header = () => {
             <NavLink
               to="/contact"
               className={`transition-colors font-medium ${
-                isScrolled || !canScroll
-                  ? "text-foreground/80 hover:text-primary"
-                  : isDarkBackground
-                    ? "text-white/80 hover:text-white"
-                    : "text-foreground/80 hover:text-primary"
+                useLightText ? "text-white/80 hover:text-white" : "text-foreground/80 hover:text-primary"
               }`}
               activeClassName="text-primary"
             >
@@ -138,13 +123,7 @@ const Header = () => {
 
           {/* Mobile Menu Button */}
           <button
-            className={`md:hidden ${
-              isScrolled || !canScroll
-                ? "text-foreground" 
-                : isDarkBackground 
-                  ? "text-white" 
-                  : "text-foreground"
-            }`}
+            className={`md:hidden ${useLightText ? "text-white" : "text-foreground"}`}
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
             {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
