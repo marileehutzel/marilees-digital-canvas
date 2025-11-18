@@ -89,7 +89,6 @@ const Header = () => {
               src={butterflyLogo}
               alt="Butterfly logo"
               className="h-8 w-8 transition-all"
-              style={!isScrolled && !canScroll && isDarkBackground ? { filter: "brightness(0) invert(1)" } : {}}
             />
             Marilee Hutzel
           </NavLink>
@@ -105,7 +104,7 @@ const Header = () => {
                     ? "text-white/80 hover:text-white"
                     : "text-foreground/80 hover:text-primary"
               }`}
-              activeClassName={isScrolled || !canScroll ? "text-primary" : isDarkBackground ? "text-white" : "text-primary"}
+              activeClassName="text-primary"
             >
               My Work
             </NavLink>
@@ -118,7 +117,7 @@ const Header = () => {
                     ? "text-white/80 hover:text-white"
                     : "text-foreground/80 hover:text-primary"
               }`}
-              activeClassName={isScrolled || !canScroll ? "text-primary" : isDarkBackground ? "text-white" : "text-primary"}
+              activeClassName="text-primary"
             >
               About
             </NavLink>
@@ -131,7 +130,7 @@ const Header = () => {
                     ? "text-white/80 hover:text-white"
                     : "text-foreground/80 hover:text-primary"
               }`}
-              activeClassName={isScrolled || !canScroll ? "text-primary" : isDarkBackground ? "text-white" : "text-primary"}
+              activeClassName="text-primary"
             >
               Contact
             </NavLink>
