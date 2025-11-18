@@ -137,7 +137,8 @@ const Index = () => {
       <Header />
       <Hero />
 
-    
+      <section className="container mx-auto px-6 py-20">
+        <div className="mb-12">
           <ProjectFilter
             categories={allCategories}
             activeCategory={activeCategory}
