@@ -4,8 +4,28 @@ import { Mail, Linkedin, Send } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
+import { useToast } from "@/hooks/use-toast";
+import butterflyLogo from "@/assets/butterfly-logo.png";
 
 const Contact = () => {
+  const { toast } = useToast();
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    
+    toast({
+      title: "Message sent successfully!",
+      description: (
+        <div className="flex items-center gap-2">
+          <img src={butterflyLogo} alt="" className="w-5 h-5" />
+          <span>Thank you for reaching out. I'll get back to you soon.</span>
+        </div>
+      ),
+    });
+    
+    // Reset form
+    (e.target as HTMLFormElement).reset();
+  };
   return (
     <div className="min-h-screen bg-background">
       <Header />
@@ -56,7 +76,7 @@ const Contact = () => {
             </div>
             
             <div className="bg-card p-8 rounded-2xl shadow-card animate-fade-in" style={{ animationDelay: "0.4s" }}>
-              <form className="space-y-6">
+              <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-foreground mb-2">
                     Name
