@@ -137,12 +137,7 @@ const Index = () => {
       <Header />
       <Hero />
 
-      <section id="projects" className="container mx-auto px-6 py-20">
-        <div className="text-center mb-16 animate-fade-in">
-          // <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">Featured Work</h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-12">
-            Explore my portfolio of enterprise solutions, data-driven designs, and user-centered experiences
-          </p>
+    
           <ProjectFilter
             categories={allCategories}
             activeCategory={activeCategory}
