@@ -37,8 +37,8 @@ const ConcentrixFC = () => {
           />
         </section>
 
-        <section className="space-y-8 animate-fade-in -mx-6 md:-mx-12 lg:-mx-[calc((100vw-1024px)/2)] px-6 md:px-12 lg:px-[calc((100vw-1024px)/2)] py-16 bg-muted/60">
-          <div className="max-w-7xl mx-auto">
+        <section className="animate-fade-in -mx-6 md:-mx-12 lg:-mx-[calc((100vw-1024px)/2)] px-6 md:px-12 lg:px-[calc((100vw-1024px)/2)] py-16 bg-muted/60">
+          <div className="max-w-7xl mx-auto space-y-8">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground">
               No Skipping Steps
             </h2>
