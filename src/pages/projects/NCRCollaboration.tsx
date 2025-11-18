@@ -1,4 +1,5 @@
 import CaseStudyLayout from "@/components/CaseStudyLayout";
+import heroImage from "@/assets/ncr-collaboration-hero.png";
 
 const NCRCollaboration = () => {
   return (
@@ -10,6 +11,10 @@ const NCRCollaboration = () => {
       disclaimer="Work completed in collaboration with NCR for restaurant partners."
     >
       <div className="space-y-12 animate-fade-in">
+        <section className="space-y-8 animate-fade-in">
+          <img src={heroImage} alt="NCR Restaurant Analytics Dashboard" className="w-full rounded-lg shadow-elegant" />
+        </section>
+
         <section>
           <h2 className="text-3xl font-bold mb-6">Project Overview</h2>
           <p className="text-lg text-muted-foreground leading-relaxed">

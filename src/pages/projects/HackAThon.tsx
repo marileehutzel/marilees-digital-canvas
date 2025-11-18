@@ -1,4 +1,5 @@
 import CaseStudyLayout from "@/components/CaseStudyLayout";
+import heroImage from "@/assets/hackathon-hero.png";
 
 const HackAThon = () => {
   return (
@@ -10,6 +11,10 @@ const HackAThon = () => {
       disclaimer="This was an internal innovation project exploring the future of AI-assisted customer service."
     >
       <div className="space-y-12 animate-fade-in">
+        <section className="space-y-8 animate-fade-in">
+          <img src={heroImage} alt="AI-Powered Coaching platform" className="w-full rounded-lg shadow-elegant" />
+        </section>
+
         <section>
           <h2 className="text-3xl font-bold mb-6">My Role</h2>
           <p className="text-lg text-muted-foreground leading-relaxed">

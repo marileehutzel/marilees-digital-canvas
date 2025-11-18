@@ -1,4 +1,5 @@
 import CaseStudyLayout from "@/components/CaseStudyLayout";
+import heroImage from "@/assets/ai-data-explorer-hero.png";
 
 const AIDataExplorer = () => {
   return (
@@ -10,6 +11,10 @@ const AIDataExplorer = () => {
       disclaimer="To comply with my non-disclosure agreement, I have omitted and obfuscated confidential information in this case study. All information in this case study is my own and does not necessarily reflect the views of Concentrix."
     >
       <div className="space-y-16">
+        <section className="space-y-8 animate-fade-in">
+          <img src={heroImage} alt="AI Data Explorer platform interface" className="w-full rounded-lg shadow-elegant" />
+        </section>
+
         <div className="text-center space-y-6 animate-fade-in">
           <h3 className="text-3xl font-bold text-foreground">
             Intelligent Discovery
