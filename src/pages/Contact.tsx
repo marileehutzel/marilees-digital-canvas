@@ -42,7 +42,6 @@ const Contact = () => {
               </p>
 
              
-                </a>
               </div>
             </div>
 
