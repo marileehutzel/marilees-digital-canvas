@@ -97,7 +97,7 @@ const Header = () => {
               className={`transition-colors font-medium ${
                 useLightText ? "text-white/80 hover:text-white" : "text-foreground/80 hover:text-primary"
               }`}
-              activeClassName="text-primary"
+              activeClassName={useLightText ? "text-white" : "text-primary"}
             >
               My Work
             </NavLink>
