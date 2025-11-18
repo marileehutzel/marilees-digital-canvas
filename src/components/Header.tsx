@@ -11,27 +11,24 @@ const Header = () => {
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 20);
-      
+
       // Check background brightness at header position
-      const headerElement = document.querySelector('header');
+      const headerElement = document.querySelector("header");
       if (headerElement && !isScrolled) {
         const rect = headerElement.getBoundingClientRect();
-        const elementBelow = document.elementFromPoint(
-          rect.left + rect.width / 2,
-          rect.top + rect.height + 10
-        );
-        
+        const elementBelow = document.elementFromPoint(rect.left + rect.width / 2, rect.top + rect.height + 10);
+
         if (elementBelow) {
           const bgColor = window.getComputedStyle(elementBelow).backgroundColor;
           const rgb = bgColor.match(/\d+/g);
-          
+
           if (rgb && rgb.length >= 3) {
             // Calculate relative luminance
             const r = parseInt(rgb[0]) / 255;
             const g = parseInt(rgb[1]) / 255;
             const b = parseInt(rgb[2]) / 255;
             const luminance = 0.2126 * r + 0.7152 * g + 0.0722 * b;
-            
+
             setIsDarkBackground(luminance < 0.5);
           }
         }
@@ -48,9 +45,7 @@ const Header = () => {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled
-          ? "bg-background/95 backdrop-blur-md shadow-card"
-          : "bg-transparent"
+        isScrolled ? "bg-background/95 backdrop-blur-md shadow-card" : "bg-transparent"
       }`}
     >
       <nav className="container mx-auto px-6 py-4">
@@ -58,16 +53,14 @@ const Header = () => {
           <NavLink
             to="/"
             className={`text-2xl font-bold transition-colors flex items-center gap-3 ${
-              isDarkBackground && !isScrolled
-                ? "text-white hover:text-white/80"
-                : "text-foreground hover:text-primary"
+              isDarkBackground && !isScrolled ? "text-white hover:text-white/80" : "text-foreground hover:text-primary"
             }`}
           >
-            <img 
-              src={butterflyLogo} 
-              alt="Butterfly logo" 
+            <img
+              src={butterflyLogo}
+              alt="Butterfly logo"
               className="h-8 w-8"
-              style={isDarkBackground && !isScrolled ? { filter: 'brightness(0) invert(1)' } : {}}
+              style={isDarkBackground && !isScrolled ? { filter: "brightness(0) invert(1)" } : {}}
             />
             Marilee Hutzel
           </NavLink>
@@ -83,7 +76,7 @@ const Header = () => {
               }`}
               activeClassName={isDarkBackground && !isScrolled ? "text-white" : "text-primary"}
             >
-              Case Studies
+              My Work
             </NavLink>
             <NavLink
               to="/about"
@@ -111,9 +104,7 @@ const Header = () => {
 
           {/* Mobile Menu Button */}
           <button
-            className={`md:hidden ${
-              isDarkBackground && !isScrolled ? "text-white" : "text-foreground"
-            }`}
+            className={`md:hidden ${isDarkBackground && !isScrolled ? "text-white" : "text-foreground"}`}
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
             {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
@@ -129,7 +120,7 @@ const Header = () => {
               activeClassName="text-primary"
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              Case Studies
+              My Work
             </NavLink>
             <NavLink
               to="/about"
