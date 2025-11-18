@@ -97,6 +97,7 @@ const Header = () => {
               className={`transition-colors font-medium ${
                 useLightText ? "text-white/80 hover:text-white" : "text-foreground/80 hover:text-primary"
               }`}
+              activeClassName="text-primary"
             >
               My Work
             </NavLink>
@@ -135,6 +136,7 @@ const Header = () => {
             <NavLink
               to="/"
               className="block px-4 py-2 text-foreground/80 hover:text-primary transition-colors font-medium"
+              activeClassName="text-primary"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               My Work
