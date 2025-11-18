@@ -64,10 +64,13 @@ const Header = () => {
     };
   }, []);
 
+  // Check if page can scroll
+  const canScroll = typeof window !== 'undefined' && document.documentElement.scrollHeight > window.innerHeight;
+  
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? "bg-background/95 backdrop-blur-md shadow-card" : "bg-transparent"
+        isScrolled || !canScroll ? "bg-background/95 backdrop-blur-md shadow-card" : "bg-transparent"
       }`}
     >
       <nav className="container mx-auto px-6 py-4">
@@ -75,7 +78,7 @@ const Header = () => {
           <NavLink
             to="/"
             className={`text-2xl font-bold transition-colors flex items-center gap-3 ${
-              isScrolled 
+              isScrolled || !canScroll
                 ? "text-foreground hover:text-primary" 
                 : isDarkBackground 
                   ? "text-white hover:text-white/80" 
@@ -86,7 +89,7 @@ const Header = () => {
               src={butterflyLogo}
               alt="Butterfly logo"
               className="h-8 w-8 transition-all"
-              style={!isScrolled && isDarkBackground ? { filter: "brightness(0) invert(1)" } : {}}
+              style={!isScrolled && !canScroll && isDarkBackground ? { filter: "brightness(0) invert(1)" } : {}}
             />
             Marilee Hutzel
           </NavLink>
@@ -96,39 +99,39 @@ const Header = () => {
             <NavLink
               to="/"
               className={`transition-colors font-medium ${
-                isScrolled
+                isScrolled || !canScroll
                   ? "text-foreground/80 hover:text-primary"
                   : isDarkBackground
                     ? "text-white/80 hover:text-white"
                     : "text-foreground/80 hover:text-primary"
               }`}
-              activeClassName={isScrolled ? "text-primary" : isDarkBackground ? "text-white" : "text-primary"}
+              activeClassName={isScrolled || !canScroll ? "text-primary" : isDarkBackground ? "text-white" : "text-primary"}
             >
               My Work
             </NavLink>
             <NavLink
               to="/about"
               className={`transition-colors font-medium ${
-                isScrolled
+                isScrolled || !canScroll
                   ? "text-foreground/80 hover:text-primary"
                   : isDarkBackground
                     ? "text-white/80 hover:text-white"
                     : "text-foreground/80 hover:text-primary"
               }`}
-              activeClassName={isScrolled ? "text-primary" : isDarkBackground ? "text-white" : "text-primary"}
+              activeClassName={isScrolled || !canScroll ? "text-primary" : isDarkBackground ? "text-white" : "text-primary"}
             >
               About
             </NavLink>
             <NavLink
               to="/contact"
               className={`transition-colors font-medium ${
-                isScrolled
+                isScrolled || !canScroll
                   ? "text-foreground/80 hover:text-primary"
                   : isDarkBackground
                     ? "text-white/80 hover:text-white"
                     : "text-foreground/80 hover:text-primary"
               }`}
-              activeClassName={isScrolled ? "text-primary" : isDarkBackground ? "text-white" : "text-primary"}
+              activeClassName={isScrolled || !canScroll ? "text-primary" : isDarkBackground ? "text-white" : "text-primary"}
             >
               Contact
             </NavLink>
@@ -137,7 +140,7 @@ const Header = () => {
           {/* Mobile Menu Button */}
           <button
             className={`md:hidden ${
-              isScrolled 
+              isScrolled || !canScroll
                 ? "text-foreground" 
                 : isDarkBackground 
                   ? "text-white" 
