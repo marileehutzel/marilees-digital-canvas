@@ -18,7 +18,7 @@ const Footer = () => {
 
           <div className="flex items-center gap-4">
             <a
-              href="mailto:contact@marileehutzel.com"
+              href="mailto:marileehutzel@gmail.com"
               className="p-3 bg-primary-foreground/10 rounded-full hover:bg-background hover:text-primary transition-all duration-300"
               aria-label="Email"
             >
