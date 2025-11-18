@@ -12,7 +12,7 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    
+
     toast({
       title: "Message sent successfully!",
       description: (
@@ -22,31 +22,28 @@ const Contact = () => {
         </div>
       ),
     });
-    
+
     // Reset form
     (e.target as HTMLFormElement).reset();
   };
   return (
     <div className="min-h-screen bg-background">
       <Header />
-      
+
       <section className="container mx-auto px-6 pt-32 pb-20">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-5xl md:text-6xl font-bold text-foreground mb-8 animate-fade-in">
-            Let's Connect
-          </h1>
-          
+          <h1 className="text-5xl md:text-6xl font-bold text-foreground mb-8 animate-fade-in">Let's Connect</h1>
+
           <div className="grid md:grid-cols-2 gap-12">
             <div className="space-y-6 animate-fade-in" style={{ animationDelay: "0.2s" }}>
               <p className="text-lg text-foreground/80">
-                I'm always interested in hearing about new projects and
-                opportunities. Whether you have a question or just want to say
-                hi, feel free to reach out!
+                I'm always interested in hearing about new projects and opportunities. Whether you have a question or
+                just want to say hi, feel free to reach out!
               </p>
-              
+
               <div className="space-y-4">
                 <a
-                  href="mailto:contact@marileehutzel.com"
+                  href="mailto:marileehutzel@gmail.com"
                   className="flex items-center gap-3 p-4 bg-card rounded-lg shadow-card hover:shadow-elegant transition-all duration-300 group"
                 >
                   <div className="p-2 bg-primary/10 rounded-lg group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
@@ -57,7 +54,7 @@ const Contact = () => {
                     <p className="text-sm text-muted-foreground">contact@marileehutzel.com</p>
                   </div>
                 </a>
-                
+
                 <a
                   href="https://linkedin.com"
                   target="_blank"
@@ -74,32 +71,23 @@ const Contact = () => {
                 </a>
               </div>
             </div>
-            
+
             <div className="bg-card p-8 rounded-2xl shadow-card animate-fade-in" style={{ animationDelay: "0.4s" }}>
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-foreground mb-2">
                     Name
                   </label>
-                  <Input
-                    id="name"
-                    placeholder="Your name"
-                    className="bg-background"
-                  />
+                  <Input id="name" placeholder="Your name" className="bg-background" />
                 </div>
-                
+
                 <div>
                   <label htmlFor="email" className="block text-sm font-medium text-foreground mb-2">
                     Email
                   </label>
-                  <Input
-                    id="email"
-                    type="email"
-                    placeholder="your.email@example.com"
-                    className="bg-background"
-                  />
+                  <Input id="email" type="email" placeholder="your.email@example.com" className="bg-background" />
                 </div>
-                
+
                 <div>
                   <label htmlFor="message" className="block text-sm font-medium text-foreground mb-2">
                     Message
@@ -111,7 +99,7 @@ const Contact = () => {
                     className="bg-background"
                   />
                 </div>
-                
+
                 <Button
                   type="submit"
                   className="w-full bg-gradient-primary text-primary-foreground shadow-elegant hover:scale-[1.02] transition-transform"
