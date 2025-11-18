@@ -13,14 +13,7 @@ interface CaseStudyLayoutProps {
   children?: ReactNode;
 }
 
-const CaseStudyLayout = ({
-  title,
-  subtitle,
-  description,
-  context,
-  disclaimer,
-  children,
-}: CaseStudyLayoutProps) => {
+const CaseStudyLayout = ({ title, subtitle, description, context, disclaimer, children }: CaseStudyLayoutProps) => {
   return (
     <div className="min-h-screen bg-secondary">
       <Header />
@@ -32,7 +25,7 @@ const CaseStudyLayout = ({
             className="inline-flex items-center gap-2 text-secondary-foreground/60 hover:text-primary transition-colors mb-12 animate-fade-in"
           >
             <ArrowLeft size={20} />
-            <span>Back to Portfolio</span>
+            <span>Back to My Work</span>
           </Link>
 
           <div className="space-y-8 animate-fade-in" style={{ animationDelay: "0.2s" }}>
@@ -40,11 +33,7 @@ const CaseStudyLayout = ({
               {title}
             </h1>
 
-            {subtitle && (
-              <h2 className="text-2xl md:text-3xl text-secondary-foreground/80 font-serif">
-                {subtitle}
-              </h2>
-            )}
+            {subtitle && <h2 className="text-2xl md:text-3xl text-secondary-foreground/80 font-serif">{subtitle}</h2>}
 
             <div className="max-w-3xl mx-auto space-y-6 text-lg md:text-xl text-secondary-foreground/90 font-serif leading-relaxed">
               {context && <p>{context}</p>}
@@ -58,9 +47,9 @@ const CaseStudyLayout = ({
             )}
           </div>
         </div>
-        
-        <a 
-          href="#content" 
+
+        <a
+          href="#content"
           className="absolute bottom-8 left-1/2 -translate-x-1/2 text-secondary-foreground/60 hover:text-primary transition-colors animate-bounce"
           aria-label="Scroll to content"
         >
