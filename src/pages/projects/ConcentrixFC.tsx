@@ -28,7 +28,7 @@ const ConcentrixFC = () => {
           <img src={wireframeImg} alt="Initial wireframe concepts" className="w-full rounded-lg shadow-elegant" />
         </section>
 
-        <section className="animate-fade-in -mx-6 md:-mx-12 lg:-mx-[calc((100vw-1024px)/2)] px-6 md:px-12 lg:px-[calc((100vw-1024px)/2)] py-16 bg-muted/90">
+        <section className="animate-fade-in -mx-6 md:-mx-12 lg:-mx-[calc((100vw-1024px)/2)] px-6 md:px-12 lg:px-[calc((100vw-1024px)/2)] py-16 bg-muted/100">
           <div className="max-w-7xl mx-auto space-y-8">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground">No Skipping Steps</h2>
             <p className="text-lg md:text-xl text-muted-foreground font-serif leading-relaxed max-w-4xl">
