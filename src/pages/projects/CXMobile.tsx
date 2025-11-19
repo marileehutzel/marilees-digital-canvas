@@ -1,4 +1,5 @@
 import CaseStudyLayout from "@/components/CaseStudyLayout";
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import heroImage from "@/assets/cx-mobile-hero.png";
 import image1 from "@/assets/cx-mobile/image-1.png";
 import image2 from "@/assets/cx-mobile/image-2.png";
@@ -49,12 +50,48 @@ const CXMobile = () => {
           <p className="text-lg md:text-xl text-muted-foreground font-serif leading-relaxed mb-6">
             Successfully launched a mobile version of the dashboard & alert workflows, enabling users to access key insights from their phones. Field agents gained a direct channel to submit requests and feedback, reducing turnaround time for support and improving data quality from the field.
           </p>
-          <div className="space-y-6">
-            <img src={image2} alt="Mobile dashboard interface" className="w-full rounded-lg shadow-elegant" />
-            <img src={image3} alt="Alert notifications on mobile" className="w-full rounded-lg shadow-elegant" />
-            <img src={image4} alt="Data visualization on mobile" className="w-full rounded-lg shadow-elegant" />
-            <img src={image5} alt="Feedback submission interface" className="w-full rounded-lg shadow-elegant" />
-            <img src={image6} alt="Request management on mobile" className="w-full rounded-lg shadow-elegant" />
+          <div className="relative px-12">
+            <Carousel className="w-full">
+              <CarouselContent>
+                <CarouselItem>
+                  <img
+                    src={image2}
+                    alt="Mobile dashboard interface"
+                    className="w-full rounded-lg shadow-elegant"
+                  />
+                </CarouselItem>
+                <CarouselItem>
+                  <img
+                    src={image3}
+                    alt="Alert notifications on mobile"
+                    className="w-full rounded-lg shadow-elegant"
+                  />
+                </CarouselItem>
+                <CarouselItem>
+                  <img
+                    src={image4}
+                    alt="Data visualization on mobile"
+                    className="w-full rounded-lg shadow-elegant"
+                  />
+                </CarouselItem>
+                <CarouselItem>
+                  <img
+                    src={image5}
+                    alt="Feedback submission interface"
+                    className="w-full rounded-lg shadow-elegant"
+                  />
+                </CarouselItem>
+                <CarouselItem>
+                  <img
+                    src={image6}
+                    alt="Request management on mobile"
+                    className="w-full rounded-lg shadow-elegant"
+                  />
+                </CarouselItem>
+              </CarouselContent>
+              <CarouselPrevious />
+              <CarouselNext />
+            </Carousel>
           </div>
         </section>
 
