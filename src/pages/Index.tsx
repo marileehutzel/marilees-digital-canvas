@@ -39,9 +39,8 @@ const projects = [
   },
   {
     title: "CX Design System",
-    image:
-      "https://cdn.myportfolio.com/27f655f377cdf66b3b5e2e264fa0158c/e6f6e2f2-7a35-4851-99e0-bec55c9321d7_car_16x9.png?h=4ec0f538a45c28c5d33e3dd5170620fa",
-    link: "https://marileehutzel.com/concentrix-redesign",
+    image: "src/assets/cx-design-system-hero.png",
+    link: "/projects/cx-design-system",
     description: "Enterprise design system & components",
     categories: ["Design Systems", "B2B", "Enterprise"],
   },
