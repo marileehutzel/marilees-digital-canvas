@@ -46,9 +46,6 @@ const About = () => {
                   I'm a Senior Product Designer passionate about creating intuitive, data-driven experiences that solve
                   complex business challenges. With expertise in enterprise software design, B2B, B2C, SaaS, and mobile
                   I specialize in transforming intricate data sets and workflows into elegant, user-friendly interfaces.
-                </p>
-
-                <p>
                   My work spans across various domains including financial compliance, machine learning interfaces, AI,
                   data visualization, mobile, and design systems. I believe in the power of thoughtful design to bridge
                   the gap between technical complexity and user understanding.
