@@ -70,7 +70,7 @@ const About = () => {
                 <div className="p-4 bg-card rounded-lg shadow-card">
                   <h3 className="font-semibold text-foreground mb-2">Product Desgin</h3>
                   <p className="text-sm text-muted-foreground">
-                    User research, wireframing, prototyping, and visual design
+                    User research, wireframing, prototyping, and visual design from 0 to 1
                   </p>
                 </div>
                 <div className="p-4 bg-card rounded-lg shadow-card">
