@@ -15,6 +15,7 @@ import HackAThon from "./pages/projects/HackAThon";
 import FirstWatch from "./pages/projects/FirstWatch";
 import Marcos from "./pages/projects/Marcos";
 import NCRCollaboration from "./pages/projects/NCRCollaboration";
+import UnstructuredData from "./pages/projects/UnstructuredData";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -38,6 +39,7 @@ const App = () => (
           <Route path="/projects/first-watch" element={<FirstWatch />} />
           <Route path="/projects/marcos" element={<Marcos />} />
           <Route path="/projects/ncr-collaboration" element={<NCRCollaboration />} />
+          <Route path="/projects/unstructured-data" element={<UnstructuredData />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
