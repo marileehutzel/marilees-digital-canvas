@@ -83,7 +83,9 @@ const About = () => {
                 </div>
                 <div className="p-4 bg-card rounded-lg shadow-card">
                   <h3 className="font-semibold text-foreground mb-2">Enterprise Software</h3>
-                  <p className="text-sm text-muted-foreground">B2B SaaS and complex workflow optimization</p>
+                  <p className="text-sm text-muted-foreground">
+                    B2B, SaaS, complex workflow optimization, and intergration of AI
+                  </p>
                 </div>
                 <div className="p-4 bg-card rounded-lg shadow-card">
                   <h3 className="font-semibold text-foreground mb-2">B2C Software</h3>
