@@ -92,6 +92,10 @@ const About = () => {
                     InVision, Miro, Azure, Jira, Trello, Confluence, Chat GPT, Claude
                   </p>
                 </div>
+                <div className="p-4 bg-card rounded-lg shadow-card">
+                  <h3 className="font-semibold text-foreground mb-2">AI</h3>
+                  <p className="text-sm text-muted-foreground">Figma Make, Lovable, Chat GPT, and Claude</p>
+                </div>
               </div>
             </div>
           </div>
