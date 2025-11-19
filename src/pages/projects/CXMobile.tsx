@@ -54,39 +54,49 @@ const CXMobile = () => {
             <Carousel className="w-full">
               <CarouselContent>
                 <CarouselItem>
-                  <img
-                    src={image2}
-                    alt="Mobile dashboard interface"
-                    className="w-full rounded-lg shadow-elegant"
-                  />
+                  <div className="relative w-full h-[400px] md:h-[600px]">
+                    <img
+                      src={image2}
+                      alt="Mobile dashboard interface"
+                      className="w-full h-full object-contain rounded-lg"
+                    />
+                  </div>
                 </CarouselItem>
                 <CarouselItem>
-                  <img
-                    src={image3}
-                    alt="Alert notifications on mobile"
-                    className="w-full rounded-lg shadow-elegant"
-                  />
+                  <div className="relative w-full h-[400px] md:h-[600px]">
+                    <img
+                      src={image3}
+                      alt="Alert notifications on mobile"
+                      className="w-full h-full object-contain rounded-lg"
+                    />
+                  </div>
                 </CarouselItem>
                 <CarouselItem>
-                  <img
-                    src={image4}
-                    alt="Data visualization on mobile"
-                    className="w-full rounded-lg shadow-elegant"
-                  />
+                  <div className="relative w-full h-[400px] md:h-[600px]">
+                    <img
+                      src={image4}
+                      alt="Data visualization on mobile"
+                      className="w-full h-full object-contain rounded-lg"
+                    />
+                  </div>
                 </CarouselItem>
                 <CarouselItem>
-                  <img
-                    src={image5}
-                    alt="Feedback submission interface"
-                    className="w-full rounded-lg shadow-elegant"
-                  />
+                  <div className="relative w-full h-[400px] md:h-[600px]">
+                    <img
+                      src={image5}
+                      alt="Feedback submission interface"
+                      className="w-full h-full object-contain rounded-lg"
+                    />
+                  </div>
                 </CarouselItem>
                 <CarouselItem>
-                  <img
-                    src={image6}
-                    alt="Request management on mobile"
-                    className="w-full rounded-lg shadow-elegant"
-                  />
+                  <div className="relative w-full h-[400px] md:h-[600px]">
+                    <img
+                      src={image6}
+                      alt="Request management on mobile"
+                      className="w-full h-full object-contain rounded-lg"
+                    />
+                  </div>
                 </CarouselItem>
               </CarouselContent>
               <CarouselPrevious />
