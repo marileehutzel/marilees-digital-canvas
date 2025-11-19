@@ -1,5 +1,15 @@
 import CaseStudyLayout from "@/components/CaseStudyLayout";
 import heroImage from "@/assets/dashboard-builder-hero.png";
+import researchDiscoveryImg from "@/assets/dashboard-builder/research-discovery.png";
+import hierarchyArchitectureImg from "@/assets/dashboard-builder/hierarchy-architecture.png";
+import wireframes1Img from "@/assets/dashboard-builder/wireframes-1.png";
+import wireframes2Img from "@/assets/dashboard-builder/wireframes-2.png";
+import chartMvpsImg from "@/assets/dashboard-builder/chart-mvps.png";
+import grid1Img from "@/assets/dashboard-builder/grid-1.png";
+import grid2Img from "@/assets/dashboard-builder/grid-2.png";
+import wireframesRound2Img from "@/assets/dashboard-builder/wireframes-round2.png";
+import highFidelityLightImg from "@/assets/dashboard-builder/high-fidelity-light.png";
+import highFidelityDarkImg from "@/assets/dashboard-builder/high-fidelity-dark.png";
 
 const DashboardBuilder = () => {
   return (
@@ -10,53 +20,97 @@ const DashboardBuilder = () => {
       description="A flexible dashboard builder that allows users to create custom analytics views without developer support"
       disclaimer="Due to confidentiality agreements, some details and data have been anonymized or modified."
     >
-      <div className="space-y-12 animate-fade-in">
+      <div className="space-y-32 animate-fade-in">
         <section className="space-y-8 animate-fade-in">
           <img src={heroImage} alt="Dashboard Builder interface" className="w-full rounded-lg shadow-elegant" />
         </section>
 
         <section>
-          <h2 className="text-3xl font-bold mb-6">The Challenge</h2>
-          <p className="text-lg text-muted-foreground leading-relaxed">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6">The Challenge</h2>
+          <p className="text-lg md:text-xl text-muted-foreground font-serif leading-relaxed">
             Existing dashboard reporting was completed from within Concentrix. The internal business analyst had to create and file requests with developers for every new view, leading to delays. We needed a builder that was: simple enough for first-time users, robust enough for client analysts, consistent with our new design system, and performant with hundreds of widgets and data sources so users could have the freedom to choose what story they wanted the data to tell.
           </p>
         </section>
 
         <section>
-          <h2 className="text-3xl font-bold mb-6">My Role</h2>
-          <p className="text-lg text-muted-foreground leading-relaxed">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6">My Role</h2>
+          <p className="text-lg md:text-xl text-muted-foreground font-serif leading-relaxed">
             Led UX design: from requirement gathering, wireframes, prototyping, interaction design, and user testing. Collaborated with product manager, data engineers and front-end developers to ensure feasibility. Defined design system components that could be reused (widget containers, charts, filters).
           </p>
         </section>
 
-        <section>
-          <h2 className="text-3xl font-bold mb-6">Process & Approach</h2>
-          <div className="space-y-6">
+        <section className="space-y-8">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6">Process & Approach</h2>
+          <div className="space-y-8">
             <div>
-              <h3 className="text-2xl font-semibold mb-3">Discovery/Research</h3>
-              <p className="text-lg text-muted-foreground leading-relaxed">
+              <h3 className="text-2xl font-semibold mb-4">Discovery/Research</h3>
+              <p className="text-lg md:text-xl text-muted-foreground font-serif leading-relaxed mb-6">
                 Conducted stakeholder interviews to understand business goals. Conducted user interviews to understand pain points and 'wish list.' Also completed a competitive analysis of existing leading dashboard tools. Had an insider demo a competitor product similar to what we would want to build. Investigated how Qualtrics (primary competitor) handled certain complicated user flows and saw real pain points from their customers.
               </p>
+              <img src={researchDiscoveryImg} alt="Research and discovery phase findings" className="w-full rounded-lg shadow-elegant" />
             </div>
             
             <div>
-              <h3 className="text-2xl font-semibold mb-3">Hierarchy and Architecture</h3>
-              <p className="text-lg text-muted-foreground leading-relaxed">
-                Worked with stakeholders to define dashboard structure: Projects contain dashboards, which contain rows, which contain widgets. This scalable framework enabled both simple and complex use cases.
+              <h3 className="text-2xl font-semibold mb-4">Hierarchy and Architecture</h3>
+              <p className="text-lg md:text-xl text-muted-foreground font-serif leading-relaxed mb-6">
+                Needed to make sure that the new dashboard builder feature worked into the larger ecosystem already established. Found a way to add into the existing navigation with ways to access customized dashboard navigation drawer. Which was an added feature we created due to user testing and interviews. Also wanted to focus on making the navigation as flat as possible to eliminate deeply nested navigation structures.
               </p>
+              <img src={hierarchyArchitectureImg} alt="Hierarchy and architecture design" className="w-full rounded-lg shadow-elegant" />
             </div>
 
             <div>
-              <h3 className="text-2xl font-semibold mb-3">Wireframes & Prototyping</h3>
-              <p className="text-lg text-muted-foreground leading-relaxed">
-                Created low- and mid-fidelity prototypes to test widget placement, drag-and-drop interactions, and configuration flows. Iterated rapidly based on user feedback to simplify the creation process while maintaining powerful customization options.
+              <h3 className="text-2xl font-semibold mb-4">Wireframes and Multitasking</h3>
+              <p className="text-lg md:text-xl text-muted-foreground font-serif leading-relaxed mb-6">
+                I created low-fidelity wireframes to explore multiple layout options—grid, free-form, and responsive behavior—while carefully considering how the experience would adapt on smaller screens, where the drawer could overlap the grid below. Because two separate development teams were working in parallel on related initiatives, I coordinated closely with both to align timelines and design decisions. At the same time, the broader website redesign aimed to deliver a fully responsive page, so I designed the DIY Dashboard experience to work seamlessly across both the new responsive framework and the existing environment.
               </p>
+              <div className="space-y-6">
+                <img src={wireframes1Img} alt="Initial wireframe explorations" className="w-full rounded-lg shadow-elegant" />
+                <img src={wireframes2Img} alt="Wireframe layout variations" className="w-full rounded-lg shadow-elegant" />
+              </div>
             </div>
           </div>
         </section>
 
+        <section className="space-y-8">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6">Defining Chart MVPs</h2>
+          <p className="text-lg md:text-xl text-muted-foreground font-serif leading-relaxed mb-6">
+            Defining what charts would be included in the first rollout was a process of communication between internal stakeholders and clients to find the best balance between complexity of chart dev time and importance of the data.
+          </p>
+          <img src={chartMvpsImg} alt="Chart MVP definitions and priorities" className="w-full rounded-lg shadow-elegant" />
+        </section>
+
+        <section className="space-y-8">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6">Grid is Your Friend</h2>
+          <p className="text-lg md:text-xl text-muted-foreground font-serif leading-relaxed mb-6">
+            Much like my design professor in college said, "the grid is your friend"
+          </p>
+          <div className="space-y-6">
+            <img src={grid1Img} alt="Grid system implementation" className="w-full rounded-lg shadow-elegant" />
+            <img src={grid2Img} alt="Grid layout examples" className="w-full rounded-lg shadow-elegant" />
+          </div>
+        </section>
+
+        <section className="space-y-8">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6">2nd Round of Wireframes</h2>
+          <p className="text-lg md:text-xl text-muted-foreground font-serif leading-relaxed mb-6">
+            User interview feedback led to expanding and creating more detailed wireframes. With the addition of a customized color picker so analysts can create their own favorite themes.
+          </p>
+          <img src={wireframesRound2Img} alt="Second round of detailed wireframes" className="w-full rounded-lg shadow-elegant" />
+        </section>
+
+        <section className="space-y-8">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6">High Fidelity Designs</h2>
+          <p className="text-lg md:text-xl text-muted-foreground font-serif leading-relaxed mb-6">
+            High fidelity light and dark mode chart picker drawer options.
+          </p>
+          <div className="space-y-6">
+            <img src={highFidelityLightImg} alt="High fidelity light mode design" className="w-full rounded-lg shadow-elegant" />
+            <img src={highFidelityDarkImg} alt="High fidelity dark mode design" className="w-full rounded-lg shadow-elegant" />
+          </div>
+        </section>
+
         <section>
-          <h2 className="text-3xl font-bold mb-6">Key Features</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-6">Key Features</h2>
           <div className="grid md:grid-cols-2 gap-8">
             <div className="p-6 bg-card rounded-lg shadow-card hover:shadow-elegant transition-all duration-300">
               <h3 className="text-xl font-semibold mb-3">Drag-and-Drop Builder</h3>
@@ -86,7 +140,7 @@ const DashboardBuilder = () => {
         </section>
 
         <section>
-          <h2 className="text-3xl font-bold mb-6">Impact</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-6">Impact</h2>
           <div className="grid md:grid-cols-3 gap-8 text-center">
             <div className="p-6">
               <div className="text-4xl font-bold text-primary mb-2">70%</div>
