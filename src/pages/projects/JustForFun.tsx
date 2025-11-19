@@ -1,4 +1,5 @@
 import CaseStudyLayout from "@/components/CaseStudyLayout";
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import heroImage from "@/assets/just-for-fun-hero.png";
 import image2 from "@/assets/just-for-fun/image-2.png";
 import image3 from "@/assets/just-for-fun/image-3.png";
@@ -22,10 +23,28 @@ const JustForFun = () => {
             <p className="text-xl text-muted-foreground leading-relaxed font-serif mb-8">
               These sketches and illustrations represent personal creative time where I explore different artistic styles and techniques. Each piece is an experiment in visual storytelling, composition, and aesthetic expression.
             </p>
-            <div className="space-y-8">
-              <img src={image2} alt="Creative sketch 1" className="w-full rounded-lg shadow-elegant" />
-              <img src={image3} alt="Creative sketch 2" className="w-full rounded-lg shadow-elegant" />
-              <img src={image4} alt="Creative sketch 3" className="w-full rounded-lg shadow-elegant" />
+            <div className="relative px-12">
+              <Carousel className="w-full">
+                <CarouselContent>
+                  <CarouselItem>
+                    <div className="flex items-center justify-center h-[400px] md:h-[600px]">
+                      <img src={image2} alt="Creative sketch 1" className="w-full h-full object-contain rounded-lg" />
+                    </div>
+                  </CarouselItem>
+                  <CarouselItem>
+                    <div className="flex items-center justify-center h-[400px] md:h-[600px]">
+                      <img src={image3} alt="Creative sketch 2" className="w-full h-full object-contain rounded-lg" />
+                    </div>
+                  </CarouselItem>
+                  <CarouselItem>
+                    <div className="flex items-center justify-center h-[400px] md:h-[600px]">
+                      <img src={image4} alt="Creative sketch 3" className="w-full h-full object-contain rounded-lg" />
+                    </div>
+                  </CarouselItem>
+                </CarouselContent>
+                <CarouselPrevious />
+                <CarouselNext />
+              </Carousel>
             </div>
           </div>
 
