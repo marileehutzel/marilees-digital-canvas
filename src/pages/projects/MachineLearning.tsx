@@ -1,5 +1,9 @@
 import CaseStudyLayout from "@/components/CaseStudyLayout";
 import heroImage from "@/assets/machine-learning-hero.png";
+import image1 from "@/assets/machine-learning/image-1.png";
+import image2 from "@/assets/machine-learning/image-2.png";
+import image3 from "@/assets/machine-learning/image-3.png";
+import image4 from "@/assets/machine-learning/image-4.png";
 
 const MachineLearning = () => {
   return (
@@ -16,13 +20,30 @@ const MachineLearning = () => {
         </section>
 
         <div className="text-center space-y-6 animate-fade-in">
-          <h3 className="text-3xl font-bold text-foreground">The Vision</h3>
+          <h3 className="text-3xl font-bold text-foreground">Wireframes</h3>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto font-serif">
-            Transform complex ML predictions into actionable customer insights
-            that any team member can understand and act upon, regardless of
-            their technical background.
+            Wireframe mockups for a portion of the CXS product. Working through verbatim and sentence details and creating new categories. Process of unifying user experience across multiple areas of the product offering.
           </p>
         </div>
+
+        <section className="space-y-8 animate-fade-in">
+          <img src={image1} alt="Wireframe mockups and UX flow" className="w-full rounded-lg shadow-elegant" />
+        </section>
+
+        <div className="text-center space-y-6 animate-fade-in">
+          <h3 className="text-3xl font-bold text-foreground">Training The Model</h3>
+          <p className="text-lg text-muted-foreground max-w-3xl mx-auto font-serif">
+            We needed a way to define categories to create L1 and L2 file structures, label the categories, gather examples and assign them to the correct category which in turn helps train the model by learning patterns and predicting categories for new data. The full power of the CXS category builder tool with multiple data sources along the top and the model structure on the left.
+          </p>
+        </div>
+
+        <section className="space-y-8 animate-fade-in">
+          <img src={image2} alt="Category builder tool interface" className="w-full rounded-lg shadow-elegant" />
+        </section>
+
+        <section className="space-y-8 animate-fade-in">
+          <img src={image3} alt="Model training and prediction flow" className="w-full rounded-lg shadow-elegant" />
+        </section>
 
         <div className="grid md:grid-cols-3 gap-6 animate-fade-in">
           <div className="bg-card p-6 rounded-xl shadow-card text-center">
@@ -44,6 +65,10 @@ const MachineLearning = () => {
             </p>
           </div>
         </div>
+
+        <section className="space-y-8 animate-fade-in">
+          <img src={image4} alt="ML insights dashboard" className="w-full rounded-lg shadow-elegant" />
+        </section>
 
         <div className="text-center space-y-6 animate-fade-in">
           <h3 className="text-3xl font-bold text-foreground">
