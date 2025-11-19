@@ -93,6 +93,20 @@ const projects = [
     categories: ["Data Visualization", "B2B", "Enterprise"],
   },
   {
+    title: "Volunteer Work",
+    image: "src/assets/volunteer-work-hero.png",
+    link: "/projects/volunteer-work",
+    description: "Community design & branding for non-profits",
+    categories: ["Just For Fun"],
+  },
+  {
+    title: "Just For Fun",
+    image: "src/assets/just-for-fun-hero.png",
+    link: "/projects/just-for-fun",
+    description: "Creative sketches & personal explorations",
+    categories: ["Just For Fun"],
+  },
+  {
     title: "McAlister's Deli",
     image:
       "https://cdn.myportfolio.com/27f655f377cdf66b3b5e2e264fa0158c/2b1b48b9-6f14-4671-b278-cc4b2b6b8c76_car_16x9.png?h=35ca698c97baca1581fb76f6390438f2",
