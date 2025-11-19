@@ -17,6 +17,8 @@ import FirstWatch from "./pages/projects/FirstWatch";
 import Marcos from "./pages/projects/Marcos";
 import NCRCollaboration from "./pages/projects/NCRCollaboration";
 import UnstructuredData from "./pages/projects/UnstructuredData";
+import VolunteerWork from "./pages/projects/VolunteerWork";
+import JustForFun from "./pages/projects/JustForFun";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -42,6 +44,8 @@ const App = () => (
           <Route path="/projects/marcos" element={<Marcos />} />
           <Route path="/projects/ncr-collaboration" element={<NCRCollaboration />} />
           <Route path="/projects/unstructured-data" element={<UnstructuredData />} />
+          <Route path="/projects/volunteer-work" element={<VolunteerWork />} />
+          <Route path="/projects/just-for-fun" element={<JustForFun />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
