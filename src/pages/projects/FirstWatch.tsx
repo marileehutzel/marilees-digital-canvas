@@ -1,5 +1,12 @@
 import CaseStudyLayout from "@/components/CaseStudyLayout";
-import heroImage from "@/assets/hackathon-hero.png";
+import heroImage from "@/assets/firstwatch-hero.png";
+import image1 from "@/assets/firstwatch/image-1.jpg";
+import image2 from "@/assets/firstwatch/image-2.png";
+import image3 from "@/assets/firstwatch/image-3.png";
+import image4 from "@/assets/firstwatch/image-4.jpg";
+import image5 from "@/assets/firstwatch/image-5.png";
+import image6 from "@/assets/firstwatch/image-6.png";
+import image7 from "@/assets/firstwatch/image-7.jpg";
 
 const FirstWatch = () => {
   return (
@@ -10,14 +17,14 @@ const FirstWatch = () => {
       description="Mobile-first web solution during a complete brand refresh, including new waitlist functionality"
       disclaimer="Work completed as part of agency engagement with First Watch restaurants."
     >
-      <div className="space-y-12 animate-fade-in">
+      <div className="space-y-32 animate-fade-in">
         <section className="space-y-8 animate-fade-in">
           <img src={heroImage} alt="First Watch website redesign" className="w-full rounded-lg shadow-elegant" />
         </section>
 
         <section>
-          <h2 className="text-3xl font-bold mb-6">The Challenge</h2>
-          <p className="text-lg text-muted-foreground leading-relaxed">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6">The Challenge</h2>
+          <p className="text-lg md:text-xl text-muted-foreground font-serif leading-relaxed">
             First Watch needed to create a web solution during their rebranding process. The new site had to incorporate
             their updated logo and brand textures while adding critical new functionality for adding customers to a
             digital waitlist. The design needed to work seamlessly across all device sizes, with a strong focus on
@@ -25,32 +32,52 @@ const FirstWatch = () => {
           </p>
         </section>
 
-        <section>
-          <h2 className="text-3xl font-bold mb-6">Design Process</h2>
-          <div className="space-y-8">
-            <div>
-              <h3 className="text-2xl font-semibold mb-4">Mobile / Small Format</h3>
-              <p className="text-lg text-muted-foreground leading-relaxed mb-4">
-                Started with mobile sketches to define the core experience on smaller screens. This mobile-first
-                approach ensured the most important features—menu access and waitlist management—were optimized for the
-                primary use case of customers on their phones.
-              </p>
-              <p className="text-muted-foreground">
-                Created early mobile prototypes in Illustrator to test navigation patterns, menu layouts, and the
-                waitlist flow before expanding to larger screen sizes.
-              </p>
-            </div>
+        <section className="space-y-8">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6">Mobile / Small Format</h2>
+          <p className="text-lg md:text-xl text-muted-foreground font-serif leading-relaxed mb-6">
+            Needed to create a web solution for First Watch who was re-branding during the process of site creation. New updated logo and textures had to be included as well as new functionality for adding customers to a wait list.
+          </p>
+          <img src={image1} alt="Mobile site design" className="w-full rounded-lg shadow-elegant" />
+        </section>
 
-            <div>
-              <h3 className="text-2xl font-semibold mb-4">Medium/Large Format</h3>
-              <p className="text-lg text-muted-foreground leading-relaxed">
-                Developed preliminary sketches for desktop experience, expanding the mobile concepts to take advantage
-                of larger screens while maintaining consistency with the mobile design. The desktop version provided
-                more immersive food photography and easier menu browsing while keeping the waitlist functionality
-                prominent.
-              </p>
-            </div>
+        <section className="space-y-8">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6">Mobile Sketches</h2>
+          <p className="text-lg md:text-xl text-muted-foreground font-serif leading-relaxed mb-6">
+            Started with mobile sketches to define the core experience on smaller screens. This mobile-first approach ensured the most important features—menu access and waitlist management—were optimized for the primary use case of customers on their phones.
+          </p>
+          <img src={image2} alt="Mobile sketches and wireframes" className="w-full rounded-lg shadow-elegant" />
+        </section>
+
+        <section className="space-y-8">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6">Early Mobile Prototype</h2>
+          <p className="text-lg md:text-xl text-muted-foreground font-serif leading-relaxed mb-6">
+            Created early mobile prototypes in Illustrator to test navigation patterns, menu layouts, and the waitlist flow before expanding to larger screen sizes.
+          </p>
+          <img src={image3} alt="Early mobile prototype in Illustrator" className="w-full rounded-lg shadow-elegant" />
+        </section>
+
+        <section className="space-y-8">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6">Medium/Large Format</h2>
+          <p className="text-lg md:text-xl text-muted-foreground font-serif leading-relaxed mb-6">
+            Developed preliminary sketches for desktop experience, expanding the mobile concepts to take advantage of larger screens while maintaining consistency with the mobile design.
+          </p>
+          <img src={image4} alt="Desktop sketches" className="w-full rounded-lg shadow-elegant" />
+        </section>
+
+        <section className="space-y-8">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6">Desktop / Large Format</h2>
+          <div className="space-y-6">
+            <img src={image5} alt="Desktop responsive home page" className="w-full rounded-lg shadow-elegant" />
+            <img src={image6} alt="Desktop responsive menu" className="w-full rounded-lg shadow-elegant" />
           </div>
+        </section>
+
+        <section className="space-y-8">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6">Wait List Feature</h2>
+          <p className="text-lg md:text-xl text-muted-foreground font-serif leading-relaxed mb-6">
+            Revolutionary waitlist system allowing customers to add themselves remotely and receive real-time updates on their table status.
+          </p>
+          <img src={image7} alt="Wait list interface" className="w-full rounded-lg shadow-elegant" />
         </section>
 
         <section>
