@@ -86,6 +86,10 @@ const About = () => {
                   <p className="text-sm text-muted-foreground">B2B SaaS and complex workflow optimization</p>
                 </div>
                 <div className="p-4 bg-card rounded-lg shadow-card">
+                  <h3 className="font-semibold text-foreground mb-2">B2C Software</h3>
+                  <p className="text-sm text-muted-foreground">B2C mobile solutions</p>
+                </div>
+                <div className="p-4 bg-card rounded-lg shadow-card">
                   <h3 className="font-semibold text-foreground mb-2">Design Software</h3>
                   <p className="text-sm text-muted-foreground">
                     Figma, FigJam, Sketch, Adobe Creative Suite (Illustrator & Photoshop), and Miro
