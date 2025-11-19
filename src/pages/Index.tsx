@@ -8,7 +8,7 @@ import Footer from "@/components/Footer";
 const projects = [
   {
     title: "Concentrix FC&C",
-    image: "butterfly-logo.png",
+    image: "src/assets/butterfly-logo.png",
     link: "/projects/concentrix-fc",
     description: "Financial crimes & compliance platform design",
     categories: ["Data Visualization", "Enterprise", "AI"],
