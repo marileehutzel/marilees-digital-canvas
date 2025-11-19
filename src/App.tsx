@@ -11,6 +11,7 @@ import MachineLearning from "./pages/projects/MachineLearning";
 import AIDataExplorer from "./pages/projects/AIDataExplorer";
 import DashboardBuilder from "./pages/projects/DashboardBuilder";
 import CXMobile from "./pages/projects/CXMobile";
+import CXDesignSystem from "./pages/projects/CXDesignSystem";
 import HackAThon from "./pages/projects/HackAThon";
 import FirstWatch from "./pages/projects/FirstWatch";
 import Marcos from "./pages/projects/Marcos";
@@ -35,6 +36,7 @@ const App = () => (
           <Route path="/projects/ai-data-explorer" element={<AIDataExplorer />} />
           <Route path="/projects/dashboard-builder" element={<DashboardBuilder />} />
           <Route path="/projects/cx-mobile" element={<CXMobile />} />
+          <Route path="/projects/cx-design-system" element={<CXDesignSystem />} />
           <Route path="/projects/hack-a-thon" element={<HackAThon />} />
           <Route path="/projects/first-watch" element={<FirstWatch />} />
           <Route path="/projects/marcos" element={<Marcos />} />
