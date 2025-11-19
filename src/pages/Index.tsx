@@ -11,7 +11,7 @@ const projects = [
     image: "src/assets/concentrix-fc-dashboard.png",
     link: "/projects/concentrix-fc",
     description: "Financial crimes & compliance platform design",
-    categories: ["Data Visualization", "Enterprise"],
+    categories: ["Data Visualization", "Enterprise, AI"],
   },
   {
     title: "Machine Learning",
