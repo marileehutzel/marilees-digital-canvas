@@ -68,7 +68,7 @@ const About = () => {
               <h2 className="text-2xl font-bold text-foreground mb-4">Expertise</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="p-4 bg-card rounded-lg shadow-card">
-                  <h3 className="font-semibold text-foreground mb-2">UX/UI Design</h3>
+                  <h3 className="font-semibold text-foreground mb-2">Product Desgin</h3>
                   <p className="text-sm text-muted-foreground">
                     User research, wireframing, prototyping, and visual design
                   </p>
