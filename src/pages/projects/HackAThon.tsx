@@ -1,5 +1,5 @@
 import CaseStudyLayout from "@/components/CaseStudyLayout";
-import heroImage from "@/assets/hackathon-hero.png";
+import heroImage from "@/assets/firstwatch-hero.png";
 
 const HackAThon = () => {
   return (
