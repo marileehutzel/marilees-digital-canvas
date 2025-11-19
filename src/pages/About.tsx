@@ -86,15 +86,18 @@ const About = () => {
                   <p className="text-sm text-muted-foreground">B2B SaaS and complex workflow optimization</p>
                 </div>
                 <div className="p-4 bg-card rounded-lg shadow-card">
-                  <h3 className="font-semibold text-foreground mb-2">Skills</h3>
+                  <h3 className="font-semibold text-foreground mb-2">Design Software</h3>
                   <p className="text-sm text-muted-foreground">
-                    Figma, FigJam, Figma Make, Lovable, Sketch, Adobe Creative Suite (Illustrator & Photoshop),
-                    InVision, Miro, Azure, Jira, Trello, Confluence, Chat GPT, Claude
+                    Figma, FigJam, Sketch, Adobe Creative Suite (Illustrator & Photoshop), and Miro
                   </p>
                 </div>
                 <div className="p-4 bg-card rounded-lg shadow-card">
-                  <h3 className="font-semibold text-foreground mb-2">AI</h3>
+                  <h3 className="font-semibold text-foreground mb-2">AI Tools</h3>
                   <p className="text-sm text-muted-foreground">Figma Make, Lovable, Chat GPT, and Claude</p>
+                </div>
+                <div className="p-4 bg-card rounded-lg shadow-card">
+                  <h3 className="font-semibold text-foreground mb-2">Productivity and Business</h3>
+                  <p className="text-sm text-muted-foreground">Azure, Jira, Trello, and Confluence</p>
                 </div>
               </div>
             </div>
