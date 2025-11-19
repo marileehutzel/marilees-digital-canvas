@@ -1,5 +1,8 @@
 import CaseStudyLayout from "@/components/CaseStudyLayout";
 import heroImage from "@/assets/ai-data-explorer-hero.png";
+import image1 from "@/assets/ai-data-explorer/image-1.png";
+import image2 from "@/assets/ai-data-explorer/image-2.png";
+import image3 from "@/assets/ai-data-explorer/image-3.png";
 
 const AIDataExplorer = () => {
   return (
@@ -27,6 +30,14 @@ const AIDataExplorer = () => {
             and intuitive.
           </p>
         </div>
+
+        <section className="space-y-8 animate-fade-in">
+          <img src={image1} alt="Natural language query interface" className="w-full rounded-lg shadow-elegant" />
+        </section>
+
+        <section className="space-y-8 animate-fade-in">
+          <img src={image2} alt="AI-powered data insights" className="w-full rounded-lg shadow-elegant" />
+        </section>
 
         <div className="bg-card p-8 rounded-2xl shadow-card animate-fade-in">
           <h4 className="text-2xl font-semibold text-foreground mb-6 text-center">
@@ -72,6 +83,10 @@ const AIDataExplorer = () => {
             </div>
           </div>
         </div>
+
+        <section className="space-y-8 animate-fade-in">
+          <img src={image3} alt="Collaborative data exploration workspace" className="w-full rounded-lg shadow-elegant" />
+        </section>
       </div>
     </CaseStudyLayout>
   );
