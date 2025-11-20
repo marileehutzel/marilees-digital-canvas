@@ -63,7 +63,7 @@ const projects = [
   {
     title: "First Watch",
     image: "src/assets/firstwatch-hero.png",
-    link: "/projects/firstwatch",
+    link: "/projects/FirstWatch",
     description: "Restaurant website with digital waitlist",
     categories: ["Web Design", "Mobile", "B2C"],
   },
