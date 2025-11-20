@@ -1,15 +1,16 @@
 import CaseStudyLayout from "@/components/CaseStudyLayout";
-import heroImage from "@/assets/dashboard-builder-hero.png";
-import researchDiscoveryImg from "@/assets/dashboard-builder/research-discovery.png";
-import hierarchyArchitectureImg from "@/assets/dashboard-builder/hierarchy-architecture.png";
-import wireframes1Img from "@/assets/dashboard-builder/wireframes-1.png";
-import wireframes2Img from "@/assets/dashboard-builder/wireframes-2.png";
-import chartMvpsImg from "@/assets/dashboard-builder/chart-mvps.png";
-import grid1Img from "@/assets/dashboard-builder/grid-1.png";
-import grid2Img from "@/assets/dashboard-builder/grid-2.png";
-import wireframesRound2Img from "@/assets/dashboard-builder/wireframes-round2.png";
-import highFidelityLightImg from "@/assets/dashboard-builder/high-fidelity-light.png";
-import highFidelityDarkImg from "@/assets/dashboard-builder/high-fidelity-dark.png";
+
+const heroImage = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/dashboard-builder-hero.png";
+const researchDiscoveryImg = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/dashboard-builder/research-discovery.png";
+const hierarchyArchitectureImg = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/dashboard-builder/hierarchy-architecture.png";
+const wireframes1Img = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/dashboard-builder/wireframes-1.png";
+const wireframes2Img = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/dashboard-builder/wireframes-2.png";
+const chartMvpsImg = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/dashboard-builder/chart-mvps.png";
+const grid1Img = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/dashboard-builder/grid-1.png";
+const grid2Img = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/dashboard-builder/grid-2.png";
+const wireframesRound2Img = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/dashboard-builder/wireframes-round2.png";
+const highFidelityLightImg = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/dashboard-builder/high-fidelity-light.png";
+const highFidelityDarkImg = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/dashboard-builder/high-fidelity-dark.png";
 
 const DashboardBuilder = () => {
   return (

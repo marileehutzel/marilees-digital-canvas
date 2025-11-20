@@ -1,9 +1,10 @@
 import CaseStudyLayout from "@/components/CaseStudyLayout";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
-import heroImage from "@/assets/just-for-fun-hero.png";
-import image2 from "@/assets/just-for-fun/image-2.png";
-import image3 from "@/assets/just-for-fun/image-3.png";
-import image4 from "@/assets/just-for-fun/image-4.jpg";
+
+const heroImage = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/just-for-fun-hero.png";
+const image2 = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/just-for-fun/image-2.png";
+const image3 = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/just-for-fun/image-3.png";
+const image4 = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/just-for-fun/image-4.jpg";
 
 const JustForFun = () => {
   return (
