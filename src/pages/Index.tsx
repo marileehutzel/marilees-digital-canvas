@@ -82,7 +82,7 @@ const projects = [
       "https://cdn.myportfolio.com/27f655f377cdf66b3b5e2e264fa0158c/0be95f17-6542-47e6-875b-f7dbe3769e55_car_16x9.png?h=e30dd163c7e64af145e9d8c4383ba8d8",
     link: "/projects/ncr-collaboration",
     description: "Restaurant analytics dashboard",
-    categories: ["Data Visualization", "Web Design", , "B2B", "Enterprise"],
+    categories: ["Data Visualization", "Web Design", "B2B", "Enterprise"],
   },
   {
     title: "Unstructured Data",
