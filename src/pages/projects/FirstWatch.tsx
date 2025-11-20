@@ -1,12 +1,13 @@
 import CaseStudyLayout from "@/components/CaseStudyLayout";
-import heroImage from "@/assets/firstwatch-hero.png";
-import image1 from "@/assets/firstwatch/image-1.jpg";
-import image2 from "@/assets/firstwatch/image-2.png";
-import image3 from "@/assets/firstwatch/image-3.png";
-import image4 from "@/assets/firstwatch/image-4.jpg";
-import image5 from "@/assets/firstwatch/image-5.png";
-import image6 from "@/assets/firstwatch/image-6.png";
-import image7 from "@/assets/firstwatch/image-7.jpg";
+
+const heroImage = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/firstwatch-hero.png";
+const image1 = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/firstwatch/image-1.jpg";
+const image2 = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/firstwatch/image-2.png";
+const image3 = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/firstwatch/image-3.png";
+const image4 = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/firstwatch/image-4.jpg";
+const image5 = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/firstwatch/image-5.png";
+const image6 = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/firstwatch/image-6.png";
+const image7 = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/firstwatch/image-7.jpg";
 
 const FirstWatch = () => {
   return (
