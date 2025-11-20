@@ -1,5 +1,7 @@
 import CaseStudyLayout from "@/components/CaseStudyLayout";
-import heroImage from "@/assets/hackathon-hero.png";
+
+// Replace with your GitHub repository URL
+const heroImage = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/hackathon-hero.png";
 
 const HackAThon = () => {
   return (
