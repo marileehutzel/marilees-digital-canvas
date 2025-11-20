@@ -63,7 +63,6 @@ const projects = [
   {
     title: "First Watch",
     image: "src/assets/firstwatch-hero.png"
-      "https://cdn.myportfolio.com/27f655f377cdf66b3b5e2e264fa0158c/002232c4-ce58-41d4-a386-bf58e259d10c_car_16x9.png?h=03f14179ffda474627ad54fb961f8b95",
     link: "/projects/firstwatch",
     description: "Restaurant website with digital waitlist",
     categories: ["Web Design", "Mobile", "B2C"],
