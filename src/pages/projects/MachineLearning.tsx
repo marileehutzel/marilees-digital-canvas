@@ -1,9 +1,12 @@
 import CaseStudyLayout from "@/components/CaseStudyLayout";
-import heroImage from "@/assets/machine-learning-hero.png";
-import image1 from "@/assets/machine-learning/image-1.png";
-import image2 from "@/assets/machine-learning/image-2.png";
-import image3 from "@/assets/machine-learning/image-3.png";
-import image4 from "@/assets/machine-learning/image-4.png";
+
+// Replace these URLs with your actual GitHub repository URLs
+// Format: https://raw.githubusercontent.com/USERNAME/REPO-NAME/BRANCH/path/to/image.png
+const heroImage = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/machine-learning-hero.png";
+const image1 = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/machine-learning/image-1.png";
+const image2 = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/machine-learning/image-2.png";
+const image3 = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/machine-learning/image-3.png";
+const image4 = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/machine-learning/image-4.png";
 
 const MachineLearning = () => {
   return (
