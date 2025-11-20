@@ -1,14 +1,13 @@
 import CaseStudyLayout from "@/components/CaseStudyLayout";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
-
-const heroImage = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/cx-mobile-hero.png";
-const image1 = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/cx-mobile/image-1.png";
-const image2 = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/cx-mobile/image-2.png";
-const image3 = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/cx-mobile/image-3.png";
-const image4 = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/cx-mobile/image-4.png";
-const image5 = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/cx-mobile/image-5.png";
-const image6 = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/cx-mobile/image-6.png";
-const image7 = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/cx-mobile/image-7.png";
+import heroImage from "@/assets/cx-mobile-hero.png";
+import image1 from "@/assets/cx-mobile/image-1.png";
+import image2 from "@/assets/cx-mobile/image-2.png";
+import image3 from "@/assets/cx-mobile/image-3.png";
+import image4 from "@/assets/cx-mobile/image-4.png";
+import image5 from "@/assets/cx-mobile/image-5.png";
+import image6 from "@/assets/cx-mobile/image-6.png";
+import image7 from "@/assets/cx-mobile/image-7.png";
 
 const CXMobile = () => {
   return (

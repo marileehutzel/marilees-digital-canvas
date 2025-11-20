@@ -1,9 +1,8 @@
 import CaseStudyLayout from "@/components/CaseStudyLayout";
-
-const heroImage = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/ai-data-explorer-hero.png";
-const image1 = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/ai-data-explorer/image-1.png";
-const image2 = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/ai-data-explorer/image-2.png";
-const image3 = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/ai-data-explorer/image-3.png";
+import heroImage from "@/assets/ai-data-explorer-hero.png";
+import image1 from "@/assets/ai-data-explorer/image-1.png";
+import image2 from "@/assets/ai-data-explorer/image-2.png";
+import image3 from "@/assets/ai-data-explorer/image-3.png";
 
 const AIDataExplorer = () => {
   return (

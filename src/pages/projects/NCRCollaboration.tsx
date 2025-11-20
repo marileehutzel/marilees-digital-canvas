@@ -1,18 +1,17 @@
 import CaseStudyLayout from "@/components/CaseStudyLayout";
-
-const heroImage = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/ncr-collaboration-hero.png";
-const image1 = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/ncr-collaboration/image-1.png";
-const image2 = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/ncr-collaboration/image-2.png";
-const image3 = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/ncr-collaboration/image-3.png";
-const image4 = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/ncr-collaboration/image-4.png";
-const image5 = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/ncr-collaboration/image-5.png";
-const image6 = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/ncr-collaboration/image-6.png";
-const image7 = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/ncr-collaboration/image-7.png";
-const image8 = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/ncr-collaboration/image-8.png";
-const image9 = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/ncr-collaboration/image-9.png";
-const image10 = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/ncr-collaboration/image-10.png";
-const image11 = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/ncr-collaboration/image-11.png";
-const image12 = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/ncr-collaboration/image-12.png";
+import heroImage from "@/assets/ncr-collaboration-hero.png";
+import image1 from "@/assets/ncr-collaboration/image-1.png";
+import image2 from "@/assets/ncr-collaboration/image-2.png";
+import image3 from "@/assets/ncr-collaboration/image-3.png";
+import image4 from "@/assets/ncr-collaboration/image-4.png";
+import image5 from "@/assets/ncr-collaboration/image-5.png";
+import image6 from "@/assets/ncr-collaboration/image-6.png";
+import image7 from "@/assets/ncr-collaboration/image-7.png";
+import image8 from "@/assets/ncr-collaboration/image-8.png";
+import image9 from "@/assets/ncr-collaboration/image-9.png";
+import image10 from "@/assets/ncr-collaboration/image-10.png";
+import image11 from "@/assets/ncr-collaboration/image-11.png";
+import image12 from "@/assets/ncr-collaboration/image-12.png";
 
 const NCRCollaboration = () => {
   return (

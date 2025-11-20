@@ -1,8 +1,7 @@
 import CaseStudyLayout from "@/components/CaseStudyLayout";
-
-const heroImage = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/cx-design-system-hero.png";
-const image1 = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/cx-design-system/image-1.png";
-const image2 = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/cx-design-system/image-2.png";
+import heroImage from "@/assets/cx-design-system-hero.png";
+import image1 from "@/assets/cx-design-system/image-1.png";
+import image2 from "@/assets/cx-design-system/image-2.png";
 
 const CXDesignSystem = () => {
   return (

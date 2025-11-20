@@ -1,14 +1,13 @@
 import CaseStudyLayout from "@/components/CaseStudyLayout";
-
-const image1 = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/unstructured-data/image-1.png";
-const image2 = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/unstructured-data/image-2.png";
-const image3 = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/unstructured-data/image-3.png";
-const image4 = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/unstructured-data/image-4.png";
-const image5 = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/unstructured-data/image-5.png";
-const image6 = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/unstructured-data/image-6.png";
-const image7 = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/unstructured-data/image-7.png";
-const image8 = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/unstructured-data/image-8.png";
-const image9 = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/unstructured-data/image-9.png";
+import image1 from "@/assets/unstructured-data/image-1.png";
+import image2 from "@/assets/unstructured-data/image-2.png";
+import image3 from "@/assets/unstructured-data/image-3.png";
+import image4 from "@/assets/unstructured-data/image-4.png";
+import image5 from "@/assets/unstructured-data/image-5.png";
+import image6 from "@/assets/unstructured-data/image-6.png";
+import image7 from "@/assets/unstructured-data/image-7.png";
+import image8 from "@/assets/unstructured-data/image-8.png";
+import image9 from "@/assets/unstructured-data/image-9.png";
 
 const UnstructuredData = () => {
   return (

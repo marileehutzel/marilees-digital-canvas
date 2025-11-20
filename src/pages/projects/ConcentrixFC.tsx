@@ -1,12 +1,11 @@
 import CaseStudyLayout from "@/components/CaseStudyLayout";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
-
-const wireframeImg = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/concentrix-fc-wireframe.png";
-const persona1Img = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/concentrix-fc-persona1.png";
-const persona2Img = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/concentrix-fc-persona2.png";
-const persona3Img = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/concentrix-fc-persona3.png";
-const competitorImg = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/concentrix-fc-competitor.png";
-const dashboardImg = "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/src/assets/concentrix-fc-dashboard.png";
+import wireframeImg from "@/assets/concentrix-fc-wireframe.png";
+import persona1Img from "@/assets/concentrix-fc-persona1.png";
+import persona2Img from "@/assets/concentrix-fc-persona2.png";
+import persona3Img from "@/assets/concentrix-fc-persona3.png";
+import competitorImg from "@/assets/concentrix-fc-competitor.png";
+import dashboardImg from "@/assets/concentrix-fc-dashboard.png";
 
 const ConcentrixFC = () => {
   return (
