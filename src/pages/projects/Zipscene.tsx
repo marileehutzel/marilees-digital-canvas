@@ -41,6 +41,16 @@ const Zipscene = () => {
         </a>
       </section>
 
+      {/* Main Content */}
+      <main id="content" className="container mx-auto px-6 py-20 space-y-32">
+        {/* Overview Section */}
+        <section className="space-y-8">
+          <img
+            src={image1}
+            alt="Zipscene Analytics overview"
+            className="w-1/2 mx-auto rounded-lg shadow-lg"
+          />
+        </section>
   
         {/* Insights Section */}
         <section className="space-y-8">
