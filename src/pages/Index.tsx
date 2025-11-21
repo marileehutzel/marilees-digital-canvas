@@ -116,13 +116,13 @@ const projects = [
     description: "Analytics dashboard with custom iconography",
     categories: ["Data Visualization", "Design Systems"],
   },
-  {
-    title: "Ascribe Intelligence",
-    image: ascribeHeroImg,
-    link: "/projects/ascribe",
-    description: "Blockchain platform for digital rights management",
-    categories: ["B2B", "Enterprise", "Blockchain"],
-  },
+    {
+      title: "Ascribe CX Inspector",
+      image: ascribeHeroImg,
+      link: "/projects/ascribe",
+      description: "AI-powered text analytics for customer experience insights",
+      categories: ["B2B", "Enterprise", "AI & Machine Learning", "Data Visualization"],
+    },
 ];
 
 const Index = () => {

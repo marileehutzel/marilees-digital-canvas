@@ -28,9 +28,9 @@ import image24 from "@/assets/ascribe/image-24.png";
 const Ascribe = () => {
   return (
     <CaseStudyLayout
-      title="Ascribe Intelligence"
-      subtitle="Blockchain Platform for Digital Rights Management"
-      description="Ascribe is a blockchain-based platform that allows creators to register their digital works, track ownership, and manage intellectual property rights through a secure, transparent ledger system."
+      title="Ascribe CX Inspector"
+      subtitle="AI-Powered Text Analytics for Customer Experience"
+      description="Ascribe CX Inspector is advanced web-based text analytics software that revolutionizes the analysis of open-end customer comments, enabling the discovery of remarkably clear and detailed insights instantly from extensive datasets using AI and generative technology."
     >
       <div className="space-y-32">
         <section className="space-y-8">
@@ -40,145 +40,146 @@ const Ascribe = () => {
         <section className="space-y-8">
           <h2 className="text-4xl font-bold text-foreground">The Challenge</h2>
           <p className="text-xl text-muted-foreground font-serif leading-relaxed">
-            Digital creators face significant challenges in protecting their intellectual property online. Traditional copyright systems are slow, expensive, and difficult to enforce across borders. Ascribe needed to create an intuitive platform that leverages blockchain technology to provide instant, verifiable proof of ownership for digital works.
+            Organizations collect thousands of customer comments through surveys and feedback channels, but traditional manual analysis methods only scratch the surface. Companies struggle to extract meaningful insights from open-ended responses at scale, often relying on basic word clouds that miss deeper themes and sentiment patterns.
           </p>
           <img src={image1} alt="Platform Challenge" className="w-full rounded-lg" />
         </section>
 
         <section className="space-y-8">
-          <h2 className="text-4xl font-bold text-foreground">Registration Flow</h2>
+          <h2 className="text-4xl font-bold text-foreground">Theme Extractor - AI-Powered Analysis</h2>
           <p className="text-xl text-muted-foreground font-serif leading-relaxed">
-            The registration process was designed to be straightforward and accessible to creators of all technical backgrounds. Users can upload their work, add metadata, and receive a blockchain-verified certificate of authenticity in minutes.
+            The Theme Extractor uses advanced AI to instantly analyze open-end comments with high accuracy. It extracts descriptive theme-based insights and clusters ideas into groups, enabling the discovery of remarkably clear and detailed insights instantly with precision results and unparalleled speed.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <img src={image2} alt="Registration Step 1" className="w-full rounded-lg" />
-            <img src={image3} alt="Registration Step 2" className="w-full rounded-lg" />
+            <img src={image2} alt="Theme Extractor Interface" className="w-full rounded-lg" />
+            <img src={image3} alt="Theme Analysis Results" className="w-full rounded-lg" />
           </div>
         </section>
 
         <section className="space-y-8">
-          <h2 className="text-4xl font-bold text-foreground">Ownership Tracking</h2>
+          <h2 className="text-4xl font-bold text-foreground">Ask Ascribe - Conversational Data Analysis</h2>
           <p className="text-xl text-muted-foreground font-serif leading-relaxed">
-            Every transfer of ownership is recorded on the blockchain, creating an immutable chain of custody. This transparency helps creators track how their work moves through the market and ensures authenticity for collectors and buyers.
+            Ask Ascribe answers any question you have about your data with insightful reports and summaries. Whether identifying key themes, exploring customer emotions, or determining areas for improvement, Ask Ascribe uncovers insights instantly. It's like interviewing your data!
           </p>
-          <img src={image4} alt="Ownership Tracking Interface" className="w-full rounded-lg" />
+          <img src={image4} alt="Ask Ascribe Interface" className="w-full rounded-lg" />
         </section>
 
         <section className="space-y-8">
-          <h2 className="text-4xl font-bold text-foreground">Marketplace Integration</h2>
+          <h2 className="text-4xl font-bold text-foreground">Sentiment Analysis & Visualization</h2>
           <p className="text-xl text-muted-foreground font-serif leading-relaxed">
-            Ascribe integrates seamlessly with digital marketplaces, allowing creators to sell their work while maintaining verifiable provenance. The platform supports various licensing models and royalty structures.
+            CX Inspector detects and visualizes customer sentiment, enabling teams to prioritize issues based on emotional impact. The platform creates visually appealing infographics and charts that help identify patterns, trends, and sentiments at a glance.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <img src={image5} alt="Marketplace View" className="w-full rounded-lg" />
-            <img src={image6} alt="Licensing Options" className="w-full rounded-lg" />
+            <img src={image5} alt="Sentiment Analysis" className="w-full rounded-lg" />
+            <img src={image6} alt="Data Visualizations" className="w-full rounded-lg" />
           </div>
         </section>
 
         <section className="space-y-8">
-          <h2 className="text-4xl font-bold text-foreground">Certificate System</h2>
+          <h2 className="text-4xl font-bold text-foreground">X-Score Satisfaction Metric</h2>
           <p className="text-xl text-muted-foreground font-serif leading-relaxed">
-            Each registered work receives a unique certificate that serves as proof of authenticity. These certificates are cryptographically secured and can be verified by anyone with access to the blockchain.
+            X-Score is Ascribe's proprietary customer experience measurement that combines sentiment and frequency of themes within open-ends to identify key drivers that will increase customer satisfaction and loyalty. It can be derived from any dataset without requiring closed-end variables.
           </p>
-          <img src={image7} alt="Certificate of Authenticity" className="w-full rounded-lg" />
+          <img src={image7} alt="X-Score Dashboard" className="w-full rounded-lg" />
         </section>
 
         <section className="space-y-8">
-          <h2 className="text-4xl font-bold text-foreground">Collection Management</h2>
+          <h2 className="text-4xl font-bold text-foreground">Interactive Data Exploration</h2>
           <p className="text-xl text-muted-foreground font-serif leading-relaxed">
-            Creators and collectors can organize their works into collections, making it easy to manage portfolios and showcase their digital assets. The interface provides powerful filtering and search capabilities.
+            The platform features an interactive interface for easy data exploration with one-click results, powerful filters, co-occurrence reports, trend analysis, and crosstabs. Users can click through to see individual responses and export charts and tables to share insights with stakeholders.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <img src={image8} alt="Collection View 1" className="w-full rounded-lg" />
-            <img src={image9} alt="Collection View 2" className="w-full rounded-lg" />
-            <img src={image10} alt="Collection View 3" className="w-full rounded-lg" />
+            <img src={image8} alt="Interactive Dashboard" className="w-full rounded-lg" />
+            <img src={image9} alt="Filter Options" className="w-full rounded-lg" />
+            <img src={image10} alt="Data Export" className="w-full rounded-lg" />
           </div>
         </section>
 
         <section className="space-y-8">
-          <h2 className="text-4xl font-bold text-foreground">Transfer Process</h2>
+          <h2 className="text-4xl font-bold text-foreground">Multi-Lingual Capabilities</h2>
           <p className="text-xl text-muted-foreground font-serif leading-relaxed">
-            Transferring ownership is simple and secure. Both parties receive confirmation of the transfer, and all details are permanently recorded on the blockchain, creating a complete audit trail.
+            CX Inspector can analyze customer comments in multiple languages and produce reports in the language of your choice. This global capability enables organizations to understand customer feedback across different markets and regions seamlessly.
           </p>
-          <img src={image11} alt="Transfer Interface" className="w-full rounded-lg" />
+          <img src={image11} alt="Multi-Language Support" className="w-full rounded-lg" />
         </section>
 
         <section className="space-y-8">
-          <h2 className="text-4xl font-bold text-foreground">Consignment Features</h2>
+          <h2 className="text-4xl font-bold text-foreground">Theme Clustering & Pattern Recognition</h2>
           <p className="text-xl text-muted-foreground font-serif leading-relaxed">
-            The platform supports consignment arrangements, allowing creators to loan their work to galleries or collectors while maintaining ownership rights. Smart contracts automate the terms and ensure compliance.
+            Advanced algorithms cluster related themes and identify patterns across thousands of responses. The system automatically groups similar ideas, making it easy to spot trends and recurring issues that need attention from product development, customer experience, and marketing teams.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <img src={image12} alt="Consignment Setup" className="w-full rounded-lg" />
-            <img src={image13} alt="Consignment Management" className="w-full rounded-lg" />
+            <img src={image12} alt="Theme Clustering" className="w-full rounded-lg" />
+            <img src={image13} alt="Pattern Recognition" className="w-full rounded-lg" />
           </div>
         </section>
 
         <section className="space-y-8">
-          <h2 className="text-4xl font-bold text-foreground">User Dashboard</h2>
+          <h2 className="text-4xl font-bold text-foreground">Analysis Dashboard</h2>
           <p className="text-xl text-muted-foreground font-serif leading-relaxed">
-            The dashboard provides creators with a comprehensive overview of their registered works, pending transfers, and market activity. Real-time notifications keep users informed of important events.
+            The comprehensive dashboard provides instant access to all analysis results, with charts and tables appearing immediately after file upload. Users can monitor key themes, sentiment trends, and satisfaction drivers all in one centralized view.
           </p>
-          <img src={image14} alt="User Dashboard" className="w-full rounded-lg" />
+          <img src={image14} alt="Analysis Dashboard" className="w-full rounded-lg" />
         </section>
 
         <section className="space-y-8">
-          <h2 className="text-4xl font-bold text-foreground">Provenance Visualization</h2>
+          <h2 className="text-4xl font-bold text-foreground">Trend Analysis & Time Comparisons</h2>
           <p className="text-xl text-muted-foreground font-serif leading-relaxed">
-            The platform visualizes the complete history of a work, showing all transfers, editions, and related events in an intuitive timeline format. This transparency builds trust and adds value to digital works.
+            Track how customer sentiment and key themes evolve over time. The platform enables trend reports and historical comparisons, helping organizations measure the impact of improvements and identify emerging issues before they become widespread problems.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <img src={image15} alt="Provenance Timeline" className="w-full rounded-lg" />
-            <img src={image16} alt="History Details" className="w-full rounded-lg" />
+            <img src={image15} alt="Trend Analysis" className="w-full rounded-lg" />
+            <img src={image16} alt="Historical Comparison" className="w-full rounded-lg" />
           </div>
         </section>
 
         <section className="space-y-8">
-          <h2 className="text-4xl font-bold text-foreground">Edition Management</h2>
+          <h2 className="text-4xl font-bold text-foreground">Generative AI Configuration</h2>
           <p className="text-xl text-muted-foreground font-serif leading-relaxed">
-            Creators can create limited editions of their work, with each edition uniquely numbered and tracked. The system prevents unauthorized duplication and maintains the scarcity that gives digital works value.
+            Users have control over the level of generative AI used in their analysis. This flexibility allows organizations to balance speed, depth of insights, and resource usage based on their specific needs and data complexity.
           </p>
-          <img src={image17} alt="Edition Management" className="w-full rounded-lg" />
+          <img src={image17} alt="AI Configuration Options" className="w-full rounded-lg" />
         </section>
 
         <section className="space-y-8">
-          <h2 className="text-4xl font-bold text-foreground">Verification System</h2>
+          <h2 className="text-4xl font-bold text-foreground">Enterprise-Scale Processing</h2>
           <p className="text-xl text-muted-foreground font-serif leading-relaxed">
-            Anyone can verify the authenticity of a work by checking its blockchain record. The verification process is instant and provides complete transparency about a work's origin and ownership history.
+            CX Inspector can analyze thousands (and thousands) of customer responses efficiently. The platform is built to handle large-scale enterprise datasets, making it ideal for organizations collecting extensive customer feedback across multiple touchpoints.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <img src={image18} alt="Verification Interface" className="w-full rounded-lg" />
-            <img src={image19} alt="Verification Results" className="w-full rounded-lg" />
-            <img src={image20} alt="Blockchain Record" className="w-full rounded-lg" />
+            <img src={image18} alt="Large Dataset Processing" className="w-full rounded-lg" />
+            <img src={image19} alt="Performance Metrics" className="w-full rounded-lg" />
+            <img src={image20} alt="Scale Capabilities" className="w-full rounded-lg" />
           </div>
         </section>
 
         <section className="space-y-8">
-          <h2 className="text-4xl font-bold text-foreground">Mobile Experience</h2>
+          <h2 className="text-4xl font-bold text-foreground">Voxco Platform Integration</h2>
           <p className="text-xl text-muted-foreground font-serif leading-relaxed">
-            The platform is fully responsive and optimized for mobile devices, allowing creators to manage their works on the go. The mobile experience maintains all the functionality of the desktop version.
+            Ascribe CX Inspector is integrated into Voxco's all-in-one multi-channel survey platform. This seamless integration enables organizations to collect feedback and analyze it within a unified system, streamlining the entire customer experience measurement process.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <img src={image21} alt="Mobile Interface 1" className="w-full rounded-lg" />
-            <img src={image22} alt="Mobile Interface 2" className="w-full rounded-lg" />
+            <img src={image21} alt="Platform Integration" className="w-full rounded-lg" />
+            <img src={image22} alt="Unified Workflow" className="w-full rounded-lg" />
           </div>
         </section>
 
         <section className="space-y-8">
           <h2 className="text-4xl font-bold text-foreground">Impact & Results</h2>
           <p className="text-xl text-muted-foreground font-serif leading-relaxed">
-            Ascribe has revolutionized how digital creators protect and monetize their work. The platform has processed thousands of registrations and transfers, helping creators establish verifiable provenance for their digital assets while building trust in the digital art market.
+            Ascribe CX Inspector has transformed how organizations extract value from open-ended customer feedback. Major enterprises like McGraw Hill use the platform to gain deeper understanding of their customers, enhance survey capabilities, and provide actionable insights to customer experience, product development, sales, and marketing teams—moving far beyond basic word clouds to uncover true strategic intelligence.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <img src={image23} alt="Platform Impact" className="w-full rounded-lg" />
-            <img src={image24} alt="Future Vision" className="w-full rounded-lg" />
+            <img src={image24} alt="Customer Success" className="w-full rounded-lg" />
           </div>
         </section>
 
         <section className="space-y-8 text-center">
           <blockquote className="text-2xl font-serif italic text-muted-foreground border-l-4 border-primary pl-8">
-            "Blockchain technology finally gives digital creators the same protections that physical artists have enjoyed for centuries. Ascribe makes this technology accessible to everyone."
+            "McGraw Hill collects thousands of customer comments through research, but we were not fully capitalizing on the breadth and depth of information available. With CX Inspector's advanced text analysis capabilities, we can extract emerging themes and sentiment providing valuable knowledge to our teams. Thanks to Ascribe, we have gained a deeper understanding of our customers."
           </blockquote>
+          <p className="text-lg text-muted-foreground font-serif">— Pam, Market Research, McGraw Hill</p>
         </section>
       </div>
     </CaseStudyLayout>
