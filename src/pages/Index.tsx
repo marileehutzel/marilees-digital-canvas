@@ -44,8 +44,7 @@ const projects = [
   },
   {
     title: "CX Mobile",
-    image:
-      "https://cdn.myportfolio.com/27f655f377cdf66b3b5e2e264fa0158c/96d47458-a9a4-40b4-8f73-143f979dbcf6_rwc_0x0x1920x1082x1920.png?h=63ba38d8877dcfbc6bfb3175a0551f36",
+    image: "src/assets/hero/cx-mobile-hero.png",
     link: "/projects/cx-mobile",
     description: "Mobile-first customer experience platform",
     categories: ["Mobile", "B2B", "Enterprise"],
