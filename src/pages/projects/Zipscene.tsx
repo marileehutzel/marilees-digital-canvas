@@ -51,7 +51,7 @@ const Zipscene = () => {
             <img
               src={image1}
               alt="Zipscene Analytics home page"
-              className="w-full rounded-lg shadow-lg"
+              className="w-1/2 mx-auto rounded-lg shadow-lg"
             />
           </div>
         </section>
