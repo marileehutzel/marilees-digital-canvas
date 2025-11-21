@@ -1,5 +1,5 @@
 import CaseStudyLayout from "@/components/CaseStudyLayout";
-import heroImage from "@/assets/volunteer-work-hero.png";
+import heroImage from "@/assets/hero/volunteer-work-hero.png";
 import image1 from "@/assets/volunteer-work/image-1.png";
 import image2 from "@/assets/volunteer-work/image-2.png";
 import image3 from "@/assets/volunteer-work/image-3.png";
