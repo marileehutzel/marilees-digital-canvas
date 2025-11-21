@@ -1,5 +1,5 @@
 import CaseStudyLayout from "@/components/CaseStudyLayout";
-import heroImage from "@/assets/ai-data-explorer-hero.png";
+import heroImage from "@/assets/hero/ai-data-explorer-hero.png";
 import image1 from "@/assets/ai-data-explorer/image-1.png";
 import image2 from "@/assets/ai-data-explorer/image-2.png";
 import image3 from "@/assets/ai-data-explorer/image-3.png";
@@ -19,15 +19,11 @@ const AIDataExplorer = () => {
         </section>
 
         <div className="text-center space-y-6 animate-fade-in">
-          <h3 className="text-3xl font-bold text-foreground">
-            Intelligent Discovery
-          </h3>
+          <h3 className="text-3xl font-bold text-foreground">Intelligent Discovery</h3>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto font-serif">
-            The platform uses natural language processing to understand user
-            questions and automatically generates relevant visualizations,
-            statistical analyses, and predictive models. Users can refine
-            results through conversation, making data exploration feel natural
-            and intuitive.
+            The platform uses natural language processing to understand user questions and automatically generates
+            relevant visualizations, statistical analyses, and predictive models. Users can refine results through
+            conversation, making data exploration feel natural and intuitive.
           </p>
         </div>
 
@@ -40,52 +36,42 @@ const AIDataExplorer = () => {
         </section>
 
         <div className="bg-card p-8 rounded-2xl shadow-card animate-fade-in">
-          <h4 className="text-2xl font-semibold text-foreground mb-6 text-center">
-            Core Capabilities
-          </h4>
+          <h4 className="text-2xl font-semibold text-foreground mb-6 text-center">Core Capabilities</h4>
           <div className="grid md:grid-cols-2 gap-8">
             <div>
-              <h5 className="font-semibold text-foreground mb-3">
-                Automated Insights
-              </h5>
+              <h5 className="font-semibold text-foreground mb-3">Automated Insights</h5>
               <p className="text-muted-foreground font-serif">
-                AI automatically identifies correlations, outliers, and trends,
-                presenting findings in plain language with supporting
-                visualizations.
+                AI automatically identifies correlations, outliers, and trends, presenting findings in plain language
+                with supporting visualizations.
               </p>
             </div>
             <div>
-              <h5 className="font-semibold text-foreground mb-3">
-                Natural Language Queries
-              </h5>
+              <h5 className="font-semibold text-foreground mb-3">Natural Language Queries</h5>
               <p className="text-muted-foreground font-serif">
-                Ask questions in plain English and receive instant visual
-                answers, no SQL or programming required.
+                Ask questions in plain English and receive instant visual answers, no SQL or programming required.
               </p>
             </div>
             <div>
-              <h5 className="font-semibold text-foreground mb-3">
-                Smart Recommendations
-              </h5>
+              <h5 className="font-semibold text-foreground mb-3">Smart Recommendations</h5>
               <p className="text-muted-foreground font-serif">
-                The system suggests relevant analyses based on your data
-                characteristics and exploration patterns.
+                The system suggests relevant analyses based on your data characteristics and exploration patterns.
               </p>
             </div>
             <div>
-              <h5 className="font-semibold text-foreground mb-3">
-                Collaborative Workspace
-              </h5>
+              <h5 className="font-semibold text-foreground mb-3">Collaborative Workspace</h5>
               <p className="text-muted-foreground font-serif">
-                Share discoveries, annotate findings, and build on teammates'
-                work in a unified environment.
+                Share discoveries, annotate findings, and build on teammates' work in a unified environment.
               </p>
             </div>
           </div>
         </div>
 
         <section className="space-y-8 animate-fade-in">
-          <img src={image3} alt="Collaborative data exploration workspace" className="w-full rounded-lg shadow-elegant" />
+          <img
+            src={image3}
+            alt="Collaborative data exploration workspace"
+            className="w-full rounded-lg shadow-elegant"
+          />
         </section>
       </div>
     </CaseStudyLayout>
