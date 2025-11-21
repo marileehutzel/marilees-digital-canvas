@@ -1,5 +1,5 @@
 import CaseStudyLayout from "@/components/CaseStudyLayout";
-import heroImage from "@/assets/marcos-hero.png";
+import heroImage from "@/assets/hero/marcos-hero.png";
 import image1 from "@/assets/marcos/image-1.png";
 import image2 from "@/assets/marcos/image-2.png";
 import image3 from "@/assets/marcos/image-3.png";
@@ -25,13 +25,17 @@ const Marcos = () => {
         <section className="space-y-8">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">Pizza Builder 1.0</h2>
           <p className="text-lg md:text-xl text-muted-foreground font-serif leading-relaxed mb-6">
-            Brainstorming sketches and wireframes for pizza builder. I needed a way to allow the users to add specific items to half of a pizza or whole, select the amount, and have the design be flexible enough to work for other Marco's menu offerings.
+            Brainstorming sketches and wireframes for pizza builder. I needed a way to allow the users to add specific
+            items to half of a pizza or whole, select the amount, and have the design be flexible enough to work for
+            other Marco's menu offerings.
           </p>
           <img src={image1} alt="Pizza builder initial wireframes" className="w-full rounded-lg shadow-elegant" />
           <div className="p-6 bg-card rounded-lg shadow-card">
             <h3 className="text-xl font-semibold mb-3">1st Prototype</h3>
             <p className="text-muted-foreground">
-              The pizza builder was introducing new functionality and needed to be tested on device to get hands-on user feedback. I created a prototype in Adobe Experience Design to help visualize the concept and test the interaction patterns with real users.
+              The pizza builder was introducing new functionality and needed to be tested on device to get hands-on user
+              feedback. I created a prototype in Adobe Experience Design to help visualize the concept and test the
+              interaction patterns with real users.
             </p>
           </div>
         </section>
@@ -39,9 +43,15 @@ const Marcos = () => {
         <section className="space-y-8">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">Pizza Builder 2.0</h2>
           <p className="text-lg md:text-xl text-muted-foreground font-serif leading-relaxed mb-6">
-            Feedback from users was mixed. They felt the pizza diagram was confusing and it was difficult to find the amount selection. They liked the simple layout and clean design. Taking the feedback I went to my sketchbook and came up with new solutions.
+            Feedback from users was mixed. They felt the pizza diagram was confusing and it was difficult to find the
+            amount selection. They liked the simple layout and clean design. Taking the feedback I went to my sketchbook
+            and came up with new solutions.
           </p>
-          <img src={image2} alt="Adding extra or light topping amount sketch" className="w-full rounded-lg shadow-elegant" />
+          <img
+            src={image2}
+            alt="Adding extra or light topping amount sketch"
+            className="w-full rounded-lg shadow-elegant"
+          />
         </section>
 
         <section className="space-y-8">
@@ -68,7 +78,11 @@ const Marcos = () => {
           <p className="text-lg md:text-xl text-muted-foreground font-serif leading-relaxed mb-6">
             Ordering a half and half pizza with refined visual design and intuitive controls.
           </p>
-          <img src={image6} alt="Final pizza builder design - half and half pizza" className="w-full rounded-lg shadow-elegant" />
+          <img
+            src={image6}
+            alt="Final pizza builder design - half and half pizza"
+            className="w-full rounded-lg shadow-elegant"
+          />
         </section>
 
         <section className="space-y-8">
@@ -85,7 +99,8 @@ const Marcos = () => {
             <div className="p-6 bg-card rounded-lg shadow-card hover:shadow-elegant transition-all duration-300">
               <h3 className="text-xl font-semibold mb-3">Custom Pizza Builder</h3>
               <p className="text-muted-foreground">
-                Flexible builder supporting full customization: whole pizza or half-and-half, with precise topping amount control.
+                Flexible builder supporting full customization: whole pizza or half-and-half, with precise topping
+                amount control.
               </p>
             </div>
             <div className="p-6 bg-card rounded-lg shadow-card hover:shadow-elegant transition-all duration-300">
@@ -112,7 +127,10 @@ const Marcos = () => {
         <section>
           <h2 className="text-3xl font-bold mb-6">Design Process</h2>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            The iterative design process involved multiple rounds of sketching, prototyping, user testing, and refinement. By closely listening to user feedback and rapidly iterating on the design, we created an intuitive pizza customization experience that balanced flexibility with simplicity—making it easy for customers to build their perfect pizza while accommodating Marco's diverse menu offerings.
+            The iterative design process involved multiple rounds of sketching, prototyping, user testing, and
+            refinement. By closely listening to user feedback and rapidly iterating on the design, we created an
+            intuitive pizza customization experience that balanced flexibility with simplicity—making it easy for
+            customers to build their perfect pizza while accommodating Marco's diverse menu offerings.
           </p>
         </section>
       </div>
