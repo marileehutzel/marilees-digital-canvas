@@ -16,8 +16,7 @@ const projects = [
   },
   {
     title: "Machine Learning",
-    image:
-      "https://cdn.myportfolio.com/27f655f377cdf66b3b5e2e264fa0158c/d58cfaaf-4cf6-4329-85c6-652351e6ae05_rwc_173x113x437x246x437.png?h=b7cbdadc010365c88ff5618080214d61",
+    image: "src/assets/hero/machine-learning-hero.png",
     link: "/projects/machine-learning",
     description: "AI-powered customer experience solution",
     categories: ["AI & Machine Learning", "B2B", "Enterprise"],
