@@ -23,8 +23,7 @@ const projects = [
   },
   {
     title: "AI Data Explorer",
-    image:
-      "https://cdn.myportfolio.com/27f655f377cdf66b3b5e2e264fa0158c/1d1e07e2-38e0-410f-8f69-1923bb4cfbba_rwc_0x0x1916x1080x1916.png?h=2df38a18350ccfa89b016dd77da6e0f9",
+    image: "src/assets/hero/ai-data-explorer-hero.png",
     link: "/projects/ai-data-explorer",
     description: "Intelligent data exploration interface",
     categories: ["AI & Machine Learning", "Data Visualization"],
