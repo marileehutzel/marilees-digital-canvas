@@ -4,6 +4,23 @@ import heroImage from "@/assets/hero/just-for-fun-hero.png";
 import image2 from "@/assets/just-for-fun/image-2.png";
 import image3 from "@/assets/just-for-fun/image-3.png";
 import image4 from "@/assets/just-for-fun/image-4.jpg";
+import image5 from "@/assets/just-for-fun/image-5.png";
+import image6 from "@/assets/just-for-fun/image-6.png";
+import image7 from "@/assets/just-for-fun/image-7.jpg";
+import image8 from "@/assets/just-for-fun/image-8.jpg";
+import image9 from "@/assets/just-for-fun/image-9.jpg";
+import image10 from "@/assets/just-for-fun/image-10.jpg";
+import image11 from "@/assets/just-for-fun/image-11.jpg";
+import image12 from "@/assets/just-for-fun/image-12.jpg";
+import image15 from "@/assets/just-for-fun/image-15.jpg";
+import image16 from "@/assets/just-for-fun/image-16.png";
+import image18 from "@/assets/just-for-fun/image-18.jpg";
+import image19 from "@/assets/just-for-fun/image-19.jpg";
+import image20 from "@/assets/just-for-fun/image-20.jpg";
+import image21 from "@/assets/just-for-fun/image-21.jpg";
+import image22 from "@/assets/just-for-fun/image-22.jpg";
+import image23 from "@/assets/just-for-fun/image-23.jpg";
+import image24 from "@/assets/just-for-fun/image-24.jpg";
 
 const JustForFun = () => {
   return (
@@ -30,17 +47,102 @@ const JustForFun = () => {
                 <CarouselContent>
                   <CarouselItem>
                     <div className="flex items-center justify-center h-[400px] md:h-[600px]">
-                      <img src={image2} alt="Creative sketch 1" className="w-full h-full object-contain rounded-lg" />
+                      <img src={image2} alt="Creative sketch" className="w-full h-full object-contain rounded-lg" />
                     </div>
                   </CarouselItem>
                   <CarouselItem>
                     <div className="flex items-center justify-center h-[400px] md:h-[600px]">
-                      <img src={image3} alt="Creative sketch 2" className="w-full h-full object-contain rounded-lg" />
+                      <img src={image3} alt="Creative sketch" className="w-full h-full object-contain rounded-lg" />
                     </div>
                   </CarouselItem>
                   <CarouselItem>
                     <div className="flex items-center justify-center h-[400px] md:h-[600px]">
-                      <img src={image4} alt="Creative sketch 3" className="w-full h-full object-contain rounded-lg" />
+                      <img src={image4} alt="Creative sketch" className="w-full h-full object-contain rounded-lg" />
+                    </div>
+                  </CarouselItem>
+                  <CarouselItem>
+                    <div className="flex items-center justify-center h-[400px] md:h-[600px]">
+                      <img src={image5} alt="Creative sketch" className="w-full h-full object-contain rounded-lg" />
+                    </div>
+                  </CarouselItem>
+                  <CarouselItem>
+                    <div className="flex items-center justify-center h-[400px] md:h-[600px]">
+                      <img src={image6} alt="Creative sketch" className="w-full h-full object-contain rounded-lg" />
+                    </div>
+                  </CarouselItem>
+                  <CarouselItem>
+                    <div className="flex items-center justify-center h-[400px] md:h-[600px]">
+                      <img src={image7} alt="Creative sketch" className="w-full h-full object-contain rounded-lg" />
+                    </div>
+                  </CarouselItem>
+                  <CarouselItem>
+                    <div className="flex items-center justify-center h-[400px] md:h-[600px]">
+                      <img src={image8} alt="Creative sketch" className="w-full h-full object-contain rounded-lg" />
+                    </div>
+                  </CarouselItem>
+                  <CarouselItem>
+                    <div className="flex items-center justify-center h-[400px] md:h-[600px]">
+                      <img src={image9} alt="Creative sketch" className="w-full h-full object-contain rounded-lg" />
+                    </div>
+                  </CarouselItem>
+                  <CarouselItem>
+                    <div className="flex items-center justify-center h-[400px] md:h-[600px]">
+                      <img src={image10} alt="Creative sketch" className="w-full h-full object-contain rounded-lg" />
+                    </div>
+                  </CarouselItem>
+                  <CarouselItem>
+                    <div className="flex items-center justify-center h-[400px] md:h-[600px]">
+                      <img src={image11} alt="Creative sketch" className="w-full h-full object-contain rounded-lg" />
+                    </div>
+                  </CarouselItem>
+                  <CarouselItem>
+                    <div className="flex items-center justify-center h-[400px] md:h-[600px]">
+                      <img src={image12} alt="Creative sketch" className="w-full h-full object-contain rounded-lg" />
+                    </div>
+                  </CarouselItem>
+                  <CarouselItem>
+                    <div className="flex items-center justify-center h-[400px] md:h-[600px]">
+                      <img src={image15} alt="Creative sketch" className="w-full h-full object-contain rounded-lg" />
+                    </div>
+                  </CarouselItem>
+                  <CarouselItem>
+                    <div className="flex items-center justify-center h-[400px] md:h-[600px]">
+                      <img src={image16} alt="Creative sketch" className="w-full h-full object-contain rounded-lg" />
+                    </div>
+                  </CarouselItem>
+                  <CarouselItem>
+                    <div className="flex items-center justify-center h-[400px] md:h-[600px]">
+                      <img src={image18} alt="Creative sketch" className="w-full h-full object-contain rounded-lg" />
+                    </div>
+                  </CarouselItem>
+                  <CarouselItem>
+                    <div className="flex items-center justify-center h-[400px] md:h-[600px]">
+                      <img src={image19} alt="Creative sketch" className="w-full h-full object-contain rounded-lg" />
+                    </div>
+                  </CarouselItem>
+                  <CarouselItem>
+                    <div className="flex items-center justify-center h-[400px] md:h-[600px]">
+                      <img src={image20} alt="Creative sketch" className="w-full h-full object-contain rounded-lg" />
+                    </div>
+                  </CarouselItem>
+                  <CarouselItem>
+                    <div className="flex items-center justify-center h-[400px] md:h-[600px]">
+                      <img src={image21} alt="Creative sketch" className="w-full h-full object-contain rounded-lg" />
+                    </div>
+                  </CarouselItem>
+                  <CarouselItem>
+                    <div className="flex items-center justify-center h-[400px] md:h-[600px]">
+                      <img src={image22} alt="Creative sketch" className="w-full h-full object-contain rounded-lg" />
+                    </div>
+                  </CarouselItem>
+                  <CarouselItem>
+                    <div className="flex items-center justify-center h-[400px] md:h-[600px]">
+                      <img src={image23} alt="Creative sketch" className="w-full h-full object-contain rounded-lg" />
+                    </div>
+                  </CarouselItem>
+                  <CarouselItem>
+                    <div className="flex items-center justify-center h-[400px] md:h-[600px]">
+                      <img src={image24} alt="Creative sketch" className="w-full h-full object-contain rounded-lg" />
                     </div>
                   </CarouselItem>
                 </CarouselContent>
