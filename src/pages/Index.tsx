@@ -65,8 +65,7 @@ const projects = [
   },
   {
     title: "Marco's Pizza",
-    image:
-      "https://cdn.myportfolio.com/27f655f377cdf66b3b5e2e264fa0158c/60f07836-7f5d-4c5d-861a-0f7fb4c52eef_car_16x9.png?h=adb37c4618aeef94e470f414ef3bfcce",
+    image: "src/assets/hero/marcos-hero.png",
     link: "/projects/marcos",
     description: "Custom pizza builder & mobile ordering",
     categories: ["Web Design", "Mobile", "B2C"],
