@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import { ChevronDown, ArrowLeft } from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import image1 from "@/assets/zipscene/image-1.png";
 import image2 from "@/assets/zipscene/image-2.png";
 import image3 from "@/assets/zipscene/image-3.png";
 import image4 from "@/assets/zipscene/image-4.png";
@@ -43,15 +42,6 @@ const Zipscene = () => {
 
       {/* Main Content */}
       <main id="content" className="container mx-auto px-6 py-20 space-y-32">
-        {/* Overview Section */}
-        <section className="space-y-8">
-          <img
-            src={image1}
-            alt="Zipscene Analytics overview"
-            className="w-1/2 mx-auto rounded-lg shadow-lg"
-          />
-        </section>
-  
         {/* Insights Section */}
         <section className="space-y-8">
           <div className="space-y-4">
