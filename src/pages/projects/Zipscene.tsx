@@ -41,21 +41,7 @@ const Zipscene = () => {
         </a>
       </section>
 
-      {/* Main Content */}
-      <main id="content" className="container max-w-6xl mx-auto px-6 py-20 space-y-32">
-        
-        {/* Home Page Section */}
-        <section className="space-y-8">
-          <h2 className="text-3xl md:text-4xl font-bold">Home Page</h2>
-          <div className="space-y-6">
-            <img
-              src={image1}
-              alt="Zipscene Analytics home page"
-              className="w-1/2 mx-auto rounded-lg shadow-lg"
-            />
-          </div>
-        </section>
-
+  
         {/* Insights Section */}
         <section className="space-y-8">
           <div className="space-y-4">
