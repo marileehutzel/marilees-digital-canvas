@@ -6,6 +6,7 @@ import ProjectFilter from "@/components/ProjectFilter";
 import Footer from "@/components/Footer";
 import concentrixHeroImg from "@/assets/concentrix-fc/concentrix-fc-dashboard.png";
 import zipsceneHeroImg from "@/assets/hero/zipscene-hero.png";
+import ascribeHeroImg from "@/assets/hero/ascribe-hero.png";
 
 const projects = [
   {
@@ -114,6 +115,13 @@ const projects = [
     link: "/projects/zipscene",
     description: "Analytics dashboard with custom iconography",
     categories: ["Data Visualization", "Design Systems"],
+  },
+  {
+    title: "Ascribe Intelligence",
+    image: ascribeHeroImg,
+    link: "/projects/ascribe",
+    description: "Blockchain platform for digital rights management",
+    categories: ["B2B", "Enterprise", "Blockchain"],
   },
 ];
 
