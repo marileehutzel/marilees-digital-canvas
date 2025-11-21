@@ -93,7 +93,7 @@ const projects = [
   },
   {
     title: "Volunteer Work",
-    image: "src/assets/volunteer-work-hero.png",
+    image: "src/assets/hero/volunteer-work-hero.png",
     link: "/projects/volunteer-work",
     description: "Community design & branding for non-profits",
     categories: ["Just For Fun"],
