@@ -51,8 +51,7 @@ const projects = [
   },
   {
     title: "Hack-a-Thon",
-    image:
-      "https://cdn.myportfolio.com/27f655f377cdf66b3b5e2e264fa0158c/6f12e1637d65f132f05c8749dd16a1c54ad279e4bf3fd48e19510ad3456a1bef2610edd428574b84_car_16x9.png?h=3f9095fa6e3a1c52100cc5307fd48418",
+    image: "src/assets/hero/hackathon-hero.png",
     link: "/projects/hack-a-thon",
     description: "AI-powered coaching for call center agents",
     categories: ["AI & Machine Learning"],
