@@ -1,5 +1,5 @@
 import CaseStudyLayout from "@/components/CaseStudyLayout";
-import heroImage from "@/assets/ncr-collaboration-hero.png";
+import heroImage from "@/assets/hero/ncr-collaboration-hero.png";
 import image1 from "@/assets/ncr-collaboration/image-1.png";
 import image2 from "@/assets/ncr-collaboration/image-2.png";
 import image3 from "@/assets/ncr-collaboration/image-3.png";
