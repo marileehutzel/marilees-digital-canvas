@@ -111,18 +111,18 @@ const projects = [
   },
   {
     title: "Zipscene Analytics",
-    image: zipsceneHeroImg,
+    image: "src/assets/hero/zipscene-hero.png",
     link: "/projects/zipscene",
     description: "Analytics dashboard with custom iconography",
     categories: ["Data Visualization", "Design Systems"],
   },
-    {
-      title: "Ascribe CX Inspector",
-      image: ascribeHeroImg,
-      link: "/projects/ascribe",
-      description: "AI-powered text analytics for customer experience insights",
-      categories: ["B2B", "Enterprise", "AI & Machine Learning", "Data Visualization"],
-    },
+  {
+    title: "Ascribe CX Inspector",
+    image: ascribeHeroImg,
+    link: "/projects/ascribe",
+    description: "AI-powered text analytics for customer experience insights",
+    categories: ["B2B", "Enterprise", "AI & Machine Learning", "Data Visualization"],
+  },
 ];
 
 const Index = () => {
