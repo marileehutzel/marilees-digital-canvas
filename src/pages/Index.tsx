@@ -4,11 +4,12 @@ import Hero from "@/components/Hero";
 import ProjectCard from "@/components/ProjectCard";
 import ProjectFilter from "@/components/ProjectFilter";
 import Footer from "@/components/Footer";
+import concentrixHeroImg from "@/assets/concentrix-fc/concentrix-fc-dashboard.png";
 
 const projects = [
   {
     title: "Concentrix FC&C",
-    image: "src/assets/hero/concentrix-fc-dashboard.png",
+    image: concentrixHeroImg,
     link: "/projects/concentrix-fc",
     description: "Financial crimes & compliance platform design",
     categories: ["Data Visualization", "B2B", "Enterprise", "AI & Machine Learning"],
