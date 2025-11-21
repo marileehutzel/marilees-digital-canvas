@@ -30,8 +30,7 @@ const projects = [
   },
   {
     title: "Dashboard Builder",
-    image:
-      "https://cdn.myportfolio.com/27f655f377cdf66b3b5e2e264fa0158c/5d62295a-c647-49b0-8f2b-ad0ab9aac94b_rwc_0x186x1170x659x1170.png?h=0d76f8514cc82eebbf0ea51d98c603a5",
+    image: "src/assets/hero/dashboard-builder-hero.png",
     link: "/projects/dashboard-builder",
     description: "Customizable dashboard creation platform",
     categories: ["Data Visualization", "B2B", "Enterprise"],
