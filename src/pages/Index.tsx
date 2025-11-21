@@ -58,7 +58,7 @@ const projects = [
   },
   {
     title: "First Watch",
-    image: "src/assets/firstwatch-hero.png",
+    image: "src/assets/hero/firstwatch-hero.png",
     link: "/projects/FirstWatch",
     description: "Restaurant website with digital waitlist",
     categories: ["Web Design", "Mobile", "B2C"],
