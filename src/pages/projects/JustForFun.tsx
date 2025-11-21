@@ -1,6 +1,6 @@
 import CaseStudyLayout from "@/components/CaseStudyLayout";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
-import heroImage from "@/assets/just-for-fun-hero.png";
+import heroImage from "@/assets/hero/just-for-fun-hero.png";
 import image2 from "@/assets/just-for-fun/image-2.png";
 import image3 from "@/assets/just-for-fun/image-3.png";
 import image4 from "@/assets/just-for-fun/image-4.jpg";
@@ -21,7 +21,9 @@ const JustForFun = () => {
           <div>
             <h2 className="text-4xl font-bold text-foreground mb-6">Creative Exploration</h2>
             <p className="text-xl text-muted-foreground leading-relaxed font-serif mb-8">
-              These sketches and illustrations represent personal creative time where I explore different artistic styles and techniques. Each piece is an experiment in visual storytelling, composition, and aesthetic expression.
+              These sketches and illustrations represent personal creative time where I explore different artistic
+              styles and techniques. Each piece is an experiment in visual storytelling, composition, and aesthetic
+              expression.
             </p>
             <div className="relative px-12">
               <Carousel className="w-full">
@@ -51,7 +53,9 @@ const JustForFun = () => {
           <div>
             <h2 className="text-4xl font-bold text-foreground mb-6">Artistic Freedom</h2>
             <p className="text-xl text-muted-foreground leading-relaxed font-serif">
-              These personal projects provide a creative outlet beyond professional design work, allowing me to experiment, practice new techniques, and maintain artistic inspiration. They represent the joy of creating without constraints or deadlines.
+              These personal projects provide a creative outlet beyond professional design work, allowing me to
+              experiment, practice new techniques, and maintain artistic inspiration. They represent the joy of creating
+              without constraints or deadlines.
             </p>
           </div>
         </div>
