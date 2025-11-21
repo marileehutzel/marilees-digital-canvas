@@ -19,6 +19,7 @@ import NCRCollaboration from "./pages/projects/NCRCollaboration";
 import UnstructuredData from "./pages/projects/UnstructuredData";
 import VolunteerWork from "./pages/projects/VolunteerWork";
 import JustForFun from "./pages/projects/JustForFun";
+import Zipscene from "./pages/projects/Zipscene";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -46,6 +47,7 @@ const App = () => (
           <Route path="/projects/unstructured-data" element={<UnstructuredData />} />
           <Route path="/projects/volunteer-work" element={<VolunteerWork />} />
           <Route path="/projects/just-for-fun" element={<JustForFun />} />
+          <Route path="/projects/zipscene" element={<Zipscene />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

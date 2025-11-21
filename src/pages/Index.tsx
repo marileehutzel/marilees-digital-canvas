@@ -5,6 +5,7 @@ import ProjectCard from "@/components/ProjectCard";
 import ProjectFilter from "@/components/ProjectFilter";
 import Footer from "@/components/Footer";
 import concentrixHeroImg from "@/assets/concentrix-fc/concentrix-fc-dashboard.png";
+import zipsceneHeroImg from "@/assets/hero/zipscene-hero.png";
 
 const projects = [
   {
@@ -109,9 +110,8 @@ const projects = [
   },
   {
     title: "Zipscene Analytics",
-    image:
-      "https://cdn.myportfolio.com/27f655f377cdf66b3b5e2e264fa0158c/843cfa72-ecbd-4107-8d6f-0accf0cba2f5_car_16x9.png?h=a1429bb2baf80e4b740a6d2c60dda58a",
-    link: "https://marileehutzel.com/analytics-dashboard",
+    image: zipsceneHeroImg,
+    link: "/projects/zipscene",
     description: "Analytics dashboard with custom iconography",
     categories: ["Data Visualization", "Design Systems"],
   },
