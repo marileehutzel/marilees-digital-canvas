@@ -6,6 +6,7 @@ import persona2Img from "@/assets/concentrix-fc/concentrix-fc-persona2.png";
 import persona3Img from "@/assets/concentrix-fc/concentrix-fc-persona3.png";
 import competitorImg from "@/assets/concentrix-fc/concentrix-fc-competitor.png";
 import dashboardImg from "@/assets/concentrix-fc/concentrix-fc-dashboard.png";
+import heroImage from "@/assets/hero/concentrix-cf-hero.png";
 
 const ConcentrixFC = () => {
   return (
