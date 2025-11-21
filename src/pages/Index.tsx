@@ -9,7 +9,7 @@ import concentrixHeroImg from "@/assets/concentrix-fc/concentrix-fc-dashboard.pn
 const projects = [
   {
     title: "Concentrix FC&C",
-    image: "assets/hero/concentrix-fc-hero.png",
+    image: "src/assets/hero/concentrix-fc-hero.png",
     link: "/projects/concentrix-fc",
     description: "Financial crimes & compliance platform design",
     categories: ["Data Visualization", "B2B", "Enterprise", "AI & Machine Learning"],
