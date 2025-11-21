@@ -1,5 +1,5 @@
 import CaseStudyLayout from "@/components/CaseStudyLayout";
-import heroImage from "@/assets/firstwatch-hero.png";
+import heroImage from "@/assets/hero/firstwatch-hero.png";
 import image1 from "@/assets/firstwatch/image-1.jpg";
 import image2 from "@/assets/firstwatch/image-2.png";
 import image3 from "@/assets/firstwatch/image-3.png";
@@ -35,7 +35,9 @@ const FirstWatch = () => {
         <section className="space-y-8">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">Mobile / Small Format</h2>
           <p className="text-lg md:text-xl text-muted-foreground font-serif leading-relaxed mb-6">
-            Needed to create a web solution for First Watch who was re-branding during the process of site creation. New updated logo and textures had to be included as well as new functionality for adding customers to a wait list.
+            Needed to create a web solution for First Watch who was re-branding during the process of site creation. New
+            updated logo and textures had to be included as well as new functionality for adding customers to a wait
+            list.
           </p>
           <img src={image1} alt="Mobile site design" className="w-full rounded-lg shadow-elegant" />
         </section>
@@ -43,7 +45,9 @@ const FirstWatch = () => {
         <section className="space-y-8">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">Mobile Sketches</h2>
           <p className="text-lg md:text-xl text-muted-foreground font-serif leading-relaxed mb-6">
-            Started with mobile sketches to define the core experience on smaller screens. This mobile-first approach ensured the most important features—menu access and waitlist management—were optimized for the primary use case of customers on their phones.
+            Started with mobile sketches to define the core experience on smaller screens. This mobile-first approach
+            ensured the most important features—menu access and waitlist management—were optimized for the primary use
+            case of customers on their phones.
           </p>
           <img src={image2} alt="Mobile sketches and wireframes" className="w-full rounded-lg shadow-elegant" />
         </section>
@@ -51,7 +55,8 @@ const FirstWatch = () => {
         <section className="space-y-8">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">Early Mobile Prototype</h2>
           <p className="text-lg md:text-xl text-muted-foreground font-serif leading-relaxed mb-6">
-            Created early mobile prototypes in Illustrator to test navigation patterns, menu layouts, and the waitlist flow before expanding to larger screen sizes.
+            Created early mobile prototypes in Illustrator to test navigation patterns, menu layouts, and the waitlist
+            flow before expanding to larger screen sizes.
           </p>
           <img src={image3} alt="Early mobile prototype in Illustrator" className="w-full rounded-lg shadow-elegant" />
         </section>
@@ -59,7 +64,8 @@ const FirstWatch = () => {
         <section className="space-y-8">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">Medium/Large Format</h2>
           <p className="text-lg md:text-xl text-muted-foreground font-serif leading-relaxed mb-6">
-            Developed preliminary sketches for desktop experience, expanding the mobile concepts to take advantage of larger screens while maintaining consistency with the mobile design.
+            Developed preliminary sketches for desktop experience, expanding the mobile concepts to take advantage of
+            larger screens while maintaining consistency with the mobile design.
           </p>
           <img src={image4} alt="Desktop sketches" className="w-full rounded-lg shadow-elegant" />
         </section>
@@ -75,7 +81,8 @@ const FirstWatch = () => {
         <section className="space-y-8">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">Wait List Feature</h2>
           <p className="text-lg md:text-xl text-muted-foreground font-serif leading-relaxed mb-6">
-            Revolutionary waitlist system allowing customers to add themselves remotely and receive real-time updates on their table status.
+            Revolutionary waitlist system allowing customers to add themselves remotely and receive real-time updates on
+            their table status.
           </p>
           <img src={image7} alt="Wait list interface" className="w-full rounded-lg shadow-elegant" />
         </section>
