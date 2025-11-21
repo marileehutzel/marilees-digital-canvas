@@ -1,5 +1,4 @@
 import CaseStudyLayout from "@/components/CaseStudyLayout";
-import heroImage from "@/assets/hero/concentrix-cf-hero.png";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import wireframeImg from "@/assets/concentrix-fc/concentrix-fc-wireframe.png";
 import persona1Img from "@/assets/concentrix-fc/concentrix-fc-persona1.png";
