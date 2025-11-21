@@ -37,7 +37,7 @@ const projects = [
   },
   {
     title: "CX Design System",
-    image: "src/assets/cx-design-system-hero.png",
+    image: "src/assets/hero/cx-design-system-hero.png",
     link: "/projects/cx-design-system",
     description: "Enterprise design system & components",
     categories: ["Design Systems", "B2B", "Enterprise"],
