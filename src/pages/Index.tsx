@@ -18,6 +18,7 @@ import volunteerWorkHeroImg from "@/assets/hero/volunteer-work-hero.png";
 import justForFunHeroImg from "@/assets/hero/just-for-fun-hero.png";
 import zipsceneHeroImg from "@/assets/hero/zipscene-hero.png";
 import ascribeHeroImg from "@/assets/hero/ascribe-hero.png";
+import unstructuredDataImg from "@/assets/hero/unstructured-data-hero.png";
 
 const projects = [
   {
@@ -92,8 +93,7 @@ const projects = [
   },
   {
     title: "Unstructured Data",
-    image:
-      "https://cdn.myportfolio.com/27f655f377cdf66b3b5e2e264fa0158c/4e5f621a-e203-48d6-ac81-3c9d2749741b_rwc_1506x484x665x375x665.png?h=d6c59b44875011fba5dc4bfc0d83d834",
+    image: unstructuredDataImg,
     link: "/projects/unstructured-data",
     description: "Data analysis and visualization tools",
     categories: ["Data Visualization", "B2B", "Enterprise"],
