@@ -4,77 +4,88 @@ import Hero from "@/components/Hero";
 import ProjectCard from "@/components/ProjectCard";
 import ProjectFilter from "@/components/ProjectFilter";
 import Footer from "@/components/Footer";
-import concentrixHeroImg from "@/assets/concentrix-fc/concentrix-fc-dashboard.png";
+import concentrixHeroImg from "@/assets/hero/concentrix-fc-hero.png";
+import machineLearningHeroImg from "@/assets/hero/machine-learning-hero.png";
+import aiDataExplorerHeroImg from "@/assets/hero/ai-data-explorer-hero.png";
+import dashboardBuilderHeroImg from "@/assets/hero/dashboard-builder-hero.png";
+import cxDesignSystemHeroImg from "@/assets/hero/cx-design-system-hero.png";
+import cxMobileHeroImg from "@/assets/hero/cx-mobile-hero.png";
+import hackathonHeroImg from "@/assets/hero/hackathon-hero.png";
+import firstwatchHeroImg from "@/assets/hero/firstwatch-hero.png";
+import marcosHeroImg from "@/assets/hero/marcos-hero.png";
+import ncrCollaborationHeroImg from "@/assets/hero/ncr-collaboration-hero.png";
+import volunteerWorkHeroImg from "@/assets/hero/volunteer-work-hero.png";
+import justForFunHeroImg from "@/assets/hero/just-for-fun-hero.png";
 import zipsceneHeroImg from "@/assets/hero/zipscene-hero.png";
 import ascribeHeroImg from "@/assets/hero/ascribe-hero.png";
 
 const projects = [
   {
     title: "Concentrix FC&C",
-    image: "src/assets/hero/concentrix-fc-hero.png",
+    image: concentrixHeroImg,
     link: "/projects/concentrix-fc",
     description: "Financial crimes & compliance platform design",
     categories: ["Data Visualization", "B2B", "Enterprise", "AI & Machine Learning"],
   },
   {
     title: "Machine Learning",
-    image: "src/assets/hero/machine-learning-hero.png",
+    image: machineLearningHeroImg,
     link: "/projects/machine-learning",
     description: "AI-powered customer experience solution",
     categories: ["AI & Machine Learning", "B2B", "Enterprise"],
   },
   {
     title: "AI Data Explorer",
-    image: "src/assets/hero/ai-data-explorer-hero.png",
+    image: aiDataExplorerHeroImg,
     link: "/projects/ai-data-explorer",
     description: "Intelligent data exploration interface",
     categories: ["AI & Machine Learning", "Data Visualization"],
   },
   {
     title: "Dashboard Builder",
-    image: "src/assets/hero/dashboard-builder-hero.png",
+    image: dashboardBuilderHeroImg,
     link: "/projects/dashboard-builder",
     description: "Customizable dashboard creation platform",
     categories: ["Data Visualization", "B2B", "Enterprise"],
   },
   {
     title: "CX Design System",
-    image: "src/assets/hero/cx-design-system-hero.png",
+    image: cxDesignSystemHeroImg,
     link: "/projects/cx-design-system",
     description: "Enterprise design system & components",
     categories: ["Design Systems", "B2B", "Enterprise"],
   },
   {
     title: "CX Mobile",
-    image: "src/assets/hero/cx-mobile-hero.png",
+    image: cxMobileHeroImg,
     link: "/projects/cx-mobile",
     description: "Mobile-first customer experience platform",
     categories: ["Mobile", "B2B", "Enterprise"],
   },
   {
     title: "Hack-a-Thon",
-    image: "src/assets/hero/hackathon-hero.png",
+    image: hackathonHeroImg,
     link: "/projects/hack-a-thon",
     description: "AI-powered coaching for call center agents",
     categories: ["AI & Machine Learning"],
   },
   {
     title: "First Watch",
-    image: "src/assets/hero/firstwatch-hero.png",
+    image: firstwatchHeroImg,
     link: "/projects/FirstWatch",
     description: "Restaurant website with digital waitlist",
     categories: ["Web Design", "Mobile", "B2C"],
   },
   {
     title: "Marco's Pizza",
-    image: "src/assets/hero/marcos-hero.png",
+    image: marcosHeroImg,
     link: "/projects/marcos",
     description: "Custom pizza builder & mobile ordering",
     categories: ["Web Design", "Mobile", "B2C"],
   },
   {
     title: "NCR Collaboration",
-    image: "src/assets/hero/ncr-collaboration-hero.png",
+    image: ncrCollaborationHeroImg,
     link: "/projects/ncr-collaboration",
     description: "Restaurant analytics dashboard",
     categories: ["Data Visualization", "Web Design", "B2B", "Enterprise"],
@@ -89,14 +100,14 @@ const projects = [
   },
   {
     title: "Volunteer Work",
-    image: "src/assets/hero/volunteer-work-hero.png",
+    image: volunteerWorkHeroImg,
     link: "/projects/volunteer-work",
     description: "Community design & branding for non-profits",
     categories: ["Just For Fun"],
   },
   {
     title: "Just For Fun",
-    image: "src/assets/just-for-fun-hero.png",
+    image: justForFunHeroImg,
     link: "/projects/just-for-fun",
     description: "Creative sketches & personal explorations",
     categories: ["Just For Fun"],
@@ -111,7 +122,7 @@ const projects = [
   },
   {
     title: "Zipscene Analytics",
-    image: "src/assets/hero/zipscene-hero.png",
+    image: zipsceneHeroImg,
     link: "/projects/zipscene",
     description: "Analytics dashboard with custom iconography",
     categories: ["Data Visualization", "Design Systems"],
