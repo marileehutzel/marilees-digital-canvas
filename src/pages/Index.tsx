@@ -17,7 +17,6 @@ import ncrCollaborationHeroImg from "@/assets/hero/ncr-collaboration-hero.png";
 import volunteerWorkHeroImg from "@/assets/hero/volunteer-work-hero.png";
 import justForFunHeroImg from "@/assets/hero/just-for-fun-hero.png";
 import zipsceneHeroImg from "@/assets/hero/zipscene-hero.png";
-import ascribeHeroImg from "@/assets/hero/ascribe-hero.png";
 import unstructuredDataImg from "@/assets/hero/unstructured-data-hero.png";
 
 const projects = [
@@ -126,13 +125,6 @@ const projects = [
     link: "/projects/zipscene",
     description: "Analytics dashboard with custom iconography",
     categories: ["Data Visualization", "Design Systems"],
-  },
-  {
-    title: "Ascribe CX Inspector",
-    image: ascribeHeroImg,
-    link: "/projects/ascribe",
-    description: "AI-powered text analytics for customer experience insights",
-    categories: ["B2B", "Enterprise", "AI & Machine Learning", "Data Visualization"],
   },
 ];
 
