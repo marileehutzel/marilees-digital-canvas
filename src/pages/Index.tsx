@@ -18,7 +18,7 @@ import volunteerWorkHeroImg from "@/assets/hero/volunteer-work-hero.png";
 import justForFunHeroImg from "@/assets/hero/just-for-fun-hero.png";
 import zipsceneHeroImg from "@/assets/hero/zipscene-hero.png";
 import unstructuredDataImg from "@/assets/hero/unstructured-data-hero.png";
-import mcalistersDeliImg from "@assets/hero/mcalisters-deli-hero.png"
+import mcalistersDeliImg from "@/assets/hero/mcalisters-deli-hero.png"
 const projects = [
   {
     title: "Concentrix FC&C",
