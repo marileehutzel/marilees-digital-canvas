@@ -113,7 +113,7 @@ const projects = [
   },
   {
     title: "McAlister's Deli",
-    image: mcalistersDeliImg
+    image: mcalistersDeliImg,
     link: "/projects/mcalisters-deli",
     description: "Restaurant branding & digital experience",
     categories: ["Web Design", "B2C"],
