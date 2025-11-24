@@ -98,20 +98,6 @@ const projects = [
     categories: ["Data Visualization", "B2B"],
   },
   {
-    title: "Volunteer Work",
-    image: volunteerWorkHeroImg,
-    link: "/projects/volunteer-work",
-    description: "Community design & branding for non-profits",
-    categories: ["Just For Fun"],
-  },
-  {
-    title: "Just For Fun",
-    image: justForFunHeroImg,
-    link: "/projects/just-for-fun",
-    description: "Creative sketches & personal explorations",
-    categories: ["Just For Fun"],
-  },
-  {
     title: "McAlister's Deli",
     image: mcalistersDeliImg,
     link: "/projects/mcalisters-deli",
@@ -124,6 +110,20 @@ const projects = [
     link: "/projects/zipscene",
     description: "Analytics dashboard with custom iconography",
     categories: ["Data Visualization", "Design Systems", "Mobile"],
+  },
+  {
+    title: "Volunteer Work",
+    image: volunteerWorkHeroImg,
+    link: "/projects/volunteer-work",
+    description: "Community design & branding for non-profits",
+    categories: ["Just For Fun"],
+  },
+  {
+    title: "Just For Fun",
+    image: justForFunHeroImg,
+    link: "/projects/just-for-fun",
+    description: "Creative sketches & personal explorations",
+    categories: ["Just For Fun"],
   },
 ];
 
