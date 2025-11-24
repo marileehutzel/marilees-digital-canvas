@@ -72,7 +72,7 @@ const projects = [
   {
     title: "First Watch",
     image: firstwatchHeroImg,
-    link: "/projects/FirstWatch",
+    link: "/projects/first-watch",
     description: "Restaurant website with digital waitlist",
     categories: ["Web Design", "Mobile", "B2C"],
   },
