@@ -74,7 +74,7 @@ const projects = [
     image: firstwatchHeroImg,
     link: "/projects/first-watch",
     description: "Restaurant website with digital waitlist",
-    categories: ["Web Design", "Mobile", "B2C"],
+    categories: ["Mobile", "B2C"],
   },
   {
     title: "Marco's Pizza",
@@ -88,7 +88,7 @@ const projects = [
     image: ncrCollaborationHeroImg,
     link: "/projects/ncr-collaboration",
     description: "Restaurant analytics dashboard",
-    categories: ["Data Visualization", "Web Design", "B2B"],
+    categories: ["Data Visualization", "B2B"],
   },
   {
     title: "Unstructured Data",
