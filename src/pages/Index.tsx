@@ -18,7 +18,7 @@ import volunteerWorkHeroImg from "@/assets/hero/volunteer-work-hero.png";
 import justForFunHeroImg from "@/assets/hero/just-for-fun-hero.png";
 import zipsceneHeroImg from "@/assets/hero/zipscene-hero.png";
 import unstructuredDataImg from "@/assets/hero/unstructured-data-hero.png";
-
+import mcalistersDeliImg from "@assets/hero/mcalisters-deli-hero.png"
 const projects = [
   {
     title: "Concentrix FC&C",
@@ -113,8 +113,7 @@ const projects = [
   },
   {
     title: "McAlister's Deli",
-    image:
-      "https://cdn.myportfolio.com/27f655f377cdf66b3b5e2e264fa0158c/2b1b48b9-6f14-4671-b278-cc4b2b6b8c76_car_16x9.png?h=35ca698c97baca1581fb76f6390438f2",
+    image: mcalistersDeliImg
     link: "/projects/mcalisters-deli",
     description: "Restaurant branding & digital experience",
     categories: ["Web Design", "B2C"],
