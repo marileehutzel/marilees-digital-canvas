@@ -116,14 +116,14 @@ const projects = [
     image: mcalistersDeliImg,
     link: "/projects/mcalisters-deli",
     description: "Restaurant branding & digital experience",
-    categories: ["Web Design", "B2C"],
+    categories: ["Web Design", "B2C", "Mobile"],
   },
   {
     title: "Zipscene Analytics",
     image: zipsceneHeroImg,
     link: "/projects/zipscene",
     description: "Analytics dashboard with custom iconography",
-    categories: ["Data Visualization", "Design Systems"],
+    categories: ["Data Visualization", "Design Systems", "Mobile"],
   },
 ];
 
