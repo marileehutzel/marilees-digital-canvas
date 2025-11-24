@@ -81,7 +81,7 @@ const projects = [
     image: marcosHeroImg,
     link: "/projects/marcos",
     description: "Custom pizza builder & mobile ordering",
-    categories: ["Web Design", "Mobile", "B2C"],
+    categories: ["Mobile", "B2C"],
   },
   {
     title: "NCR Collaboration",
@@ -102,7 +102,7 @@ const projects = [
     image: mcalistersDeliImg,
     link: "/projects/mcalisters-deli",
     description: "Restaurant branding & digital experience",
-    categories: ["Web Design", "B2C", "Mobile"],
+    categories: ["B2C", "Mobile"],
   },
   {
     title: "Zipscene Analytics",
