@@ -99,7 +99,10 @@ const ConcentrixFC = () => {
           <p className="text-lg md:text-xl text-muted-foreground font-serif leading-relaxed max-w-4xl">
             This was a quick mockup created in FigJam to show the dashboard view for the supervisor persona. Working
             within the constraints of a previously designed application gave way to less than ideal navigation tabs at
-            the top.
+            the top. Given the time, this product would have greatly benefited from new architecture from the ground up
+            to create a more seamless experience. While working in constraints we managed to create a functional
+            comprimise that fulfilled business requirements, stakeholders wishes, and addressing the concerns of agents.
+            Thus, creating the right product for the right audience.
           </p>
           <img src={dashboardImg} alt="FigJam dashboard wireframe" className="w-full rounded-lg shadow-elegant" />
         </section>
