@@ -143,7 +143,7 @@ const FirstWatch = () => {
         </section>
 
         <section>
-          <h2 className="text-3xl font-bold mb-6">Outcome</h2>
+          <h2 className="text-3xl font-bold mb-6">Impact</h2>
           <p className="text-lg text-muted-foreground leading-relaxed mb-8">
             Successfully launched a modern, mobile-first website that aligned with First Watch's refreshed brand
             identity. The digital waitlist feature became a key differentiator, improving customer experience and
