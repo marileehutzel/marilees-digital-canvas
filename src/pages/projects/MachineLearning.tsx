@@ -23,7 +23,7 @@ const MachineLearning = () => {
           />
         </section>
 
-        <div className="text-center space-y-6 animate-fade-in">
+        <div className="text-left space-y-6 animate-fade-in">
           <h3 className="text-3xl font-bold text-foreground">Wireframes</h3>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto font-serif">
             Wireframe mockups for a portion of the CXS product. Working through verbatim and sentence details and
