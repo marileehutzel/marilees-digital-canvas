@@ -25,7 +25,7 @@ const MachineLearning = () => {
 
         <div className="text-left space-y-6 animate-fade-in">
           <h3 className="text-3xl font-bold text-foreground">Wireframes</h3>
-          <p className="text-lg text-muted-foreground max-w-3xl font-serif">
+          <p className="text-lg text-muted-foreground max-w-3xl mx-auto font-serif">
             Wireframe mockups for a portion of the CXS product. Working through verbatim and sentence details and
             creating new categories. Process of unifying user experience across multiple areas of the product offering.
           </p>
@@ -37,7 +37,7 @@ const MachineLearning = () => {
 
         <div className="text-left space-y-6 animate-fade-in">
           <h3 className="text-3xl font-bold text-foreground">Training The Model</h3>
-          <p className="text-lg text-muted-foreground max-w-3xl font-serif">
+          <p className="text-lg text-muted-foreground max-w-3xl mx-auto font-serif">
             We needed a way to define categories to create L1 and L2 file structures, label the categories, gather
             examples and assign them to the correct category which in turn helps train the model by learning patterns
             and predicting categories for new data. The full power of the CXS category builder tool with multiple data
@@ -74,7 +74,7 @@ const MachineLearning = () => {
 
         <div className="text-left space-y-6 animate-fade-in">
           <h3 className="text-3xl font-bold text-foreground">Human-Centered AI</h3>
-          <p className="text-lg text-muted-foreground max-w-3xl font-serif">
+          <p className="text-lg text-muted-foreground max-w-3xl mx-auto font-serif">
             The interface presents model confidence scores, feature importance, and prediction explanations in plain
             language. Users can drill down into details when needed, but the default view prioritizes clarity and
             actionability over technical complexity.
