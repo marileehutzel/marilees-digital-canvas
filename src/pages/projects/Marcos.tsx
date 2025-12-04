@@ -126,12 +126,26 @@ const Marcos = () => {
 
         <section>
           <h2 className="text-3xl font-bold mb-6">Design Process</h2>
-          <p className="text-lg text-muted-foreground leading-relaxed">
+          <p className="text-lg text-muted-foreground leading-relaxed mb-8">
             The iterative design process involved multiple rounds of sketching, prototyping, user testing, and
             refinement. By closely listening to user feedback and rapidly iterating on the design, we created an
             intuitive pizza customization experience that balanced flexibility with simplicity—making it easy for
             customers to build their perfect pizza while accommodating Marco's diverse menu offerings.
           </p>
+          <div className="grid md:grid-cols-3 gap-8 text-center">
+            <div className="p-6">
+              <div className="text-4xl font-bold text-primary mb-2">2</div>
+              <p className="text-muted-foreground">Design iterations based on feedback</p>
+            </div>
+            <div className="p-6">
+              <div className="text-4xl font-bold text-primary mb-2">Half+Half</div>
+              <p className="text-muted-foreground">Customization capability added</p>
+            </div>
+            <div className="p-6">
+              <div className="text-4xl font-bold text-primary mb-2">Mobile</div>
+              <p className="text-muted-foreground">First ordering experience</p>
+            </div>
+          </div>
         </section>
       </div>
     </CaseStudyLayout>

@@ -63,6 +63,24 @@ const McAlistersDeli = () => {
           </p>
           <img src={image6} alt="Final design concepts and mockups" className="w-full rounded-lg shadow-elegant" />
         </section>
+
+        <section className="animate-fade-in">
+          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-8">Impact</h2>
+          <div className="grid md:grid-cols-3 gap-8 text-center">
+            <div className="p-6">
+              <div className="text-4xl font-bold text-primary mb-2">Custom</div>
+              <p className="text-muted-foreground">Icon set designed from scratch</p>
+            </div>
+            <div className="p-6">
+              <div className="text-4xl font-bold text-primary mb-2">Loyalty</div>
+              <p className="text-muted-foreground">Program UX fully integrated</p>
+            </div>
+            <div className="p-6">
+              <div className="text-4xl font-bold text-primary mb-2">Seamless</div>
+              <p className="text-muted-foreground">Ordering to rewards flow</p>
+            </div>
+          </div>
+        </section>
       </div>
     </CaseStudyLayout>
   );

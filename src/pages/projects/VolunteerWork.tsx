@@ -46,9 +46,23 @@ const VolunteerWork = () => {
 
           <div>
             <h2 className="text-4xl font-bold text-foreground mb-6">Community Impact</h2>
-            <p className="text-xl text-muted-foreground leading-relaxed font-serif">
+            <p className="text-xl text-muted-foreground leading-relaxed font-serif mb-8">
               These volunteer projects provided an opportunity to support local organizations while experimenting with different design styles and techniques. The work helped promote community events and strengthen brand identity for local non-profits.
             </p>
+            <div className="grid md:grid-cols-3 gap-8 text-center">
+              <div className="p-6">
+                <div className="text-4xl font-bold text-primary mb-2">Local</div>
+                <p className="text-muted-foreground">Non-profits supported</p>
+              </div>
+              <div className="p-6">
+                <div className="text-4xl font-bold text-primary mb-2">Gig</div>
+                <p className="text-muted-foreground">Posters for events</p>
+              </div>
+              <div className="p-6">
+                <div className="text-4xl font-bold text-primary mb-2">Pro Bono</div>
+                <p className="text-muted-foreground">Design contributions</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

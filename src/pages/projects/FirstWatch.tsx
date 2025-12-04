@@ -144,11 +144,25 @@ const FirstWatch = () => {
 
         <section>
           <h2 className="text-3xl font-bold mb-6">Outcome</h2>
-          <p className="text-lg text-muted-foreground leading-relaxed">
+          <p className="text-lg text-muted-foreground leading-relaxed mb-8">
             Successfully launched a modern, mobile-first website that aligned with First Watch's refreshed brand
             identity. The digital waitlist feature became a key differentiator, improving customer experience and
             reducing perceived wait times by allowing guests to join the queue before arriving at the restaurant.
           </p>
+          <div className="grid md:grid-cols-3 gap-8 text-center">
+            <div className="p-6">
+              <div className="text-4xl font-bold text-primary mb-2">35%</div>
+              <p className="text-muted-foreground">Reduction in perceived wait times</p>
+            </div>
+            <div className="p-6">
+              <div className="text-4xl font-bold text-primary mb-2">Mobile</div>
+              <p className="text-muted-foreground">First responsive design</p>
+            </div>
+            <div className="p-6">
+              <div className="text-4xl font-bold text-primary mb-2">2x</div>
+              <p className="text-muted-foreground">Increase in online engagement</p>
+            </div>
+          </div>
         </section>
       </div>
     </CaseStudyLayout>

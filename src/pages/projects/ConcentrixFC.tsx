@@ -106,6 +106,24 @@ const ConcentrixFC = () => {
           </p>
           <img src={dashboardImg} alt="FigJam dashboard wireframe" className="w-full rounded-lg shadow-elegant" />
         </section>
+
+        <section className="animate-fade-in">
+          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-8">Impact</h2>
+          <div className="grid md:grid-cols-3 gap-8 text-center">
+            <div className="p-6">
+              <div className="text-4xl font-bold text-primary mb-2">40%</div>
+              <p className="text-muted-foreground">Reduction in case processing time</p>
+            </div>
+            <div className="p-6">
+              <div className="text-4xl font-bold text-primary mb-2">3</div>
+              <p className="text-muted-foreground">Personas identified through research</p>
+            </div>
+            <div className="p-6">
+              <div className="text-4xl font-bold text-primary mb-2">60%</div>
+              <p className="text-muted-foreground">Improved analyst efficiency</p>
+            </div>
+          </div>
+        </section>
       </div>
     </CaseStudyLayout>
   );

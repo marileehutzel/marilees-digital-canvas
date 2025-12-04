@@ -154,11 +154,25 @@ const JustForFun = () => {
 
           <div>
             <h2 className="text-4xl font-bold text-foreground mb-6">Artistic Freedom</h2>
-            <p className="text-xl text-muted-foreground leading-relaxed font-serif">
+            <p className="text-xl text-muted-foreground leading-relaxed font-serif mb-8">
               These personal projects provide a creative outlet beyond professional design work, allowing me to
               experiment, practice new techniques, and maintain artistic inspiration. They represent the joy of creating
               without constraints or deadlines.
             </p>
+            <div className="grid md:grid-cols-3 gap-8 text-center">
+              <div className="p-6">
+                <div className="text-4xl font-bold text-primary mb-2">20+</div>
+                <p className="text-muted-foreground">Creative pieces in collection</p>
+              </div>
+              <div className="p-6">
+                <div className="text-4xl font-bold text-primary mb-2">Mixed</div>
+                <p className="text-muted-foreground">Media & techniques explored</p>
+              </div>
+              <div className="p-6">
+                <div className="text-4xl font-bold text-primary mb-2">Ongoing</div>
+                <p className="text-muted-foreground">Creative exploration</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

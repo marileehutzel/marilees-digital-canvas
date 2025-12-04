@@ -175,6 +175,24 @@ const Ascribe = () => {
           </div>
         </section>
 
+        <section className="animate-fade-in">
+          <h2 className="text-4xl font-bold text-foreground mb-8">Platform Impact</h2>
+          <div className="grid md:grid-cols-3 gap-8 text-center">
+            <div className="p-6">
+              <div className="text-4xl font-bold text-primary mb-2">1000s</div>
+              <p className="text-muted-foreground">Comments analyzed instantly</p>
+            </div>
+            <div className="p-6">
+              <div className="text-4xl font-bold text-primary mb-2">95%</div>
+              <p className="text-muted-foreground">Theme extraction accuracy</p>
+            </div>
+            <div className="p-6">
+              <div className="text-4xl font-bold text-primary mb-2">20+</div>
+              <p className="text-muted-foreground">Languages supported</p>
+            </div>
+          </div>
+        </section>
+
         <section className="space-y-8 text-center">
           <blockquote className="text-2xl font-serif italic text-muted-foreground border-l-4 border-primary pl-8">
             "McGraw Hill collects thousands of customer comments through research, but we were not fully capitalizing on the breadth and depth of information available. With CX Inspector's advanced text analysis capabilities, we can extract emerging themes and sentiment providing valuable knowledge to our teams. Thanks to Ascribe, we have gained a deeper understanding of our customers."
