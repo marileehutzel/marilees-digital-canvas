@@ -1,4 +1,5 @@
 import CaseStudyLayout from "@/components/CaseStudyLayout";
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import heroImage from "@/assets/hero/ai-data-explorer-hero.png";
 import image1 from "@/assets/ai-data-explorer/image-1.png";
 import image2 from "@/assets/ai-data-explorer/image-2.png";
@@ -28,11 +29,41 @@ const AIDataExplorer = () => {
         </div>
 
         <section className="space-y-8 animate-fade-in">
-          <img src={image1} alt="Natural language query interface" className="w-full rounded-lg shadow-elegant" />
-        </section>
-
-        <section className="space-y-8 animate-fade-in">
-          <img src={image2} alt="AI-powered data insights" className="w-full rounded-lg shadow-elegant" />
+          <div className="relative px-12">
+            <Carousel className="w-full">
+              <CarouselContent>
+                <CarouselItem>
+                  <div className="relative w-full h-[400px] md:h-[600px]">
+                    <img
+                      src={image1}
+                      alt="Natural language query interface"
+                      className="w-full h-full object-contain rounded-lg"
+                    />
+                  </div>
+                </CarouselItem>
+                <CarouselItem>
+                  <div className="relative w-full h-[400px] md:h-[600px]">
+                    <img
+                      src={image2}
+                      alt="AI-powered data insights"
+                      className="w-full h-full object-contain rounded-lg"
+                    />
+                  </div>
+                </CarouselItem>
+                <CarouselItem>
+                  <div className="relative w-full h-[400px] md:h-[600px]">
+                    <img
+                      src={image3}
+                      alt="Collaborative data exploration workspace"
+                      className="w-full h-full object-contain rounded-lg"
+                    />
+                  </div>
+                </CarouselItem>
+              </CarouselContent>
+              <CarouselPrevious />
+              <CarouselNext />
+            </Carousel>
+          </div>
         </section>
 
         <div className="bg-card p-8 rounded-2xl shadow-card animate-fade-in">
@@ -65,14 +96,6 @@ const AIDataExplorer = () => {
             </div>
           </div>
         </div>
-
-        <section className="space-y-8 animate-fade-in">
-          <img
-            src={image3}
-            alt="Collaborative data exploration workspace"
-            className="w-full rounded-lg shadow-elegant"
-          />
-        </section>
 
         <section className="animate-fade-in">
           <h3 className="text-3xl font-bold text-foreground mb-8 text-center">Impact</h3>
