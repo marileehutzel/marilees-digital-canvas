@@ -75,6 +75,25 @@ const Zipscene = () => {
           </p>
         </div>
       </section>
+
+      {/* Impact Section */}
+      <section className="space-y-8">
+        <h2 className="text-3xl md:text-4xl font-bold">Impact</h2>
+        <div className="grid md:grid-cols-3 gap-8 text-center">
+          <div className="p-6">
+            <div className="text-4xl font-bold text-primary mb-2">Custom</div>
+            <p className="text-muted-foreground">Icon font designed</p>
+          </div>
+          <div className="p-6">
+            <div className="text-4xl font-bold text-primary mb-2">Unified</div>
+            <p className="text-muted-foreground">Visual language created</p>
+          </div>
+          <div className="p-6">
+            <div className="text-4xl font-bold text-primary mb-2">Restaurant</div>
+            <p className="text-muted-foreground">Industry campaigns improved</p>
+          </div>
+        </div>
+      </section>
     </CaseStudyLayout>
   );
 };

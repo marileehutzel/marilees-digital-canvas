@@ -119,9 +119,23 @@ const NCRCollaboration = () => {
 
         <section>
           <h2 className="text-3xl font-bold mb-6">Impact & Outcomes</h2>
-          <p className="text-lg text-muted-foreground leading-relaxed">
+          <p className="text-lg text-muted-foreground leading-relaxed mb-8">
             The final dashboard provided restaurant managers with actionable insights at a glance, improved decision-making speed, and created a scalable foundation for future analytics features. User testing showed significant improvements in task completion time and user satisfaction compared to the previous solution.
           </p>
+          <div className="grid md:grid-cols-3 gap-8 text-center">
+            <div className="p-6">
+              <div className="text-4xl font-bold text-primary mb-2">Mini Map</div>
+              <p className="text-muted-foreground">Navigation innovation added</p>
+            </div>
+            <div className="p-6">
+              <div className="text-4xl font-bold text-primary mb-2">Events</div>
+              <p className="text-muted-foreground">Contextual data overlay</p>
+            </div>
+            <div className="p-6">
+              <div className="text-4xl font-bold text-primary mb-2">Bar Graph</div>
+              <p className="text-muted-foreground">Adopted after user testing</p>
+            </div>
+          </div>
         </section>
       </div>
     </CaseStudyLayout>

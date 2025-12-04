@@ -108,6 +108,24 @@ const HackAThon = () => {
         </section>
 
         <section>
+          <h2 className="text-3xl font-bold mb-6">Projected Impact</h2>
+          <div className="grid md:grid-cols-3 gap-8 text-center mb-8">
+            <div className="p-6">
+              <div className="text-4xl font-bold text-primary mb-2">Real-Time</div>
+              <p className="text-muted-foreground">Post-call coaching feedback</p>
+            </div>
+            <div className="p-6">
+              <div className="text-4xl font-bold text-primary mb-2">100%</div>
+              <p className="text-muted-foreground">Agent coaching coverage</p>
+            </div>
+            <div className="p-6">
+              <div className="text-4xl font-bold text-primary mb-2">Winner</div>
+              <p className="text-muted-foreground">Internal hackathon recognition</p>
+            </div>
+          </div>
+        </section>
+
+        <section>
           <h2 className="text-3xl font-bold mb-6">Key Insight</h2>
           <blockquote className="border-l-4 border-primary pl-6 italic text-lg text-muted-foreground">
             "AI-powered coaching isn't about replacing human managers—it's about giving every agent access to instant,

@@ -73,6 +73,24 @@ const AIDataExplorer = () => {
             className="w-full rounded-lg shadow-elegant"
           />
         </section>
+
+        <section className="animate-fade-in">
+          <h3 className="text-3xl font-bold text-foreground mb-8 text-center">Impact</h3>
+          <div className="grid md:grid-cols-3 gap-8 text-center">
+            <div className="p-6">
+              <div className="text-4xl font-bold text-primary mb-2">80%</div>
+              <p className="text-muted-foreground">Reduction in data preparation time</p>
+            </div>
+            <div className="p-6">
+              <div className="text-4xl font-bold text-primary mb-2">10x</div>
+              <p className="text-muted-foreground">Faster insight discovery</p>
+            </div>
+            <div className="p-6">
+              <div className="text-4xl font-bold text-primary mb-2">Zero</div>
+              <p className="text-muted-foreground">SQL knowledge required</p>
+            </div>
+          </div>
+        </section>
       </div>
     </CaseStudyLayout>
   );

@@ -121,9 +121,23 @@ const UnstructuredData = () => {
 
         <section>
           <h2 className="text-4xl md:text-5xl font-bold mb-6">Impact</h2>
-          <p className="text-lg md:text-xl text-muted-foreground font-serif leading-relaxed">
+          <p className="text-lg md:text-xl text-muted-foreground font-serif leading-relaxed mb-8">
             The Unstructured Data platform transformed how organizations interact with their qualitative information. By automating analysis and providing intuitive visualizations, teams could uncover insights that were previously hidden in mountains of text—enabling faster, more informed decision-making.
           </p>
+          <div className="grid md:grid-cols-3 gap-8 text-center">
+            <div className="p-6">
+              <div className="text-4xl font-bold text-primary mb-2">Auto</div>
+              <p className="text-muted-foreground">Sentiment & entity extraction</p>
+            </div>
+            <div className="p-6">
+              <div className="text-4xl font-bold text-primary mb-2">Multi</div>
+              <p className="text-muted-foreground">Data source integration</p>
+            </div>
+            <div className="p-6">
+              <div className="text-4xl font-bold text-primary mb-2">Custom</div>
+              <p className="text-muted-foreground">Report templates available</p>
+            </div>
+          </div>
         </section>
       </div>
     </CaseStudyLayout>
