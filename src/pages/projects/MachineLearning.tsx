@@ -22,7 +22,13 @@ const MachineLearning = () => {
             className="w-full rounded-lg shadow-elegant"
           />
         </section>
-
+        <section>
+          <h2 className="text-4xl md:text-5xl font-bold mb-6">Wireframes</h2>
+          <p className="text-lg md:text-xl text-muted-foreground font-serif leading-relaxed">
+            Wireframe mockups for a portion of the CXS product. Working through verbatim and sentence details and
+            creating new categories. Process of unifying user experience across multiple areas of the product offering.
+          </p>
+        </section>
         <div className="mx-auto space-y-6 animate-fade-in">
           <h3 className="text-3xl font-bold text-foreground">Wireframes</h3>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto font-serif">
