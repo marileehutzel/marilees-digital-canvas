@@ -54,7 +54,7 @@ const MachineLearning = () => {
         </section>
 
         <div className="grid md:grid-cols-3 gap-6 animate-fade-in">
-          <div className="bg-card p-6 rounded-xl shadow-card text-left">
+          <div className="bg-card p-6 rounded-xl shadow-card text-center">
             <div className="text-4xl font-bold text-primary mb-2">92%</div>
             <p className="text-muted-foreground font-serif">Prediction Accuracy</p>
           </div>
@@ -72,7 +72,7 @@ const MachineLearning = () => {
           <img src={image4} alt="ML insights dashboard" className="w-full rounded-lg shadow-elegant" />
         </section>
 
-        <div className="text-center space-y-6 animate-fade-in">
+        <div className="text-left space-y-6 animate-fade-in">
           <h3 className="text-3xl font-bold text-foreground">Human-Centered AI</h3>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto font-serif">
             The interface presents model confidence scores, feature importance, and prediction explanations in plain
