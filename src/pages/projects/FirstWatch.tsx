@@ -72,9 +72,9 @@ const FirstWatch = () => {
 
         <section className="space-y-8">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">Desktop / Large Format</h2>
-          <div className="space-y-6">
-            <img src={image5} alt="Desktop responsive home page" className="w-full rounded-lg shadow-elegant" />
-            <img src={image6} alt="Desktop responsive menu" className="w-full rounded-lg shadow-elegant" />
+          <div className="space-y-6 flex flex-col items-center">
+            <img src={image5} alt="Desktop responsive home page" className="w-1/2 rounded-lg shadow-elegant" />
+            <img src={image6} alt="Desktop responsive menu" className="w-1/2 rounded-lg shadow-elegant" />
           </div>
         </section>
 
