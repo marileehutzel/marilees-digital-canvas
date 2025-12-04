@@ -35,7 +35,7 @@ const MachineLearning = () => {
           <img src={image1} alt="Wireframe mockups and UX flow" className="w-full rounded-lg shadow-elegant" />
         </section>
 
-        <div className="text-center space-y-6 animate-fade-in">
+        <div className="text-left space-y-6 animate-fade-in">
           <h3 className="text-3xl font-bold text-foreground">Training The Model</h3>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto font-serif">
             We needed a way to define categories to create L1 and L2 file structures, label the categories, gather
@@ -54,7 +54,7 @@ const MachineLearning = () => {
         </section>
 
         <div className="grid md:grid-cols-3 gap-6 animate-fade-in">
-          <div className="bg-card p-6 rounded-xl shadow-card text-center">
+          <div className="bg-card p-6 rounded-xl shadow-card text-left">
             <div className="text-4xl font-bold text-primary mb-2">92%</div>
             <p className="text-muted-foreground font-serif">Prediction Accuracy</p>
           </div>
