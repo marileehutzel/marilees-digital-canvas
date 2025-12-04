@@ -84,7 +84,9 @@ const FirstWatch = () => {
             Revolutionary waitlist system allowing customers to add themselves remotely and receive real-time updates on
             their table status.
           </p>
-          <img src={image7} alt="Wait list interface" className="w-full rounded-lg shadow-elegant" />
+          <div className="flex justify-center">
+            <img src={image7} alt="Wait list interface" className="w-1/2 rounded-lg shadow-elegant" />
+          </div>
         </section>
 
         <section>
