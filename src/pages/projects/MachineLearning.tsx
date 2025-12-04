@@ -23,7 +23,7 @@ const MachineLearning = () => {
           />
         </section>
         <section>
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">Wireframes</h2>
+          <h2 className="text-4xl md:text-4xl font-bold mb-6">Wireframes</h2>
           <p className="text-lg md:text-xl text-muted-foreground font-serif leading-relaxed">
             Wireframe mockups for a portion of the CXS product. Working through verbatim and sentence details and
             creating new categories. Process of unifying user experience across multiple areas of the product offering.
