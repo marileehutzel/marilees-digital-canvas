@@ -14,14 +14,14 @@ const AIDataExplorer = () => {
       disclaimer="To comply with my non-disclosure agreement, I have omitted and obfuscated confidential information in this case study. All information in this case study is my own and does not necessarily reflect the views of Concentrix."
     >
       <div className="space-y-16">
-        <div className="text-center space-y-6 animate-fade-in">
-          <h3 className="text-3xl font-bold text-foreground">Intelligent Discovery</h3>
-          <p className="text-lg text-muted-foreground max-w-3xl mx-auto font-serif">
+        <section>
+          <h2 className="text-4xl md:text-3xl font-bold mb-6 animate-fade-in">Intelligent Discovery</h2>
+          <p className="text-lg md:text-xl text-muted-foreground font-serif leading-relaxed">
             The platform uses natural language processing to understand user questions and automatically generates
             relevant visualizations, statistical analyses, and predictive models. Users can refine results through
             conversation, making data exploration feel natural and intuitive.
           </p>
-        </div>
+        </section>
 
         <section className="space-y-8 animate-fade-in">
           <div className="relative px-12">
