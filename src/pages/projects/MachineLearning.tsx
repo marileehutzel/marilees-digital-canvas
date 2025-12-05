@@ -44,21 +44,6 @@ const MachineLearning = () => {
           <img src={image3} alt="Model training and prediction flow" className="w-full rounded-lg shadow-elegant" />
         </section>
 
-        <div className="grid md:grid-cols-3 gap-6 animate-fade-in">
-          <div className="bg-card p-6 rounded-xl shadow-card text-center">
-            <div className="text-4xl font-bold text-primary mb-2">92%</div>
-            <p className="text-muted-foreground font-serif">Prediction Accuracy</p>
-          </div>
-          <div className="bg-card p-6 rounded-xl shadow-card text-center">
-            <div className="text-4xl font-bold text-primary mb-2">5x</div>
-            <p className="text-muted-foreground font-serif">Faster Insights</p>
-          </div>
-          <div className="bg-card p-6 rounded-xl shadow-card text-center">
-            <div className="text-4xl font-bold text-primary mb-2">40%</div>
-            <p className="text-muted-foreground font-serif">Cost Reduction</p>
-          </div>
-        </div>
-
         <section>
           <h2 className="text-3xl md:text-3xl font-bold mb-6">Analytics Dashboard</h2>
           <p className="text-lg md:text-xl text-muted-foreground font-serif leading-relaxed">
@@ -88,16 +73,16 @@ const MachineLearning = () => {
           </p>
           <div className="grid md:grid-cols-3 gap-8 text-center">
             <div className="p-6">
-              <div className="text-4xl font-bold text-primary mb-2">50%</div>
-              <p className="text-muted-foreground">Faster feature development</p>
+              <div className="text-4xl font-bold text-primary mb-2">92%</div>
+              <p className="text-muted-foreground">Prediction Accuracy</p>
             </div>
             <div className="p-6">
-              <div className="text-4xl font-bold text-primary mb-2">100+</div>
-              <p className="text-muted-foreground">Reusable components created</p>
+              <div className="text-4xl font-bold text-primary mb-2">5x</div>
+              <p className="text-muted-foreground">Faster Insights</p>
             </div>
             <div className="p-6">
-              <div className="text-4xl font-bold text-primary mb-2">Zero</div>
-              <p className="text-muted-foreground">Design inconsistencies</p>
+              <div className="text-4xl font-bold text-primary mb-2">40%</div>
+              <p className="text-muted-foreground">Cost Reduction</p>
             </div>
           </div>
         </div>
