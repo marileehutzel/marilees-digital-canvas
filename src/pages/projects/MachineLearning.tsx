@@ -41,6 +41,16 @@ const MachineLearning = () => {
           <img src={image2} alt="Category builder tool interface" className="w-full rounded-lg shadow-elegant" />
         </section>
 
+        <section>
+          <h2 className="text-3xl md:text-3xl font-bold mb-6">Confusion Matrices</h2>
+          <p className="text-lg md:text-xl text-muted-foreground font-serif leading-relaxed">
+            Working closely with dev and PHD colleagues I learned about confusion matrices and how utilizing these tools
+            would help analysts understand their data in terms of true positives, true negatives, false positives, and
+            false negatives. I then created a  user interface that (with the assistance of predictive analytics) made it
+            easier to configure unstructured data which would in turn help train the ML model.
+          </p>
+        </section>
+
         <section className="space-y-8 animate-fade-in">
           <img src={image3} alt="Model training and prediction flow" className="w-full rounded-lg shadow-elegant" />
         </section>
@@ -50,20 +60,6 @@ const MachineLearning = () => {
           <p className="text-lg md:text-xl text-muted-foreground font-serif leading-relaxed">
             After we defined categories we now had the ability to create amazing analytics dashboards to highlight all
             of the beautiful data.
-          </p>
-        </section>
-
-        <section className="space-y-8 animate-fade-in">
-          <img src={image4} alt="ML insights dashboard" className="w-1/2 h-auto mx-auto rounded-lg shadow-elegant" />
-        </section>
-
-        <section>
-          <h2 className="text-3xl md:text-3xl font-bold mb-6">Confusion Matrices</h2>
-          <p className="text-lg md:text-xl text-muted-foreground font-serif leading-relaxed">
-            Working closely with dev and PHD colleagues I learned about confusion matrices and how utilizing these tools
-            would help analysts understand their data in terms of true positives, true negatives, false positives, and
-            false negatives. I then created a  user interface that (with the assistance of predictive analytics) made it
-            easier to configure unstructured data which would in turn help train the ML model.
           </p>
         </section>
 
