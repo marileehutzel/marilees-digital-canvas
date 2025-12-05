@@ -1,6 +1,5 @@
 import CaseStudyLayout from "@/components/CaseStudyLayout";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
-import heroImage from "@/assets/hero/just-for-fun-hero.png";
 import image2 from "@/assets/just-for-fun/image-2.png";
 import image3 from "@/assets/just-for-fun/image-3.png";
 import image4 from "@/assets/just-for-fun/image-4.jpg";
@@ -30,10 +29,6 @@ const JustForFun = () => {
       description="A collection of personal sketches and creative explorations. These pieces represent moments of creative freedom where I experimented with different styles, techniques, and ideas without constraints."
     >
       <div className="space-y-32">
-        <div className="space-y-8">
-          <img src={heroImage} alt="Just for fun creative work" className="w-full rounded-lg shadow-elegant" />
-        </div>
-
         <div className="space-y-12">
           <div>
             <h2 className="text-4xl font-bold text-foreground mb-6">Creative Exploration</h2>

@@ -1,6 +1,5 @@
 import CaseStudyLayout from "@/components/CaseStudyLayout";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
-import heroImage from "@/assets/hero/cx-mobile-hero.png";
 import image1 from "@/assets/cx-mobile/image-1.png";
 import image2 from "@/assets/cx-mobile/image-2.png";
 import image3 from "@/assets/cx-mobile/image-3.png";
@@ -19,10 +18,6 @@ const CXMobile = () => {
       disclaimer="Due to confidentiality agreements, some details and data have been anonymized or modified."
     >
       <div className="space-y-32 animate-fade-in">
-        <section className="space-y-8 animate-fade-in">
-          <img src={heroImage} alt="CX Mobile platform interface" className="w-full rounded-lg shadow-elegant" />
-        </section>
-
         <section>
           <h2 className="text-4xl md:text-5xl font-bold mb-6">My Role</h2>
           <p className="text-lg md:text-xl text-muted-foreground font-serif leading-relaxed">

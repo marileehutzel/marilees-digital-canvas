@@ -1,5 +1,4 @@
 import CaseStudyLayout from "@/components/CaseStudyLayout";
-import heroImage from "@/assets/hero/volunteer-work-hero.png";
 import image1 from "@/assets/volunteer-work/image-1.png";
 import image2 from "@/assets/volunteer-work/image-2.png";
 import image3 from "@/assets/volunteer-work/image-3.png";
@@ -15,10 +14,6 @@ const VolunteerWork = () => {
       description="A collection of volunteer design work including branding for local non-profits and promotional materials for community events. These projects allowed me to give back to the community while exploring creative freedom."
     >
       <div className="space-y-32">
-        <div className="space-y-8">
-          <img src={heroImage} alt="Volunteer work overview" className="w-full rounded-lg shadow-elegant" />
-        </div>
-
         <div className="space-y-12">
           <div>
             <h2 className="text-4xl font-bold text-foreground mb-6">T-Shirt Logo Design</h2>

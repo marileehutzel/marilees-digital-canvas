@@ -1,5 +1,4 @@
 import CaseStudyLayout from "@/components/CaseStudyLayout";
-import heroImage from "@/assets/hero/hackathon-hero.png";
 
 const HackAThon = () => {
   return (
@@ -12,8 +11,6 @@ const HackAThon = () => {
     >
       <div className="space-y-12 animate-fade-in">
         <section className="space-y-8 animate-fade-in">
-          <img src={heroImage} alt="AI-Powered Coaching platform" className="w-full rounded-lg shadow-elegant" />
-          
           <div className="w-full rounded-lg overflow-hidden shadow-elegant">
             <div style={{ position: 'relative', paddingBottom: '56.15%', height: 0 }}>
               <iframe
