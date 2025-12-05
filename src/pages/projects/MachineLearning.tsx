@@ -68,6 +68,14 @@ const MachineLearning = () => {
           </div>
         </div>
 
+        <section>
+          <h2 className="text-4xl md:text-3xl font-bold mb-6">Analytics</h2>
+          <p className="text-lg md:text-xl text-muted-foreground font-serif leading-relaxed">
+            After we defined categories we now had the ability to create amazing analytics dashboards to highlight all
+            of the beautiful data.
+          </p>
+        </section>
+
         <section className="space-y-8 animate-fade-in">
           <img src={image4} alt="ML insights dashboard" className="w-1/2 h-auto mx-auto rounded-lg shadow-elegant" />
         </section>
