@@ -91,18 +91,18 @@ const projects = [
     categories: ["Mobile", "B2C"],
   },
   {
-    title: "NCR Collaboration",
-    image: ncrCollaborationHeroImg,
-    link: "/projects/ncr-collaboration",
-    description: "Restaurant analytics dashboard",
-    categories: ["Data Visualization", "B2B"],
-  },
-  {
     title: "McAlister's Deli",
     image: mcalistersDeliImg,
     link: "/projects/mcalisters-deli",
     description: "Restaurant branding & digital experience",
     categories: ["B2C", "Mobile"],
+  },
+  {
+    title: "NCR Collaboration",
+    image: ncrCollaborationHeroImg,
+    link: "/projects/ncr-collaboration",
+    description: "Restaurant analytics dashboard",
+    categories: ["Data Visualization", "B2B"],
   },
   {
     title: "Zipscene Analytics",
