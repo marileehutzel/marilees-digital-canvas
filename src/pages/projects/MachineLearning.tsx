@@ -60,7 +60,7 @@ const MachineLearning = () => {
         </div>
 
         <section>
-          <h2 className="text-4xl md:text-3xl font-bold mb-6">Analytics Dashboard</h2>
+          <h2 className="text-3xl md:text-3xl font-bold mb-6">Analytics Dashboard</h2>
           <p className="text-lg md:text-xl text-muted-foreground font-serif leading-relaxed">
             After we defined categories we now had the ability to create amazing analytics dashboards to highlight all
             of the beautiful data.
@@ -81,7 +81,7 @@ const MachineLearning = () => {
         </section>
 
         <div>
-          <h2 className="text-4xl font-bold text-foreground mb-6">Impact</h2>
+          <h2 className="text-3xl font-bold text-foreground mb-6">Impact</h2>
           <p className="text-xl text-muted-foreground leading-relaxed font-serif mb-8">
             These updates established a scalable foundation that improved usability, consistency, and the ability to
             rapidly deploy new features across the platform.
