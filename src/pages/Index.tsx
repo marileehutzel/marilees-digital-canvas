@@ -70,6 +70,13 @@ const projects = [
     categories: ["AI & Machine Learning"],
   },
   {
+    title: "Unstructured Data",
+    image: unstructuredDataImg,
+    link: "/projects/unstructured-data",
+    description: "Data analysis and visualization tools",
+    categories: ["Data Visualization", "B2B"],
+  },
+  {
     title: "First Watch",
     image: firstwatchHeroImg,
     link: "/projects/first-watch",
@@ -88,13 +95,6 @@ const projects = [
     image: ncrCollaborationHeroImg,
     link: "/projects/ncr-collaboration",
     description: "Restaurant analytics dashboard",
-    categories: ["Data Visualization", "B2B"],
-  },
-  {
-    title: "Unstructured Data",
-    image: unstructuredDataImg,
-    link: "/projects/unstructured-data",
-    description: "Data analysis and visualization tools",
     categories: ["Data Visualization", "B2B"],
   },
   {
