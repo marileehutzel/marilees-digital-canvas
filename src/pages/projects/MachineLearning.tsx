@@ -69,7 +69,7 @@ const MachineLearning = () => {
         </div>
 
         <section className="space-y-8 animate-fade-in">
-          <img src={image4} alt="ML insights dashboard" className="w-full rounded-lg shadow-elegant" />
+          <img src={image4} alt="ML insights dashboard" className="w-half rounded-lg shadow-elegant" />
         </section>
 
         <section>
