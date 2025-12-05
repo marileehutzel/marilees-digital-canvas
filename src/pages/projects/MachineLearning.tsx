@@ -57,6 +57,20 @@ const MachineLearning = () => {
         </section>
 
         <section>
+          <h2 className="text-3xl md:text-3xl font-bold mb-6">Confusion Matrices</h2>
+          <p className="text-lg md:text-xl text-muted-foreground font-serif leading-relaxed">
+            Working closely with dev and PHD colleagues I learned about confusion matrices and how utilizing these tools
+            would help analysts understand their data in terms of true positives, true negatives, false positives, and
+            false negatives. I then created a  user interface that (with the assistance of predictive analytics) made it
+            easier to configure unstructured data which would in turn help train the ML model.
+          </p>
+        </section>
+
+        <section className="space-y-8 animate-fade-in">
+          <img src={image4} alt="ML insights dashboard" className="w-1/2 h-auto mx-auto rounded-lg shadow-elegant" />
+        </section>
+
+        <section>
           <h2 className="text-4xl md:text-3xl font-bold mb-6">Human Centered AI</h2>
           <p className="text-lg md:text-xl text-muted-foreground font-serif leading-relaxed">
             The interface presents model confidence scores, feature importance, and prediction explanations in plain
