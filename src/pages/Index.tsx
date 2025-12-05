@@ -39,7 +39,7 @@ const projects = [
     image: aiDataExplorerHeroImg,
     link: "/projects/ai-data-explorer",
     description: "Intelligent data exploration interface",
-    categories: ["AI & Machine Learning", "Data Visualization"],
+    categories: ["AI & Machine Learning", "Data Visualization", "Mobile"],
   },
   {
     title: "Dashboard Builder",
