@@ -1,5 +1,4 @@
 import CaseStudyLayout from "@/components/CaseStudyLayout";
-import heroImage from "@/assets/hero/ascribe-hero.png";
 import image1 from "@/assets/ascribe/image-1.png";
 import image2 from "@/assets/ascribe/image-2.png";
 import image3 from "@/assets/ascribe/image-3.png";
@@ -33,10 +32,6 @@ const Ascribe = () => {
       description="Ascribe CX Inspector is advanced web-based text analytics software that revolutionizes the analysis of open-end customer comments, enabling the discovery of remarkably clear and detailed insights instantly from extensive datasets using AI and generative technology."
     >
       <div className="space-y-32">
-        <section className="space-y-8">
-          <img src={heroImage} alt="Ascribe Platform Overview" className="w-full rounded-lg" />
-        </section>
-
         <section className="space-y-8">
           <h2 className="text-4xl font-bold text-foreground">The Challenge</h2>
           <p className="text-xl text-muted-foreground font-serif leading-relaxed">

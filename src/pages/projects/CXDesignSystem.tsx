@@ -1,5 +1,4 @@
 import CaseStudyLayout from "@/components/CaseStudyLayout";
-import heroImage from "@/assets/hero/cx-design-system-hero.png";
 import image1 from "@/assets/cx-design-system/image-1.png";
 import image2 from "@/assets/cx-design-system/image-2.png";
 
@@ -12,10 +11,6 @@ const CXDesignSystem = () => {
       disclaimer="Note: This case study showcases design work completed during my time at Concentrix. All designs remain the intellectual property of Concentrix."
     >
       <div className="space-y-32">
-        <div className="space-y-8">
-          <img src={heroImage} alt="CX Design System overview" className="w-full rounded-lg shadow-elegant" />
-        </div>
-
         <div className="space-y-12">
           <div>
             <h2 className="text-4xl font-bold text-foreground mb-6">The Challenge</h2>

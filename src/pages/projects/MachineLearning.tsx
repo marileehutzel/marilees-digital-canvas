@@ -1,5 +1,4 @@
 import CaseStudyLayout from "@/components/CaseStudyLayout";
-import heroImage from "@/assets/hero/machine-learning-hero.png";
 import image1 from "@/assets/machine-learning/image-1.png";
 import image2 from "@/assets/machine-learning/image-2.png";
 import image3 from "@/assets/machine-learning/image-3.png";
@@ -15,14 +14,6 @@ const MachineLearning = () => {
       disclaimer="To comply with my non-disclosure agreement, I have omitted and obfuscated confidential information in this case study. All information in this case study is my own and does not necessarily reflect the views of Concentrix."
     >
       <div className="space-y-16">
-        <section className="space-y-8 animate-fade-in">
-          <img
-            src={heroImage}
-            alt="Machine Learning CX platform interface"
-            className="w-full rounded-lg shadow-elegant"
-          />
-        </section>
-
         <section>
           <h2 className="text-4xl md:text-3xl font-bold mb-6 animate-fade-in">Wireframes</h2>
           <p className="text-lg md:text-xl text-muted-foreground font-serif leading-relaxed">

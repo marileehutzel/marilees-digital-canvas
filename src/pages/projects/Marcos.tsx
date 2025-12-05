@@ -1,5 +1,4 @@
 import CaseStudyLayout from "@/components/CaseStudyLayout";
-import heroImage from "@/assets/hero/marcos-hero.png";
 import image1 from "@/assets/marcos/image-1.png";
 import image2 from "@/assets/marcos/image-2.png";
 import image3 from "@/assets/marcos/image-3.png";
@@ -18,10 +17,6 @@ const Marcos = () => {
       disclaimer="Work completed as part of agency engagement with Marco's Pizza."
     >
       <div className="space-y-32 animate-fade-in">
-        <section className="space-y-8 animate-fade-in">
-          <img src={heroImage} alt="Marco's Pizza builder interface" className="w-full rounded-lg shadow-elegant" />
-        </section>
-
         <section className="space-y-8">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">Pizza Builder 1.0</h2>
           <p className="text-lg md:text-xl text-muted-foreground font-serif leading-relaxed mb-6">
