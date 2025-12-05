@@ -79,14 +79,9 @@ const MachineLearning = () => {
         <div>
           <h2 className="text-3xl font-bold text-foreground mb-6">Impact</h2>
           <p className="text-xl text-muted-foreground leading-relaxed font-serif mb-8">
-            Why This Project Mattered The Concentrix CXS Machine Learning project transformed unstructured data into
-            actionable insight. What began as a proof of concept became a powerful interface that helped analysts train,
-            evaluate, and refine AI models without needing a data science background. By visualizing confusion matrices,
-            prediction accuracy, and category hierarchies, the tool made complex model behavior transparent and
-            trustworthy. It bridged the gap between data science and design—turning technical outputs into intuitive,
-            human-centered experiences. Equally important, the project fostered deep collaboration between designers,
-            engineers, and PhD data scientists. This cross-functional momentum not only improved the product but also
-            boosted team morale, proving that innovation thrives where disciplines meet.
+            The Concentrix CXS Machine Learning project transformed unstructured data into actionable insight. This
+            cross-functional momentum not only improved the product but also boosted team morale, proving that
+            innovation thrives where disciplines meet.
           </p>
           <div className="grid md:grid-cols-3 gap-8 text-center">
             <div className="p-6">
