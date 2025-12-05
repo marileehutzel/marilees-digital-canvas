@@ -92,8 +92,12 @@ const AIDataExplorer = () => {
           </div>
         </div>
 
-        <section className="animate-fade-in">
-          <h3 className="text-3xl font-bold text-foreground mb-8 text-center">Impact</h3>
+        <div>
+          <h2 className="text-3xl font-bold text-foreground mb-6">Impact</h2>
+          <p className="text-xl text-muted-foreground leading-relaxed font-serif mb-8">
+            These updates established a scalable foundation that improved usability, consistency, and the ability to
+            rapidly deploy new features across the platform.
+          </p>
           <div className="grid md:grid-cols-3 gap-8 text-center">
             <div className="p-6">
               <div className="text-4xl font-bold text-primary mb-2">80%</div>
@@ -101,14 +105,14 @@ const AIDataExplorer = () => {
             </div>
             <div className="p-6">
               <div className="text-4xl font-bold text-primary mb-2">10x</div>
-              <p className="text-muted-foreground">Faster insight discovery</p>
+              <p className="text-muted-foreground">Faster Insight Discovery</p>
             </div>
             <div className="p-6">
               <div className="text-4xl font-bold text-primary mb-2">Zero</div>
               <p className="text-muted-foreground">SQL knowledge required</p>
             </div>
           </div>
-        </section>
+        </div>
       </div>
     </CaseStudyLayout>
   );
