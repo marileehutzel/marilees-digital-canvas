@@ -72,14 +72,14 @@ const MachineLearning = () => {
           <img src={image4} alt="ML insights dashboard" className="w-full rounded-lg shadow-elegant" />
         </section>
 
-        <div className="text-left space-y-6 animate-fade-in">
-          <h3 className="text-3xl font-bold text-foreground">Human-Centered AI</h3>
-          <p className="text-lg text-muted-foreground max-w-3xl mx-auto font-serif">
+        <section>
+          <h2 className="text-4xl md:text-3xl font-bold mb-6">Human Centered AI</h2>
+          <p className="text-lg md:text-xl text-muted-foreground font-serif leading-relaxed">
             The interface presents model confidence scores, feature importance, and prediction explanations in plain
             language. Users can drill down into details when needed, but the default view prioritizes clarity and
             actionability over technical complexity.
           </p>
-        </div>
+        </section>
       </div>
     </CaseStudyLayout>
   );
