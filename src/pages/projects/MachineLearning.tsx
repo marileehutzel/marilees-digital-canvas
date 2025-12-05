@@ -35,15 +35,15 @@ const MachineLearning = () => {
           <img src={image1} alt="Wireframe mockups and UX flow" className="w-full rounded-lg shadow-elegant" />
         </section>
 
-        <div className="text-left space-y-6 animate-fade-in">
-          <h3 className="text-3xl font-bold text-foreground">Training The Model</h3>
-          <p className="text-lg text-muted-foreground max-w-3xl mx-auto font-serif">
+        <section>
+          <h2 className="text-4xl md:text-3xl font-bold mb-6">Training The Model</h2>
+          <p className="text-lg md:text-xl text-muted-foreground font-serif leading-relaxed">
             We needed a way to define categories to create L1 and L2 file structures, label the categories, gather
             examples and assign them to the correct category which in turn helps train the model by learning patterns
             and predicting categories for new data. The full power of the CXS category builder tool with multiple data
             sources along the top and the model structure on the left.
           </p>
-        </div>
+        </section>
 
         <section className="space-y-8 animate-fade-in">
           <img src={image2} alt="Category builder tool interface" className="w-full rounded-lg shadow-elegant" />
