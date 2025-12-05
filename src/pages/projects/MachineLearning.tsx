@@ -79,6 +79,28 @@ const MachineLearning = () => {
             actionability over technical complexity.
           </p>
         </section>
+
+        <div>
+          <h2 className="text-4xl font-bold text-foreground mb-6">Impact</h2>
+          <p className="text-xl text-muted-foreground leading-relaxed font-serif mb-8">
+            These updates established a scalable foundation that improved usability, consistency, and the ability to
+            rapidly deploy new features across the platform.
+          </p>
+          <div className="grid md:grid-cols-3 gap-8 text-center">
+            <div className="p-6">
+              <div className="text-4xl font-bold text-primary mb-2">50%</div>
+              <p className="text-muted-foreground">Faster feature development</p>
+            </div>
+            <div className="p-6">
+              <div className="text-4xl font-bold text-primary mb-2">100+</div>
+              <p className="text-muted-foreground">Reusable components created</p>
+            </div>
+            <div className="p-6">
+              <div className="text-4xl font-bold text-primary mb-2">Zero</div>
+              <p className="text-muted-foreground">Design inconsistencies</p>
+            </div>
+          </div>
+        </div>
       </div>
     </CaseStudyLayout>
   );
