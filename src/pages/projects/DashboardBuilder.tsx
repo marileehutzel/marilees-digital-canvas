@@ -34,9 +34,11 @@ const DashboardBuilder = () => {
         <section>
           <h2 className="text-4xl md:text-5xl font-bold mb-6">My Role</h2>
           <p className="text-lg md:text-xl text-muted-foreground font-serif leading-relaxed">
-            Led UX design: from requirement gathering, wireframes, prototyping, interaction design, and user testing.
-            Collaborated with product manager, data engineers and front-end developers to ensure feasibility. Defined
-            design system components that could be reused (widget containers, charts, filters).
+            Existing dashboard reporting was completed from within Concentrix. The internal business analyst had to
+            create and file requests with developers for every new view, leading to delays. We needed a builder that
+            was: simple enough for first-time users, robust enough for client analysts, consistent with our new design
+            system, and performant with hundreds of widgets and data sources so users could have the freedom to choose
+            what story they wanted the data to tell.
           </p>
         </section>
 
