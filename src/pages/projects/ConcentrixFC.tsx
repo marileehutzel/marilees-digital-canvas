@@ -18,7 +18,7 @@ const ConcentrixFC = () => {
     >
       <div className="space-y-32">
         <section className="space-y-8 animate-fade-in">
-          <h2>Internal Business Stakeholder Idea</h2>
+          <h1>Internal Business Stakeholder Idea</h1>
           <p className="max-w-4xl">
             Initial brainstorming and basic wire framing. Some of these ideas were first given to us from stakeholders
             within the business. I realized quickly that we didn't have any feedback or information from our customers.
