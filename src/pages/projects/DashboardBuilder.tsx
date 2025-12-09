@@ -21,7 +21,7 @@ const DashboardBuilder = () => {
     >
       <div className="space-y-32 animate-fade-in">
         <section>
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">The Challenge</h2>
+          <h2 className="text-4xl md:text-3xl font-bold mb-6 animate-fade-in">The Challenge</h2>
           <p className="text-lg md:text-xl text-muted-foreground font-serif leading-relaxed">
             Existing dashboard reporting was completed from within Concentrix. The internal business analyst had to
             create and file requests with developers for every new view, leading to delays. We needed a builder that
