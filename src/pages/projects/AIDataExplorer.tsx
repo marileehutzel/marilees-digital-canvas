@@ -15,8 +15,8 @@ const AIDataExplorer = () => {
     >
       <div className="space-y-16">
         <section>
-          <h2 className="text-4xl md:text-3xl font-bold mb-6 animate-fade-in">Intelligent Discovery</h2>
-          <p className="text-lg md:text-xl text-muted-foreground font-serif leading-relaxed">
+          <h2 className="mb-6 animate-fade-in">Intelligent Discovery</h2>
+          <p>
             The platform uses natural language processing to understand user questions and automatically generates
             relevant visualizations, statistical analyses, and predictive models. Users can refine results through
             conversation, making data exploration feel natural and intuitive.
@@ -62,30 +62,30 @@ const AIDataExplorer = () => {
         </section>
 
         <div className="bg-card p-8 rounded-2xl shadow-card animate-fade-in">
-          <h4 className="text-2xl font-semibold text-foreground mb-6 text-center">Core Capabilities</h4>
+          <h4 className="mb-6 text-center">Core Capabilities</h4>
           <div className="grid md:grid-cols-2 gap-8">
             <div>
-              <h5 className="font-semibold text-foreground mb-3">Automated Insights</h5>
-              <p className="text-muted-foreground font-serif">
+              <h5 className="mb-3">Automated Insights</h5>
+              <p>
                 AI automatically identifies correlations, outliers, and trends, presenting findings in plain language
                 with supporting visualizations.
               </p>
             </div>
             <div>
-              <h5 className="font-semibold text-foreground mb-3">Natural Language Queries</h5>
-              <p className="text-muted-foreground font-serif">
+              <h5 className="mb-3">Natural Language Queries</h5>
+              <p>
                 Ask questions in plain English and receive instant visual answers, no SQL or programming required.
               </p>
             </div>
             <div>
-              <h5 className="font-semibold text-foreground mb-3">Smart Recommendations</h5>
-              <p className="text-muted-foreground font-serif">
+              <h5 className="mb-3">Smart Recommendations</h5>
+              <p>
                 The system suggests relevant analyses based on your data characteristics and exploration patterns.
               </p>
             </div>
             <div>
-              <h5 className="font-semibold text-foreground mb-3">Collaborative Workspace</h5>
-              <p className="text-muted-foreground font-serif">
+              <h5 className="mb-3">Collaborative Workspace</h5>
+              <p>
                 Share discoveries, annotate findings, and build on teammates' work in a unified environment.
               </p>
             </div>
@@ -93,23 +93,23 @@ const AIDataExplorer = () => {
         </div>
 
         <div>
-          <h2 className="text-3xl font-bold text-foreground mb-6">Impact</h2>
-          <p className="text-xl text-muted-foreground leading-relaxed font-serif mb-8">
+          <h2 className="mb-6">Impact</h2>
+          <p className="mb-8">
             These updates established a scalable foundation that improved usability, consistency, and the ability to
             rapidly deploy new features across the platform.
           </p>
           <div className="grid md:grid-cols-3 gap-8 text-center">
             <div className="p-6">
               <div className="text-4xl font-bold text-primary mb-2">80%</div>
-              <p className="text-muted-foreground">Reduction in data preparation time</p>
+              <p>Reduction in data preparation time</p>
             </div>
             <div className="p-6">
               <div className="text-4xl font-bold text-primary mb-2">10x</div>
-              <p className="text-muted-foreground">Faster Insight Discovery</p>
+              <p>Faster Insight Discovery</p>
             </div>
             <div className="p-6">
               <div className="text-4xl font-bold text-primary mb-2">Zero</div>
-              <p className="text-muted-foreground">SQL knowledge required</p>
+              <p>SQL knowledge required</p>
             </div>
           </div>
         </div>

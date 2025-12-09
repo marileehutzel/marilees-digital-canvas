@@ -11,14 +11,14 @@ const VolunteerWork = () => {
     <CaseStudyLayout
       title="Volunteer Work"
       subtitle="Community design & creative contributions"
-      description="A collection of volunteer design work including branding for local non-profits and promotional materials for community events. These projects allowed me to give back to the community while exploring creative freedom."
+      description="A collection of volunteer design work including branding for local non-profits and promotional materials for community events."
     >
       <div className="space-y-32">
         <div className="space-y-12">
           <div>
-            <h2 className="text-4xl font-bold text-foreground mb-6">T-Shirt Logo Design</h2>
-            <p className="text-xl text-muted-foreground leading-relaxed font-serif mb-8">
-              T-Shirt logo design for a HipHop non-profit in Fort Collins, Colorado. The goal was to create a bold, memorable design that captured the energy and spirit of the organization.
+            <h2 className="mb-6">T-Shirt Logo Design</h2>
+            <p className="mb-8">
+              T-Shirt logo design for a HipHop non-profit in Fort Collins, Colorado.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <img src={image1} alt="T-shirt logo design - front view" className="w-full rounded-lg shadow-elegant" />
@@ -27,9 +27,9 @@ const VolunteerWork = () => {
           </div>
 
           <div>
-            <h2 className="text-4xl font-bold text-foreground mb-6">Gig Posters</h2>
-            <p className="text-xl text-muted-foreground leading-relaxed font-serif mb-8">
-              Various size gig flyers used on Instagram to promote DJ dance parties. Fun to let my creativity loose a bit on these. Each poster was designed to capture the vibe and energy of the event while maintaining visual consistency across the series.
+            <h2 className="mb-6">Gig Posters</h2>
+            <p className="mb-8">
+              Various size gig flyers used on Instagram to promote DJ dance parties.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <img src={image3} alt="Gig poster design 1" className="w-full rounded-lg shadow-elegant" />
@@ -40,22 +40,23 @@ const VolunteerWork = () => {
           </div>
 
           <div>
-            <h2 className="text-4xl font-bold text-foreground mb-6">Community Impact</h2>
-            <p className="text-xl text-muted-foreground leading-relaxed font-serif mb-8">
-              These volunteer projects provided an opportunity to support local organizations while experimenting with different design styles and techniques. The work helped promote community events and strengthen brand identity for local non-profits.
+            <h2 className="mb-6">Community Impact</h2>
+            <p className="mb-8">
+              These volunteer projects provided an opportunity to support local organizations while experimenting with
+              different design styles.
             </p>
             <div className="grid md:grid-cols-3 gap-8 text-center">
               <div className="p-6">
                 <div className="text-4xl font-bold text-primary mb-2">Local</div>
-                <p className="text-muted-foreground">Non-profits supported</p>
+                <p>Non-profits supported</p>
               </div>
               <div className="p-6">
                 <div className="text-4xl font-bold text-primary mb-2">Gig</div>
-                <p className="text-muted-foreground">Posters for events</p>
+                <p>Posters for events</p>
               </div>
               <div className="p-6">
                 <div className="text-4xl font-bold text-primary mb-2">Pro Bono</div>
-                <p className="text-muted-foreground">Design contributions</p>
+                <p>Design contributions</p>
               </div>
             </div>
           </div>

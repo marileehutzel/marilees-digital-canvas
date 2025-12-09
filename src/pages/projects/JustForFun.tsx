@@ -26,120 +26,26 @@ const JustForFun = () => {
     <CaseStudyLayout
       title="Just For Fun"
       subtitle="Creative explorations & personal sketches"
-      description="A collection of personal sketches and creative explorations. These pieces represent moments of creative freedom where I experimented with different styles, techniques, and ideas without constraints."
+      description="A collection of personal sketches and creative explorations representing moments of creative freedom."
     >
       <div className="space-y-32">
         <div className="space-y-12">
           <div>
-            <h2 className="text-4xl font-bold text-foreground mb-6">Creative Exploration</h2>
-            <p className="text-xl text-muted-foreground leading-relaxed font-serif mb-8">
+            <h2 className="mb-6">Creative Exploration</h2>
+            <p className="mb-8">
               These sketches and illustrations represent personal creative time where I explore different artistic
-              styles and techniques. Each piece is an experiment in visual storytelling, composition, and aesthetic
-              expression.
+              styles and techniques.
             </p>
             <div className="relative px-12">
               <Carousel className="w-full">
                 <CarouselContent>
-                  <CarouselItem>
-                    <div className="flex items-center justify-center h-[400px] md:h-[600px]">
-                      <img src={image2} alt="Creative sketch" className="w-full h-full object-contain rounded-lg" />
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <div className="flex items-center justify-center h-[400px] md:h-[600px]">
-                      <img src={image3} alt="Creative sketch" className="w-full h-full object-contain rounded-lg" />
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <div className="flex items-center justify-center h-[400px] md:h-[600px]">
-                      <img src={image4} alt="Creative sketch" className="w-full h-full object-contain rounded-lg" />
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <div className="flex items-center justify-center h-[400px] md:h-[600px]">
-                      <img src={image5} alt="Creative sketch" className="w-full h-full object-contain rounded-lg" />
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <div className="flex items-center justify-center h-[400px] md:h-[600px]">
-                      <img src={image6} alt="Creative sketch" className="w-full h-full object-contain rounded-lg" />
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <div className="flex items-center justify-center h-[400px] md:h-[600px]">
-                      <img src={image7} alt="Creative sketch" className="w-full h-full object-contain rounded-lg" />
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <div className="flex items-center justify-center h-[400px] md:h-[600px]">
-                      <img src={image8} alt="Creative sketch" className="w-full h-full object-contain rounded-lg" />
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <div className="flex items-center justify-center h-[400px] md:h-[600px]">
-                      <img src={image9} alt="Creative sketch" className="w-full h-full object-contain rounded-lg" />
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <div className="flex items-center justify-center h-[400px] md:h-[600px]">
-                      <img src={image10} alt="Creative sketch" className="w-full h-full object-contain rounded-lg" />
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <div className="flex items-center justify-center h-[400px] md:h-[600px]">
-                      <img src={image11} alt="Creative sketch" className="w-full h-full object-contain rounded-lg" />
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <div className="flex items-center justify-center h-[400px] md:h-[600px]">
-                      <img src={image12} alt="Creative sketch" className="w-full h-full object-contain rounded-lg" />
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <div className="flex items-center justify-center h-[400px] md:h-[600px]">
-                      <img src={image15} alt="Creative sketch" className="w-full h-full object-contain rounded-lg" />
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <div className="flex items-center justify-center h-[400px] md:h-[600px]">
-                      <img src={image16} alt="Creative sketch" className="w-full h-full object-contain rounded-lg" />
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <div className="flex items-center justify-center h-[400px] md:h-[600px]">
-                      <img src={image18} alt="Creative sketch" className="w-full h-full object-contain rounded-lg" />
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <div className="flex items-center justify-center h-[400px] md:h-[600px]">
-                      <img src={image19} alt="Creative sketch" className="w-full h-full object-contain rounded-lg" />
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <div className="flex items-center justify-center h-[400px] md:h-[600px]">
-                      <img src={image20} alt="Creative sketch" className="w-full h-full object-contain rounded-lg" />
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <div className="flex items-center justify-center h-[400px] md:h-[600px]">
-                      <img src={image21} alt="Creative sketch" className="w-full h-full object-contain rounded-lg" />
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <div className="flex items-center justify-center h-[400px] md:h-[600px]">
-                      <img src={image22} alt="Creative sketch" className="w-full h-full object-contain rounded-lg" />
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <div className="flex items-center justify-center h-[400px] md:h-[600px]">
-                      <img src={image23} alt="Creative sketch" className="w-full h-full object-contain rounded-lg" />
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <div className="flex items-center justify-center h-[400px] md:h-[600px]">
-                      <img src={image24} alt="Creative sketch" className="w-full h-full object-contain rounded-lg" />
-                    </div>
-                  </CarouselItem>
+                  {[image2, image3, image4, image5, image6, image7, image8, image9, image10, image11, image12, image15, image16, image18, image19, image20, image21, image22, image23, image24].map((img, i) => (
+                    <CarouselItem key={i}>
+                      <div className="flex items-center justify-center h-[400px] md:h-[600px]">
+                        <img src={img} alt="Creative sketch" className="w-full h-full object-contain rounded-lg" />
+                      </div>
+                    </CarouselItem>
+                  ))}
                 </CarouselContent>
                 <CarouselPrevious />
                 <CarouselNext />
@@ -148,24 +54,22 @@ const JustForFun = () => {
           </div>
 
           <div>
-            <h2 className="text-4xl font-bold text-foreground mb-6">Artistic Freedom</h2>
-            <p className="text-xl text-muted-foreground leading-relaxed font-serif mb-8">
-              These personal projects provide a creative outlet beyond professional design work, allowing me to
-              experiment, practice new techniques, and maintain artistic inspiration. They represent the joy of creating
-              without constraints or deadlines.
+            <h2 className="mb-6">Artistic Freedom</h2>
+            <p className="mb-8">
+              These personal projects provide a creative outlet beyond professional design work.
             </p>
             <div className="grid md:grid-cols-3 gap-8 text-center">
               <div className="p-6">
                 <div className="text-4xl font-bold text-primary mb-2">20+</div>
-                <p className="text-muted-foreground">Creative pieces in collection</p>
+                <p>Creative pieces in collection</p>
               </div>
               <div className="p-6">
                 <div className="text-4xl font-bold text-primary mb-2">Mixed</div>
-                <p className="text-muted-foreground">Media & techniques explored</p>
+                <p>Media & techniques explored</p>
               </div>
               <div className="p-6">
                 <div className="text-4xl font-bold text-primary mb-2">Ongoing</div>
-                <p className="text-muted-foreground">Creative exploration</p>
+                <p>Creative exploration</p>
               </div>
             </div>
           </div>

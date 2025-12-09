@@ -18,8 +18,8 @@ const ConcentrixFC = () => {
     >
       <div className="space-y-32">
         <section className="space-y-8 animate-fade-in">
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground">Internal Business Stakeholder Idea</h2>
-          <p className="text-lg md:text-xl text-muted-foreground font-serif leading-relaxed max-w-4xl">
+          <h2>Internal Business Stakeholder Idea</h2>
+          <p className="max-w-4xl">
             Initial brainstorming and basic wire framing. Some of these ideas were first given to us from stakeholders
             within the business. I realized quickly that we didn't have any feedback or information from our customers.
             Before any more design or wire framing was done I paused and realigned expectations from the business
@@ -30,8 +30,8 @@ const ConcentrixFC = () => {
 
         <section className="animate-fade-in -mx-6 md:-mx-12 lg:-mx-[calc((100vw-1024px)/2)] px-6 md:px-12 lg:px-[calc((100vw-1024px)/2)] py-16 bg-muted/100">
           <div className="max-w-7xl mx-auto space-y-8">
-            <h2 className="text-4xl md:text-5xl font-bold text-foreground">No Skipping Steps</h2>
-            <p className="text-lg md:text-xl text-muted-foreground font-serif leading-relaxed max-w-4xl">
+            <h2>No Skipping Steps</h2>
+            <p className="max-w-4xl">
               I identified the need to create faster product for agents by conducting user interviews and getting to the
               root cause and identified major pain points. I concluded that better architecture was needed to help
               streamline user experience and implement AI on the backend to glean as much information to pre-fill and
@@ -45,8 +45,8 @@ const ConcentrixFC = () => {
         <section className="animate-fade-in">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
-              <h2 className="text-4xl md:text-5xl font-bold text-foreground">Personas & User Journeys</h2>
-              <p className="text-lg md:text-xl text-muted-foreground font-serif leading-relaxed">
+              <h2>Personas & User Journeys</h2>
+              <p>
                 Here we see 3 personas and user journey flows. We identified a third previously unknown persona and many
                 pain points from existing users. This was exciting as we had uncovered a great opportunity to improve
                 our product for customers.
@@ -86,8 +86,8 @@ const ConcentrixFC = () => {
         </section>
 
         <section className="space-y-8 animate-fade-in">
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground">Competitor Analysis</h2>
-          <p className="text-lg md:text-xl text-muted-foreground font-serif leading-relaxed max-w-4xl">
+          <h2>Competitor Analysis</h2>
+          <p className="max-w-4xl">
             Spoke with stakeholders to get an idea of top competitors and researched how they handle certain issues and
             their designs.
           </p>
@@ -95,8 +95,8 @@ const ConcentrixFC = () => {
         </section>
 
         <section className="space-y-8 animate-fade-in">
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground">FigJam Wireframes</h2>
-          <p className="text-lg md:text-xl text-muted-foreground font-serif leading-relaxed max-w-4xl">
+          <h2>FigJam Wireframes</h2>
+          <p className="max-w-4xl">
             This was a quick mockup created in FigJam to show the dashboard view for the supervisor persona. Working
             within the constraints of a previously designed application gave way to less than ideal navigation tabs at
             the top. Given the time, this product would have greatly benefited from new architecture from the ground up
@@ -108,19 +108,19 @@ const ConcentrixFC = () => {
         </section>
 
         <section className="animate-fade-in">
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-8">Impact</h2>
+          <h2 className="mb-8">Impact</h2>
           <div className="grid md:grid-cols-3 gap-8 text-center">
             <div className="p-6">
               <div className="text-4xl font-bold text-primary mb-2">40%</div>
-              <p className="text-muted-foreground">Reduction in case processing time</p>
+              <p>Reduction in case processing time</p>
             </div>
             <div className="p-6">
               <div className="text-4xl font-bold text-primary mb-2">3</div>
-              <p className="text-muted-foreground">Personas identified through research</p>
+              <p>Personas identified through research</p>
             </div>
             <div className="p-6">
               <div className="text-4xl font-bold text-primary mb-2">60%</div>
-              <p className="text-muted-foreground">Improved analyst efficiency</p>
+              <p>Improved analyst efficiency</p>
             </div>
           </div>
         </section>

@@ -23,15 +23,15 @@ const NCRCollaboration = () => {
     >
       <div className="space-y-12 animate-fade-in">
         <section>
-          <h2 className="text-3xl font-bold mb-6">Project Overview</h2>
-          <p className="text-lg text-muted-foreground leading-relaxed">
+          <h2 className="mb-6">Project Overview</h2>
+          <p>
             Restaurant managers needed better tools to understand their business performance. The existing analytics were fragmented, difficult to interpret, and didn't provide actionable insights. This project aimed to create a unified dashboard that transformed complex data into clear, actionable intelligence for restaurant operators.
           </p>
         </section>
 
         <section>
-          <h2 className="text-3xl font-bold mb-6">First Sketches and Mockups</h2>
-          <p className="text-lg text-muted-foreground leading-relaxed mb-6">
+          <h2 className="mb-6">First Sketches and Mockups</h2>
+          <p className="mb-6">
             Initial explorations focused on finding the right balance between comprehensive data display and usability. Early mockups experimented with different graph types, layouts, and information hierarchies.
           </p>
           <div className="grid md:grid-cols-2 gap-8">
@@ -41,22 +41,22 @@ const NCRCollaboration = () => {
         </section>
 
         <section>
-          <h2 className="text-3xl font-bold mb-6">Adding Events into the Mix</h2>
-          <p className="text-lg text-muted-foreground leading-relaxed mb-6">
+          <h2 className="mb-6">Adding Events into the Mix</h2>
+          <p className="mb-6">
             Feedback from stakeholders revealed that restaurant operators needed to see events (promotions, holidays, system downtime) in context with their performance metrics. This insight led to a major design evolution incorporating event markers and overlays into the analytics interface.
           </p>
           <img src={image3} alt="Event visualization sketches" className="w-full rounded-lg shadow-elegant mb-8" />
           <img src={image4} alt="Expanded event mockup" className="w-full rounded-lg shadow-elegant mb-8" />
           <div className="grid md:grid-cols-2 gap-8">
             <div className="p-6 bg-card rounded-lg shadow-card">
-              <h3 className="text-xl font-semibold mb-3">Event Visualization</h3>
-              <p className="text-muted-foreground">
+              <h3 className="mb-3">Event Visualization</h3>
+              <p>
                 Visual markers on graphs showing when promotions, holidays, or system issues occurred, helping managers understand performance spikes or drops.
               </p>
             </div>
             <div className="p-6 bg-card rounded-lg shadow-card">
-              <h3 className="text-xl font-semibold mb-3">Contextual Insights</h3>
-              <p className="text-muted-foreground">
+              <h3 className="mb-3">Contextual Insights</h3>
+              <p>
                 Automatic correlation between events and performance changes, surfacing insights that would be difficult to spot manually.
               </p>
             </div>
@@ -64,8 +64,8 @@ const NCRCollaboration = () => {
         </section>
 
         <section>
-          <h2 className="text-3xl font-bold mb-6">The Drawer Concept</h2>
-          <p className="text-lg text-muted-foreground leading-relaxed mb-6">
+          <h2 className="mb-6">The Drawer Concept</h2>
+          <p className="mb-6">
             The drawer was a way to turn features on or off within the graph, allowing users to choose what part of the data they wanted to see. This gave managers control over their view without overwhelming them with information.
           </p>
           <div className="grid md:grid-cols-2 gap-8">
@@ -75,8 +75,8 @@ const NCRCollaboration = () => {
         </section>
 
         <section>
-          <h2 className="text-3xl font-bold mb-6">Taking the Project on the Road</h2>
-          <p className="text-lg text-muted-foreground leading-relaxed mb-6">
+          <h2 className="mb-6">Taking the Project on the Road</h2>
+          <p className="mb-6">
             We needed real restaurant feedback. We took the app on the road visiting restaurant managers and owners. Valuable feedback was gleaned. We realized that we were trying to show too much in one view. People weren't sure what all of the metrics meant. We also realized that the area graph was probably not the way to represent the data accurately. A bar graph was adopted.
           </p>
           <div className="grid md:grid-cols-2 gap-8 mb-8">
@@ -85,8 +85,8 @@ const NCRCollaboration = () => {
           </div>
           <img src={image9} alt="Events sketch after feedback" className="w-full rounded-lg shadow-elegant mb-8" />
           <div className="p-6 bg-gradient-to-br from-primary/10 to-primary/5 rounded-lg">
-            <h3 className="text-xl font-semibold mb-3">Key Learnings from Field Research</h3>
-            <ul className="space-y-2 text-muted-foreground">
+            <h3 className="mb-3">Key Learnings from Field Research</h3>
+            <ul className="space-y-2">
               <li>• Simplified metrics from 4 to 2 displayed at once</li>
               <li>• Switched from area graphs to bar graphs for better data accuracy</li>
               <li>• Removed dropdown drawer in favor of direct controls</li>
@@ -96,8 +96,8 @@ const NCRCollaboration = () => {
         </section>
 
         <section>
-          <h2 className="text-3xl font-bold mb-6">Mini Map Navigation</h2>
-          <p className="text-lg text-muted-foreground leading-relaxed mb-6">
+          <h2 className="mb-6">Mini Map Navigation</h2>
+          <p className="mb-6">
             After much research and user studies, I quickly realized that navigating the graph was becoming complicated. It was difficult to know what part of the data you were viewing. The mini map gives you a view of the complete data providing context. It also allows you to quickly view other parts of the graph by tapping or dragging.
           </p>
           <img src={image10} alt="Mini map sketches" className="w-full rounded-lg shadow-elegant mb-8" />
@@ -105,30 +105,30 @@ const NCRCollaboration = () => {
         </section>
 
         <section>
-          <h2 className="text-3xl font-bold mb-6">Data Representation Details</h2>
-          <p className="text-lg text-muted-foreground leading-relaxed mb-6">
+          <h2 className="mb-6">Data Representation Details</h2>
+          <p className="mb-6">
             I had to find a way to show what the UX would be for someone navigating the data. The design shows how users cannot go further than the end of data or before data is available. It also shows what the graph looks like if there is missing data (restaurant closed, faulty POS, or servers down) by showing gaps in store data.
           </p>
           <img src={image12} alt="Data representation mockup showing edge cases" className="w-full rounded-lg shadow-elegant" />
         </section>
 
         <section>
-          <h2 className="text-3xl font-bold mb-6">Impact & Outcomes</h2>
-          <p className="text-lg text-muted-foreground leading-relaxed mb-8">
+          <h2 className="mb-6">Impact & Outcomes</h2>
+          <p className="mb-8">
             The final dashboard provided restaurant managers with actionable insights at a glance, improved decision-making speed, and created a scalable foundation for future analytics features. User testing showed significant improvements in task completion time and user satisfaction compared to the previous solution.
           </p>
           <div className="grid md:grid-cols-3 gap-8 text-center">
             <div className="p-6">
               <div className="text-4xl font-bold text-primary mb-2">Mini Map</div>
-              <p className="text-muted-foreground">Navigation innovation added</p>
+              <p>Navigation innovation added</p>
             </div>
             <div className="p-6">
               <div className="text-4xl font-bold text-primary mb-2">Events</div>
-              <p className="text-muted-foreground">Contextual data overlay</p>
+              <p>Contextual data overlay</p>
             </div>
             <div className="p-6">
               <div className="text-4xl font-bold text-primary mb-2">Bar Graph</div>
-              <p className="text-muted-foreground">Adopted after user testing</p>
+              <p>Adopted after user testing</p>
             </div>
           </div>
         </section>
