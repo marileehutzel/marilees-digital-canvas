@@ -3,7 +3,7 @@ import image1 from "@/assets/machine-learning/image-1.png";
 import image2 from "@/assets/machine-learning/image-2.png";
 import image3 from "@/assets/machine-learning/image-3.png";
 import image4 from "@/assets/machine-learning/image-4.png";
-import image5 from "@/assets/machine";
+
 
 const MachineLearning = () => {
   return (
