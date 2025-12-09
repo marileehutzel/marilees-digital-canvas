@@ -4,7 +4,6 @@ import image2 from "@/assets/machine-learning/image-2.png";
 import image3 from "@/assets/machine-learning/image-3.png";
 import image4 from "@/assets/machine-learning/image-4.png";
 
-
 const MachineLearning = () => {
   return (
     <CaseStudyLayout
@@ -16,8 +15,8 @@ const MachineLearning = () => {
     >
       <div className="space-y-16">
         <section>
-          <h2 className="text-4xl md:text-3xl font-bold mb-6 animate-fade-in">Wireframes</h2>
-          <p className="text-lg md:text-xl text-muted-foreground font-serif leading-relaxed">
+          <h2 className="mb-6 animate-fade-in">Wireframes</h2>
+          <p>
             Wireframe mockups for a portion of the CXS product. Working through verbatim and sentence details and
             creating new categories. Process of unifying user experience across multiple areas of the product offering.
           </p>
@@ -28,8 +27,8 @@ const MachineLearning = () => {
         </section>
 
         <section>
-          <h2 className="text-4xl md:text-3xl font-bold mb-6">Training The Model</h2>
-          <p className="text-lg md:text-xl text-muted-foreground font-serif leading-relaxed">
+          <h2 className="mb-6">Training The Model</h2>
+          <p>
             We needed a way to define categories to create L1 and L2 file structures, label the categories, gather
             examples and assign them to the correct category which in turn helps train the model by learning patterns
             and predicting categories for new data. The full power of the CXS category builder tool with multiple data
@@ -42,11 +41,11 @@ const MachineLearning = () => {
         </section>
 
         <section>
-          <h2 className="text-3xl md:text-3xl font-bold mb-6">Confusion Matrices</h2>
-          <p className="text-lg md:text-xl text-muted-foreground font-serif leading-relaxed">
+          <h2 className="mb-6">Confusion Matrices</h2>
+          <p>
             Working closely with dev and PHD colleagues I learned about confusion matrices and how utilizing these tools
             would help analysts understand their data in terms of true positives, true negatives, false positives, and
-            false negatives. I then created a  user interface that (with the assistance of predictive analytics) made it
+            false negatives. I then created a  user interface that (with the assistance of predictive analytics) made it
             easier to configure unstructured data which would in turn help train the ML model.
           </p>
         </section>
@@ -56,8 +55,8 @@ const MachineLearning = () => {
         </section>
 
         <section>
-          <h2 className="text-3xl md:text-3xl font-bold mb-6">Analytics Dashboard</h2>
-          <p className="text-lg md:text-xl text-muted-foreground font-serif leading-relaxed">
+          <h2 className="mb-6">Analytics Dashboard</h2>
+          <p>
             After we defined categories we now had the ability to create amazing analytics dashboards to highlight all
             of the beautiful data.
           </p>
@@ -68,8 +67,8 @@ const MachineLearning = () => {
         </section>
 
         <section>
-          <h2 className="text-4xl md:text-3xl font-bold mb-6">Human Centered AI</h2>
-          <p className="text-lg md:text-xl text-muted-foreground font-serif leading-relaxed">
+          <h2 className="mb-6">Human Centered AI</h2>
+          <p>
             The interface presents model confidence scores, feature importance, and prediction explanations in plain
             language. Users can drill down into details when needed, but the default view prioritizes clarity and
             actionability over technical complexity.
@@ -77,24 +76,24 @@ const MachineLearning = () => {
         </section>
 
         <div>
-          <h2 className="text-3xl font-bold text-foreground mb-6">Impact</h2>
-          <p className="text-xl text-muted-foreground leading-relaxed font-serif mb-8">
-            The Concentrix CXS Machine Learning project transformed unstructured data into actionable insight. This
+          <h2 className="mb-6">Impact</h2>
+          <p className="mb-8">
+            The Concentrix CXS Machine Learning project transformed unstructured data into actionable insight. This
             cross-functional momentum not only improved the product but also boosted team morale, proving that
             innovation thrives where disciplines meet.
           </p>
           <div className="grid md:grid-cols-3 gap-8 text-center">
             <div className="p-6">
               <div className="text-4xl font-bold text-primary mb-2">92%</div>
-              <p className="text-muted-foreground">Prediction Accuracy</p>
+              <p>Prediction Accuracy</p>
             </div>
             <div className="p-6">
               <div className="text-4xl font-bold text-primary mb-2">5x</div>
-              <p className="text-muted-foreground">Faster Insights</p>
+              <p>Faster Insights</p>
             </div>
             <div className="p-6">
               <div className="text-4xl font-bold text-primary mb-2">40%</div>
-              <p className="text-muted-foreground">Cost Reduction</p>
+              <p>Cost Reduction</p>
             </div>
           </div>
         </div>

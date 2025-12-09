@@ -13,84 +13,56 @@ const Zipscene = () => {
       subtitle="Internal Analytics Tool"
       description="Tasked with creating an internal analytics tool to help generate effective campaigns in the restaurant industry to increase sales and productivity."
     >
-      {/* Insights Section */}
       <section className="space-y-8">
         <div className="space-y-4">
-          <h2 className="text-3xl md:text-4xl font-bold">Insights Home Page</h2>
-          <p className="text-lg text-muted-foreground font-serif max-w-3xl">
+          <h2>Insights Home Page</h2>
+          <p className="max-w-3xl">
             Use our database to identify new insights for Guests, Locations and Market Conditions
           </p>
         </div>
         <div className="space-y-6">
-          <img
-            src={image2}
-            alt="Insights home page interface"
-            className="w-full rounded-lg shadow-lg"
-          />
+          <img src={image2} alt="Insights home page interface" className="w-full rounded-lg shadow-lg" />
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <img
-              src={image3}
-              alt="Insights feature detail"
-              className="w-full rounded-lg shadow-lg"
-            />
-            <img
-              src={image4}
-              alt="Insights data visualization"
-              className="w-full rounded-lg shadow-lg"
-            />
+            <img src={image3} alt="Insights feature detail" className="w-full rounded-lg shadow-lg" />
+            <img src={image4} alt="Insights data visualization" className="w-full rounded-lg shadow-lg" />
           </div>
         </div>
       </section>
 
-      {/* Advisor Section */}
       <section className="space-y-8">
-        <h2 className="text-3xl md:text-4xl font-bold">Advisor Home Page</h2>
+        <h2>Advisor Home Page</h2>
         <div className="space-y-6">
-          <img
-            src={image5}
-            alt="Advisor home page"
-            className="w-full rounded-lg shadow-lg"
-          />
+          <img src={image5} alt="Advisor home page" className="w-full rounded-lg shadow-lg" />
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <img
-              src={image6}
-              alt="Advisor feature detail"
-              className="w-full rounded-lg shadow-lg"
-            />
-            <img
-              src={image7}
-              alt="Custom pixel perfect icon font"
-              className="w-full rounded-lg shadow-lg"
-            />
+            <img src={image6} alt="Advisor feature detail" className="w-full rounded-lg shadow-lg" />
+            <img src={image7} alt="Custom pixel perfect icon font" className="w-full rounded-lg shadow-lg" />
           </div>
         </div>
       </section>
 
-      {/* Custom Icon Font Section */}
       <section className="space-y-8">
         <div className="space-y-4">
-          <h2 className="text-3xl md:text-4xl font-bold">Custom Iconography</h2>
-          <p className="text-lg text-muted-foreground font-serif max-w-3xl">
+          <h2>Custom Iconography</h2>
+          <p className="max-w-3xl">
             Designed a custom pixel-perfect icon font to create a unified visual language throughout the analytics platform.
           </p>
         </div>
       </section>
 
-      {/* Impact Section */}
       <section className="space-y-8">
-        <h2 className="text-3xl md:text-4xl font-bold">Impact</h2>
+        <h2>Impact</h2>
         <div className="grid md:grid-cols-3 gap-8 text-center">
           <div className="p-6">
             <div className="text-4xl font-bold text-primary mb-2">Custom</div>
-            <p className="text-muted-foreground">Icon font designed</p>
+            <p>Icon font designed</p>
           </div>
           <div className="p-6">
             <div className="text-4xl font-bold text-primary mb-2">Unified</div>
-            <p className="text-muted-foreground">Visual language created</p>
+            <p>Visual language created</p>
           </div>
           <div className="p-6">
             <div className="text-4xl font-bold text-primary mb-2">Restaurant</div>
-            <p className="text-muted-foreground">Industry campaigns improved</p>
+            <p>Industry campaigns improved</p>
           </div>
         </div>
       </section>
