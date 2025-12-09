@@ -42,8 +42,11 @@ const DashboardBuilder = () => {
           </p>
         </section>
 
-        <section> 
-              <h2 className="text-4xl font-semibold mb-4">Discovery/Research</h2>
+        <section className="space-y-8">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6">Process & Approach</h2>
+          <div className="space-y-8">
+            <div>
+              <h3 className="text-2xl font-semibold mb-4">Discovery/Research</h3>
               <p className="text-lg md:text-xl text-muted-foreground font-serif leading-relaxed mb-6">
                 Conducted stakeholder interviews to understand business goals. Conducted user interviews to understand
                 pain points and 'wish list.' Also completed a competitive analysis of existing leading dashboard tools.
@@ -51,8 +54,6 @@ const DashboardBuilder = () => {
                 Qualtrics (primary competitor) handled certain complicated user flows and saw real pain points from
                 their customers.
               </p>
-        </section>
-        
               <img
                 src={researchDiscoveryImg}
                 alt="Research and discovery phase findings"
