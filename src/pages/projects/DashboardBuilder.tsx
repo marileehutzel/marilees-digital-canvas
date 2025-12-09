@@ -32,7 +32,7 @@ const DashboardBuilder = () => {
         </section>
 
         <section>
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">My Role</h2>
+          <h2 className="text-4xl md:text-3xl font-bold mb-6 animate-fade-in">My Role</h2>
           <p className="text-lg md:text-xl text-muted-foreground font-serif leading-relaxed">
             Existing dashboard reporting was completed from within Concentrix. The internal business analyst had to
             create and file requests with developers for every new view, leading to delays. We needed a builder that
@@ -42,11 +42,8 @@ const DashboardBuilder = () => {
           </p>
         </section>
 
-        <section className="space-y-8">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">Process & Approach</h2>
-          <div className="space-y-8">
-            <div>
-              <h3 className="text-2xl font-semibold mb-4">Discovery/Research</h3>
+        <section> 
+              <h2 className="text-4xl font-semibold mb-4">Discovery/Research</h2>
               <p className="text-lg md:text-xl text-muted-foreground font-serif leading-relaxed mb-6">
                 Conducted stakeholder interviews to understand business goals. Conducted user interviews to understand
                 pain points and 'wish list.' Also completed a competitive analysis of existing leading dashboard tools.
