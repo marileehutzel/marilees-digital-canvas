@@ -51,6 +51,8 @@ const DashboardBuilder = () => {
                 Qualtrics (primary competitor) handled certain complicated user flows and saw real pain points from
                 their customers.
               </p>
+        </section>
+        
               <img
                 src={researchDiscoveryImg}
                 alt="Research and discovery phase findings"
