@@ -30,7 +30,7 @@ const ConcentrixFC = () => {
 
         <section className="animate-fade-in -mx-6 md:-mx-12 lg:-mx-[calc((100vw-1024px)/2)] px-6 md:px-12 lg:px-[calc((100vw-1024px)/2)] py-16 bg-muted/100">
           <div className="max-w-7xl mx-auto space-y-8">
-            <h2>No Skipping Steps</h2>
+            <h4>No Skipping Steps</h4>
             <p className="max-w-4xl">
               I identified the need to create faster product for agents by conducting user interviews and getting to the
               root cause and identified major pain points. I concluded that better architecture was needed to help
@@ -45,7 +45,7 @@ const ConcentrixFC = () => {
         <section className="animate-fade-in">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
-              <h2>Personas & User Journeys</h2>
+              <h4>Personas & User Journeys</h4>
               <p>
                 Here we see 3 personas and user journey flows. We identified a third previously unknown persona and many
                 pain points from existing users. This was exciting as we had uncovered a great opportunity to improve
@@ -86,7 +86,7 @@ const ConcentrixFC = () => {
         </section>
 
         <section className="space-y-8 animate-fade-in">
-          <h2>Competitor Analysis</h2>
+          <h4>Competitor Analysis</h4>
           <p className="max-w-4xl">
             Spoke with stakeholders to get an idea of top competitors and researched how they handle certain issues and
             their designs.
@@ -95,7 +95,7 @@ const ConcentrixFC = () => {
         </section>
 
         <section className="space-y-8 animate-fade-in">
-          <h2>FigJam Wireframes</h2>
+          <h4>FigJam Wireframes</h4>
           <p className="max-w-4xl">
             This was a quick mockup created in FigJam to show the dashboard view for the supervisor persona. Working
             within the constraints of a previously designed application gave way to less than ideal navigation tabs at
@@ -108,7 +108,7 @@ const ConcentrixFC = () => {
         </section>
 
         <section className="animate-fade-in">
-          <h2 className="mb-8">Impact</h2>
+          <h4 className="mb-8">Impact</h4>
           <div className="grid md:grid-cols-3 gap-8 text-center">
             <div className="p-6">
               <div className="text-4xl font-bold text-primary mb-2">40%</div>
