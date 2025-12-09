@@ -37,7 +37,7 @@ All colors MUST be HSL.
     --ring: 193 86% 28%;
 
     --radius: 0.75rem;
-    
+
     /* Custom design tokens */
     --gradient-primary: linear-gradient(135deg, hsl(193 86% 28%) 0%, hsl(193 80% 35%) 100%);
     --gradient-dark: linear-gradient(135deg, hsl(215 28% 17%) 0%, hsl(215 35% 25%) 100%);
@@ -90,7 +90,7 @@ All colors MUST be HSL.
     --border: 215 25% 25%;
     --input: 215 25% 25%;
     --ring: 193 86% 35%;
-    
+
     --shadow-elegant: 0 20px 60px -15px hsl(193 86% 35% / 0.25);
     --shadow-card: 0 4px 20px -2px hsl(0 0% 0% / 0.3);
     --sidebar-background: 240 5.9% 10%;
@@ -118,7 +118,7 @@ All colors MUST be HSL.
   }
 
   h2 {
-    @apply text-3xl md:text-4xl font-bold text-foreground;
+    @apply text-4xl md:text-4xl font-bold text-foreground;
   }
 
   h3 {
