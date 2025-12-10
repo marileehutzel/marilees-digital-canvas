@@ -21,7 +21,7 @@ const DashboardBuilder = () => {
     >
       <div className="space-y-32 animate-fade-in">
         <section>
-          <h2 className="mb-6 animate-fade-in">The Challenge</h2>
+          <h4 className="mb-6 animate-fade-in">The Challenge</h4>
           <p>
             Existing dashboard reporting was completed from within Concentrix. The internal business analyst had to
             create and file requests with developers for every new view, leading to delays. We needed a builder that
@@ -32,7 +32,7 @@ const DashboardBuilder = () => {
         </section>
 
         <section>
-          <h2 className="mb-6 animate-fade-in">My Role</h2>
+          <h4 className="mb-6 animate-fade-in">My Role</h4>
           <p>
             Existing dashboard reporting was completed from within Concentrix. The internal business analyst had to
             create and file requests with developers for every new view, leading to delays. We needed a builder that
@@ -43,7 +43,7 @@ const DashboardBuilder = () => {
         </section>
 
         <section className="space-y-8">
-          <h2 className="mb-6">Process & Approach</h2>
+          <h4 className="mb-6">Process & Approach</h4>
           <div className="space-y-8">
             <div>
               <h3 className="mb-4">Discovery/Research</h3>
@@ -118,9 +118,7 @@ const DashboardBuilder = () => {
 
         <section className="space-y-8">
           <h2 className="mb-6">Grid is Your Friend</h2>
-          <p className="mb-6">
-            Much like my design professor in college said, "the grid is your friend"
-          </p>
+          <p className="mb-6">Much like my design professor in college said, "the grid is your friend"</p>
           <div className="space-y-6">
             <img src={grid1Img} alt="Grid system implementation" className="w-full rounded-lg shadow-elegant" />
             <img src={grid2Img} alt="Grid layout examples" className="w-full rounded-lg shadow-elegant" />
@@ -142,9 +140,7 @@ const DashboardBuilder = () => {
 
         <section className="space-y-8">
           <h2 className="mb-6">High Fidelity Designs</h2>
-          <p className="mb-6">
-            High fidelity light and dark mode chart picker drawer options.
-          </p>
+          <p className="mb-6">High fidelity light and dark mode chart picker drawer options.</p>
           <div className="space-y-6">
             <img
               src={highFidelityLightImg}
@@ -177,15 +173,11 @@ const DashboardBuilder = () => {
             </div>
             <div className="p-6 bg-card rounded-lg shadow-card hover:shadow-elegant transition-all duration-300">
               <h3 className="mb-3">Real-time Preview</h3>
-              <p>
-                Live preview of dashboard changes ensures users see exactly what their audience will see.
-              </p>
+              <p>Live preview of dashboard changes ensures users see exactly what their audience will see.</p>
             </div>
             <div className="p-6 bg-card rounded-lg shadow-card hover:shadow-elegant transition-all duration-300">
               <h3 className="mb-3">Responsive Design</h3>
-              <p>
-                Dashboards automatically adapt to different screen sizes and devices without manual adjustment.
-              </p>
+              <p>Dashboards automatically adapt to different screen sizes and devices without manual adjustment.</p>
             </div>
           </div>
         </section>
