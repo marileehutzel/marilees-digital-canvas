@@ -40,7 +40,7 @@ const Zipscene = () => {
         </div>
       </section>
 
-      <section className="space-y-8">
+      <section className="space-y-16">
         <div className="space-y-4">
           <h4>Custom Iconography</h4>
           <p className="max-w-3xl">
