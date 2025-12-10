@@ -43,58 +43,58 @@ const DashboardBuilder = () => {
         </section>
 
         <section className="space-y-8">
-              <h4 className="mb-4">Discovery/Research</h4>
-              <p className="mb-6">
-                Conducted stakeholder interviews to understand business goals. Conducted user interviews to understand
-                pain points and 'wish list.' Also completed a competitive analysis of existing leading dashboard tools.
-                Had an insider demo a competitor product similar to what we would want to build. Investigated how
-                Qualtrics (primary competitor) handled certain complicated user flows and saw real pain points from
-                their customers.
-              </p>
+          <div>
+            <h4 className="mb-4">Discovery/Research</h4>
+            <p className="mb-6">
+              Conducted stakeholder interviews to understand business goals. Conducted user interviews to understand
+              pain points and 'wish list.' Also completed a competitive analysis of existing leading dashboard tools.
+              Had an insider demo a competitor product similar to what we would want to build. Investigated how
+              Qualtrics (primary competitor) handled certain complicated user flows and saw real pain points from
+              their customers.
+            </p>
+            <img
+              src={researchDiscoveryImg}
+              alt="Research and discovery phase findings"
+              className="w-full rounded-lg shadow-elegant"
+            />
+          </div>
+
+          <div>
+            <h3 className="mb-4">Hierarchy and Architecture</h3>
+            <p className="mb-6">
+              Needed to make sure that the new dashboard builder feature worked into the larger ecosystem already
+              established. Found a way to add into the existing navigation with ways to access customized dashboard
+              navigation drawer. Which was an added feature we created due to user testing and interviews. Also wanted
+              to focus on making the navigation as flat as possible to eliminate deeply nested navigation structures.
+            </p>
+            <img
+              src={hierarchyArchitectureImg}
+              alt="Hierarchy and architecture design"
+              className="w-full rounded-lg shadow-elegant"
+            />
+          </div>
+
+          <div>
+            <h3 className="mb-4">Wireframes and Multitasking</h3>
+            <p className="mb-6">
+              I created low-fidelity wireframes to explore multiple layout options—grid, free-form, and responsive
+              behavior—while carefully considering how the experience would adapt on smaller screens, where the drawer
+              could overlap the grid below. Because two separate development teams were working in parallel on related
+              initiatives, I coordinated closely with both to align timelines and design decisions. At the same time,
+              the broader website redesign aimed to deliver a fully responsive page, so I designed the DIY Dashboard
+              experience to work seamlessly across both the new responsive framework and the existing environment.
+            </p>
+            <div className="space-y-6">
               <img
-                src={researchDiscoveryImg}
-                alt="Research and discovery phase findings"
+                src={wireframes1Img}
+                alt="Initial wireframe explorations"
                 className="w-full rounded-lg shadow-elegant"
               />
-            </div>
-
-            <div>
-              <h3 className="mb-4">Hierarchy and Architecture</h3>
-              <p className="mb-6">
-                Needed to make sure that the new dashboard builder feature worked into the larger ecosystem already
-                established. Found a way to add into the existing navigation with ways to access customized dashboard
-                navigation drawer. Which was an added feature we created due to user testing and interviews. Also wanted
-                to focus on making the navigation as flat as possible to eliminate deeply nested navigation structures.
-              </p>
               <img
-                src={hierarchyArchitectureImg}
-                alt="Hierarchy and architecture design"
+                src={wireframes2Img}
+                alt="Wireframe layout variations"
                 className="w-full rounded-lg shadow-elegant"
               />
-            </div>
-
-            <div>
-              <h3 className="mb-4">Wireframes and Multitasking</h3>
-              <p className="mb-6">
-                I created low-fidelity wireframes to explore multiple layout options—grid, free-form, and responsive
-                behavior—while carefully considering how the experience would adapt on smaller screens, where the drawer
-                could overlap the grid below. Because two separate development teams were working in parallel on related
-                initiatives, I coordinated closely with both to align timelines and design decisions. At the same time,
-                the broader website redesign aimed to deliver a fully responsive page, so I designed the DIY Dashboard
-                experience to work seamlessly across both the new responsive framework and the existing environment.
-              </p>
-              <div className="space-y-6">
-                <img
-                  src={wireframes1Img}
-                  alt="Initial wireframe explorations"
-                  className="w-full rounded-lg shadow-elegant"
-                />
-                <img
-                  src={wireframes2Img}
-                  alt="Wireframe layout variations"
-                  className="w-full rounded-lg shadow-elegant"
-                />
-              </div>
             </div>
           </div>
         </section>
