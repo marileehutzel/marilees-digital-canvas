@@ -50,7 +50,7 @@ const Zipscene = () => {
         </div>
       </section>
 
-      <section className="space-y-8">
+      <section className="space-y-16">
         <h4>Impact</h4>
         <div className="grid md:grid-cols-3 gap-8 text-center">
           <div className="p-6">
