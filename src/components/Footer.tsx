@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="text-center md:text-left">
             <div className="flex items-center gap-3 justify-center md:justify-start mb-2">
               <img src={butterflyLogoOutline} alt="Butterfly logo" className="h-8 w-8" />
-              <h3 className="text-2xl font-bold">Marilee Hutzel</h3>
+              <h3 className="text-2xl text-primary-foreground/70 font-bold">Marilee Hutzel</h3>
               <p className="text-primary-foreground/70">Senior Product Designer & Problem Solver</p>
             </div>
           </div>
