@@ -49,8 +49,8 @@ const DashboardBuilder = () => {
               Conducted stakeholder interviews to understand business goals. Conducted user interviews to understand
               pain points and 'wish list.' Also completed a competitive analysis of existing leading dashboard tools.
               Had an insider demo a competitor product similar to what we would want to build. Investigated how
-              Qualtrics (primary competitor) handled certain complicated user flows and saw real pain points from
-              their customers.
+              Qualtrics (primary competitor) handled certain complicated user flows and saw real pain points from their
+              customers.
             </p>
             <img
               src={researchDiscoveryImg}
@@ -100,7 +100,7 @@ const DashboardBuilder = () => {
         </section>
 
         <section className="space-y-8">
-          <h2 className="mb-6">Defining Chart MVPs</h2>
+          <h4 className="mb-6">Defining Chart MVPs</h4>
           <p className="mb-6">
             Defining what charts would be included in the first rollout was a process of communication between internal
             stakeholders and clients to find the best balance between complexity of chart dev time and importance of the
@@ -114,7 +114,7 @@ const DashboardBuilder = () => {
         </section>
 
         <section className="space-y-8">
-          <h2 className="mb-6">Grid is Your Friend</h2>
+          <h4 className="mb-6">Grid is Your Friend</h4>
           <p className="mb-6">Much like my design professor in college said, "the grid is your friend"</p>
           <div className="space-y-6">
             <img src={grid1Img} alt="Grid system implementation" className="w-full rounded-lg shadow-elegant" />
@@ -123,7 +123,7 @@ const DashboardBuilder = () => {
         </section>
 
         <section className="space-y-8">
-          <h2 className="mb-6">2nd Round of Wireframes</h2>
+          <h4 className="mb-6">2nd Round of Wireframes</h4>
           <p className="mb-6">
             User interview feedback led to expanding and creating more detailed wireframes. With the addition of a
             customized color picker so analysts can create their own favorite themes.
@@ -136,7 +136,7 @@ const DashboardBuilder = () => {
         </section>
 
         <section className="space-y-8">
-          <h2 className="mb-6">High Fidelity Designs</h2>
+          <h4 className="mb-6">High Fidelity Designs</h4>
           <p className="mb-6">High fidelity light and dark mode chart picker drawer options.</p>
           <div className="space-y-6">
             <img
@@ -153,17 +153,17 @@ const DashboardBuilder = () => {
         </section>
 
         <section>
-          <h2 className="mb-6">Key Features</h2>
+          <h4 className="mb-6">Key Features</h4>
           <div className="grid md:grid-cols-2 gap-8">
             <div className="p-6 bg-card rounded-lg shadow-card hover:shadow-elegant transition-all duration-300">
-              <h3 className="mb-3">Drag-and-Drop Builder</h3>
+              <h4 className="mb-3">Drag-and-Drop Builder</h4>
               <p>
                 Intuitive interface allowing users to quickly arrange and configure dashboard widgets without technical
                 knowledge.
               </p>
             </div>
             <div className="p-6 bg-card rounded-lg shadow-card hover:shadow-elegant transition-all duration-300">
-              <h3 className="mb-3">Widget Library</h3>
+              <h4 className="mb-3">Widget Library</h4>
               <p>
                 Comprehensive collection of chart types, tables, and KPI widgets that adapt to different data sources.
               </p>
