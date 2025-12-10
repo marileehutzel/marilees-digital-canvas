@@ -43,10 +43,7 @@ const DashboardBuilder = () => {
         </section>
 
         <section className="space-y-8">
-          <h4 className="mb-6">Process & Approach</h4>
-          <div className="space-y-8">
-            <div>
-              <h3 className="mb-4">Discovery/Research</h3>
+              <h4 className="mb-4">Discovery/Research</h4>
               <p className="mb-6">
                 Conducted stakeholder interviews to understand business goals. Conducted user interviews to understand
                 pain points and 'wish list.' Also completed a competitive analysis of existing leading dashboard tools.
