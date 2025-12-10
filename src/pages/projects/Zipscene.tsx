@@ -29,9 +29,10 @@ const Zipscene = () => {
         </div>
       </section>
 
-      <section className="space-y-16">
-        <h4>Advisor Home Page</h4>
-        <div className="space-y-6">
+      <section className="space-y-8">
+        <div className="space-y-4">
+          <h4>Advisor Home Page</h4>
+
           <img src={image5} alt="Advisor home page" className="w-full rounded-lg shadow-lg" />
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <img src={image6} alt="Advisor feature detail" className="w-full rounded-lg shadow-lg" />
