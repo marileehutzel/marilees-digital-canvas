@@ -13,6 +13,7 @@ const Zipscene = () => {
       subtitle="Internal Analytics Tool"
       description="Tasked with creating an internal analytics tool to help generate effective campaigns in the restaurant industry to increase sales and productivity."
     >
+      <section className="space-y-8 animate-fade-in">
       <section className="space-y-8">
         <div className="space-y-4">
           <h4>Insights Home Page</h4>
