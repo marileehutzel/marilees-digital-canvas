@@ -125,6 +125,13 @@ const projects = [
     description: "Creative sketches & personal explorations",
     categories: ["Just For Fun"],
   },
+  {
+    title: "Lovable Website",
+    image: justForFunHeroImg, // TODO: Replace with actual hero image
+    link: "/projects/lovable-website",
+    description: "Project description goes here",
+    categories: ["Just For Fun"],
+  },
 ];
 
 const Index = () => {
