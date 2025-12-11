@@ -22,6 +22,7 @@ import JustForFun from "./pages/projects/JustForFun";
 import Zipscene from "./pages/projects/Zipscene";
 import Ascribe from "./pages/projects/Ascribe";
 import McAlistersDeli from "./pages/projects/McAlistersDeli";
+import LovableWebsite from "./pages/projects/LovableWebsite";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -52,6 +53,7 @@ const App = () => (
             <Route path="/projects/zipscene" element={<Zipscene />} />
             <Route path="/projects/ascribe" element={<Ascribe />} />
             <Route path="/projects/mcalisters-deli" element={<McAlistersDeli />} />
+            <Route path="/projects/lovable-website" element={<LovableWebsite />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
         </Routes>
