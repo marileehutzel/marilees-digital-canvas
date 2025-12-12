@@ -37,7 +37,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-8 pt-8 border-t border-primary-foreground/20 text-center text-sm text-primary-foreground">
-          <p>&copy; {currentYear} Marilee Hutzel. All rights reserved.</p>
+          <p className="text-primary-forground">&copy; {currentYear} Marilee Hutzel. All rights reserved.</p>
         </div>
       </div>
     </footer>
