@@ -13,6 +13,7 @@ const Footer = () => {
               <img src={butterflyLogoOutline} alt="Butterfly logo" className="h-8 w-8" />
               <h3 className="text-2xl text-primary-foreground/70 font-bold">Marilee Hutzel</h3>
               <p className="text-primary-foreground/70">Senior Product Designer & Problem Solver</p>
+              <p className="text-primary-forground">&copy; {currentYear} Marilee Hutzel. All rights reserved.</p>
             </div>
           </div>
 
@@ -35,9 +36,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-
-        <div className="text-primary-forground">&copy; {currentYear} Marilee Hutzel. All rights reserved.</div>
-      </div>
+        
     </footer>
   );
 };
