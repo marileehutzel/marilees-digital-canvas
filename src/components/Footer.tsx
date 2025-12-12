@@ -16,7 +16,6 @@ const Footer = () => {
               <p className="text-primary-forground">&copy; {currentYear} Marilee Hutzel. All rights reserved.</p>
             </div>
           </div>
-
           <div className="flex items-center gap-4">
             <a
               href="mailto:marileehutzel@gmail.com"
