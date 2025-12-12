@@ -36,9 +36,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div 
-          <p className="text-primary-forground">&copy; {currentYear} Marilee Hutzel. All rights reserved.</p>
-        </div>
+        <div className="text-primary-forground">&copy; {currentYear} Marilee Hutzel. All rights reserved.</div>
       </div>
     </footer>
   );
