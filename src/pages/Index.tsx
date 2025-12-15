@@ -21,6 +21,13 @@ import unstructuredDataImg from "@/assets/hero/unstructured-data-hero.png";
 import mcalistersDeliImg from "@/assets/hero/mcalisters-deli-hero.png";
 const projects = [
   {
+    title: "Hack-a-Thon",
+    image: hackathonHeroImg,
+    link: "/projects/hack-a-thon",
+    description: "AI-powered coaching for call center agents",
+    categories: ["AI & Machine Learning"],
+  },
+  {
     title: "Concentrix FC&C",
     image: concentrixHeroImg,
     link: "/projects/concentrix-fc",
@@ -61,13 +68,6 @@ const projects = [
     link: "/projects/cx-mobile",
     description: "Mobile-first customer experience platform",
     categories: ["Mobile", "B2B"],
-  },
-  {
-    title: "Hack-a-Thon",
-    image: hackathonHeroImg,
-    link: "/projects/hack-a-thon",
-    description: "AI-powered coaching for call center agents",
-    categories: ["AI & Machine Learning"],
   },
   {
     title: "Unstructured Data",
