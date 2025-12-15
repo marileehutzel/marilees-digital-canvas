@@ -4,7 +4,7 @@ const LovableWebsite = () => {
   return (
     <CaseStudyLayout
       title="Lovable Website"
-      subtitle="Project subtitle goes here"
+      subtitle="This is a work in progress. The goal is to showcase what I've learned by using Lovable AI to help me code my website"
       description="A brief description of the Lovable Website project and its goals."
     >
       <div className="space-y-32">
