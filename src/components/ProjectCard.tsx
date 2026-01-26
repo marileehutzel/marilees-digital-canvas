@@ -28,9 +28,7 @@ const ProjectCard = ({ title, image, link, description }: ProjectCardProps) => {
             <h3 className="text-xl font-semibold text-foreground mb-2 group-hover:text-primary transition-colors">
               {title}
             </h3>
-            {description && (
-              <p className="text-muted-foreground text-sm">{description}</p>
-            )}
+            {description && <p className="text-muted-foreground text-base">{description}</p>}
           </div>
           <ArrowUpRight
             className={`flex-shrink-0 text-primary transition-all duration-300 ${
