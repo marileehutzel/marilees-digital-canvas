@@ -25,7 +25,7 @@ const ProjectCard = ({ title, image, link, description }: ProjectCardProps) => {
       <div className="p-6">
         <div className="flex items-start justify-between gap-4">
           <div>
-            <h3 className="text-xl font-semibold text-foreground mb-2 group-hover:text-primary transition-colors">
+            <h3 className="text-xl font-semibold text-foreground mb-1 group-hover:text-primary transition-colors">
               {title}
             </h3>
             {description && <p className="text-muted-foreground text-base">{description}</p>}
