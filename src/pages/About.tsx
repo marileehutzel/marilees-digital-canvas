@@ -59,7 +59,7 @@ const About = () => {
             </div>
           </div>
 
-          {/* Expertise Section */}
+          {/* Skills Section */}
           <div className="max-w-4xl mx-auto">
             <div className="pt-8">
               <h2 className="text-2xl font-bold text-foreground mb-4">Skills</h2>
