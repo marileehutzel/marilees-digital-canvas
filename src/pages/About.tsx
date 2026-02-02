@@ -62,7 +62,7 @@ const About = () => {
           {/* Expertise Section */}
           <div className="max-w-4xl mx-auto">
             <div className="pt-8">
-              <h2 className="text-2xl font-bold text-foreground mb-4">Expertise</h2>
+              <h2 className="text-2xl font-bold text-foreground mb-4">Skills</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="p-4 bg-card rounded-lg shadow-card">
                   <h3 className="font-semibold text-foreground mb-2">Product Desgin</h3>
@@ -85,11 +85,19 @@ const About = () => {
                   </p>
                 </div>
                 <div className="p-4 bg-card rounded-lg shadow-card">
-                  <h3 className="font-semibold text-foreground mb-2">B2C Software</h3>
-                  <p className="text-sm text-muted-foreground">B2C mobile solutions</p>
+                  <h3 className="font-semibold text-foreground mb-2">Accessiblity Standards</h3>
+                  <p className="text-sm text-muted-foreground">Focused on WCAG accessiblity standards</p>
                 </div>
                 <div className="p-4 bg-card rounded-lg shadow-card">
-                  <h3 className="font-semibold text-foreground mb-2">Design Software</h3>
+                  <h3 className="font-semibold text-foreground mb-2">Human Centered Design</h3>
+                  <p className="text-sm text-muted-foreground">Focus on the human in human centered design</p>
+                </div>
+                <div className="p-4 bg-card rounded-lg shadow-card">
+                  <h3 className="font-semibold text-foreground mb-2">Benchmarking</h3>
+                  <p className="text-sm text-muted-foreground">Competitor analysis of market trends</p>
+                </div>
+                <div className="p-4 bg-card rounded-lg shadow-card">
+                  <h3 className="font-semibold text-foreground mb-2">Technical Software</h3>
                   <p className="text-sm text-muted-foreground">
                     Figma, FigJam, Sketch, Adobe Creative Suite (Illustrator & Photoshop), and Miro
                   </p>
