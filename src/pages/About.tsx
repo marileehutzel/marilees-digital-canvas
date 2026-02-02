@@ -59,50 +59,58 @@ const About = () => {
             </div>
           </div>
 
-          {/* Skills Section */}
+          {/* Expertise Section */}
           <div className="max-w-4xl mx-auto">
             <div className="pt-8">
               <h2 className="text-2xl font-bold text-foreground mb-4">Skills</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="p-4 bg-card rounded-lg shadow-card">
-                  <h6 className="mb-2">Product Desgin</h6>
-                  <p>User research, wireframing, prototyping, and visual design from 0 to 1</p>
+                  <h3 className="font-semibold text-foreground mb-2">Product Desgin</h3>
+                  <p className="text-sm text-muted-foreground">
+                    User research, wireframing, prototyping, and visual design from 0 to 1
+                  </p>
                 </div>
                 <div className="p-4 bg-card rounded-lg shadow-card">
-                  <h6 className="mb-2">Data Visualization</h6>
-                  <p>Complex data storytelling and dashboard design</p>
+                  <h3 className="font-semibold text-foreground mb-2">Data Visualization</h3>
+                  <p className="text-sm text-muted-foreground">Complex data storytelling and dashboard design</p>
                 </div>
                 <div className="p-4 bg-card rounded-lg shadow-card">
-                  <h6 className="mb-2">Design Systems</h6>
-                  <p>Component libraries and design token management</p>
+                  <h3 className="font-semibold text-foreground mb-2">Design Systems</h3>
+                  <p className="text-sm text-muted-foreground">Component libraries and design token management</p>
                 </div>
                 <div className="p-4 bg-card rounded-lg shadow-card">
-                  <h6 className="mb-2">Enterprise Software</h6>
-                  <p>B2B, SaaS, complex workflow optimization, and intergration of AI</p>
+                  <h3 className="font-semibold text-foreground mb-2">Enterprise Software</h3>
+                  <p className="text-sm text-muted-foreground">
+                    B2B, SaaS, complex workflow optimization, and intergration of AI
+                  </p>
                 </div>
                 <div className="p-4 bg-card rounded-lg shadow-card">
-                  <h6 className="mb-2">Accessiblity Standards</h6>
-                  <p>Focused on WCAG accessiblity standards</p>
+                  <h3 className="font-semibold text-foreground mb-2">Localization & Accessiblity Standards</h3>
+                  <p className="text-sm text-muted-foreground">
+                    Mindful of localization and WCAG accessiblity standards
+                  </p>
                 </div>
                 <div className="p-4 bg-card rounded-lg shadow-card">
-                  <h6 className="mb-2">Human Centered Design</h6>
-                  <p>Focus on the human in human centered design</p>
+                  <h3 className="font-semibold text-foreground mb-2">Human Centered Design</h3>
+                  <p className="text-sm text-muted-foreground">Focus on the human in human centered design</p>
                 </div>
                 <div className="p-4 bg-card rounded-lg shadow-card">
-                  <h6 className="mb-2">Benchmarking</h6>
-                  <p>Competitor analysis of market trends</p>
+                  <h3 className="font-semibold text-foreground mb-2">Benchmarking</h3>
+                  <p className="text-sm text-muted-foreground">Competitor analysis of market trends</p>
                 </div>
                 <div className="p-4 bg-card rounded-lg shadow-card">
-                  <h6 className="mb-2">Technical Software</h6>
-                  <p>Figma, FigJam, Sketch, Adobe Creative Suite (Illustrator & Photoshop), and Miro</p>
+                  <h3 className="font-semibold text-foreground mb-2">Technical Software</h3>
+                  <p className="text-sm text-muted-foreground">
+                    Figma, FigJam, Sketch, Adobe Creative Suite (Illustrator & Photoshop), and Miro
+                  </p>
                 </div>
                 <div className="p-4 bg-card rounded-lg shadow-card">
-                  <h6 className="mb-2">AI Tools</h6>
-                  <p>Figma Make, Lovable, Chat GPT, and Claude</p>
+                  <h3 className="font-semibold text-foreground mb-2">AI Tools</h3>
+                  <p className="text-sm text-muted-foreground">Figma Make, Lovable, Chat GPT, and Claude</p>
                 </div>
                 <div className="p-4 bg-card rounded-lg shadow-card">
-                  <h6 className="mb-2">Productivity and Business</h6>
-                  <p>Azure, Jira, Trello, and Confluence</p>
+                  <h3 className="font-semibold text-foreground mb-2">Productivity and Business</h3>
+                  <p className="text-sm text-muted-foreground">Azure, Jira, Trello, and Confluence</p>
                 </div>
               </div>
             </div>
