@@ -30,12 +30,6 @@ const ProjectCard = ({ title, image, link, description }: ProjectCardProps) => {
             </h3>
             {description && <p className="text-muted-foreground text-base">{description}</p>}
           </div>
-          <ArrowUpRight
-            className={`flex-shrink-0 text-primary transition-all duration-300 ${
-              isHovered ? "translate-x-1 -translate-y-1" : ""
-            }`}
-            size={24}
-          />
         </div>
       </div>
     </>
