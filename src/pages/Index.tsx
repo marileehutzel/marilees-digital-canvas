@@ -10,7 +10,7 @@ import aiDataExplorerHeroImg from "@/assets/hero/ai-data-explorer-hero.png";
 import dashboardBuilderHeroImg from "@/assets/hero/dashboard-builder-hero.png";
 import cxDesignSystemHeroImg from "@/assets/hero/cx-design-system-hero.png";
 import cxMobileHeroImg from "@/assets/hero/cx-mobile-hero.png";
-import hackathonHeroImg from "@/assets/hero/hackathon-hero.png";
+import hackathonCardImg from "@/assets/project card/hack-a-thon_card.png";
 import firstwatchHeroImg from "@/assets/hero/firstwatch-hero.png";
 import marcosHeroImg from "@/assets/hero/marcos-hero.png";
 import ncrCollaborationHeroImg from "@/assets/hero/ncr-collaboration-hero.png";
@@ -22,7 +22,7 @@ import mcalistersDeliImg from "@/assets/hero/mcalisters-deli-hero.png";
 const projects = [
   {
     title: "Hack-a-Thon",
-    image: hackathonHeroImg,
+    image: hackathonCardImg,
     link: "/projects/hack-a-thon",
     description: "AI-powered coaching for call center agents",
     categories: ["AI & Machine Learning"],
