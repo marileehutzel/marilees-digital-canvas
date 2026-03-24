@@ -23,23 +23,18 @@ const DashboardBuilder = () => {
         <section>
           <h4 className="mb-6 animate-fade-in">The Challenge</h4>
           <p>
-            Existing dashboard reporting was completed from within Concentrix. The internal business analyst had to
-            create and file requests with developers for every new view, leading to delays. We needed a builder that
+            The internal business analyst had to create and file requests with developers for every new view, leading to
+            delays. Users felt we were lagging behind competitors that offered customization. We needed a builder that
             was: simple enough for first-time users, robust enough for client analysts, consistent with our new design
             system, and performant with hundreds of widgets and data sources so users could have the freedom to choose
-            what story they wanted the data to tell.
+            what story they wanted the data to tell. Considerable coordination and collaboration with dev and
+            stakeholders would be needed to align on defining objectives and timelines.
           </p>
         </section>
 
         <section>
           <h4 className="mb-6 animate-fade-in">My Role</h4>
-          <p>
-            Existing dashboard reporting was completed from within Concentrix. The internal business analyst had to
-            create and file requests with developers for every new view, leading to delays. We needed a builder that
-            was: simple enough for first-time users, robust enough for client analysts, consistent with our new design
-            system, and performant with hundreds of widgets and data sources so users could have the freedom to choose
-            what story they wanted the data to tell.
-          </p>
+          <p>Research what was</p>
         </section>
 
         <section className="space-y-8">
