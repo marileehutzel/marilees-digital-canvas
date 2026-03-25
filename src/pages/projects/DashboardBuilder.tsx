@@ -23,12 +23,12 @@ const DashboardBuilder = () => {
         <section>
           <h4 className="mb-6 animate-fade-in">The Challenge</h4>
           <p>
-            The internal business analyst had to create and file requests with developers for every new view, leading to
-            delays. Users felt we were lagging behind competitors that offered customization. We needed a builder that
-            was: simple enough for first-time users, robust enough for client analysts, consistent with our new design
-            system, and performant with hundreds of widgets and data sources so users could have the freedom to choose
-            what story they wanted the data to tell. Considerable coordination and collaboration with dev and
-            stakeholders would be needed to align on defining objectives and timelines.
+            The internal business analyst received feedback from clients that led to filing requests with developers for
+            every new view. Users felt we were lagging behind competitors that offered customization. We needed a way
+            for users that was: simple enough for first-time users, robust enough for client analysts, consistent with
+            our new design system, and performant with hundreds of widgets and data sources so users could have the
+            freedom to choose what story they wanted the data to tell. Considerable coordination and collaboration with
+            dev and stakeholders would be needed to align on defining objectives and timelines.
           </p>
         </section>
 
