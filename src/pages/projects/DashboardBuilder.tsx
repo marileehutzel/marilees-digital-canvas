@@ -26,16 +26,12 @@ const DashboardBuilder = () => {
             Internal business analysts had to file requests with developers for every 'custom' dashboard view. This was
             creating a considerable bottleneck and using developer's time unwisely. Feedback from clients was frank and
             honest. They felt we were lagging behind competitors that offered customization and were at a crossroads for
-            jumping to another product. We needed a way for users that was: simple enough for first-time users, robust
-            enough for client analysts, consistent with our new design system, and performant with hundreds of widgets
-            and data sources so users could have the freedom to choose what story they wanted the data to tell.
-            Considerable coordination and collaboration with dev and stakeholders would be needed to align on defining
-            objectives and timelines.
+            jumping to another product.
           </p>
         </section>
 
         <section>
-          <h4 className="mb-6 animate-fade-in">My Role</h4>
+          <h4 className="mb-6 animate-fade-in">My Role & Goal</h4>
           <p>Research what was</p>
         </section>
 
@@ -43,6 +39,10 @@ const DashboardBuilder = () => {
           <div>
             <h4 className="mb-4">Discovery/Research</h4>
             <p className="mb-6">
+              We needed a way for users that was: simple enough for first-time users, robust enough for client analysts,
+              consistent with our new design system, and performant with hundreds of widgets and data sources so users
+              could have the freedom to choose what story they wanted the data to tell. Considerable coordination and
+              collaboration with dev and stakeholders would be needed to align on defining objectives and timelines.
               Conducted stakeholder interviews to understand business goals. Conducted user interviews to understand
               pain points and 'wish list.' Also completed a competitive analysis of existing leading dashboard tools.
               Had an insider demo a competitor product similar to what we would want to build. Investigated how
