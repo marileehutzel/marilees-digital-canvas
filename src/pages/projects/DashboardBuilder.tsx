@@ -34,7 +34,7 @@ const DashboardBuilder = () => {
           <h4 className="mb-6 animate-fade-in">Goal</h4>
           <p>
             Create an empowering customizable dashboard solution for clients to build their own analytic story.
-            Facilitate backend restructering for normalizing a myriad of data sources in a cohesive fashion.{" "}
+            Facilitate backend restructering for normalizing a myriad of data sources in a cohesive fashion.
           </p>
         </section>
 
