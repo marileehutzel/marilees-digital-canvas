@@ -23,16 +23,19 @@ const DashboardBuilder = () => {
         <section>
           <h4 className="mb-6 animate-fade-in">The Challenge</h4>
           <p>
-            Internal business analysts had to file requests with developers for every 'custom' dashboard view. This was
-            creating a considerable bottleneck and using developer's time unwisely. Feedback from clients was frank and
+            Customers wanted customizable dashbaord views to tell their own data story. Internal business analysts had
+            to file requests with developers for every 'custom' dashboard view. Feedback from clients was frank and
             honest. They felt we were lagging behind competitors that offered customization and were at a crossroads for
             jumping to another product.
           </p>
         </section>
 
         <section>
-          <h4 className="mb-6 animate-fade-in">My Role & Goal</h4>
-          <p>Research what was</p>
+          <h4 className="mb-6 animate-fade-in">Goal</h4>
+          <p>
+            Create an empowering customizable dashboard solution for clients to build their own analytic story.
+            Facilitate backend restructering for normalizing a myriad of data sources in a cohesive fashion.{" "}
+          </p>
         </section>
 
         <section className="space-y-8">
