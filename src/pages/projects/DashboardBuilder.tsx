@@ -33,8 +33,9 @@ const DashboardBuilder = () => {
         <section>
           <h4 className="mb-6 animate-fade-in">Goal</h4>
           <p>
-            Create an empowering customizable dashboard solution for clients to build their own analytic story.
-            Facilitate backend restructering for normalizing a myriad of data sources in a cohesive fashion.
+            Dashboard builder should be simple enough for first-time users, robust enough for client analysts,
+            consistent with our new design system, and performant with hundreds of widgets and data sources so users
+            could have the freedom to choose what story they wanted the data to tell.
           </p>
         </section>
 
@@ -42,15 +43,12 @@ const DashboardBuilder = () => {
           <div>
             <h4 className="mb-4">Discovery/Research</h4>
             <p className="mb-6">
-              We needed a way for users that was: simple enough for first-time users, robust enough for client analysts,
-              consistent with our new design system, and performant with hundreds of widgets and data sources so users
-              could have the freedom to choose what story they wanted the data to tell. Considerable coordination and
-              collaboration with dev and stakeholders would be needed to align on defining objectives and timelines.
-              Conducted stakeholder interviews to understand business goals. Conducted user interviews to understand
-              pain points and 'wish list.' Also completed a competitive analysis of existing leading dashboard tools.
-              Had an insider demo a competitor product similar to what we would want to build. Investigated how
-              Qualtrics (primary competitor) handled certain complicated user flows and saw real pain points from their
-              customers.
+              We needed a way for users that was: Considerable coordination and collaboration with dev and stakeholders
+              would be needed to align on defining objectives and timelines. Conducted stakeholder interviews to
+              understand business goals. Conducted user interviews to understand pain points and 'wish list.' Also
+              completed a competitive analysis of existing leading dashboard tools. Had an insider demo a competitor
+              product similar to what we would want to build. Investigated how Qualtrics (primary competitor) handled
+              certain complicated user flows and saw real pain points from their customers.
             </p>
             <img
               src={researchDiscoveryImg}
