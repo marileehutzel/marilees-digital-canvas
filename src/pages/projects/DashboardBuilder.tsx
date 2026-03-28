@@ -18,6 +18,8 @@ const DashboardBuilder = () => {
       context="Concentrix CX Platform"
       description="A flexible dashboard builder that allows users to create custom analytics views without developer support"
       disclaimer="Due to confidentiality agreements, some details and data have been anonymized or modified."
+      heroImage={highFidelityLightImg}
+      heroImageAlt="Dashboard Builder high fidelity design"
       metadata={[
         { label: "Type", value: "Enterprise B2B" },
         { label: "Role", value: "Lead UX Designer" },
