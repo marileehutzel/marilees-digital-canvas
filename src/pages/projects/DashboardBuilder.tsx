@@ -18,6 +18,12 @@ const DashboardBuilder = () => {
       context="Concentrix CX Platform"
       description="A flexible dashboard builder that allows users to create custom analytics views without developer support"
       disclaimer="Due to confidentiality agreements, some details and data have been anonymized or modified."
+      metadata={[
+        { label: "Type", value: "Enterprise B2B" },
+        { label: "Role", value: "Lead UX Designer" },
+        { label: "Platforms", value: "Web (React), Legacy" },
+        { label: "Design Tools", value: "Figma, Sketch" },
+      ]}
     >
       <div className="space-y-32 animate-fade-in">
         <section>

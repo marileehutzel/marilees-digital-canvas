@@ -4,16 +4,22 @@ import Footer from "./Footer";
 import { ArrowLeft, ChevronDown } from "lucide-react";
 import { Link } from "react-router-dom";
 
+interface MetadataItem {
+  label: string;
+  value: string;
+}
+
 interface CaseStudyLayoutProps {
   title: string;
   subtitle?: string;
   description: string;
   context?: string;
   disclaimer?: string;
+  metadata?: MetadataItem[];
   children?: ReactNode;
 }
 
-const CaseStudyLayout = ({ title, subtitle, description, context, disclaimer, children }: CaseStudyLayoutProps) => {
+const CaseStudyLayout = ({ title, subtitle, description, context, disclaimer, metadata, children }: CaseStudyLayoutProps) => {
   return (
     <div className="min-h-screen bg-secondary">
       <Header />
@@ -39,6 +45,21 @@ const CaseStudyLayout = ({ title, subtitle, description, context, disclaimer, ch
               {context && <p>{context}</p>}
               <p>{description}</p>
             </div>
+
+            {metadata && metadata.length > 0 && (
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-3xl mx-auto pt-8 border-t border-secondary-foreground/10">
+                {metadata.map((item) => (
+                  <div key={item.label} className="text-left">
+                    <p className="text-xs uppercase tracking-widest text-secondary-foreground/40 mb-1 font-sans">
+                      {item.label}
+                    </p>
+                    <p className="text-sm text-secondary-foreground/80 font-serif leading-snug">
+                      {item.value}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            )}
 
             {disclaimer && (
               <p className="text-sm text-secondary-foreground/50 italic max-w-2xl mx-auto pt-8 font-serif">
