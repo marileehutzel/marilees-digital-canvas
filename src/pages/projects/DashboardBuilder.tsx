@@ -43,11 +43,10 @@ const DashboardBuilder = () => {
           <div>
             <h4 className="mb-4">Discovery/Research</h4>
             <p className="mb-6">
-              Conducted stakeholder interviews to understand business goals. Conducted user interviews to understand
-              pain points and 'wish list.' Also completed a competitive analysis of existing leading dashboard tools.
-              Had an insider demo a competitor product similar to what we would want to build. Investigated how
-              Qualtrics (primary competitor) handled certain complicated user flows and saw real pain points from their
-              customers.
+              Conducted stakeholder interviews to define business goals. Conducted user interviews to understand pain
+              points and 'wish list.' Also completed a competitive analysis of existing leading dashboard tools. Had an
+              insider demo a competitor product similar to what we would want to build. Investigated how Qualtrics
+              (primary competitor) handled certain complicated user flows and saw real pain points from their customers.
             </p>
             <img
               src={researchDiscoveryImg}
@@ -79,7 +78,7 @@ const DashboardBuilder = () => {
               could overlap the grid below. Because two separate development teams were working in parallel on related
               initiatives, I coordinated closely with both to align timelines and design decisions. At the same time,
               the broader website redesign aimed to deliver a fully responsive page, so I designed the DIY Dashboard
-              experience to work seamlessly across both the new responsive framework and the existing environment.
+              experience to work seamlessly across both the new React responsive framework and the legacy environment.
             </p>
             <div className="space-y-6">
               <img
@@ -101,7 +100,7 @@ const DashboardBuilder = () => {
           <p className="mb-6">
             Defining what charts would be included in the first rollout was a process of communication between internal
             stakeholders and clients to find the best balance between complexity of chart dev time and importance of the
-            data.
+            data. I worked closely with both dev teams to define priorities.
           </p>
           <img
             src={chartMvpsImg}
@@ -112,7 +111,11 @@ const DashboardBuilder = () => {
 
         <section className="space-y-8">
           <h4 className="mb-6">Grid is Your Friend</h4>
-          <p className="mb-6">Much like my design professor in college said, "the grid is your friend"</p>
+          <p className="mb-6">
+            Much like my design professor in college said, "the grid is your friend", we needed to be very mindful of
+            the responsiveness of the application to make sure the graphics heavy elements were resmpnsive and useful
+            within the context of smaller screens.
+          </p>
           <div className="space-y-6">
             <img src={grid1Img} alt="Grid system implementation" className="w-full rounded-lg shadow-elegant" />
             <img src={grid2Img} alt="Grid layout examples" className="w-full rounded-lg shadow-elegant" />
