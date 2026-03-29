@@ -14,38 +14,32 @@ import highFidelityLightImg from "@/assets/dashboard-builder/high-fidelity-light
 import highFidelityDarkImg from "@/assets/dashboard-builder/high-fidelity-dark.png";
 
 const DashboardBuilder = () => {
-  const parallaxRef = useRef<HTMLDivElement>(null);
+  const imgRef = useRef<HTMLImageElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
-  const [scrollProgress, setScrollProgress] = useState(0);
+  const [translateX, setTranslateX] = useState(0);
 
   useEffect(() => {
     const handleScroll = () => {
-      if (!containerRef.current || !parallaxRef.current) return;
-      const rect = containerRef.current.getBoundingClientRect();
+      if (!containerRef.current || !imgRef.current) return;
+      const containerRect = containerRef.current.getBoundingClientRect();
       const windowHeight = window.innerHeight;
-      
-      // Calculate progress: 0 when section enters viewport, 1 when it leaves
-      const start = rect.top - windowHeight;
-      const end = rect.bottom;
-      const total = end - start;
-      const progress = Math.min(Math.max(-start / total, 0), 1);
-      
-      setScrollProgress(progress);
+      const imgWidth = imgRef.current.offsetWidth;
+      const containerWidth = containerRef.current.offsetWidth;
+      const overflow = imgWidth - containerWidth;
+      if (overflow <= 0) return;
+
+      // Progress from 0 to 1 as the section scrolls through the viewport
+      const start = containerRect.top - windowHeight;
+      const end = containerRect.bottom;
+      const progress = Math.min(Math.max(-start / (end - start), 0), 1);
+
+      setTranslateX(-progress * overflow);
     };
 
     window.addEventListener("scroll", handleScroll, { passive: true });
     handleScroll();
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-
-  // Calculate horizontal translation based on image overflow
-  const getTranslateX = () => {
-    if (!parallaxRef.current) return 0;
-    const scrollWidth = parallaxRef.current.scrollWidth;
-    const clientWidth = parallaxRef.current.clientWidth;
-    const maxScroll = scrollWidth - clientWidth;
-    return -scrollProgress * maxScroll;
-  };
 
   return (
     <CaseStudyLayout
