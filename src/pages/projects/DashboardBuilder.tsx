@@ -27,7 +27,8 @@ const DashboardBuilder = () => {
     >
       <div className="space-y-32 animate-fade-in">
         <section>
-          <h4 className="mb-6 animate-fade-in">The Challenge</h4>
+          <p className="text-xs uppercase tracking-[0.2em] text-secondary-foreground/40 mb-1 font-sans">What Is</p>
+          <h4 className="mb-6 animate-fade-in">The Problem</h4>
           <p>
             Customers wanted customizable dashbaord views to tell their own data story. Internal business analysts had
             to file requests with developers for every 'custom' dashboard view. Feedback from clients was frank and
