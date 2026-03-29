@@ -14,7 +14,7 @@ import hackathonCardImg from "@/assets/project card/hack-a-thon_card.png";
 import firstwatchHeroImg from "@/assets/hero/firstwatch-hero.png";
 import marcosHeroImg from "@/assets/hero/marcos-hero.png";
 import ncrCollaborationHeroImg from "@/assets/hero/ncr-collaboration-hero.png";
-import volunteerWorkHeroImg from "@/assets/hero/volunteer-work-hero.png";
+import hutzLogoImg from "@/assets/volunteer-work/Artboard 1NoBackground.png";
 import justForFunHeroImg from "@/assets/hero/just-for-fun-hero.png";
 import zipsceneHeroImg from "@/assets/hero/zipscene-hero.png";
 import unstructuredDataImg from "@/assets/hero/unstructured-data-hero.png";
@@ -113,7 +113,7 @@ const projects = [
   },
   {
     title: "Volunteer Work",
-    image: volunteerWorkHeroImg,
+    image: hutzLogoImg,
     link: "/projects/volunteer-work",
     description: "Community design & branding for non-profits",
     categories: ["Just For Fun"],
