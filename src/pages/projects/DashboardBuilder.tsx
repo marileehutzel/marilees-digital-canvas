@@ -82,29 +82,6 @@ const DashboardBuilder = () => {
           </p>
         </section>
 
-        <section className="space-y-4">
-          <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground mb-1 font-sans">
-            Research and Definition
-          </p>
-          <div>
-            <h4 className="mb-4">Reaching out with empathy</h4>
-            <p className="mb-6">
-              Conducted user interviews to understand pain points and 'wish list.' Clients needed a way to quickly
-              create custom dashboards to make real change, to find trends and help make their employees more effective
-              at their jobs. Also completed a competitive analysis of existing leading dashboard tools. Had an insider
-              demo a competitor product similar to what we would want to build. Investigated how Qualtrics (primary
-              competitor) handled certain complicated user flows and saw real pain points from their customers. Another
-              headache uncovered from research was the real issue of collaboration and sharing of dashboards. We had no
-              system or structure designed for permissions or hierarchy of PII within our defined roles.
-            </p>
-            <img
-              src={researchDiscoveryImg}
-              alt="Research and discovery phase findings"
-              className="w-full rounded-lg shadow-elegant"
-            />
-          </div>
-        </section>
-
         <section>
           <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground mb-3 font-sans">Two Developer Teams</p>
           <h4 className="mb-10">A Tale of Two Javier's</h4>
@@ -131,6 +108,29 @@ const DashboardBuilder = () => {
                 <li>Using storybook components from design system</li>
               </ul>
             </div>
+          </div>
+        </section>
+
+        <section className="space-y-4">
+          <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground mb-1 font-sans">
+            Research and Definition
+          </p>
+          <div>
+            <h4 className="mb-4">Reaching out with empathy</h4>
+            <p className="mb-6">
+              Conducted user interviews to understand pain points and 'wish list.' Clients needed a way to quickly
+              create custom dashboards to make real change, to find trends and help make their employees more effective
+              at their jobs. Also completed a competitive analysis of existing leading dashboard tools. Had an insider
+              demo a competitor product similar to what we would want to build. Investigated how Qualtrics (primary
+              competitor) handled certain complicated user flows and saw real pain points from their customers. Another
+              headache uncovered from research was the real issue of collaboration and sharing of dashboards. We had no
+              system or structure designed for permissions or hierarchy of PII within our defined roles.
+            </p>
+            <img
+              src={researchDiscoveryImg}
+              alt="Research and discovery phase findings"
+              className="w-full rounded-lg shadow-elegant"
+            />
           </div>
         </section>
 
