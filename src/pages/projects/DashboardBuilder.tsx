@@ -1,5 +1,6 @@
 import CaseStudyLayout from "@/components/CaseStudyLayout";
 import whatIsImg from "@/assets/dashboard-builder/WhatIs-DashboardLifeCycle.png";
+import theBestImg from "@/assets/dashboard-builder/TheBest.png";
 import researchDiscoveryImg from "@/assets/dashboard-builder/research-discovery.png";
 import hierarchyArchitectureImg from "@/assets/dashboard-builder/hierarchy-architecture.png";
 import wireframes1Img from "@/assets/dashboard-builder/wireframes-1.png";
@@ -67,6 +68,7 @@ const DashboardBuilder = () => {
                 <li>Real-time analysis of complex data</li>
                 <li>Devolpers focused on other projects</li>
               </ul>
+              <img src={theBestImg} alt="What could be vision" className="w-full rounded-lg mt-6" />
             </div>
           </div>
         </section>
