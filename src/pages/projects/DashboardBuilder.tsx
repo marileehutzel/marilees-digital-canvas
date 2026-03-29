@@ -49,6 +49,7 @@ const DashboardBuilder = () => {
                 <li>Manual request process for dashboard changes</li>
                 <li>One-size-fits-all reporting</li>
                 <li>Long wait time for requests to be completed</li>
+                <li>Developers bogged down with requests</li>
               </ul>
             </div>
             <div className="p-6 bg-card rounded-lg shadow-card">
