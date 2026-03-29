@@ -34,11 +34,7 @@ const DashboardBuilder = () => {
             honest. They felt we were lagging behind competitors that offered customization and were at a crossroads for
             jumping to another product.
           </p>
-          <img
-            src={researchDiscoveryImg}
-            alt="Research and discovery phase findings"
-            className="w-full rounded-lg shadow-elegant"
-          />
+          <img src={DashboardLifeCycleImg} alt="Outdated process" className="w-full rounded-lg shadow-elegant" />
         </section>
 
         <section>
