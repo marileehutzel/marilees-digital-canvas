@@ -1,5 +1,5 @@
 import CaseStudyLayout from "@/components/CaseStudyLayout";
-import whatIsImg from "@/assets/WhatIs-DashboardLifeCycle.png";
+import whatIsImg from "@/assets/dashboard-builder/WhatIs-DashboardLifeCycle.png";
 import researchDiscoveryImg from "@/assets/dashboard-builder/research-discovery.png";
 import hierarchyArchitectureImg from "@/assets/dashboard-builder/hierarchy-architecture.png";
 import wireframes1Img from "@/assets/dashboard-builder/wireframes-1.png";
