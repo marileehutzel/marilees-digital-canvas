@@ -257,7 +257,7 @@ const DashboardBuilder = () => {
               </p>
             </div>
             <div className="p-6 bg-card rounded-lg shadow-card hover:shadow-elegant transition-all duration-300">
-              <h3 className="mb-3">Real-time Preview</h3>
+              <h4 className="mb-3">Real-time Preview</h4>
               <p>Live preview of dashboard changes ensures users see exactly what their audience will see.</p>
             </div>
             <div className="p-6 bg-card rounded-lg shadow-card hover:shadow-elegant transition-all duration-300">
