@@ -28,9 +28,7 @@ const DashboardBuilder = () => {
     >
       <div className="space-y-32 animate-fade-in">
         <section>
-          <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground mb-3 font-sans">
-            The Challenge
-          </p>
+          <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground mb-3 font-sans">The Challenge</p>
           <h4 className="mb-6 animate-fade-in">Data existed. Clarity didn't.</h4>
           <p className="mb-6">
             Clients weren't short on data. They were drowning in it. Our basic MVP dashboards weren't cutting it for all
@@ -82,8 +80,11 @@ const DashboardBuilder = () => {
         </section>
 
         <section className="space-y-8">
+          <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground mb-3 font-sans">
+            Research and Definition
+          </p>
           <div>
-            <h4 className="mb-4">Discovery/Research</h4>
+            <h4 className="mb-4">Reaching out with empathy</h4>
             <p className="mb-6">
               Conducted stakeholder interviews to define business goals. Conducted user interviews to understand pain
               points and 'wish list.' Also completed a competitive analysis of existing leading dashboard tools. Had an
