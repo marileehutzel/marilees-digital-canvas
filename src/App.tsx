@@ -55,7 +55,7 @@ const App = () => (
             <Route path="/projects/zipscene" element={<Zipscene />} />
             <Route path="/projects/ascribe" element={<Ascribe />} />
             <Route path="/projects/mcalisters-deli" element={<McAlistersDeli />} />
-            <Route path="/projects/lovable-website" element={<LovableWebsite />} />
+            {/* <Route path="/projects/lovable-website" element={<LovableWebsite />} /> */}
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
         </Routes>
