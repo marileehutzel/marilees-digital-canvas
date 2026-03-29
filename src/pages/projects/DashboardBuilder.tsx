@@ -174,7 +174,7 @@ const DashboardBuilder = () => {
         </section>
 
         <section className="space-y-4">
-          <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground mb-1 font-sans">Let's do this!</p>
+          <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground mb-1 font-sans">It is time</p>
           <div>
             <h4 className="mb-4">Let's Get to The Drawing Board</h4>
             <p className="mb-6">
