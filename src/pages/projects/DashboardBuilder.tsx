@@ -63,7 +63,7 @@ const DashboardBuilder = () => {
                 <li>Real-time preview and iteration</li>
                 <li>User-driven data storytelling</li>
                 <li>Real-time analysis of complex data</li>
-                <li>Devolpers focused on other projects</li>
+                <li>Developers focused on other projects</li>
               </ul>
               <img src={theBestImg} alt="What could be vision" className="max-w-[50%] h-auto rounded-lg mt-6 mx-auto" />
             </div>
@@ -77,15 +77,15 @@ const DashboardBuilder = () => {
             consistent with our new design system, and performant with hundreds of widgets and data sources so users
             could have the freedom to choose what story they wanted the data to tell. From a development standpoint we
             had to have a design that worked with legacy users on a different code base than our new React framework. I
-            needed to create a design and expereince that met all of these marks and work with two different development
-            teams to solve problems and provide a seamless soultion for our users.
+             needed to create a design and experience that met all of these marks and work with two different development
+             teams to solve problems and provide a seamless solution for our users.
           </p>
           <p>
-            Sounds easy, right? If it's this easy, why didn't design this sooner? Good question. It sounds easy but
-            underneith were some seriously complicated legacy systems that didn't work the way we needed and a bootstrap
-            layer on top. We had a crutch on Salesforce but needed our own stand alone product. We needed to get new
-            clients onto a responsive system while still maintaining our old code base for esisting customers. It got
-            complicated.
+             Sounds easy, right? If it's this easy, why didn't we design this sooner? Good question. It sounds easy but
+             underneath were some seriously complicated legacy systems that didn't work the way we needed and a bootstrap
+             layer on top. We had a crutch on Salesforce but needed our own standalone product. We needed to get new
+             clients onto a responsive system while still maintaining our old code base for existing customers. It got
+             complicated.
           </p>
         </section>
 
@@ -99,8 +99,8 @@ const DashboardBuilder = () => {
               </div>
               <h4 className="mb-4">Javier</h4>
               <ul className="list-disc list-outside space-y-2 text-muted-foreground font-serif text-lg text-left pl-5">
-                <li>Based in San Salvadore</li>
-                <li>6 developers on team in San Salvadore</li>
+                <li>Based in San Salvador</li>
+                <li>6 developers on team in San Salvador</li>
                 <li>Converting existing framework into React</li>
                 <li>Using storybook components from design system</li>
               </ul>
@@ -147,7 +147,7 @@ const DashboardBuilder = () => {
             <p className="mb-6">
               Needed to make sure that the new dashboard builder feature worked into the larger ecosystem already
               established. Found a way to add dashboard builder into the existing navigation with ways to access
-              customized dashboard navigation drawer. Through continuted user testing and interviews we deterimined that
+              customized dashboard navigation drawer. Through continued user testing and interviews we determined that
               users needed a way to access their custom dashboards. Also wanted to focus on making the navigation as
               flat as possible to eliminate deeply nested navigation structures.
             </p>
@@ -201,7 +201,7 @@ const DashboardBuilder = () => {
           <h4 className="mb-6">Grid is Your Friend</h4>
           <p className="mb-6">
             Much like my design professor in college said, "the grid is your friend", we needed to be very mindful of
-            the responsiveness of the application to make sure the graphics heavy elements were resmpnsive and useful
+            the responsiveness of the application to make sure the graphics-heavy elements were responsive and useful
             within the context of smaller screens.
           </p>
           <div className="space-y-6">
