@@ -1,3 +1,4 @@
+import { useRef, useEffect, useState } from "react";
 import CaseStudyLayout from "@/components/CaseStudyLayout";
 import whatIsImg from "@/assets/dashboard-builder/WhatIs-DashboardLifeCycle.png";
 import theBestImg from "@/assets/dashboard-builder/TheBest.png";
