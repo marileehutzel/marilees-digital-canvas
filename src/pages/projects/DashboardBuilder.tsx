@@ -28,12 +28,12 @@ const DashboardBuilder = () => {
     >
       <div className="space-y-32 animate-fade-in">
         <section>
-          <h4 className="mb-6 animate-fade-in">The Problem</h4>
+          <h4 className="mb-6 animate-fade-in">Data existed. Clarity didn't.</h4>
           <p className="mb-6">
-            Customers wanted customizable dashbaord views to tell their own data story. Internal business analysts had
-            to file requests with developers for every 'custom' dashboard view. Feedback from clients was frank and
-            honest. They felt we were lagging behind competitors that offered customization and were at a crossroads for
-            jumping to another product.
+            Clients weren't short on data. They were drowning in it. Our basic MVP dashboards weren't cutting it for all
+            of our customers. Internal business analysts had to file requests with developers for every 'custom'
+            dashboard view. Feedback from clients was frank and honest. They felt we were lagging behind competitors
+            that offered customization. Clients were contemplating leaving the product.
           </p>
           <img src={whatIsImg} alt="Outdated process" className="w-full rounded-lg shadow-elegant" />
         </section>
