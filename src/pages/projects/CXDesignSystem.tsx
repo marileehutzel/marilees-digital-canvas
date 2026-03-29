@@ -13,7 +13,7 @@ const CXDesignSystem = () => {
       <div className="space-y-32">
         <div className="space-y-12">
           <div>
-            <h2 className="mb-6">The Challenge</h2>
+            <h4 className="mb-6">The Challenge</h4>
             <p>
               The existing interface lacked consistency and scalability, making it difficult to support new product
               features and maintain a cohesive user experience across the platform.
@@ -21,7 +21,7 @@ const CXDesignSystem = () => {
           </div>
 
           <div>
-            <h2 className="mb-6">Navigation Redesign</h2>
+            <h4 className="mb-6">Navigation Redesign</h4>
             <p className="mb-8">
               The navigation was redesigned to move primary actions to a left-hand panel while adding a right-hand panel
               for filters and search, creating a more intuitive and efficient workflow.
@@ -34,7 +34,7 @@ const CXDesignSystem = () => {
           </div>
 
           <div>
-            <h2 className="mb-6">Interface Refinement</h2>
+            <h4 className="mb-6">Interface Refinement</h4>
             <p className="mb-8">
               Graphics and interface elements were streamlined for clarity and usability, establishing a cohesive design
               language that continues to support new product features and growth.
@@ -47,7 +47,7 @@ const CXDesignSystem = () => {
           </div>
 
           <div>
-            <h2 className="mb-6">Impact</h2>
+            <h4 className="mb-6">Impact</h4>
             <p className="mb-8">
               These updates established a scalable foundation that improved usability, consistency, and the ability to
               rapidly deploy new features across the platform.

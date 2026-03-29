@@ -9,7 +9,7 @@ const LovableWebsite = () => {
     >
       <div className="space-y-32">
         <section className="text-center">
-          <h2 className="mb-6 animate-fade-in">Section Title</h2>
+          <h4 className="mb-6 animate-fade-in">Section Title</h4>
           <p className="max-w-3xl mx-auto mb-12 animate-fade-in" style={{ animationDelay: "0.1s" }}>
             Add your project content here. Include descriptions, images, and insights about the design process.
           </p>
@@ -21,7 +21,7 @@ const LovableWebsite = () => {
         </section>
 
         <section className="text-center">
-          <h2 className="mb-12 animate-fade-in">Impact</h2>
+          <h4 className="mb-12 animate-fade-in">Impact</h4>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
             <div className="text-center animate-fade-in" style={{ animationDelay: "0.1s" }}>
               <div className="text-4xl font-bold text-primary mb-2">XX%</div>

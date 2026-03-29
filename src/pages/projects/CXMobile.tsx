@@ -19,7 +19,7 @@ const CXMobile = () => {
     >
       <div className="space-y-32 animate-fade-in">
         <section>
-          <h2 className="mb-6">My Role</h2>
+          <h4 className="mb-6">My Role</h4>
           <p>
             As lead UX designer, I drove the experience from discovery through delivery. I led mobile-focused user
             research, usability testing, and defined journeys for alerts, dashboards, and feedback. I translated those
@@ -29,7 +29,7 @@ const CXMobile = () => {
         </section>
 
         <section>
-          <h2 className="mb-6">The Challenge</h2>
+          <h4 className="mb-6">The Challenge</h4>
           <p>
             Field teams and remote managers needed access to critical customer experience metrics while away from their
             desks. The existing desktop-only platform prevented real-time decision-making and delayed responses to
@@ -39,7 +39,7 @@ const CXMobile = () => {
         </section>
 
         <section className="space-y-8">
-          <h2 className="mb-6">Wireframes and Prototyping</h2>
+          <h4 className="mb-6">Wireframes and Prototyping</h4>
           <p className="mb-6">
             I developed low- and mid-fidelity wireframes to explore layout options: stacked cards, tabbed navigation,
             flat lists, collapsible drawers. For requests/feedback, I designed simple, context-aware forms that agents
@@ -49,7 +49,7 @@ const CXMobile = () => {
         </section>
 
         <section className="space-y-8">
-          <h2 className="mb-6">Outcome and Impact</h2>
+          <h4 className="mb-6">Outcome and Impact</h4>
           <p className="mb-6">
             Successfully launched a mobile version of the dashboard & alert workflows, enabling users to access key
             insights from their phones. Field agents gained a direct channel to submit requests and feedback, reducing
@@ -111,7 +111,7 @@ const CXMobile = () => {
         </section>
 
         <section className="space-y-8">
-          <h2 className="mb-6">Ongoing Updates and Enhancements</h2>
+          <h4 className="mb-6">Ongoing Updates and Enhancements</h4>
           <p className="mb-6">
             Once we had MVP released we had the need to begin to offer more robust content. Below shows wireframes of
             the current flow for customer comments and the 2 proposed options for adding audio and video into the app.
@@ -120,7 +120,7 @@ const CXMobile = () => {
         </section>
 
         <section>
-          <h2 className="mb-6">Key Features</h2>
+          <h4 className="mb-6">Key Features</h4>
           <div className="space-y-6">
             <div className="p-6 bg-card rounded-lg shadow-card hover:shadow-elegant transition-all duration-300">
               <h3 className="mb-3">Real-Time Alerts</h3>
@@ -147,7 +147,7 @@ const CXMobile = () => {
         </section>
 
         <section>
-          <h2 className="mb-6">Outcome and Impact</h2>
+          <h4 className="mb-6">Outcome and Impact</h4>
           <p className="mb-8">
             Successfully launched a mobile version of the dashboard & alert workflows, enabling users to access key
             insights from their phones. Field agents gained a direct channel to submit requests and feedback, reducing
@@ -170,7 +170,7 @@ const CXMobile = () => {
         </section>
 
         <section>
-          <h2 className="mb-6">Ongoing Updates</h2>
+          <h4 className="mb-6">Ongoing Updates</h4>
           <p>
             Once we had MVP released we had the need to begin to offer more robust content. We explored adding audio and
             video capabilities to customer comments, allowing field agents to capture richer, more contextual feedback

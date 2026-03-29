@@ -23,14 +23,14 @@ const NCRCollaboration = () => {
     >
       <div className="space-y-12 animate-fade-in">
         <section>
-          <h2 className="mb-6">Project Overview</h2>
+          <h4 className="mb-6">Project Overview</h4>
           <p>
             Restaurant managers needed better tools to understand their business performance. The existing analytics were fragmented, difficult to interpret, and didn't provide actionable insights. This project aimed to create a unified dashboard that transformed complex data into clear, actionable intelligence for restaurant operators.
           </p>
         </section>
 
         <section>
-          <h2 className="mb-6">First Sketches and Mockups</h2>
+          <h4 className="mb-6">First Sketches and Mockups</h4>
           <p className="mb-6">
             Initial explorations focused on finding the right balance between comprehensive data display and usability. Early mockups experimented with different graph types, layouts, and information hierarchies.
           </p>
@@ -41,7 +41,7 @@ const NCRCollaboration = () => {
         </section>
 
         <section>
-          <h2 className="mb-6">Adding Events into the Mix</h2>
+          <h4 className="mb-6">Adding Events into the Mix</h4>
           <p className="mb-6">
             Feedback from stakeholders revealed that restaurant operators needed to see events (promotions, holidays, system downtime) in context with their performance metrics. This insight led to a major design evolution incorporating event markers and overlays into the analytics interface.
           </p>
@@ -64,7 +64,7 @@ const NCRCollaboration = () => {
         </section>
 
         <section>
-          <h2 className="mb-6">The Drawer Concept</h2>
+          <h4 className="mb-6">The Drawer Concept</h4>
           <p className="mb-6">
             The drawer was a way to turn features on or off within the graph, allowing users to choose what part of the data they wanted to see. This gave managers control over their view without overwhelming them with information.
           </p>
@@ -75,7 +75,7 @@ const NCRCollaboration = () => {
         </section>
 
         <section>
-          <h2 className="mb-6">Taking the Project on the Road</h2>
+          <h4 className="mb-6">Taking the Project on the Road</h4>
           <p className="mb-6">
             We needed real restaurant feedback. We took the app on the road visiting restaurant managers and owners. Valuable feedback was gleaned. We realized that we were trying to show too much in one view. People weren't sure what all of the metrics meant. We also realized that the area graph was probably not the way to represent the data accurately. A bar graph was adopted.
           </p>
@@ -96,7 +96,7 @@ const NCRCollaboration = () => {
         </section>
 
         <section>
-          <h2 className="mb-6">Mini Map Navigation</h2>
+          <h4 className="mb-6">Mini Map Navigation</h4>
           <p className="mb-6">
             After much research and user studies, I quickly realized that navigating the graph was becoming complicated. It was difficult to know what part of the data you were viewing. The mini map gives you a view of the complete data providing context. It also allows you to quickly view other parts of the graph by tapping or dragging.
           </p>
@@ -105,7 +105,7 @@ const NCRCollaboration = () => {
         </section>
 
         <section>
-          <h2 className="mb-6">Data Representation Details</h2>
+          <h4 className="mb-6">Data Representation Details</h4>
           <p className="mb-6">
             I had to find a way to show what the UX would be for someone navigating the data. The design shows how users cannot go further than the end of data or before data is available. It also shows what the graph looks like if there is missing data (restaurant closed, faulty POS, or servers down) by showing gaps in store data.
           </p>
@@ -113,7 +113,7 @@ const NCRCollaboration = () => {
         </section>
 
         <section>
-          <h2 className="mb-6">Impact & Outcomes</h2>
+          <h4 className="mb-6">Impact & Outcomes</h4>
           <p className="mb-8">
             The final dashboard provided restaurant managers with actionable insights at a glance, improved decision-making speed, and created a scalable foundation for future analytics features. User testing showed significant improvements in task completion time and user satisfaction compared to the previous solution.
           </p>
