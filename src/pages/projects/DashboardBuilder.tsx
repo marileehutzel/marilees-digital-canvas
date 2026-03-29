@@ -36,7 +36,7 @@ const DashboardBuilder = () => {
             dashboard view. Feedback from clients was frank and honest. They felt we were lagging behind competitors
             that offered customization. Clients were contemplating leaving the product.
           </p>
-          <img src={whatIsImg} alt="Outdated process" className="w-full rounded-lg shadow-elegant" />
+          
 
           <div className="space-y-8 mt-12">
             <div className="p-6 bg-card rounded-lg shadow-card">
