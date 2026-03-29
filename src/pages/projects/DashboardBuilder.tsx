@@ -158,8 +158,12 @@ const DashboardBuilder = () => {
             />
           </div>
 
+       <section className="space-y-4">
+          <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground mb-1 font-sans">
+            Let's do this!
+          </p>
           <div>
-            <h4 className="mb-4">Wireframes and Multitasking</h4>
+            <h4 className="mb-4">Let's Get to The Drawing Board</h4>
             <p className="mb-6">
               I created low-fidelity wireframes to explore multiple layout options—grid, free-form, and responsive
               behavior—while carefully considering how the experience would adapt on smaller screens, where the drawer
