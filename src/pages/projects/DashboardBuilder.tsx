@@ -78,11 +78,14 @@ const DashboardBuilder = () => {
             could have the freedom to choose what story they wanted the data to tell. From a development standpoint we
             had to have a design that worked with legacy users on a different code base than our new React framework. I
             needed to create a design and expereince that met all of these marks and work with two different development
-            teams to solve problems and provide a seamless soultion for our users. Sounds easy, right? If it's this
-            easy, why didn't design this sooner? Good question. It sounds easy but underneith were some seriously
-            complicated legacy systems that didn't work the way we needed and a bootstrap layer on top. We had a crutch
-            on Salesforce but needed our own stand alone product. We needed to get new clients onto a responsive system
-            while still maintaining our old code base for esisting customers. It got complicated.
+            teams to solve problems and provide a seamless soultion for our users.
+          </p>
+          <p>
+            Sounds easy, right? If it's this easy, why didn't design this sooner? Good question. It sounds easy but
+            underneith were some seriously complicated legacy systems that didn't work the way we needed and a bootstrap
+            layer on top. We had a crutch on Salesforce but needed our own stand alone product. We needed to get new
+            clients onto a responsive system while still maintaining our old code base for esisting customers. It got
+            complicated.
           </p>
         </section>
 
