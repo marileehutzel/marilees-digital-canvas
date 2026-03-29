@@ -72,7 +72,7 @@ const DashboardBuilder = () => {
 
         <section>
           <h4 className="mb-6 animate-fade-in">Goal</h4>
-          <p>
+          <p className="mb-6">
             Dashboard builder should be simple enough for first-time users, robust enough for client analysts,
             consistent with our new design system, and performant with hundreds of widgets and data sources so users
             could have the freedom to choose what story they wanted the data to tell. From a development standpoint we
