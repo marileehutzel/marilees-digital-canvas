@@ -15,7 +15,7 @@ const DashboardBuilder = () => {
     <CaseStudyLayout
       title="Dashboard Builder"
       subtitle="Empowering Users with Self-Service Analytics"
-      description="A flexible dashboard builder that allows users to create custom analytics views without developer support"
+      description="We had MVP for years, and it wasn't enough. We needed a flexible dashboard builder that gave the power to the users to tell their own data story."
       disclaimer="Due to confidentiality agreements, some details and data have been anonymized or modified."
       metadata={[
         { label: "Type", value: "Enterprise B2B" },
