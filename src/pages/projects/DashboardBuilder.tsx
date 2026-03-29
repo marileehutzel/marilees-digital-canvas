@@ -253,12 +253,18 @@ const DashboardBuilder = () => {
             User interview feedback led to expanding and creating more detailed wireframes. With the addition of a
             customized color picker so analysts can create their own favorite themes.
           </p>
-          <div className="overflow-x-auto -mx-6 px-6">
-            <img
-              src={wireframesRound2Img}
-              alt="Second round of detailed wireframes"
-              className="h-[80vh] w-auto max-w-none rounded-lg shadow-elegant"
-            />
+          <div ref={containerRef} className="overflow-hidden -mx-6 px-6">
+            <div
+              ref={parallaxRef}
+              className="w-fit"
+              style={{ transform: `translateX(${getTranslateX()}px)`, willChange: "transform" }}
+            >
+              <img
+                src={wireframesRound2Img}
+                alt="Second round of detailed wireframes"
+                className="h-[80vh] w-auto max-w-none rounded-lg shadow-elegant"
+              />
+            </div>
           </div>
         </section>
 
