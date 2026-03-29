@@ -70,9 +70,12 @@ const DashboardBuilder = () => {
         <section>
           <h4 className="mb-6 animate-fade-in">Goal</h4>
           <p>
-            Dashboard builder should be simple enough for first-time users, robust enough for client analysts,
-            consistent with our new design system, and performant with hundreds of widgets and data sources so users
-            could have the freedom to choose what story they wanted the data to tell.
+            It's simple, right? Dashboard builder should be simple enough for first-time users, robust enough for client
+            analysts, consistent with our new design system, and performant with hundreds of widgets and data sources so
+            users could have the freedom to choose what story they wanted the data to tell. From a development
+            standpoint we had to have a design that worked with legacy users on a different code base than our new React
+            framework. I needed to create a design and expereince that met all of these marks and work with two
+            different development teams to solve problems and provide a seamless soultion for our users.
           </p>
         </section>
 
