@@ -97,24 +97,24 @@ const DashboardBuilder = () => {
               <div className="w-48 h-48 rounded-full bg-[hsl(175,50%,70%)] flex items-center justify-center mb-8">
                 <span className="text-4xl font-bold text-white">J</span>
               </div>
-              <h4 className="mb-4">Javier / San Salvador</h4>
-              <ul className="space-y-2 text-muted-foreground font-serif text-lg">
-                <li>Located in San Salvador</li>
-                <li>Larger team</li>
-                <li>Legacy codebase</li>
-                <li>Bootstrap framework</li>
+              <h4 className="mb-4">Javier</h4>
+              <ul className="list-disc list-outside space-y-2 text-muted-foreground font-serif text-lg text-left pl-5">
+                <li>Based in San Salvadore</li>
+                <li>6 developers on team in San Salvadore</li>
+                <li>Converting existing framework into React</li>
+                <li>Using storybook components from design system</li>
               </ul>
             </div>
             <div className="flex flex-col items-center text-center">
               <div className="w-48 h-48 rounded-full bg-[hsl(110,50%,65%)] flex items-center justify-center mb-8">
                 <span className="text-4xl font-bold text-white">J</span>
               </div>
-              <h4 className="mb-4">Javi / Barcelona</h4>
-              <ul className="space-y-2 text-muted-foreground font-serif text-lg">
-                <li>Located in Barcelona</li>
-                <li>Smaller team</li>
-                <li>New React framework</li>
-                <li>Responsive design</li>
+              <h4 className="mb-4">Javi</h4>
+              <ul className="list-disc list-outside space-y-2 text-muted-foreground font-serif text-lg text-left pl-5">
+                <li>Based in Barcelona</li>
+                <li>6 developers on team in United States</li>
+                <li>Working on maintaining existing platform in bootstrap for legacy customers</li>
+                <li>Using storybook components from design system</li>
               </ul>
             </div>
           </div>
