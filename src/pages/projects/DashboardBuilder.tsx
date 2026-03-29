@@ -39,23 +39,30 @@ const DashboardBuilder = () => {
 
           <div className="grid md:grid-cols-2 gap-8 mt-12">
             <div className="p-6 bg-card rounded-lg shadow-card">
-              <p className="text-xs uppercase tracking-[0.2em] text-secondary-foreground/40 mb-1 font-sans">What Existed</p>
-              <h4 className="mb-4">The Problem</h4>
+              <p className="text-xs uppercase tracking-[0.2em] text-secondary-foreground/40 mb-1 font-sans">
+                What Existed
+              </p>
+              <h4 className="mb-4">What Existed</h4>
               <ul className="list-disc list-inside space-y-3 font-serif text-lg md:text-xl text-muted-foreground leading-relaxed">
                 <li>Static MVP dashboards with no customization</li>
                 <li>Developer dependency for every custom view</li>
                 <li>Manual request process for dashboard changes</li>
                 <li>One-size-fits-all reporting</li>
+                <li>Long wait time for requests to be completed</li>
               </ul>
             </div>
             <div className="p-6 bg-card rounded-lg shadow-card">
-              <p className="text-xs uppercase tracking-[0.2em] text-secondary-foreground/40 mb-1 font-sans">What Could Be</p>
-              <h4 className="mb-4">The Vision</h4>
+              <p className="text-xs uppercase tracking-[0.2em] text-secondary-foreground/40 mb-1 font-sans">
+                What Could Be
+              </p>
+              <h4 className="mb-4">What Could Be</h4>
               <ul className="list-disc list-inside space-y-3 font-serif text-lg md:text-xl text-muted-foreground leading-relaxed">
-                <li>Self-service dashboard builder</li>
-                <li>Drag-and-drop widget configuration</li>
+                <li>Self-Service Dashboards</li>
+                <li>Empowered clients not waiting for customization</li>
                 <li>Real-time preview and iteration</li>
                 <li>User-driven data storytelling</li>
+                <li>Real-time analysis of complex data</li>
+                <li>Devolpers focused on other projects</li>
               </ul>
             </div>
           </div>
