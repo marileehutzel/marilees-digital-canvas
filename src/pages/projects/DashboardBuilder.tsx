@@ -103,36 +103,38 @@ const DashboardBuilder = () => {
               className="w-full rounded-lg shadow-elegant"
             />
           </div>
+        </section>
 
-          <div className="mt-16">
-            <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground mb-3 font-sans">Two Developer Teams</p>
-            <h4 className="mb-10">A Tale of Two Javier's</h4>
-            <div className="grid md:grid-cols-2 gap-12">
-              <div className="flex flex-col items-center text-center">
-                <div className="w-48 h-48 rounded-full bg-[hsl(175,50%,70%)] flex items-center justify-center mb-8">
-                  <span className="text-2xl font-serif text-foreground">Javier</span>
-                </div>
-                <ul className="list-disc list-inside space-y-2 font-serif text-lg text-muted-foreground leading-relaxed text-left">
-                  <li>Based in San Salvadore</li>
-                  <li>6 developers on team in San Salvadore</li>
-                  <li>Converting existing framework into React</li>
-                  <li>Using storybook components from design system</li>
-                </ul>
+        <section>
+          <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground mb-3 font-sans">Two Developer Teams</p>
+          <h4 className="mb-10">A Tale of Two Javier's</h4>
+          <div className="grid md:grid-cols-2 gap-12">
+            <div className="flex flex-col items-center text-center">
+              <div className="w-48 h-48 rounded-full bg-[hsl(175,50%,70%)] flex items-center justify-center mb-8">
+                <span className="text-2xl font-serif text-foreground">Javier</span>
               </div>
-              <div className="flex flex-col items-center text-center">
-                <div className="w-48 h-48 rounded-full bg-[hsl(110,50%,65%)] flex items-center justify-center mb-8">
-                  <span className="text-2xl font-serif text-foreground">Javi</span>
-                </div>
-                <ul className="list-disc list-inside space-y-2 font-serif text-lg text-muted-foreground leading-relaxed text-left">
-                  <li>Based in Barcelona</li>
-                  <li>6 developers on team in United States</li>
-                  <li>Working on maintaining existing platform in bootstrap for legacy customers</li>
-                  <li>Using storybook components from design system</li>
-                </ul>
+              <ul className="list-disc list-inside space-y-2 font-serif text-lg text-muted-foreground leading-relaxed text-left">
+                <li>Based in San Salvadore</li>
+                <li>6 developers on team in San Salvadore</li>
+                <li>Converting existing framework into React</li>
+                <li>Using storybook components from design system</li>
+              </ul>
+            </div>
+            <div className="flex flex-col items-center text-center">
+              <div className="w-48 h-48 rounded-full bg-[hsl(110,50%,65%)] flex items-center justify-center mb-8">
+                <span className="text-2xl font-serif text-foreground">Javi</span>
               </div>
+              <ul className="list-disc list-inside space-y-2 font-serif text-lg text-muted-foreground leading-relaxed text-left">
+                <li>Based in Barcelona</li>
+                <li>6 developers on team in United States</li>
+                <li>Working on maintaining existing platform in bootstrap for legacy customers</li>
+                <li>Using storybook components from design system</li>
+              </ul>
             </div>
           </div>
+        </section>
 
+        <section className="space-y-4">
           <div>
             <h3 className="mb-4">Hierarchy and Architecture</h3>
             <p className="mb-6">
