@@ -10,6 +10,7 @@ import hutzHammer from "@/assets/volunteer-work/HammerNoBackground.png";
 import hutzNail from "@/assets/volunteer-work/NailNoBackground.png";
 import hutzScrewdriver from "@/assets/volunteer-work/Screw DriverNoBackground.png";
 import jeremyTruck from "@/assets/volunteer-work/JeremyBackofTruck.png";
+import jeremyTrailer from "@/assets/volunteer-work/JeremyTrailer.png";
 
 const VolunteerWork = () => {
   return (
@@ -32,7 +33,8 @@ const VolunteerWork = () => {
             <img src={hutzScrewdriver} alt="Handyman Hutz screwdriver icon" className="max-w-[200px] h-auto" />
           </div>
         </div>
-        <img src={jeremyTruck} alt="Jeremy standing next to the branded truck" className="w-full rounded-lg shadow-elegant mt-8" />
+        <img src={jeremyTrailer} alt="Trailer with Handyman Hutz branding design" className="w-full rounded-lg shadow-elegant mt-8" />
+        <img src={jeremyTruck} alt="Jeremy standing next to the branded truck and trailer" className="w-full rounded-lg shadow-elegant mt-8" />
       </div>
 
       <div className="space-y-32">
