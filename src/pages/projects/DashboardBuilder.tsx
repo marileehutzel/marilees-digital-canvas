@@ -68,7 +68,7 @@ const DashboardBuilder = () => {
                 <li>Real-time analysis of complex data</li>
                 <li>Devolpers focused on other projects</li>
               </ul>
-              <img src={theBestImg} alt="What could be vision" className="w-full rounded-lg mt-6" />
+              <img src={theBestImg} alt="What could be vision" className="max-w-[50%] h-auto rounded-lg mt-6" />
             </div>
           </div>
         </section>
