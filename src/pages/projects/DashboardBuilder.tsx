@@ -28,6 +28,9 @@ const DashboardBuilder = () => {
     >
       <div className="space-y-32 animate-fade-in">
         <section>
+          <p className="text-xs uppercase tracking-[0.2em] text-secondary-foreground/40 mb-1 font-sans">
+            The Challenge
+          </p>
           <h4 className="mb-6 animate-fade-in">Data existed. Clarity didn't.</h4>
           <p className="mb-6">
             Clients weren't short on data. They were drowning in it. Our basic MVP dashboards weren't cutting it for all
