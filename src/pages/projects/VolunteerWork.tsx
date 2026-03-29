@@ -27,14 +27,16 @@ const VolunteerWork = () => {
         </p>
         <div className="flex flex-col items-center gap-6">
           <img src={hutzLogo} alt="Handyman Hutz logo" className="max-w-[50%] h-auto" />
-          <div className="flex flex-col md:flex-row gap-6 justify-center">
-            <img src={hutzHammer} alt="Handyman Hutz hammer icon" className="max-w-[200px] h-auto" />
-            <img src={hutzNail} alt="Handyman Hutz nail icon" className="max-w-[200px] h-auto" />
-            <img src={hutzScrewdriver} alt="Handyman Hutz screwdriver icon" className="max-w-[200px] h-auto" />
-          </div>
         </div>
         <div className="flex flex-col md:flex-row gap-6 justify-center items-start mt-8">
-          <img src={jeremyTruck} alt="Jeremy standing next to the branded truck and trailer" className="md:max-w-[50%] h-auto rounded-lg shadow-elegant object-contain" />
+          <div className="flex flex-col items-center gap-4">
+            <img src={jeremyTruck} alt="Jeremy standing next to the branded truck and trailer" className="w-full h-auto rounded-lg shadow-elegant object-contain" />
+            <div className="flex flex-row gap-6 justify-center">
+              <img src={hutzHammer} alt="Handyman Hutz hammer icon" className="max-w-[120px] h-auto" />
+              <img src={hutzNail} alt="Handyman Hutz nail icon" className="max-w-[120px] h-auto" />
+              <img src={hutzScrewdriver} alt="Handyman Hutz screwdriver icon" className="max-w-[120px] h-auto" />
+            </div>
+          </div>
           <img src={jeremyTrailer} alt="Trailer with Handyman Hutz branding design" className="md:max-w-[50%] h-auto rounded-lg shadow-elegant object-contain" />
         </div>
       </div>
