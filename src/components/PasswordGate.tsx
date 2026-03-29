@@ -3,7 +3,7 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Lock } from "lucide-react";
 
-const SITE_PASSWORD = "letmein2024";
+const SITE_PASSWORD = "Sunshine123";
 const STORAGE_KEY = "site-authenticated";
 
 interface PasswordGateProps {
