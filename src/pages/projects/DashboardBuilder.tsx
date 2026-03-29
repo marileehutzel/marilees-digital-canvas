@@ -77,15 +77,15 @@ const DashboardBuilder = () => {
             consistent with our new design system, and performant with hundreds of widgets and data sources so users
             could have the freedom to choose what story they wanted the data to tell. From a development standpoint we
             had to have a design that worked with legacy users on a different code base than our new React framework. I
-             needed to create a design and experience that met all of these marks and work with two different development
-             teams to solve problems and provide a seamless solution for our users.
+            needed to create a design and experience that met all of these marks and work with two different development
+            teams to solve problems and provide a seamless solution for our users.
           </p>
           <p>
-             Sounds easy, right? If it's this easy, why didn't we design this sooner? Good question. It sounds easy but
-             underneath were some seriously complicated legacy systems that didn't work the way we needed and a bootstrap
-             layer on top. We had a crutch on Salesforce but needed our own standalone product. We needed to get new
-             clients onto a responsive system while still maintaining our old code base for existing customers. It got
-             complicated.
+            Sounds easy, right? If it's this easy, why didn't we design this sooner? Good question. It sounds easy but
+            underneath were some seriously complicated legacy systems that didn't work the way we needed and a bootstrap
+            layer on top. We had a crutch on Salesforce but needed our own standalone product. We needed to get new
+            clients onto a responsive system while still maintaining our old code base for existing customers. It got
+            complicated.
           </p>
         </section>
 
@@ -143,7 +143,7 @@ const DashboardBuilder = () => {
           </div>
 
           <div>
-            <h3 className="mb-4">Hierarchy and Architecture</h3>
+            <h4 className="mb-4">Hierarchy and Architecture</h4>
             <p className="mb-6">
               Needed to make sure that the new dashboard builder feature worked into the larger ecosystem already
               established. Found a way to add dashboard builder into the existing navigation with ways to access
@@ -159,7 +159,7 @@ const DashboardBuilder = () => {
           </div>
 
           <div>
-            <h3 className="mb-4">Wireframes and Multitasking</h3>
+            <h4 className="mb-4">Wireframes and Multitasking</h4>
             <p className="mb-6">
               I created low-fidelity wireframes to explore multiple layout options—grid, free-form, and responsive
               behavior—while carefully considering how the experience would adapt on smaller screens, where the drawer
@@ -261,14 +261,14 @@ const DashboardBuilder = () => {
               <p>Live preview of dashboard changes ensures users see exactly what their audience will see.</p>
             </div>
             <div className="p-6 bg-card rounded-lg shadow-card hover:shadow-elegant transition-all duration-300">
-              <h3 className="mb-3">Responsive Design</h3>
+              <h4 className="mb-3">Responsive Design</h4>
               <p>Dashboards automatically adapt to different screen sizes and devices without manual adjustment.</p>
             </div>
           </div>
         </section>
 
         <section>
-          <h2 className="mb-6">Impact</h2>
+          <h4 className="mb-6">Impact</h4>
           <div className="grid md:grid-cols-3 gap-8 text-center">
             <div className="p-6">
               <div className="text-4xl font-bold text-primary mb-2">70%</div>
