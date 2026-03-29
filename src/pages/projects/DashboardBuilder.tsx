@@ -80,7 +80,7 @@ const DashboardBuilder = () => {
         </section>
 
         <section className="space-y-8">
-          <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground mb-3 font-sans">
+          <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground mb-1 font-sans">
             Research and Definition
           </p>
           <div>
