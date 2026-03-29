@@ -89,7 +89,7 @@ const DashboardBuilder = () => {
               demo a competitor product similar to what we would want to build. Investigated how Qualtrics (primary
               competitor) handled certain complicated user flows and saw real pain points from their customers. Another
               headache uncovered from research was the real issue of collaboration and sharing of dashboards. We had no
-              system or structure designed for permissions or hierarchy of PPI within our defined roles.
+              system or structure designed for permissions or hierarchy of PII within our defined roles.
             </p>
             <img
               src={researchDiscoveryImg}
