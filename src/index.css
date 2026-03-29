@@ -138,6 +138,6 @@ All colors MUST be HSL.
   }
 
   p {
-    @apply text-lg md:text-xl text-muted-foreground font-serif leading-relaxed;
+    @apply text-lg md:text-xl text-muted-foreground font-serif leading-relaxed mb-6;
   }
 }
