@@ -83,10 +83,11 @@ const DashboardBuilder = () => {
           <div>
             <h4 className="mb-4">Reaching out with empathy</h4>
             <p className="mb-6">
-              Conducted stakeholder interviews to define business goals. Conducted user interviews to understand pain
-              points and 'wish list.' Also completed a competitive analysis of existing leading dashboard tools. Had an
-              insider demo a competitor product similar to what we would want to build. Investigated how Qualtrics
-              (primary competitor) handled certain complicated user flows and saw real pain points from their customers.
+              Conducted user interviews to understand pain points and 'wish list.' Clients needed a way to quickly
+              create custom dashboards to make real change, to find trends and help make their employees more effective
+              at their jobs. Also completed a competitive analysis of existing leading dashboard tools. Had an insider
+              demo a competitor product similar to what we would want to build. Investigated how Qualtrics (primary
+              competitor) handled certain complicated user flows and saw real pain points from their customers.
             </p>
             <img
               src={researchDiscoveryImg}
