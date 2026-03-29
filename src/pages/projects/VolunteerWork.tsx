@@ -32,6 +32,7 @@ const VolunteerWork = () => {
             <img src={hutzScrewdriver} alt="Handyman Hutz screwdriver icon" className="max-w-[200px] h-auto" />
           </div>
         </div>
+        <img src={jeremyTruck} alt="Jeremy standing next to the branded truck" className="w-full rounded-lg shadow-elegant mt-8" />
       </div>
 
       <div className="space-y-32">
