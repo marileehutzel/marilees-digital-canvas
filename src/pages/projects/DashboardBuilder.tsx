@@ -37,13 +37,10 @@ const DashboardBuilder = () => {
             dashboard view. Feedback from clients was frank and honest. They felt we were lagging behind competitors
             that offered customization. Clients were contemplating leaving the product.
           </p>
-          
 
           <div className="space-y-8 mt-12">
             <div className="p-6 bg-card rounded-lg shadow-card">
-              <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground mb-1 font-sans">
-                What Existed
-              </p>
+              <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground mb-1 font-sans">The Reality</p>
               <h4 className="mb-4">What Existed</h4>
               <ul className="list-disc list-inside space-y-3 font-serif text-lg md:text-xl text-muted-foreground leading-relaxed">
                 <li>Static MVP dashboards with no customization</li>
@@ -57,7 +54,7 @@ const DashboardBuilder = () => {
             </div>
             <div className="p-6 bg-secondary rounded-lg shadow-card">
               <p className="text-xs uppercase tracking-[0.2em] text-secondary-foreground/50 mb-1 font-sans">
-                What Could Be
+                The Ideal
               </p>
               <h4 className="mb-4 text-secondary-foreground">What Could Be</h4>
               <ul className="list-disc list-inside space-y-3 font-serif text-lg md:text-xl text-secondary-foreground/80 leading-relaxed">
