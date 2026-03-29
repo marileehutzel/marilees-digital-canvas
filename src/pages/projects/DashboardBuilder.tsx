@@ -89,6 +89,37 @@ const DashboardBuilder = () => {
           </p>
         </section>
 
+        <section>
+          <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground mb-3 font-sans">Two Developer Teams</p>
+          <h4 className="mb-10">A Tale of Two Javier's</h4>
+          <div className="grid md:grid-cols-2 gap-12">
+            <div className="flex flex-col items-center text-center">
+              <div className="w-48 h-48 rounded-full bg-[hsl(175,50%,70%)] flex items-center justify-center mb-8">
+                <span className="text-4xl font-bold text-white">J</span>
+              </div>
+              <h4 className="mb-4">Javier / San Salvador</h4>
+              <ul className="space-y-2 text-muted-foreground font-serif text-lg">
+                <li>Located in San Salvador</li>
+                <li>Larger team</li>
+                <li>Legacy codebase</li>
+                <li>Bootstrap framework</li>
+              </ul>
+            </div>
+            <div className="flex flex-col items-center text-center">
+              <div className="w-48 h-48 rounded-full bg-[hsl(110,50%,65%)] flex items-center justify-center mb-8">
+                <span className="text-4xl font-bold text-white">J</span>
+              </div>
+              <h4 className="mb-4">Javi / Barcelona</h4>
+              <ul className="space-y-2 text-muted-foreground font-serif text-lg">
+                <li>Located in Barcelona</li>
+                <li>Smaller team</li>
+                <li>New React framework</li>
+                <li>Responsive design</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
         <section className="space-y-4">
           <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground mb-1 font-sans">
             Research and Definition
