@@ -113,7 +113,7 @@ const projects = [
   },
   {
     title: "Volunteer Work",
-    image: volunteerWorkHeroImg,
+    image: hutzLogoImg,
     link: "/projects/volunteer-work",
     description: "Community design & branding for non-profits",
     categories: ["Just For Fun"],
