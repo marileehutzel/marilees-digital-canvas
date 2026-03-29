@@ -7,9 +7,10 @@ interface ProjectCardProps {
   image: string;
   link: string;
   description?: string;
+  imageClassName?: string;
 }
 
-const ProjectCard = ({ title, image, link, description }: ProjectCardProps) => {
+const ProjectCard = ({ title, image, link, description, imageClassName }: ProjectCardProps) => {
   const [isHovered, setIsHovered] = useState(false);
   const isExternal = link.startsWith("http");
 
@@ -19,7 +20,7 @@ const ProjectCard = ({ title, image, link, description }: ProjectCardProps) => {
         <img
           src={image}
           alt={title}
-          className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+          className={imageClassName || "w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"}
         />
       </div>
       <div className="p-6">
