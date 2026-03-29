@@ -117,6 +117,7 @@ const projects = [
     link: "/projects/volunteer-work",
     description: "Community design & branding for non-profits",
     categories: ["Just For Fun"],
+    imageClassName: "w-full h-full object-cover scale-[2] transition-transform duration-700 group-hover:scale-[2.2]",
   },
   {
     title: "Just For Fun",
