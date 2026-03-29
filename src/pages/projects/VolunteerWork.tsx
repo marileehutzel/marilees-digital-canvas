@@ -23,7 +23,7 @@ const VolunteerWork = () => {
           I guess when your family, you get free designs, sometimes. My little brother started a handyman business and I
           created his branding material for him. He's doing great work, and super proud of how far he's gone!
         </p>
-        <div className="flex flex-col items-center gap-12">
+        <div className="flex flex-col items-center gap-6">
           <img src={hutzLogo} alt="Handyman Hutz logo" className="max-w-[50%] h-auto" />
           <div className="flex flex-col md:flex-row gap-6 justify-center">
             <img src={hutzHammer} alt="Handyman Hutz hammer icon" className="max-w-[200px] h-auto" />
