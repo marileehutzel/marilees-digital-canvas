@@ -73,42 +73,17 @@ const DashboardBuilder = () => {
         <section>
           <h4 className="mb-6 animate-fade-in">Goal</h4>
           <p>
-            It's simple, right? Dashboard builder should be simple enough for first-time users, robust enough for client
-            analysts, consistent with our new design system, and performant with hundreds of widgets and data sources so
-            users could have the freedom to choose what story they wanted the data to tell. From a development
-            standpoint we had to have a design that worked with legacy users on a different code base than our new React
-            framework. I needed to create a design and expereince that met all of these marks and work with two
-            different development teams to solve problems and provide a seamless soultion for our users.
+            Dashboard builder should be simple enough for first-time users, robust enough for client analysts,
+            consistent with our new design system, and performant with hundreds of widgets and data sources so users
+            could have the freedom to choose what story they wanted the data to tell. From a development standpoint we
+            had to have a design that worked with legacy users on a different code base than our new React framework. I
+            needed to create a design and expereince that met all of these marks and work with two different development
+            teams to solve problems and provide a seamless soultion for our users. Sounds easy, right? If it's this
+            easy, why didn't design this sooner? Good question. It sounds easy but underneith were some seriously
+            complicated legacy systems that didn't work the way we needed and a bootstrap layer on top. We had a crutch
+            on Salesforce but needed our own stand alone product. We needed to get new clients onto a responsive system
+            while still maintaining our old code base for esisting customers. It got complicated.
           </p>
-        </section>
-
-        <section>
-          <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground mb-3 font-sans">Two Developer Teams</p>
-          <h4 className="mb-10">A Tale of Two Javier's</h4>
-          <div className="grid md:grid-cols-2 gap-12">
-            <div className="flex flex-col items-center text-center">
-              <div className="w-48 h-48 rounded-full bg-[hsl(175,50%,70%)] flex items-center justify-center mb-8">
-                <span className="text-2xl font-serif text-foreground">Javier</span>
-              </div>
-              <ul className="list-disc list-inside space-y-2 font-serif text-lg text-muted-foreground leading-relaxed text-left">
-                <li>Based in San Salvadore</li>
-                <li>6 developers on team in San Salvadore</li>
-                <li>Converting existing framework into React</li>
-                <li>Using storybook components from design system</li>
-              </ul>
-            </div>
-            <div className="flex flex-col items-center text-center">
-              <div className="w-48 h-48 rounded-full bg-[hsl(110,50%,65%)] flex items-center justify-center mb-8">
-                <span className="text-2xl font-serif text-foreground">Javi</span>
-              </div>
-              <ul className="list-disc list-inside space-y-2 font-serif text-lg text-muted-foreground leading-relaxed text-left">
-                <li>Based in Barcelona</li>
-                <li>6 developers on team in United States</li>
-                <li>Working on maintaining existing platform in bootstrap for legacy customers</li>
-                <li>Using storybook components from design system</li>
-              </ul>
-            </div>
-          </div>
         </section>
 
         <section className="space-y-4">
@@ -132,9 +107,7 @@ const DashboardBuilder = () => {
               className="w-full rounded-lg shadow-elegant"
             />
           </div>
-        </section>
 
-        <section className="space-y-4">
           <div>
             <h3 className="mb-4">Hierarchy and Architecture</h3>
             <p className="mb-6">
