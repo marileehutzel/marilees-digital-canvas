@@ -54,10 +54,7 @@ const DashboardBuilder = () => {
               </ul>
             </div>
             <div className="p-6 bg-secondary rounded-lg shadow-card">
-              <p className="text-xs uppercase tracking-[0.2em] text-secondary-foreground/50 mb-1 font-sans">
-                What Could Be
-              </p>
-
+              <h4 className="mb-4 text-secondary-foreground">What Could Be</h4>
               <ul className="list-disc list-inside space-y-3 font-serif text-lg md:text-xl text-secondary-foreground/80 leading-relaxed">
                 <li>Self-Service Dashboards</li>
                 <li>Empowered clients not waiting for customization</li>
