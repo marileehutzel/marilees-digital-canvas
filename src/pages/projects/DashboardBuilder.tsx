@@ -158,9 +158,21 @@ const DashboardBuilder = () => {
             />
           </div>
 
+        <section className="space-y-8">
+          <h4 className="mb-6">Defining Chart MVPs</h4>
+          <p className="mb-6">
+            Defining what charts would be included in the first rollout was a process of communication between internal
+            stakeholders and clients to find the best balance between complexity of chart dev time and importance of the
+            data. I worked closely with both dev teams to define priorities.
+          </p>
+          <img
+            src={chartMvpsImg}
+            alt="Chart MVP definitions and priorities"
+            className="w-full rounded-lg shadow-elegant"
+          />
         </section>
 
-        <section className="space-y-4">
+      <section className="space-y-4">
           <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground mb-1 font-sans">
             Let's do this!
           </p>
@@ -187,20 +199,6 @@ const DashboardBuilder = () => {
               />
             </div>
           </div>
-        </section>
-
-        <section className="space-y-8">
-          <h4 className="mb-6">Defining Chart MVPs</h4>
-          <p className="mb-6">
-            Defining what charts would be included in the first rollout was a process of communication between internal
-            stakeholders and clients to find the best balance between complexity of chart dev time and importance of the
-            data. I worked closely with both dev teams to define priorities.
-          </p>
-          <img
-            src={chartMvpsImg}
-            alt="Chart MVP definitions and priorities"
-            className="w-full rounded-lg shadow-elegant"
-          />
         </section>
 
         <section className="space-y-8">
