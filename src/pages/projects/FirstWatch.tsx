@@ -18,7 +18,7 @@ const FirstWatch = () => {
     >
       <div className="space-y-32 animate-fade-in">
         <section>
-          <h2 className="mb-6">The Challenge</h2>
+          <h4 className="mb-6">The Challenge</h4>
           <p>
             First Watch needed to create a web solution during their rebranding process. The new site had to incorporate
             their updated logo and brand textures while adding critical new functionality for adding customers to a
@@ -27,7 +27,7 @@ const FirstWatch = () => {
         </section>
 
         <section className="space-y-8">
-          <h2 className="mb-6">Mobile / Small Format</h2>
+          <h4 className="mb-6">Mobile / Small Format</h4>
           <p className="mb-6">
             Needed to create a web solution for First Watch who was re-branding during the process of site creation.
           </p>
@@ -35,7 +35,7 @@ const FirstWatch = () => {
         </section>
 
         <section className="space-y-8">
-          <h2 className="mb-6">Mobile Sketches</h2>
+          <h4 className="mb-6">Mobile Sketches</h4>
           <p className="mb-6">
             Started with mobile sketches to define the core experience on smaller screens.
           </p>
@@ -43,7 +43,7 @@ const FirstWatch = () => {
         </section>
 
         <section className="space-y-8">
-          <h2 className="mb-6">Early Mobile Prototype</h2>
+          <h4 className="mb-6">Early Mobile Prototype</h4>
           <p className="mb-6">
             Created early mobile prototypes in Illustrator to test navigation patterns.
           </p>
@@ -51,7 +51,7 @@ const FirstWatch = () => {
         </section>
 
         <section className="space-y-8">
-          <h2 className="mb-6">Medium/Large Format</h2>
+          <h4 className="mb-6">Medium/Large Format</h4>
           <p className="mb-6">
             Developed preliminary sketches for desktop experience.
           </p>
@@ -59,7 +59,7 @@ const FirstWatch = () => {
         </section>
 
         <section className="space-y-8">
-          <h2 className="mb-6">Desktop / Large Format</h2>
+          <h4 className="mb-6">Desktop / Large Format</h4>
           <div className="flex flex-col md:flex-row gap-6 justify-center items-start">
             <img src={image5} alt="Desktop responsive home page" className="max-w-full md:max-w-[50%] h-auto rounded-lg shadow-elegant" />
             <img src={image6} alt="Desktop responsive menu" className="w-full md:w-1/2 rounded-lg shadow-elegant" />
@@ -67,7 +67,7 @@ const FirstWatch = () => {
         </section>
 
         <section className="space-y-8">
-          <h2 className="mb-6">Wait List Feature</h2>
+          <h4 className="mb-6">Wait List Feature</h4>
           <p className="mb-6">
             Revolutionary waitlist system allowing customers to add themselves remotely.
           </p>
@@ -77,7 +77,7 @@ const FirstWatch = () => {
         </section>
 
         <section>
-          <h2 className="mb-6">Key Features</h2>
+          <h4 className="mb-6">Key Features</h4>
           <div className="grid md:grid-cols-2 gap-8">
             <div className="p-6 bg-card rounded-lg shadow-card hover:shadow-elegant transition-all duration-300">
               <h3 className="mb-3">Digital Waitlist</h3>
@@ -99,7 +99,7 @@ const FirstWatch = () => {
         </section>
 
         <section>
-          <h2 className="mb-6">Impact</h2>
+          <h4 className="mb-6">Impact</h4>
           <p className="mb-8">
             Successfully launched a modern, mobile-first website that aligned with First Watch's refreshed brand identity.
           </p>

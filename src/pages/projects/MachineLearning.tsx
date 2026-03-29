@@ -15,7 +15,7 @@ const MachineLearning = () => {
     >
       <div className="space-y-16">
         <section>
-          <h2 className="mb-6 animate-fade-in">Wireframes</h2>
+          <h4 className="mb-6 animate-fade-in">Wireframes</h4>
           <p>
             Wireframe mockups for a portion of the CXS product. Working through verbatim and sentence details and
             creating new categories. Process of unifying user experience across multiple areas of the product offering.
@@ -27,7 +27,7 @@ const MachineLearning = () => {
         </section>
 
         <section>
-          <h2 className="mb-6">Training The Model</h2>
+          <h4 className="mb-6">Training The Model</h4>
           <p>
             We needed a way to define categories to create L1 and L2 file structures, label the categories, gather
             examples and assign them to the correct category which in turn helps train the model by learning patterns
@@ -41,7 +41,7 @@ const MachineLearning = () => {
         </section>
 
         <section>
-          <h2 className="mb-6">Confusion Matrices</h2>
+          <h4 className="mb-6">Confusion Matrices</h4>
           <p>
             Working closely with dev and PHD colleagues I learned about confusion matrices and how utilizing these tools
             would help analysts understand their data in terms of true positives, true negatives, false positives, and
@@ -55,7 +55,7 @@ const MachineLearning = () => {
         </section>
 
         <section>
-          <h2 className="mb-6">Analytics Dashboard</h2>
+          <h4 className="mb-6">Analytics Dashboard</h4>
           <p>
             After we defined categories we now had the ability to create amazing analytics dashboards to highlight all
             of the beautiful data.
@@ -67,7 +67,7 @@ const MachineLearning = () => {
         </section>
 
         <section>
-          <h2 className="mb-6">Human Centered AI</h2>
+          <h4 className="mb-6">Human Centered AI</h4>
           <p>
             The interface presents model confidence scores, feature importance, and prediction explanations in plain
             language. Users can drill down into details when needed, but the default view prioritizes clarity and
@@ -76,7 +76,7 @@ const MachineLearning = () => {
         </section>
 
         <div>
-          <h2 className="mb-6">Impact</h2>
+          <h4 className="mb-6">Impact</h4>
           <p className="mb-8">
             The Concentrix CXS Machine Learning project transformed unstructured data into actionable insight. This
             cross-functional momentum not only improved the product but also boosted team morale, proving that

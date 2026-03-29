@@ -18,7 +18,7 @@ const Marcos = () => {
     >
       <div className="space-y-32 animate-fade-in">
         <section className="space-y-8">
-          <h2 className="mb-6">Pizza Builder 1.0</h2>
+          <h4 className="mb-6">Pizza Builder 1.0</h4>
           <p className="mb-6">
             Brainstorming sketches and wireframes for pizza builder. I needed a way to allow the users to add specific
             items to half of a pizza or whole.
@@ -31,7 +31,7 @@ const Marcos = () => {
         </section>
 
         <section className="space-y-8">
-          <h2 className="mb-6">Pizza Builder 2.0</h2>
+          <h4 className="mb-6">Pizza Builder 2.0</h4>
           <p className="mb-6">
             Feedback from users was mixed. They felt the pizza diagram was confusing. Taking the feedback I went to my
             sketchbook and came up with new solutions.
@@ -40,7 +40,7 @@ const Marcos = () => {
         </section>
 
         <section className="space-y-8">
-          <h2 className="mb-6">Topping Selection Flow</h2>
+          <h4 className="mb-6">Topping Selection Flow</h4>
           <p className="mb-6">Add an item to pizza and select topping quantity with improved visual clarity.</p>
           <div className="space-y-6">
             <img src={image3} alt="Topping selection interface" className="w-full rounded-lg shadow-elegant" />
@@ -49,25 +49,25 @@ const Marcos = () => {
         </section>
 
         <section className="space-y-8">
-          <h2 className="mb-6">Adding to Cart</h2>
+          <h4 className="mb-6">Adding to Cart</h4>
           <p className="mb-6">Streamlined process for adding customized pizzas to cart.</p>
           <img src={image5} alt="Place order screen" className="w-full rounded-lg shadow-elegant" />
         </section>
 
         <section className="space-y-8">
-          <h2 className="mb-6">Final Art: Pizza Builder</h2>
+          <h4 className="mb-6">Final Art: Pizza Builder</h4>
           <p className="mb-6">Ordering a half and half pizza with refined visual design.</p>
           <img src={image6} alt="Final pizza builder design" className="w-full rounded-lg shadow-elegant" />
         </section>
 
         <section className="space-y-8">
-          <h2 className="mb-6">Final Art: Rewards Program</h2>
+          <h4 className="mb-6">Final Art: Rewards Program</h4>
           <p className="mb-6">Integrated rewards program to enhance customer loyalty.</p>
           <img src={image7} alt="Rewards program interface" className="w-full rounded-lg shadow-elegant" />
         </section>
 
         <section>
-          <h2 className="mb-6">Key Features</h2>
+          <h4 className="mb-6">Key Features</h4>
           <div className="grid md:grid-cols-2 gap-8">
             <div className="p-6 bg-card rounded-lg shadow-card hover:shadow-elegant transition-all duration-300">
               <h3 className="mb-3">Custom Pizza Builder</h3>
@@ -89,7 +89,7 @@ const Marcos = () => {
         </section>
 
         <section>
-          <h2 className="mb-6">Design Process</h2>
+          <h4 className="mb-6">Design Process</h4>
           <p className="mb-8">
             The iterative design process involved multiple rounds of sketching, prototyping, user testing, and refinement.
           </p>

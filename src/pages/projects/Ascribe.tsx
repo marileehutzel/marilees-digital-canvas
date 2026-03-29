@@ -33,7 +33,7 @@ const Ascribe = () => {
     >
       <div className="space-y-32">
         <section className="space-y-8">
-          <h2>The Challenge</h2>
+          <h4>The Challenge</h4>
           <p>
             Organizations collect thousands of customer comments through surveys and feedback channels, but traditional manual analysis methods only scratch the surface. Companies struggle to extract meaningful insights from open-ended responses at scale, often relying on basic word clouds that miss deeper themes and sentiment patterns.
           </p>
@@ -41,7 +41,7 @@ const Ascribe = () => {
         </section>
 
         <section className="space-y-8">
-          <h2>Theme Extractor - AI-Powered Analysis</h2>
+          <h4>Theme Extractor - AI-Powered Analysis</h4>
           <p>
             The Theme Extractor uses advanced AI to instantly analyze open-end comments with high accuracy. It extracts descriptive theme-based insights and clusters ideas into groups, enabling the discovery of remarkably clear and detailed insights instantly with precision results and unparalleled speed.
           </p>
@@ -52,7 +52,7 @@ const Ascribe = () => {
         </section>
 
         <section className="space-y-8">
-          <h2>Ask Ascribe - Conversational Data Analysis</h2>
+          <h4>Ask Ascribe - Conversational Data Analysis</h4>
           <p>
             Ask Ascribe answers any question you have about your data with insightful reports and summaries. Whether identifying key themes, exploring customer emotions, or determining areas for improvement, Ask Ascribe uncovers insights instantly. It's like interviewing your data!
           </p>
@@ -60,7 +60,7 @@ const Ascribe = () => {
         </section>
 
         <section className="space-y-8">
-          <h2>Sentiment Analysis & Visualization</h2>
+          <h4>Sentiment Analysis & Visualization</h4>
           <p>
             CX Inspector detects and visualizes customer sentiment, enabling teams to prioritize issues based on emotional impact. The platform creates visually appealing infographics and charts that help identify patterns, trends, and sentiments at a glance.
           </p>
@@ -71,7 +71,7 @@ const Ascribe = () => {
         </section>
 
         <section className="space-y-8">
-          <h2>X-Score Satisfaction Metric</h2>
+          <h4>X-Score Satisfaction Metric</h4>
           <p>
             X-Score is Ascribe's proprietary customer experience measurement that combines sentiment and frequency of themes within open-ends to identify key drivers that will increase customer satisfaction and loyalty.
           </p>
@@ -79,7 +79,7 @@ const Ascribe = () => {
         </section>
 
         <section className="space-y-8">
-          <h2>Interactive Data Exploration</h2>
+          <h4>Interactive Data Exploration</h4>
           <p>
             The platform features an interactive interface for easy data exploration with one-click results, powerful filters, co-occurrence reports, trend analysis, and crosstabs.
           </p>
@@ -91,7 +91,7 @@ const Ascribe = () => {
         </section>
 
         <section className="space-y-8">
-          <h2>Multi-Lingual Capabilities</h2>
+          <h4>Multi-Lingual Capabilities</h4>
           <p>
             CX Inspector can analyze customer comments in multiple languages and produce reports in the language of your choice.
           </p>
@@ -99,7 +99,7 @@ const Ascribe = () => {
         </section>
 
         <section className="space-y-8">
-          <h2>Theme Clustering & Pattern Recognition</h2>
+          <h4>Theme Clustering & Pattern Recognition</h4>
           <p>
             Advanced algorithms cluster related themes and identify patterns across thousands of responses.
           </p>
@@ -110,7 +110,7 @@ const Ascribe = () => {
         </section>
 
         <section className="space-y-8">
-          <h2>Analysis Dashboard</h2>
+          <h4>Analysis Dashboard</h4>
           <p>
             The comprehensive dashboard provides instant access to all analysis results, with charts and tables appearing immediately after file upload.
           </p>
@@ -118,7 +118,7 @@ const Ascribe = () => {
         </section>
 
         <section className="space-y-8">
-          <h2>Trend Analysis & Time Comparisons</h2>
+          <h4>Trend Analysis & Time Comparisons</h4>
           <p>
             Track how customer sentiment and key themes evolve over time with trend reports and historical comparisons.
           </p>
@@ -129,7 +129,7 @@ const Ascribe = () => {
         </section>
 
         <section className="space-y-8">
-          <h2>Generative AI Configuration</h2>
+          <h4>Generative AI Configuration</h4>
           <p>
             Users have control over the level of generative AI used in their analysis, balancing speed, depth of insights, and resource usage.
           </p>
@@ -137,7 +137,7 @@ const Ascribe = () => {
         </section>
 
         <section className="space-y-8">
-          <h2>Enterprise-Scale Processing</h2>
+          <h4>Enterprise-Scale Processing</h4>
           <p>
             CX Inspector can analyze thousands of customer responses efficiently, built for large-scale enterprise datasets.
           </p>
@@ -149,7 +149,7 @@ const Ascribe = () => {
         </section>
 
         <section className="space-y-8">
-          <h2>Voxco Platform Integration</h2>
+          <h4>Voxco Platform Integration</h4>
           <p>
             Ascribe CX Inspector is integrated into Voxco's all-in-one multi-channel survey platform for seamless feedback collection and analysis.
           </p>
@@ -160,7 +160,7 @@ const Ascribe = () => {
         </section>
 
         <section className="space-y-8">
-          <h2>Impact & Results</h2>
+          <h4>Impact & Results</h4>
           <p>
             Ascribe CX Inspector has transformed how organizations extract value from open-ended customer feedback, moving far beyond basic word clouds to uncover true strategic intelligence.
           </p>
@@ -171,7 +171,7 @@ const Ascribe = () => {
         </section>
 
         <section className="animate-fade-in">
-          <h2 className="mb-8">Platform Impact</h2>
+          <h4 className="mb-8">Platform Impact</h4>
           <div className="grid md:grid-cols-3 gap-8 text-center">
             <div className="p-6">
               <div className="text-4xl font-bold text-primary mb-2">1000s</div>

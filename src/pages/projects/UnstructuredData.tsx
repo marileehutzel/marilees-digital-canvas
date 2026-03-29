@@ -24,14 +24,14 @@ const UnstructuredData = () => {
         </section>
 
         <section>
-          <h2 className="mb-6">The Challenge</h2>
+          <h4 className="mb-6">The Challenge</h4>
           <p>
             Organizations generate massive amounts of unstructured data daily—from customer feedback, social media, emails, and documents. Traditional analytics tools struggled to process and extract meaningful insights from this complex, non-tabular data. We needed to build a solution that could help teams understand patterns, sentiment, and trends hidden within unstructured information.
           </p>
         </section>
 
         <section className="space-y-8">
-          <h2 className="mb-6">Discovery & Research</h2>
+          <h4 className="mb-6">Discovery & Research</h4>
           <p className="mb-6">
             Through stakeholder interviews and user research, we identified key pain points: data was siloed, difficult to search, and insights required manual effort. Teams needed a way to automatically categorize, tag, and visualize unstructured data at scale.
           </p>
@@ -39,7 +39,7 @@ const UnstructuredData = () => {
         </section>
 
         <section className="space-y-8">
-          <h2 className="mb-6">Information Architecture</h2>
+          <h4 className="mb-6">Information Architecture</h4>
           <p className="mb-6">
             We designed a flexible architecture that could handle various data sources and formats. The system needed to support text analysis, sentiment detection, entity recognition, and topic modeling while remaining intuitive for non-technical users.
           </p>
@@ -47,7 +47,7 @@ const UnstructuredData = () => {
         </section>
 
         <section className="space-y-8">
-          <h2 className="mb-6">Visualization Design</h2>
+          <h4 className="mb-6">Visualization Design</h4>
           <p className="mb-6">
             Creating effective visualizations for unstructured data required careful consideration. We explored multiple approaches to represent text patterns, sentiment trends, and entity relationships in ways that were both informative and accessible.
           </p>
@@ -55,7 +55,7 @@ const UnstructuredData = () => {
         </section>
 
         <section className="space-y-8">
-          <h2 className="mb-6">Interaction Patterns</h2>
+          <h4 className="mb-6">Interaction Patterns</h4>
           <p className="mb-6">
             We designed intuitive interaction patterns that allow users to drill down from high-level summaries to individual data points, filter by multiple criteria, and save custom views for recurring analysis needs.
           </p>
@@ -63,7 +63,7 @@ const UnstructuredData = () => {
         </section>
 
         <section className="space-y-8">
-          <h2 className="mb-6">Data Processing Pipeline</h2>
+          <h4 className="mb-6">Data Processing Pipeline</h4>
           <p className="mb-6">
             Behind the scenes, we built a robust data processing pipeline that could handle various file formats, extract key information, and apply machine learning models for classification and sentiment analysis.
           </p>
@@ -74,7 +74,7 @@ const UnstructuredData = () => {
         </section>
 
         <section className="space-y-8">
-          <h2 className="mb-6">Search & Filter</h2>
+          <h4 className="mb-6">Search & Filter</h4>
           <p className="mb-6">
             Advanced search and filtering capabilities were essential. Users needed to quickly find relevant documents, filter by sentiment, date ranges, entities, and custom tags—all while maintaining context.
           </p>
@@ -82,7 +82,7 @@ const UnstructuredData = () => {
         </section>
 
         <section className="space-y-8">
-          <h2 className="mb-6">Final Solution</h2>
+          <h4 className="mb-6">Final Solution</h4>
           <p className="mb-6">
             The final solution seamlessly combined data ingestion, processing, visualization, and reporting into a unified platform. Users could upload unstructured data, automatically extract insights, and create custom reports—all through an intuitive interface.
           </p>
@@ -90,7 +90,7 @@ const UnstructuredData = () => {
         </section>
 
         <section>
-          <h2 className="mb-6">Key Features</h2>
+          <h4 className="mb-6">Key Features</h4>
           <div className="grid md:grid-cols-2 gap-8">
             <div className="p-6 bg-card rounded-lg shadow-card hover:shadow-elegant transition-all duration-300">
               <h3 className="mb-3">Automated Text Analysis</h3>
@@ -120,7 +120,7 @@ const UnstructuredData = () => {
         </section>
 
         <section>
-          <h2 className="mb-6">Impact</h2>
+          <h4 className="mb-6">Impact</h4>
           <p className="mb-8">
             The Unstructured Data platform transformed how organizations interact with their qualitative information. By automating analysis and providing intuitive visualizations, teams could uncover insights that were previously hidden in mountains of text—enabling faster, more informed decision-making.
           </p>

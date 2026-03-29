@@ -31,7 +31,7 @@ const JustForFun = () => {
       <div className="space-y-32">
         <div className="space-y-12">
           <div>
-            <h2 className="mb-6">Creative Exploration</h2>
+            <h4 className="mb-6">Creative Exploration</h4>
             <p className="mb-8">
               These sketches and illustrations represent personal creative time where I explore different artistic
               styles and techniques.
@@ -54,7 +54,7 @@ const JustForFun = () => {
           </div>
 
           <div>
-            <h2 className="mb-6">Artistic Freedom</h2>
+            <h4 className="mb-6">Artistic Freedom</h4>
             <p className="mb-8">
               These personal projects provide a creative outlet beyond professional design work.
             </p>

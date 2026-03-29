@@ -25,7 +25,7 @@ const HackAThon = () => {
         </section>
 
         <section>
-          <h2 className="mb-6">My Role</h2>
+          <h4 className="mb-6">My Role</h4>
           <p>
             As team lead and UX designer, I shaped the overall vision and experience. I facilitated brainstorming
             sessions, defined user journeys, created wireframes and interactive prototypes.
@@ -33,7 +33,7 @@ const HackAThon = () => {
         </section>
 
         <section>
-          <h2 className="mb-6">Why This Project Mattered</h2>
+          <h4 className="mb-6">Why This Project Mattered</h4>
           <p className="mb-6">
             Call center agents operate under constant pressure. Traditional coaching methods often rely on delayed,
             manual reviews that fail to capture the nuance of live interactions.
@@ -44,7 +44,7 @@ const HackAThon = () => {
         </section>
 
         <section>
-          <h2 className="mb-6">The Concept</h2>
+          <h4 className="mb-6">The Concept</h4>
           <div className="space-y-6">
             <div className="p-6 bg-card rounded-lg shadow-card hover:shadow-elegant transition-all duration-300">
               <h3 className="mb-3">Real-Time Analysis</h3>
@@ -66,7 +66,7 @@ const HackAThon = () => {
         </section>
 
         <section>
-          <h2 className="mb-6">Projected Impact</h2>
+          <h4 className="mb-6">Projected Impact</h4>
           <div className="grid md:grid-cols-3 gap-8 text-center mb-8">
             <div className="p-6">
               <div className="text-4xl font-bold text-primary mb-2">Real-Time</div>
@@ -84,7 +84,7 @@ const HackAThon = () => {
         </section>
 
         <section>
-          <h2 className="mb-6">Key Insight</h2>
+          <h4 className="mb-6">Key Insight</h4>
           <blockquote className="border-l-4 border-primary pl-6 italic">
             "AI-powered coaching isn't about replacing human managers—it's about giving every agent access to instant,
             personalized feedback."
