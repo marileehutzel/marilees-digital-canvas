@@ -1,6 +1,5 @@
 import CaseStudyLayout from "@/components/CaseStudyLayout";
 import whatIsImg from "@/assets/dashboard-builder/WhatIs-DashboardLifeCycle.png";
-import theBestImg from "@/assets/dashboard-builder/TheBest.png";
 import researchDiscoveryImg from "@/assets/dashboard-builder/research-discovery.png";
 import hierarchyArchitectureImg from "@/assets/dashboard-builder/hierarchy-architecture.png";
 import wireframes1Img from "@/assets/dashboard-builder/wireframes-1.png";
@@ -37,13 +36,16 @@ const DashboardBuilder = () => {
             dashboard view. Feedback from clients was frank and honest. They felt we were lagging behind competitors
             that offered customization. Clients were contemplating leaving the product.
           </p>
-          
+          <img src={whatIsImg} alt="Outdated process" className="w-full rounded-lg shadow-elegant" />
 
-          <div className="space-y-8 mt-12">
+          <div className="grid md:grid-cols-2 gap-8 mt-12">
             <div className="p-6 bg-card rounded-lg shadow-card">
-              <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground mb-1 font-sans">
+              {/*
+              <p className="text-xs uppercase tracking-[0.2em] text-secondary-foreground/40 mb-1 font-sans">
                 What Existed
               </p>
+              */}
+
               <h4 className="mb-4">What Existed</h4>
               <ul className="list-disc list-inside space-y-3 font-serif text-lg md:text-xl text-muted-foreground leading-relaxed">
                 <li>Static MVP dashboards with no customization</li>
@@ -53,12 +55,8 @@ const DashboardBuilder = () => {
                 <li>Long wait time for requests to be completed</li>
                 <li>Developers bogged down with requests</li>
               </ul>
-              <img src={whatIsImg} alt="Outdated process" className="w-full rounded-lg mt-6" />
             </div>
             <div className="p-6 bg-secondary rounded-lg shadow-card">
-              <p className="text-xs uppercase tracking-[0.2em] text-secondary-foreground/50 mb-1 font-sans">
-                What Could Be
-              </p>
               <h4 className="mb-4 text-secondary-foreground">What Could Be</h4>
               <ul className="list-disc list-inside space-y-3 font-serif text-lg md:text-xl text-secondary-foreground/80 leading-relaxed">
                 <li>Self-Service Dashboards</li>
@@ -68,7 +66,6 @@ const DashboardBuilder = () => {
                 <li>Real-time analysis of complex data</li>
                 <li>Devolpers focused on other projects</li>
               </ul>
-              <img src={theBestImg} alt="What could be vision" className="max-w-[50%] h-auto rounded-lg mt-6 mx-auto" />
             </div>
           </div>
         </section>
