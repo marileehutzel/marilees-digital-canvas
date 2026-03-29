@@ -97,12 +97,12 @@ const DashboardBuilder = () => {
               <div className="w-48 h-48 rounded-full bg-[hsl(175,50%,70%)] flex items-center justify-center mb-8">
                 <span className="text-4xl font-bold text-white">J</span>
               </div>
-              <h4 className="mb-4">Javier / San Salvador</h4>
-              <ul className="space-y-2 text-muted-foreground font-serif text-lg">
-                <li>Located in San Salvador</li>
-                <li>Larger team</li>
-                <li>Legacy codebase</li>
-                <li>Bootstrap framework</li>
+              <h4 className="mb-4">Javier</h4>
+              <ul className="list-disc list-outside space-y-2 text-muted-foreground font-serif text-lg text-left pl-5">
+                <li>Based in San Salvadore</li>
+                <li>6 developers on team in San Salvadore</li>
+                <li>Converting existing framework into React</li>
+                <li>Using storybook components from design system</li>
               </ul>
             </div>
             <div className="flex flex-col items-center text-center">
