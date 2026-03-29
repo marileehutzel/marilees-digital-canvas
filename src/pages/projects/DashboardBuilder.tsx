@@ -91,7 +91,7 @@ const DashboardBuilder = () => {
 
         <section>
           <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground mb-3 font-sans">Two Developer Teams</p>
-          <h4 className="mb-10">A Tale of Two Javier's</h4>
+          <h4 className="mb-10">A Tale of Two Javiers</h4>
           <div className="grid md:grid-cols-2 gap-12">
             <div className="flex flex-col items-center text-center">
               <div className="w-48 h-48 rounded-full bg-[hsl(175,50%,70%)] flex items-center justify-center mb-8">
