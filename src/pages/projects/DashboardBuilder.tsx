@@ -1,3 +1,4 @@
+import { useRef, useEffect, useState } from "react";
 import CaseStudyLayout from "@/components/CaseStudyLayout";
 import whatIsImg from "@/assets/dashboard-builder/WhatIs-DashboardLifeCycle.png";
 import theBestImg from "@/assets/dashboard-builder/TheBest.png";
@@ -13,6 +14,39 @@ import highFidelityLightImg from "@/assets/dashboard-builder/high-fidelity-light
 import highFidelityDarkImg from "@/assets/dashboard-builder/high-fidelity-dark.png";
 
 const DashboardBuilder = () => {
+  const parallaxRef = useRef<HTMLDivElement>(null);
+  const containerRef = useRef<HTMLDivElement>(null);
+  const [scrollProgress, setScrollProgress] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (!containerRef.current || !parallaxRef.current) return;
+      const rect = containerRef.current.getBoundingClientRect();
+      const windowHeight = window.innerHeight;
+      
+      // Calculate progress: 0 when section enters viewport, 1 when it leaves
+      const start = rect.top - windowHeight;
+      const end = rect.bottom;
+      const total = end - start;
+      const progress = Math.min(Math.max(-start / total, 0), 1);
+      
+      setScrollProgress(progress);
+    };
+
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    handleScroll();
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  // Calculate horizontal translation based on image overflow
+  const getTranslateX = () => {
+    if (!parallaxRef.current) return 0;
+    const scrollWidth = parallaxRef.current.scrollWidth;
+    const clientWidth = parallaxRef.current.clientWidth;
+    const maxScroll = scrollWidth - clientWidth;
+    return -scrollProgress * maxScroll;
+  };
+
   return (
     <CaseStudyLayout
       title="Dashboard Builder"
@@ -219,12 +253,18 @@ const DashboardBuilder = () => {
             User interview feedback led to expanding and creating more detailed wireframes. With the addition of a
             customized color picker so analysts can create their own favorite themes.
           </p>
-          <div className="overflow-x-auto -mx-6 px-6">
-            <img
-              src={wireframesRound2Img}
-              alt="Second round of detailed wireframes"
-              className="h-[80vh] w-auto max-w-none rounded-lg shadow-elegant"
-            />
+          <div ref={containerRef} className="overflow-hidden -mx-6 px-6">
+            <div
+              ref={parallaxRef}
+              className="w-fit"
+              style={{ transform: `translateX(${getTranslateX()}px)`, willChange: "transform" }}
+            >
+              <img
+                src={wireframesRound2Img}
+                alt="Second round of detailed wireframes"
+                className="h-[80vh] w-auto max-w-none rounded-lg shadow-elegant"
+              />
+            </div>
           </div>
         </section>
 
