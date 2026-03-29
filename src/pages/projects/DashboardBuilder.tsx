@@ -249,11 +249,11 @@ const DashboardBuilder = () => {
           </p>
           <div ref={containerRef} className="overflow-hidden -mx-6 px-6">
             <div
-              ref={parallaxRef}
               className="w-fit"
-              style={{ transform: `translateX(${getTranslateX()}px)`, willChange: "transform" }}
+              style={{ transform: `translateX(${translateX}px)`, willChange: "transform" }}
             >
               <img
+                ref={imgRef}
                 src={wireframesRound2Img}
                 alt="Second round of detailed wireframes"
                 className="h-[80vh] w-auto max-w-none rounded-lg shadow-elegant"
