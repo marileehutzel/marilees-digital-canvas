@@ -27,6 +27,7 @@ const DashboardBuilder = () => {
     >
       <div className="space-y-32 animate-fade-in">
         <section>
+          metadata={[{ label: "What Is", value: "The Problem" }]}
           <h4 className="mb-6 animate-fade-in">The Challenge</h4>
           <p>
             Customers wanted customizable dashbaord views to tell their own data story. Internal business analysts had
