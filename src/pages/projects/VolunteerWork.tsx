@@ -13,6 +13,17 @@ const VolunteerWork = () => {
       subtitle="Community design & creative contributions"
       description="A collection of volunteer design work including branding for local non-profits and promotional materials for community events."
     >
+      <div>
+        <h4 className="mb-6">Gig Posters</h4>
+        <p className="mb-8">Various size gig flyers used on Instagram to promote DJ dance parties.</p>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <img src={image3} alt="Gig poster design 1" className="w-full rounded-lg shadow-elegant" />
+          <img src={image4} alt="Gig poster design 2" className="w-full rounded-lg shadow-elegant" />
+          <img src={image5} alt="Gig poster design 3" className="w-full rounded-lg shadow-elegant" />
+          <img src={image6} alt="Gig poster design 4" className="w-full rounded-lg shadow-elegant" />
+        </div>
+      </div>
+
       <div className="space-y-32">
         <div className="space-y-12">
           <div>
