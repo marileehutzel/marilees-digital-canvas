@@ -29,11 +29,11 @@ const VolunteerWork = () => {
           <img src={hutzLogo} alt="Handyman Hutz logo" className="max-w-[50%] h-auto" />
         </div>
         <div className="flex flex-col md:flex-row gap-6 justify-center items-start mt-8">
-          <div className="md:w-1/2">
-            <img src={jeremyTrailer} alt="Trailer with Handyman Hutz branding design" className="w-full h-auto rounded-lg shadow-elegant object-contain" />
-          </div>
           <div className="md:w-1/2 flex flex-col items-center gap-4">
             <img src={jeremyTruck} alt="Jeremy standing next to the branded truck and trailer" className="w-full h-auto rounded-lg shadow-elegant object-contain" />
+          </div>
+          <div className="md:w-1/2 flex flex-col items-center gap-4">
+            <img src={jeremyTrailer} alt="Trailer with Handyman Hutz branding design" className="w-full h-auto rounded-lg shadow-elegant object-contain" />
             <div className="flex flex-row gap-4 justify-center mt-2">
               <img src={hutzHammer} alt="Handyman Hutz hammer icon" className="max-w-[100px] h-auto" />
               <img src={hutzNail} alt="Handyman Hutz nail icon" className="max-w-[100px] h-auto" />
