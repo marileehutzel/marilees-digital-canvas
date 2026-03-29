@@ -24,6 +24,7 @@ import Ascribe from "./pages/projects/Ascribe";
 import McAlistersDeli from "./pages/projects/McAlistersDeli";
 import LovableWebsite from "./pages/projects/LovableWebsite";
 import NotFound from "./pages/NotFound";
+import PasswordGate from "./components/PasswordGate";
 
 const queryClient = new QueryClient();
 
@@ -32,6 +33,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
+      <PasswordGate>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
