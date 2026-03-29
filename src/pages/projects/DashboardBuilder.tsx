@@ -219,11 +219,13 @@ const DashboardBuilder = () => {
             User interview feedback led to expanding and creating more detailed wireframes. With the addition of a
             customized color picker so analysts can create their own favorite themes.
           </p>
-          <img
-            src={wireframesRound2Img}
-            alt="Second round of detailed wireframes"
-            className="w-full rounded-lg shadow-elegant"
-          />
+          <div className="overflow-x-auto -mx-6 px-6">
+            <img
+              src={wireframesRound2Img}
+              alt="Second round of detailed wireframes"
+              className="h-[80vh] w-auto max-w-none rounded-lg shadow-elegant"
+            />
+          </div>
         </section>
 
         <section className="space-y-8">
