@@ -157,6 +157,7 @@ const DashboardBuilder = () => {
               className="w-full rounded-lg shadow-elegant"
             />
           </div>
+        </section>
 
         <section className="space-y-8">
           <h4 className="mb-6">Defining Chart MVPs</h4>
@@ -172,10 +173,8 @@ const DashboardBuilder = () => {
           />
         </section>
 
-      <section className="space-y-4">
-          <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground mb-1 font-sans">
-            Let's do this!
-          </p>
+        <section className="space-y-4">
+          <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground mb-1 font-sans">Let's do this!</p>
           <div>
             <h4 className="mb-4">Let's Get to The Drawing Board</h4>
             <p className="mb-6">
