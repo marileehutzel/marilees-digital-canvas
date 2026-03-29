@@ -36,7 +36,7 @@ const DashboardBuilder = () => {
             dashboard view. Feedback from clients was frank and honest. They felt we were lagging behind competitors
             that offered customization. Clients were contemplating leaving the product.
           </p>
-          <img src={whatIsImg} alt="Outdated process" className="w-full rounded-lg shadow-elegant" />
+          
 
           <div className="space-y-8 mt-12">
             <div className="p-6 bg-card rounded-lg shadow-card">
@@ -52,6 +52,7 @@ const DashboardBuilder = () => {
                 <li>Long wait time for requests to be completed</li>
                 <li>Developers bogged down with requests</li>
               </ul>
+              <img src={whatIsImg} alt="Outdated process" className="w-full rounded-lg mt-6" />
             </div>
             <div className="p-6 bg-secondary rounded-lg shadow-card">
               <p className="text-xs uppercase tracking-[0.2em] text-secondary-foreground/50 mb-1 font-sans">
