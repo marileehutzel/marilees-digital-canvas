@@ -28,7 +28,7 @@ const DashboardBuilder = () => {
     >
       <div className="space-y-32 animate-fade-in">
         <section>
-          <p className="text-xs uppercase tracking-[0.2em] text-secondary-foreground/50 mb-3 font-sans">
+          <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground mb-3 font-sans">
             The Challenge
           </p>
           <h4 className="mb-6 animate-fade-in">Data existed. Clarity didn't.</h4>
