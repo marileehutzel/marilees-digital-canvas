@@ -87,7 +87,9 @@ const DashboardBuilder = () => {
               create custom dashboards to make real change, to find trends and help make their employees more effective
               at their jobs. Also completed a competitive analysis of existing leading dashboard tools. Had an insider
               demo a competitor product similar to what we would want to build. Investigated how Qualtrics (primary
-              competitor) handled certain complicated user flows and saw real pain points from their customers.
+              competitor) handled certain complicated user flows and saw real pain points from their customers. Another
+              headache uncovered from research was the real issue of collaboration and sharing of dashboards. We had no
+              system or structure designed for permissions or hierarchy of PPI within our defined roles.
             </p>
             <img
               src={researchDiscoveryImg}
@@ -100,9 +102,10 @@ const DashboardBuilder = () => {
             <h3 className="mb-4">Hierarchy and Architecture</h3>
             <p className="mb-6">
               Needed to make sure that the new dashboard builder feature worked into the larger ecosystem already
-              established. Found a way to add into the existing navigation with ways to access customized dashboard
-              navigation drawer. Which was an added feature we created due to user testing and interviews. Also wanted
-              to focus on making the navigation as flat as possible to eliminate deeply nested navigation structures.
+              established. Found a way to add dashboard builder into the existing navigation with ways to access
+              customized dashboard navigation drawer. Through continuted user testing and interviews we deterimined that
+              users needed a way to access their custom dashboards. Also wanted to focus on making the navigation as
+              flat as possible to eliminate deeply nested navigation structures.
             </p>
             <img
               src={hierarchyArchitectureImg}
