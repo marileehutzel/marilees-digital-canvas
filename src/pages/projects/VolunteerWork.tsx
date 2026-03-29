@@ -5,6 +5,10 @@ import image3 from "@/assets/volunteer-work/image-3.png";
 import image4 from "@/assets/volunteer-work/image-4.png";
 import image5 from "@/assets/volunteer-work/image-5.png";
 import image6 from "@/assets/volunteer-work/image-6.png";
+import hutzLogo from "@/assets/volunteer-work/Artboard 1NoBackground.png";
+import hutzHammer from "@/assets/volunteer-work/HammerNoBackground.png";
+import hutzNail from "@/assets/volunteer-work/NailNoBackground.png";
+import hutzScrewdriver from "@/assets/volunteer-work/Screw DriverNoBackground.png";
 
 const VolunteerWork = () => {
   return (
@@ -19,11 +23,13 @@ const VolunteerWork = () => {
           I guess when your family, you get free designs, sometimes. My little brother started a handyman business and I
           created his branding material for him. He's doing great work, and super proud of how far he's gone!
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <img src={image3} alt="Gig poster design 1" className="w-full rounded-lg shadow-elegant" />
-          <img src={image4} alt="Gig poster design 2" className="w-full rounded-lg shadow-elegant" />
-          <img src={image5} alt="Gig poster design 3" className="w-full rounded-lg shadow-elegant" />
-          <img src={image6} alt="Gig poster design 4" className="w-full rounded-lg shadow-elegant" />
+        <div className="flex flex-col items-center gap-12">
+          <img src={hutzLogo} alt="Handyman Hutz logo" className="max-w-[50%] h-auto" />
+          <div className="flex flex-col md:flex-row gap-6 justify-center">
+            <img src={hutzHammer} alt="Handyman Hutz hammer icon" className="max-w-[200px] h-auto" />
+            <img src={hutzNail} alt="Handyman Hutz nail icon" className="max-w-[200px] h-auto" />
+            <img src={hutzScrewdriver} alt="Handyman Hutz screwdriver icon" className="max-w-[200px] h-auto" />
+          </div>
         </div>
       </div>
 
