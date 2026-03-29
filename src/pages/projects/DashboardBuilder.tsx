@@ -22,6 +22,7 @@ const DashboardBuilder = () => {
         { label: "Role", value: "Lead UX Designer" },
         { label: "Platforms", value: "Web (React), Legacy" },
         { label: "Design Tools", value: "Figma, Sketch" },
+        { label: "Product", value: "Concentrix CX" },
       ]}
     >
       <div className="space-y-32 animate-fade-in">
