@@ -187,16 +187,20 @@ const DashboardBuilder = () => {
               experience to work seamlessly across both the new React responsive framework and the legacy environment.
             </p>
             <div className="space-y-6">
-              <img
-                src={wireframes1Img}
-                alt="Initial wireframe explorations"
-                className="w-full rounded-lg shadow-elegant"
-              />
-              <img
-                src={wireframes2Img}
-                alt="Wireframe layout variations"
-                className="w-full rounded-lg shadow-elegant"
-              />
+              <div className="overflow-x-auto -mx-6 px-6">
+                <img
+                  src={wireframes1Img}
+                  alt="Initial wireframe explorations"
+                  className="h-[80vh] w-auto max-w-none rounded-lg shadow-elegant"
+                />
+              </div>
+              <div className="overflow-x-auto -mx-6 px-6">
+                <img
+                  src={wireframes2Img}
+                  alt="Wireframe layout variations"
+                  className="h-[80vh] w-auto max-w-none rounded-lg shadow-elegant"
+                />
+              </div>
             </div>
           </div>
         </section>
