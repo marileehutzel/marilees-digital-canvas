@@ -10,6 +10,7 @@ import hutzHammer from "@/assets/volunteer-work/HammerNoBackground.png";
 import hutzNail from "@/assets/volunteer-work/NailNoBackground.png";
 import hutzScrewdriver from "@/assets/volunteer-work/Screw DriverNoBackground.png";
 import jeremyTruck from "@/assets/volunteer-work/JeremyBackofTruck.png";
+import jeremyTrailer from "@/assets/volunteer-work/JeremyTrailer.png";
 
 const VolunteerWork = () => {
   return (
