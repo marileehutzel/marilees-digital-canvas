@@ -1,4 +1,3 @@
-import { useRef, useEffect, useState } from "react";
 import CaseStudyLayout from "@/components/CaseStudyLayout";
 import whatIsImg from "@/assets/dashboard-builder/WhatIs-DashboardLifeCycle.png";
 import theBestImg from "@/assets/dashboard-builder/TheBest.png";
@@ -14,32 +13,6 @@ import highFidelityLightImg from "@/assets/dashboard-builder/high-fidelity-light
 import highFidelityDarkImg from "@/assets/dashboard-builder/high-fidelity-dark.png";
 
 const DashboardBuilder = () => {
-  const imgRef = useRef<HTMLImageElement>(null);
-  const containerRef = useRef<HTMLDivElement>(null);
-  const [translateX, setTranslateX] = useState(0);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      if (!containerRef.current || !imgRef.current) return;
-      const containerRect = containerRef.current.getBoundingClientRect();
-      const windowHeight = window.innerHeight;
-      const imgWidth = imgRef.current.offsetWidth;
-      const containerWidth = containerRef.current.offsetWidth;
-      const overflow = imgWidth - containerWidth;
-      if (overflow <= 0) return;
-
-      // Progress from 0 to 1 as the section scrolls through the viewport
-      const start = containerRect.top - windowHeight;
-      const end = containerRect.bottom;
-      const progress = Math.min(Math.max(-start / (end - start), 0), 1);
-
-      setTranslateX(-progress * overflow);
-    };
-
-    window.addEventListener("scroll", handleScroll, { passive: true });
-    handleScroll();
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
 
   return (
     <CaseStudyLayout
@@ -247,18 +220,12 @@ const DashboardBuilder = () => {
             User interview feedback led to expanding and creating more detailed wireframes. With the addition of a
             customized color picker so analysts can create their own favorite themes.
           </p>
-          <div ref={containerRef} className="overflow-hidden -mx-6 px-6">
-            <div
-              className="w-fit"
-              style={{ transform: `translateX(${translateX}px)`, willChange: "transform" }}
-            >
-              <img
-                ref={imgRef}
-                src={wireframesRound2Img}
-                alt="Second round of detailed wireframes"
-                className="h-[80vh] w-auto max-w-none rounded-lg shadow-elegant"
-              />
-            </div>
+          <div className="overflow-x-auto -mx-6 px-6">
+            <img
+              src={wireframesRound2Img}
+              alt="Second round of detailed wireframes"
+              className="h-[80vh] w-auto max-w-none rounded-lg shadow-elegant"
+            />
           </div>
         </section>
 
