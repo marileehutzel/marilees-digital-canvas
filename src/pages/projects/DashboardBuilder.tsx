@@ -41,22 +41,22 @@ const DashboardBuilder = () => {
             <div className="p-6 bg-card rounded-lg shadow-card">
               <p className="text-xs uppercase tracking-[0.2em] text-secondary-foreground/40 mb-1 font-sans">What Existed</p>
               <h4 className="mb-4">The Problem</h4>
-              <ol className="list-decimal list-inside space-y-3 font-serif text-lg md:text-xl text-muted-foreground leading-relaxed">
+              <ul className="list-disc list-inside space-y-3 font-serif text-lg md:text-xl text-muted-foreground leading-relaxed">
                 <li>Static MVP dashboards with no customization</li>
                 <li>Developer dependency for every custom view</li>
                 <li>Manual request process for dashboard changes</li>
                 <li>One-size-fits-all reporting</li>
-              </ol>
+              </ul>
             </div>
             <div className="p-6 bg-card rounded-lg shadow-card">
               <p className="text-xs uppercase tracking-[0.2em] text-secondary-foreground/40 mb-1 font-sans">What Could Be</p>
               <h4 className="mb-4">The Vision</h4>
-              <ol className="list-decimal list-inside space-y-3 font-serif text-lg md:text-xl text-muted-foreground leading-relaxed">
+              <ul className="list-disc list-inside space-y-3 font-serif text-lg md:text-xl text-muted-foreground leading-relaxed">
                 <li>Self-service dashboard builder</li>
                 <li>Drag-and-drop widget configuration</li>
                 <li>Real-time preview and iteration</li>
                 <li>User-driven data storytelling</li>
-              </ol>
+              </ul>
             </div>
           </div>
         </section>
