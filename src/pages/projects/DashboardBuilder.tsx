@@ -11,6 +11,7 @@ import grid2Img from "@/assets/dashboard-builder/grid-2.png";
 import wireframesRound2Img from "@/assets/dashboard-builder/wireframes-round2.png";
 import highFidelityLightImg from "@/assets/dashboard-builder/high-fidelity-light.png";
 import highFidelityDarkImg from "@/assets/dashboard-builder/high-fidelity-dark.png";
+import collaborationImg from "@/assets/dashboard-builder/collaboration-communication.png";
 
 const DashboardBuilder = () => {
 
@@ -119,6 +120,16 @@ const DashboardBuilder = () => {
               </ul>
             </div>
           </div>
+        </section>
+
+        <section>
+          <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground mb-3 font-sans">Team Dynamics</p>
+          <h4 className="mb-6 animate-fade-in">Collaboration and Communication</h4>
+          <img
+            src={collaborationImg}
+            alt="Collaboration and communication diagram showing team dynamics between stakeholders, project managers, developers, and clients"
+            className="w-full rounded-lg shadow-elegant"
+          />
         </section>
 
         <section className="space-y-4">
