@@ -1,6 +1,7 @@
 import CaseStudyLayout from "@/components/CaseStudyLayout";
 import image1 from "@/assets/cx-design-system/image-1.png";
 import image2 from "@/assets/cx-design-system/image-2.png";
+import iconsImg from "@/assets/cx-design-system/CXS - Style Guide - Icons.png";
 
 const CXDesignSystem = () => {
   return (
