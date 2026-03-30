@@ -2,6 +2,12 @@ import CaseStudyLayout from "@/components/CaseStudyLayout";
 import image1 from "@/assets/cx-design-system/image-1.png";
 import image2 from "@/assets/cx-design-system/image-2.png";
 import iconsImg from "@/assets/cx-design-system/CXS - Style Guide - Icons.png";
+import colorsImg from "@/assets/cx-design-system/Colors.png";
+import colorTokensImg from "@/assets/cx-design-system/Color Tokens.png";
+import numberScaleImg from "@/assets/cx-design-system/Number Scale.png";
+import radiusImg from "@/assets/cx-design-system/Radius.png";
+import typographyImg from "@/assets/cx-design-system/Typography.png";
+import effectsImg from "@/assets/cx-design-system/Effects.png";
 
 const CXDesignSystem = () => {
   return (
@@ -55,6 +61,78 @@ const CXDesignSystem = () => {
             <img
               src={iconsImg}
               alt="Style guide showing the icon system and iconography standards"
+              className="w-full rounded-lg shadow-elegant"
+            />
+          </div>
+
+          <div>
+            <h4 className="mb-6">Style Guide — Colors</h4>
+            <p className="mb-8">
+              A core color palette was defined to maintain brand consistency and ensure accessibility across all interface elements.
+            </p>
+            <img
+              src={colorsImg}
+              alt="Style guide showing the color palette"
+              className="w-full rounded-lg shadow-elegant"
+            />
+          </div>
+
+          <div>
+            <h4 className="mb-6">Style Guide — Color Tokens</h4>
+            <p className="mb-8">
+              Design tokens were established to systematize color usage, enabling consistent theming and scalable styling across the platform.
+            </p>
+            <img
+              src={colorTokensImg}
+              alt="Style guide showing color token definitions"
+              className="w-full rounded-lg shadow-elegant"
+            />
+          </div>
+
+          <div>
+            <h4 className="mb-6">Style Guide — Number Scale</h4>
+            <p className="mb-8">
+              A standardized number scale was created to ensure consistent sizing and spacing throughout the design system.
+            </p>
+            <img
+              src={numberScaleImg}
+              alt="Style guide showing the number scale system"
+              className="w-full rounded-lg shadow-elegant"
+            />
+          </div>
+
+          <div>
+            <h4 className="mb-6">Style Guide — Radius</h4>
+            <p className="mb-8">
+              Border radius values were standardized to create a cohesive visual language for all UI components.
+            </p>
+            <img
+              src={radiusImg}
+              alt="Style guide showing border radius standards"
+              className="w-full rounded-lg shadow-elegant"
+            />
+          </div>
+
+          <div>
+            <h4 className="mb-6">Style Guide — Typography</h4>
+            <p className="mb-8">
+              A typographic scale was established to ensure readability and visual hierarchy across the entire product.
+            </p>
+            <img
+              src={typographyImg}
+              alt="Style guide showing typography standards"
+              className="w-full rounded-lg shadow-elegant"
+            />
+          </div>
+
+          <div>
+            <h4 className="mb-6">Style Guide — Effects</h4>
+            <p className="mb-8">
+              Shadow and effect styles were defined to create depth and visual consistency across interface elements.
+            </p>
+            <img
+              src={effectsImg}
+              alt="Style guide showing shadow and effect standards"
               className="w-full rounded-lg shadow-elegant"
             />
           </div>
