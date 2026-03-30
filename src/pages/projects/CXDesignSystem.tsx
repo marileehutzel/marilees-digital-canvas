@@ -1,6 +1,7 @@
 import CaseStudyLayout from "@/components/CaseStudyLayout";
 import image1 from "@/assets/cx-design-system/image-1.png";
 import image2 from "@/assets/cx-design-system/image-2.png";
+import iconsImg from "@/assets/cx-design-system/CXS - Style Guide - Icons.png";
 
 const CXDesignSystem = () => {
   return (
@@ -42,6 +43,18 @@ const CXDesignSystem = () => {
             <img
               src={image2}
               alt="Streamlined interface elements and components"
+              className="w-full rounded-lg shadow-elegant"
+            />
+          </div>
+
+          <div>
+            <h4 className="mb-6">Style Guide — Icons</h4>
+            <p className="mb-8">
+              A unified icon set was developed to ensure visual consistency and clarity across the entire platform.
+            </p>
+            <img
+              src={iconsImg}
+              alt="Style guide showing the icon system and iconography standards"
               className="w-full rounded-lg shadow-elegant"
             />
           </div>
