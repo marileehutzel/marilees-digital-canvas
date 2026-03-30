@@ -54,18 +54,6 @@ const CXDesignSystem = () => {
           </div>
 
           <div>
-            <h4 className="mb-6">Icons</h4>
-            <p className="mb-8">
-              A unified icon set was developed to ensure visual consistency and clarity across the entire platform.
-            </p>
-            <img
-              src={iconsImg}
-              alt="Style guide showing the icon system and iconography standards"
-              className="w-full rounded-lg shadow-elegant"
-            />
-          </div>
-
-          <div>
             <h4 className="mb-6">Colors</h4>
             <p className="mb-8">
               A core color palette was defined to maintain brand consistency and ensure accessibility across all interface elements.
@@ -133,6 +121,18 @@ const CXDesignSystem = () => {
             <img
               src={effectsImg}
               alt="Style guide showing shadow and effect standards"
+              className="w-full rounded-lg shadow-elegant"
+            />
+          </div>
+
+          <div>
+            <h4 className="mb-6">Icons</h4>
+            <p className="mb-8">
+              A unified icon set was developed to ensure visual consistency and clarity across the entire platform.
+            </p>
+            <img
+              src={iconsImg}
+              alt="Style guide showing the icon system and iconography standards"
               className="w-full rounded-lg shadow-elegant"
             />
           </div>
