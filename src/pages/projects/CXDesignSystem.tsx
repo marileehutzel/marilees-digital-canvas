@@ -48,6 +48,18 @@ const CXDesignSystem = () => {
           </div>
 
           <div>
+            <h4 className="mb-6">Style Guide — Icons</h4>
+            <p className="mb-8">
+              A unified icon set was developed to ensure visual consistency and clarity across the entire platform.
+            </p>
+            <img
+              src={iconsImg}
+              alt="Style guide showing the icon system and iconography standards"
+              className="w-full rounded-lg shadow-elegant"
+            />
+          </div>
+
+          <div>
             <h4 className="mb-6">Impact</h4>
             <p className="mb-8">
               These updates established a scalable foundation that improved usability, consistency, and the ability to
