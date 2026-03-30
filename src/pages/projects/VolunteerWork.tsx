@@ -5,10 +5,10 @@ import image3 from "@/assets/volunteer-work/image-3.png";
 import image4 from "@/assets/volunteer-work/image-4.png";
 import image5 from "@/assets/volunteer-work/image-5.png";
 import image6 from "@/assets/volunteer-work/image-6.png";
-import hutzLogo from "@/assets/volunteer-work/Artboard 1NoBackground.png";
+import hutzLogo from "@/assets/volunteer-work/Artboard1NoBackground.png";
 import hutzHammer from "@/assets/volunteer-work/HammerNoBackground.png";
 import hutzNail from "@/assets/volunteer-work/NailNoBackground.png";
-import hutzScrewdriver from "@/assets/volunteer-work/Screw DriverNoBackground.png";
+import hutzScrewdriver from "@/assets/volunteer-work/ScrewDriverNoBackground.png";
 import jeremyTruck from "@/assets/volunteer-work/JeremyBackofTruck.png";
 import jeremyTrailer from "@/assets/volunteer-work/JeremyTrailer.png";
 
