@@ -54,7 +54,7 @@ const CXDesignSystem = () => {
           </div>
 
           <div>
-            <h4 className="mb-6">Style Guide — Icons</h4>
+            <h4 className="mb-6">Icons</h4>
             <p className="mb-8">
               A unified icon set was developed to ensure visual consistency and clarity across the entire platform.
             </p>
@@ -66,7 +66,7 @@ const CXDesignSystem = () => {
           </div>
 
           <div>
-            <h4 className="mb-6">Style Guide — Colors</h4>
+            <h4 className="mb-6">Colors</h4>
             <p className="mb-8">
               A core color palette was defined to maintain brand consistency and ensure accessibility across all interface elements.
             </p>
@@ -78,7 +78,7 @@ const CXDesignSystem = () => {
           </div>
 
           <div>
-            <h4 className="mb-6">Style Guide — Color Tokens</h4>
+            <h4 className="mb-6">Color Tokens</h4>
             <p className="mb-8">
               Design tokens were established to systematize color usage, enabling consistent theming and scalable styling across the platform.
             </p>
@@ -90,7 +90,7 @@ const CXDesignSystem = () => {
           </div>
 
           <div>
-            <h4 className="mb-6">Style Guide — Number Scale</h4>
+            <h4 className="mb-6">Number Scale</h4>
             <p className="mb-8">
               A standardized number scale was created to ensure consistent sizing and spacing throughout the design system.
             </p>
@@ -102,7 +102,7 @@ const CXDesignSystem = () => {
           </div>
 
           <div>
-            <h4 className="mb-6">Style Guide — Radius</h4>
+            <h4 className="mb-6">Radius</h4>
             <p className="mb-8">
               Border radius values were standardized to create a cohesive visual language for all UI components.
             </p>
@@ -114,7 +114,7 @@ const CXDesignSystem = () => {
           </div>
 
           <div>
-            <h4 className="mb-6">Style Guide — Typography</h4>
+            <h4 className="mb-6">Typography</h4>
             <p className="mb-8">
               A typographic scale was established to ensure readability and visual hierarchy across the entire product.
             </p>
@@ -126,7 +126,7 @@ const CXDesignSystem = () => {
           </div>
 
           <div>
-            <h4 className="mb-6">Style Guide — Effects</h4>
+            <h4 className="mb-6">Effects</h4>
             <p className="mb-8">
               Shadow and effect styles were defined to create depth and visual consistency across interface elements.
             </p>
