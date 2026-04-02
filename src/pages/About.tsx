@@ -71,45 +71,45 @@ const About = () => {
                   </p>
                 </div>
                 <div className="p-4 bg-card rounded-lg shadow-card">
-                  <h3 className="font-semibold text-foreground mb-2">Data Visualization</h3>
+                  <h4 className="font-semibold text-foreground mb-2">Data Visualization</h4>
                   <p className="text-sm text-muted-foreground">Complex data storytelling and dashboard design</p>
                 </div>
                 <div className="p-4 bg-card rounded-lg shadow-card">
-                  <h3 className="font-semibold text-foreground mb-2">Design Systems</h3>
+                  <h4 className="font-semibold text-foreground mb-2">Design Systems</h4>
                   <p className="text-sm text-muted-foreground">Component libraries and design token management</p>
                 </div>
                 <div className="p-4 bg-card rounded-lg shadow-card">
-                  <h3 className="font-semibold text-foreground mb-2">Enterprise Software</h3>
+                  <h4 className="font-semibold text-foreground mb-2">Enterprise Software</h4>
                   <p className="text-sm text-muted-foreground">
                     B2B, SaaS, complex workflow optimization, and intergration of AI
                   </p>
                 </div>
                 <div className="p-4 bg-card rounded-lg shadow-card">
-                  <h3 className="font-semibold text-foreground mb-2">Localization & Accessiblity Standards</h3>
+                  <h4 className="font-semibold text-foreground mb-2">Localization & Accessiblity Standards</h4>
                   <p className="text-sm text-muted-foreground">
                     Mindful of localization and WCAG accessiblity standards
                   </p>
                 </div>
                 <div className="p-4 bg-card rounded-lg shadow-card">
-                  <h3 className="font-semibold text-foreground mb-2">Human Centered Design</h3>
+                  <h4 className="font-semibold text-foreground mb-2">Human Centered Design</h4>
                   <p className="text-sm text-muted-foreground">Focus on the human in human centered design</p>
                 </div>
                 <div className="p-4 bg-card rounded-lg shadow-card">
-                  <h3 className="font-semibold text-foreground mb-2">Benchmarking</h3>
+                  <h4 className="font-semibold text-foreground mb-2">Benchmarking</h4>
                   <p className="text-sm text-muted-foreground">Competitor analysis of market trends</p>
                 </div>
                 <div className="p-4 bg-card rounded-lg shadow-card">
-                  <h3 className="font-semibold text-foreground mb-2">Design Software</h3>
+                  <h4 className="font-semibold text-foreground mb-2">Design Software</h4>
                   <p className="text-sm text-muted-foreground">
                     Figma, FigJam, Sketch, Adobe Creative Suite (Illustrator & Photoshop), and Miro
                   </p>
                 </div>
                 <div className="p-4 bg-card rounded-lg shadow-card">
-                  <h3 className="font-semibold text-foreground mb-2">AI Tools</h3>
+                  <h4 className="font-semibold text-foreground mb-2">AI Tools</h4>
                   <p className="text-sm text-muted-foreground">Figma Make, Lovable, Chat GPT, and Claude</p>
                 </div>
                 <div className="p-4 bg-card rounded-lg shadow-card">
-                  <h3 className="font-semibold text-foreground mb-2">Productivity and Business</h3>
+                  <h4 className="font-semibold text-foreground mb-2">Productivity and Business</h4>
                   <p className="text-sm text-muted-foreground">Azure, Jira, Trello, and Confluence</p>
                 </div>
               </div>
