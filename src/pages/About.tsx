@@ -99,7 +99,7 @@ const About = () => {
                   <p className="text-sm text-muted-foreground">Competitor analysis of market trends</p>
                 </div>
                 <div className="p-4 bg-card rounded-lg shadow-card">
-                  <h3 className="font-semibold text-foreground mb-2">Technical Software</h3>
+                  <h3 className="font-semibold text-foreground mb-2">Design Software</h3>
                   <p className="text-sm text-muted-foreground">
                     Figma, FigJam, Sketch, Adobe Creative Suite (Illustrator & Photoshop), and Miro
                   </p>
