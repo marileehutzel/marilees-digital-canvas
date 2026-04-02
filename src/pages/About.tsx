@@ -62,10 +62,10 @@ const About = () => {
           {/* Expertise Section */}
           <div className="max-w-4xl mx-auto">
             <div className="pt-8">
-              <h2 className="text-2xl font-bold text-foreground mb-4">Skills</h2>
+              <h3 className="text-2xl font-bold text-foreground mb-4">Skills</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="p-4 bg-card rounded-lg shadow-card">
-                  <h3 className="font-semibold text-foreground mb-2">Product Desgin</h3>
+                  <h4 className="font-semibold text-foreground mb-2">Product Desgin</h4>
                   <p className="text-sm text-muted-foreground">
                     User research, wireframing, prototyping, and visual design from 0 to 1
                   </p>
