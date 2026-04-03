@@ -33,7 +33,6 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <PasswordGate>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
@@ -42,7 +41,7 @@ const App = () => (
           <Route path="/projects/concentrix-fc" element={<ConcentrixFC />} />
           <Route path="/projects/machine-learning" element={<MachineLearning />} />
           <Route path="/projects/ai-data-explorer" element={<AIDataExplorer />} />
-          <Route path="/projects/dashboard-builder" element={<DashboardBuilder />} />
+          <Route path="/projects/dashboard-builder" element={<PasswordGate><DashboardBuilder /></PasswordGate>} />
           <Route path="/projects/cx-mobile" element={<CXMobile />} />
           <Route path="/projects/cx-design-system" element={<CXDesignSystem />} />
           <Route path="/projects/hack-a-thon" element={<HackAThon />} />
@@ -50,17 +49,16 @@ const App = () => (
           <Route path="/projects/marcos" element={<Marcos />} />
           <Route path="/projects/ncr-collaboration" element={<NCRCollaboration />} />
           <Route path="/projects/unstructured-data" element={<UnstructuredData />} />
-            <Route path="/projects/volunteer-work" element={<VolunteerWork />} />
-            <Route path="/projects/just-for-fun" element={<JustForFun />} />
-            <Route path="/projects/zipscene" element={<Zipscene />} />
-            <Route path="/projects/ascribe" element={<Ascribe />} />
-            <Route path="/projects/mcalisters-deli" element={<McAlistersDeli />} />
-            {/* <Route path="/projects/lovable-website" element={<LovableWebsite />} /> */}
-            {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-            <Route path="*" element={<NotFound />} />
+          <Route path="/projects/volunteer-work" element={<VolunteerWork />} />
+          <Route path="/projects/just-for-fun" element={<JustForFun />} />
+          <Route path="/projects/zipscene" element={<Zipscene />} />
+          <Route path="/projects/ascribe" element={<Ascribe />} />
+          <Route path="/projects/mcalisters-deli" element={<McAlistersDeli />} />
+          {/* <Route path="/projects/lovable-website" element={<LovableWebsite />} /> */}
+          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
-      </PasswordGate>
     </TooltipProvider>
   </QueryClientProvider>
 );
