@@ -9,9 +9,9 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="text-center md:text-left">
-            <div className="flex items-center gap-3 justify-center md:justify-start mb-2">
+            <div className="flex items-end gap-3 justify-center md:justify-start mb-2">
               <img src={butterflyLogoOutline} alt="Butterfly logo" className="h-8 w-8" />
-              <p className="text-primary-foreground/70">&copy; {currentYear} Marilee Hutzel. All rights reserved.</p>
+              <p className="text-primary-foreground/70 leading-none">&copy; {currentYear} Marilee Hutzel. All rights reserved.</p>
             </div>
           </div>
           <div className="flex items-center gap-4">
