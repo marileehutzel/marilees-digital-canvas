@@ -6,9 +6,9 @@ const Hero = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="text-center space-y-6 animate-fade-in">
           <div className="flex justify-center mb-6">
-            <img 
-              src={profilePhoto} 
-              alt="Marilee Hutzel" 
+            <img
+              src={profilePhoto}
+              alt="Marilee Hutzel"
               className="w-24 h-24 rounded-full object-cover border-2 border-border shadow-lg grayscale"
             />
           </div>
@@ -16,7 +16,7 @@ const Hero = () => {
             Creating <span className="bg-gradient-primary bg-clip-text text-transparent">intuitive</span> experiences
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto">
-            Senior Prodcut Designer specializing in data visualization, machine learning, AI, mobile, and enterprise
+            Senior Product Designer specializing in data visualization, machine learning, AI, mobile, and enterprise
             design systems
           </p>
         </div>
