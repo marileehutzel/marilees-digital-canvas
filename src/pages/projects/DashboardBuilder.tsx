@@ -14,7 +14,6 @@ import highFidelityDarkImg from "@/assets/dashboard-builder/high-fidelity-dark.p
 import collaborationImg from "@/assets/dashboard-builder/collaboration-communication.png";
 
 const DashboardBuilder = () => {
-
   return (
     <CaseStudyLayout
       title="Dashboard Builder"
@@ -296,8 +295,8 @@ const DashboardBuilder = () => {
               <p>Reduction in dashboard creation time</p>
             </div>
             <div className="p-6">
-              <div className="text-4xl font-bold text-primary mb-2">Zero</div>
-              <p>Developer dependencies for basic dashboards</p>
+              <div className="text-4xl font-bold text-primary mb-2">3 Million</div>
+              <p>3 Million saved by retaining clients due to dasboard builder</p>
             </div>
             <div className="p-6">
               <div className="text-4xl font-bold text-primary mb-2">500+</div>
