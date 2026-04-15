@@ -16,7 +16,7 @@ const ProjectCard = ({ title, image, link, description, imageClassName }: Projec
 
   const cardContent = (
     <>
-      <div className="aspect-square overflow-hidden bg-muted max-w-[280px] mx-auto">
+      <div className="aspect-square overflow-hidden bg-muted max-w-[100px] mx-auto">
         <img
           src={image}
           alt={title}
