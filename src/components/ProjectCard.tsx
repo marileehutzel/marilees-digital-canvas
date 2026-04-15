@@ -20,14 +20,16 @@ const ProjectCard = ({ title, image, link, description, imageClassName }: Projec
         <img
           src={image}
           alt={title}
-          className={imageClassName || "w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"}
+          className={
+            imageClassName || "w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+          }
         />
       </div>
     </>
   );
 
   const commonClasses =
-    "group block relative overflow-hidden rounded-2xl bg-card shadow-card hover:shadow-elegant transition-all duration-500 hover:scale-[1.02]";
+    "group block relative overflow-hidden rounded-1xl bg-card shadow-card hover:shadow-elegant transition-all duration-500 hover:scale-[1.02]";
 
   if (isExternal) {
     return (
