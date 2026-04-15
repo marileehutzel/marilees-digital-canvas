@@ -23,16 +23,6 @@ const ProjectCard = ({ title, image, link, description, imageClassName }: Projec
           className={imageClassName || "w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"}
         />
       </div>
-      <div className="p-6">
-        <div className="flex items-start justify-between gap-4">
-          <div>
-            <h3 className="text-xl font-semibold text-foreground mb-1 group-hover:text-primary transition-colors">
-              {title}
-            </h3>
-            {description && <p className="text-muted-foreground text-base">{description}</p>}
-          </div>
-        </div>
-      </div>
     </>
   );
 
