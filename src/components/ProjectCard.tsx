@@ -16,7 +16,7 @@ const ProjectCard = ({ title, image, link, description, imageClassName }: Projec
 
   const cardContent = (
     <>
-      <div className="aspect-square overflow-hidden max-w-[200px] mx-auto shadow-card hover:shadow-elegant transition-all duration-500 rounded-lg">
+      <div className="aspect-square overflow-hidden max-w-[200px] mx-auto rounded-lg">
         <img
           src={image}
           alt={title}
