@@ -339,7 +339,7 @@ const DashboardBuilder = () => {
                     dataKey="period"
                     tickLine={false}
                     axisLine={true}
-                    label={{ value: "User Time", position: "insideBottom", offset: -12, fontSize: 11, fill: "hsl(var(--muted-foreground))" }}
+                    label={{ value: "USER TIME", position: "insideBottom", offset: -12, fontSize: 10, letterSpacing: "0.1em", fill: "hsl(var(--muted-foreground))" }}
                   />
                   <YAxis
                     hide={false}
@@ -347,7 +347,7 @@ const DashboardBuilder = () => {
                     axisLine={true}
                     tickLine={false}
                     width={28}
-                    label={{ value: "Dev Time", angle: -90, position: "insideLeft", offset: 12, fontSize: 11, fill: "hsl(var(--muted-foreground))" }}
+                    label={{ value: "DEV TIME", angle: -90, position: "insideLeft", offset: 12, fontSize: 10, letterSpacing: "0.1em", fill: "hsl(var(--muted-foreground))" }}
                   />
                   <ChartTooltip
                     content={<ChartTooltipContent />}
