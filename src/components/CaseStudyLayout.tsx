@@ -30,17 +30,17 @@ const CaseStudyLayout = ({ title, subtitle, description, context, disclaimer, he
         <div className="container mx-auto max-w-6xl">
           <Link
             to="/"
-            className="inline-flex items-center gap-2 text-primary/60 hover:text-primary transition-colors mb-8 animate-fade-in"
+            className="inline-flex items-center gap-2 text-white/60 hover:text-white transition-colors mb-8 animate-fade-in"
           >
             <ArrowLeft size={20} />
             <span>Back to My Work</span>
           </Link>
 
           <div className="animate-fade-in" style={{ animationDelay: "0.1s" }}>
-            <p className="text-xs uppercase tracking-[0.2em] text-primary/50 mb-3 font-sans">
+            <p className="text-xs uppercase tracking-[0.2em] text-white/50 mb-3 font-sans">
               Case Study
             </p>
-            <h1 className="text-5xl md:text-7xl font-bold text-primary uppercase tracking-tight mb-12">
+            <h1 className="text-5xl md:text-7xl font-bold text-white uppercase tracking-tight mb-12">
               {title}
             </h1>
           </div>
@@ -60,10 +60,10 @@ const CaseStudyLayout = ({ title, subtitle, description, context, disclaimer, he
               <div className="space-y-6">
                 {metadata.map((item) => (
                   <div key={item.label}>
-                    <p className="text-xs uppercase tracking-[0.2em] text-primary/40 mb-1 font-sans">
+                    <p className="text-xs uppercase tracking-[0.2em] text-white/40 mb-1 font-sans">
                       {item.label}
                     </p>
-                    <p className="text-base text-primary/80 font-serif leading-snug">
+                    <p className="text-base text-white/80 font-serif leading-snug">
                       {item.value}
                     </p>
                   </div>
@@ -73,20 +73,20 @@ const CaseStudyLayout = ({ title, subtitle, description, context, disclaimer, he
 
             <div className="space-y-6">
               {subtitle && (
-                <h2 className="text-2xl md:text-3xl text-primary/90 font-serif leading-snug">
+                <h2 className="text-2xl md:text-3xl text-white/90 font-serif leading-snug">
                   {subtitle}
                 </h2>
               )}
               {context && (
-                <p className="text-lg text-primary/70 font-serif leading-relaxed">
+                <p className="text-lg text-white/70 font-serif leading-relaxed">
                   {context}
                 </p>
               )}
-              <p className="text-lg text-primary/70 font-serif leading-relaxed">
+              <p className="text-lg text-white/70 font-serif leading-relaxed">
                 {description}
               </p>
               {disclaimer && (
-                <p className="text-sm text-primary/50 italic font-serif pt-4">
+                <p className="text-sm text-white/50 italic font-serif pt-4">
                   {disclaimer}
                 </p>
               )}
