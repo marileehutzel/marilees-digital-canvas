@@ -1,7 +1,7 @@
 import CaseStudyLayout from "@/components/CaseStudyLayout";
 import { Card } from "@/components/ui/card";
 import { ChartContainer, ChartTooltip, ChartTooltipContent } from "@/components/ui/chart";
-import { BarChart, Bar, XAxis, YAxis, AreaChart, Area, PieChart, Pie, Cell } from "recharts";
+import { BarChart, Bar, XAxis, YAxis, AreaChart, Area, LineChart, Line, CartesianGrid } from "recharts";
 import whatIsImg from "@/assets/dashboard-builder/WhatIs-DashboardLifeCycle.png";
 import theBestImg from "@/assets/dashboard-builder/TheBest.png";
 import researchDiscoveryImg from "@/assets/dashboard-builder/research-discovery.png";
@@ -315,45 +315,44 @@ const DashboardBuilder = () => {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {/* Time Saved Chart */}
+            {/* Dashboard Creation Time Chart */}
             <Card className="p-4">
-              <h6 className="mb-4 text-center">Time Saved</h6>
+              <h6 className="mb-4 text-center">Dashboard Creation Time</h6>
               <ChartContainer
                 config={{
-                  saved: {
-                    label: "Saved",
+                  hours: {
+                    label: "Hours",
                     color: "hsl(var(--primary))",
-                  },
-                  remaining: {
-                    label: "Baseline",
-                    color: "hsl(var(--muted))",
                   },
                 }}
                 className="h-[200px]"
               >
-                <PieChart>
+                <LineChart 
+                  data={[
+                    { period: "Before", hours: 336 }, // 2 weeks = 336 hours
+                    { period: "After", hours: 2 },
+                  ]}
+                >
+                  <CartesianGrid strokeDasharray="3 3" className="stroke-muted" />
+                  <XAxis dataKey="period" tickLine={false} axisLine={false} />
+                  <YAxis hide />
                   <ChartTooltip 
-                    content={<ChartTooltipContent formatter={(value) => `${value}%`} />}
+                    content={<ChartTooltipContent />}
+                    formatter={(value: number) => {
+                      if (value === 336) return ["2 weeks", "Time"];
+                      return [`${value} hours`, "Time"];
+                    }}
                   />
-                  <Pie
-                    data={[
-                      { name: "saved", value: 70 },
-                      { name: "remaining", value: 30 },
-                    ]}
-                    cx="50%"
-                    cy="50%"
-                    innerRadius={60}
-                    outerRadius={80}
-                    paddingAngle={2}
-                    dataKey="value"
-                    cornerRadius={8}
-                  >
-                    <Cell fill="hsl(var(--primary))" />
-                    <Cell fill="hsl(var(--muted))" />
-                  </Pie>
-                </PieChart>
+                  <Line 
+                    type="monotone" 
+                    dataKey="hours" 
+                    stroke="hsl(var(--primary))" 
+                    strokeWidth={3}
+                    dot={{ fill: "hsl(var(--primary))", r: 6 }}
+                  />
+                </LineChart>
               </ChartContainer>
-              <p className="text-center text-lg font-semibold mt-2">70% reduction in dashboard creation time</p>
+              <p className="text-center text-sm text-muted-foreground mt-2">From 2 weeks to 2 hours</p>
             </Card>
 
             {/* Revenue Retained Chart */}
