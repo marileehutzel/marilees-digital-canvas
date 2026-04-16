@@ -16,7 +16,7 @@ const ProjectCard = ({ title, image, link, description, imageClassName }: Projec
 
   const cardContent = (
     <>
-      <div className="aspect-square overflow-hidden bg-muted max-w-[200px] mx-auto">
+      <div className="aspect-square overflow-hidden bg-muted max-w-[200px] mx-auto shadow-card hover:shadow-elegant transition-all duration-500">
         <img
           src={image}
           alt={title}
@@ -29,7 +29,7 @@ const ProjectCard = ({ title, image, link, description, imageClassName }: Projec
   );
 
   const commonClasses =
-    "group block relative overflow-hidden rounded-1xl bg-card shadow-card hover:shadow-elegant transition-all duration-500 hover:scale-[1.02]";
+    "group block relative overflow-hidden rounded-1xl bg-card hover:scale-[1.02]";
 
   if (isExternal) {
     return (
