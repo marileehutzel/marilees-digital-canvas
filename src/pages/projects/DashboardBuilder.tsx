@@ -423,7 +423,7 @@ const DashboardBuilder = () => {
                   <span className="text-5xl font-bold text-primary leading-none">500+</span>
                 </div>
                 <span className="text-sm text-muted-foreground mt-2">Dashboards</span>
-                <span className="text-xs text-muted-foreground/70 mt-1">1 month after dashboard builder released</span>
+                <span className="text-sm text-muted-foreground mt-1">1 month after dashboard builder released</span>
               </div>
             </Card>
           </div>
