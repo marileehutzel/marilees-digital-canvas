@@ -16,7 +16,7 @@ const ProjectCard = ({ title, image, link, description, imageClassName }: Projec
 
   const cardContent = (
     <>
-      <div className="aspect-square overflow-hidden max-w-[280px] mx-auto rounded-lg">
+      <div className="aspect-square overflow-hidden max-w-[280px] mx-auto rounded-lg relative">
         <img
           src={image}
           alt={title}
@@ -24,6 +24,7 @@ const ProjectCard = ({ title, image, link, description, imageClassName }: Projec
             imageClassName || "w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
           }
         />
+        <div className="absolute inset-0 bg-[#459c96]/30 pointer-events-none" />
       </div>
     </>
   );
