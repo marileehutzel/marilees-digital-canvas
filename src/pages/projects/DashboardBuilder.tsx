@@ -396,26 +396,23 @@ const DashboardBuilder = () => {
               </ChartContainer>
             </Card>
 
-            {/* Dashboards Created Chart */}
-            <Card className="p-4">
+            {/* Dashboards Created */}
+            <Card className="p-4 flex flex-col">
               <h6 className="mb-4 text-center">Dashboards Created</h6>
-              <ChartContainer 
-                config={{ value: { label: "Dashboards", color: "hsl(var(--primary))" } }}
-                className="h-[200px] w-full"
-              >
-                <BarChart
-                  data={[
-                    { period: "Q1", value: 150 },
-                    { period: "Q2", value: 320 },
-                    { period: "Q3", value: 500 },
-                  ]}
-                >
-                  <XAxis dataKey="period" tickLine={false} axisLine={false} />
-                  <YAxis hide />
-                  <ChartTooltip content={<ChartTooltipContent />} />
-                  <Bar dataKey="value" fill="hsl(var(--primary))" radius={[4, 4, 0, 0]} />
-                </BarChart>
-              </ChartContainer>
+              <div className="flex-1 flex flex-col items-center justify-center gap-3 py-4">
+                <div className="flex items-baseline gap-2">
+                  <span className="text-5xl font-bold text-muted-foreground">5</span>
+                  <span className="text-sm text-muted-foreground">dashboards</span>
+                </div>
+                <svg width="20" height="32" viewBox="0 0 20 32" fill="none" className="text-primary">
+                  <path d="M10 2 L10 26 M10 26 L4 20 M10 26 L16 20" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+                <div className="flex items-baseline gap-2">
+                  <span className="text-5xl font-bold text-primary">500+</span>
+                  <span className="text-sm text-muted-foreground">dashboards</span>
+                </div>
+              </div>
+              <p className="text-center text-sm text-muted-foreground mt-2">1 month after builder was introduced</p>
             </Card>
           </div>
         </section>
