@@ -411,26 +411,19 @@ const DashboardBuilder = () => {
               </ChartContainer>
             </Card>
 
-            {/* Dashboards Created Chart */}
-            <Card className="p-4">
+            {/* Dashboards Created Metric */}
+            <Card className="p-4 flex flex-col">
               <h6 className="mb-4 text-center">Dashboards Created</h6>
-              <ChartContainer
-                config={{ value: { label: "Dashboards", color: "hsl(var(--primary))" } }}
-                className="h-[200px] w-full"
-              >
-                <BarChart
-                  data={[
-                    { period: "Q1", value: 150 },
-                    { period: "Q2", value: 320 },
-                    { period: "Q3", value: 500 },
-                  ]}
-                >
-                  <XAxis dataKey="period" tickLine={false} axisLine={false} />
-                  <YAxis hide />
-                  <ChartTooltip content={<ChartTooltipContent />} />
-                  <Bar dataKey="value" fill="hsl(var(--primary))" radius={[4, 4, 0, 0]} />
-                </BarChart>
-              </ChartContainer>
+              <div className="flex-1 flex flex-col items-center justify-center gap-2 py-4">
+                <div className="flex items-center gap-4">
+                  <span className="text-5xl font-bold text-muted-foreground leading-none">5</span>
+                  <svg width="32" height="20" viewBox="0 0 32 20" fill="none" className="text-primary">
+                    <path d="M2 10 L26 10 M26 10 L20 4 M26 10 L20 16" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                  </svg>
+                  <span className="text-5xl font-bold text-primary leading-none">500+</span>
+                </div>
+                <span className="text-sm text-muted-foreground mt-2">Dashboards</span>
+              </div>
             </Card>
           </div>
         </section>
