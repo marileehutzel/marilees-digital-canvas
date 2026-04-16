@@ -353,7 +353,7 @@ const DashboardBuilder = () => {
                   </Pie>
                 </PieChart>
               </ChartContainer>
-              <p className="text-center text-2xl font-semibold mt-2">70%</p>
+              <p className="text-center text-lg font-semibold mt-2">70% reduction in dashboard creation time</p>
             </Card>
 
             {/* Revenue Retained Chart */}
