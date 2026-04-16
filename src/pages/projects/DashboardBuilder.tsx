@@ -399,18 +399,15 @@ const DashboardBuilder = () => {
             {/* Dashboards Created */}
             <Card className="p-4 flex flex-col">
               <h6 className="mb-4 text-center">Dashboards Created</h6>
-              <div className="flex-1 flex flex-col items-center justify-center gap-3 py-4">
-                <div className="flex flex-col items-center">
+              <div className="flex-1 flex flex-col items-center justify-center gap-2 py-4">
+                <div className="flex items-center gap-4">
                   <span className="text-5xl font-bold text-muted-foreground leading-none">5</span>
-                  <span className="text-sm text-muted-foreground mt-1">dashboards</span>
-                </div>
-                <svg width="20" height="32" viewBox="0 0 20 32" fill="none" className="text-primary">
-                  <path d="M10 2 L10 26 M10 26 L4 20 M10 26 L16 20" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                </svg>
-                <div className="flex flex-col items-center">
+                  <svg width="32" height="20" viewBox="0 0 32 20" fill="none" className="text-primary">
+                    <path d="M2 10 L26 10 M26 10 L20 4 M26 10 L20 16" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                  </svg>
                   <span className="text-5xl font-bold text-primary leading-none">500+</span>
-                  <span className="text-sm text-muted-foreground mt-1">dashboards</span>
                 </div>
+                <span className="text-sm text-muted-foreground mt-2">Dashboards</span>
               </div>
               <p className="text-center text-sm text-muted-foreground mt-2">1 month after builder was introduced</p>
             </Card>
