@@ -60,10 +60,10 @@ const CaseStudyLayout = ({ title, subtitle, description, context, disclaimer, he
               <div className="space-y-6">
                 {metadata.map((item) => (
                   <div key={item.label}>
-                    <p className="text-xs uppercase tracking-[0.2em] text-primary/40 mb-1 font-sans">
+                    <p className="text-xs uppercase tracking-[0.2em] text-white/40 mb-1 font-sans">
                       {item.label}
                     </p>
-                    <p className="text-base text-primary/80 font-serif leading-snug">
+                    <p className="text-base text-white/80 font-serif leading-snug">
                       {item.value}
                     </p>
                   </div>
@@ -73,20 +73,20 @@ const CaseStudyLayout = ({ title, subtitle, description, context, disclaimer, he
 
             <div className="space-y-6">
               {subtitle && (
-                <h2 className="text-2xl md:text-3xl text-primary/90 font-serif leading-snug">
+                <h2 className="text-2xl md:text-3xl text-white/90 font-serif leading-snug">
                   {subtitle}
                 </h2>
               )}
               {context && (
-                <p className="text-lg text-primary/70 font-serif leading-relaxed">
+                <p className="text-lg text-white/70 font-serif leading-relaxed">
                   {context}
                 </p>
               )}
-              <p className="text-lg text-primary/70 font-serif leading-relaxed">
+              <p className="text-lg text-white/70 font-serif leading-relaxed">
                 {description}
               </p>
               {disclaimer && (
-                <p className="text-sm text-primary/50 italic font-serif pt-4">
+                <p className="text-sm text-white/50 italic font-serif pt-4">
                   {disclaimer}
                 </p>
               )}
