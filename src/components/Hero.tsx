@@ -14,7 +14,7 @@ const Hero = () => {
           </div>
 <h1
             className="text-5xl md:text-7xl font-bold text-foreground leading-tight"
-            style={{ fontFamily: '"acta-poster-swashes", "cofo-raffine", serif' }}
+            style={{ fontFamily: '"acta-poster-swashes", "cofo-raffine", serif', fontWeight: 500 }}
           >
             Creating <span className="bg-gradient-primary bg-clip-text text-transparent">intuitive</span> experiences
           </h1>
