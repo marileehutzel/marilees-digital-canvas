@@ -20,7 +20,7 @@ const Hero = ({ categories, activeCategory, onCategoryChange }: HeroProps) => {
           <div className="space-y-6">
             <h1
               className="text-5xl md:text-7xl font-bold text-foreground leading-tight"
-              style={{ fontFamily: '"liebelotte-swell", serif', fontWeight: 400 }}
+              style={{ fontFamily: '"nougat-script", sans-serif', fontWeight: 700 }}
             >
               Creating <span className="bg-gradient-primary bg-clip-text text-transparent">intuitive</span> experiences
             </h1>
