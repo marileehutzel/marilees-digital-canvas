@@ -325,30 +325,43 @@ const DashboardBuilder = () => {
                     color: "hsl(var(--primary))",
                   },
                 }}
-                className="h-[200px]"
+                className="h-[200px] w-full"
               >
-                <LineChart 
+                <LineChart
                   data={[
-                    { period: "Before", hours: 336 }, // 2 weeks = 336 hours
+                    { period: "Before", hours: 336 },
                     { period: "After", hours: 2 },
                   ]}
+                  margin={{ top: 16, right: 24, bottom: 24, left: 24 }}
                 >
                   <CartesianGrid strokeDasharray="3 3" className="stroke-muted" />
-                  <XAxis dataKey="period" tickLine={false} axisLine={false} />
-                  <YAxis hide />
-                  <ChartTooltip 
+                  <XAxis
+                    dataKey="period"
+                    tickLine={false}
+                    axisLine={true}
+                    label={{ value: "User Time", position: "insideBottom", offset: -12, fontSize: 11, fill: "hsl(var(--muted-foreground))" }}
+                  />
+                  <YAxis
+                    hide={false}
+                    tick={false}
+                    axisLine={true}
+                    tickLine={false}
+                    width={28}
+                    label={{ value: "Dev Time", angle: -90, position: "insideLeft", offset: 12, fontSize: 11, fill: "hsl(var(--muted-foreground))" }}
+                  />
+                  <ChartTooltip
                     content={<ChartTooltipContent />}
                     formatter={(value: number) => {
                       if (value === 336) return ["2 weeks", "Time"];
                       return [`${value} hours`, "Time"];
                     }}
                   />
-                  <Line 
-                    type="monotone" 
-                    dataKey="hours" 
-                    stroke="hsl(var(--primary))" 
+                  <Line
+                    type="linear"
+                    dataKey="hours"
+                    stroke="hsl(var(--primary))"
                     strokeWidth={3}
-                    dot={{ fill: "hsl(var(--primary))", r: 6 }}
+                    dot={{ fill: "hsl(var(--primary))", r: 5 }}
                   />
                 </LineChart>
               </ChartContainer>
