@@ -26,7 +26,7 @@ const CaseStudyLayout = ({ title, subtitle, description, context, disclaimer, he
     <div className="min-h-screen bg-secondary">
       <Header />
 
-      <section className="px-6 pt-28 pb-16">
+      <section className="px-6 pt-28 pb-16 bg-primary/5">
         <div className="container mx-auto max-w-6xl">
           <Link
             to="/"
