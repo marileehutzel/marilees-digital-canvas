@@ -1,7 +1,7 @@
 import CaseStudyLayout from "@/components/CaseStudyLayout";
 import { Card } from "@/components/ui/card";
 import { ChartContainer, ChartTooltip, ChartTooltipContent } from "@/components/ui/chart";
-import { BarChart, Bar, XAxis, YAxis, AreaChart, Area } from "recharts";
+import { BarChart, Bar, XAxis, YAxis, AreaChart, Area, PieChart, Pie, Cell } from "recharts";
 import whatIsImg from "@/assets/dashboard-builder/WhatIs-DashboardLifeCycle.png";
 import theBestImg from "@/assets/dashboard-builder/TheBest.png";
 import researchDiscoveryImg from "@/assets/dashboard-builder/research-discovery.png";
@@ -318,23 +318,42 @@ const DashboardBuilder = () => {
             {/* Time Saved Chart */}
             <Card className="p-4">
               <h6 className="mb-4 text-center">Time Saved</h6>
-              <ChartContainer 
-                config={{ value: { label: "Percentage", color: "hsl(var(--primary))" } }}
-                className="h-[200px] w-full"
+              <ChartContainer
+                config={{
+                  saved: {
+                    label: "Saved",
+                    color: "hsl(var(--primary))",
+                  },
+                  remaining: {
+                    label: "Baseline",
+                    color: "hsl(var(--muted))",
+                  },
+                }}
+                className="h-[200px]"
               >
-                <BarChart
-                  data={[
-                    { period: "Q1", value: 45 },
-                    { period: "Q2", value: 60 },
-                    { period: "Q3", value: 70 },
-                  ]}
-                >
-                  <XAxis dataKey="period" tickLine={false} axisLine={false} />
-                  <YAxis hide />
-                  <ChartTooltip content={<ChartTooltipContent formatter={(value) => `${value}%`} />} />
-                  <Bar dataKey="value" fill="hsl(var(--primary))" radius={[4, 4, 0, 0]} />
-                </BarChart>
+                <PieChart>
+                  <ChartTooltip 
+                    content={<ChartTooltipContent formatter={(value) => `${value}%`} />}
+                  />
+                  <Pie
+                    data={[
+                      { name: "saved", value: 70 },
+                      { name: "remaining", value: 30 },
+                    ]}
+                    cx="50%"
+                    cy="50%"
+                    innerRadius={60}
+                    outerRadius={80}
+                    paddingAngle={2}
+                    dataKey="value"
+                    cornerRadius={8}
+                  >
+                    <Cell fill="hsl(var(--primary))" />
+                    <Cell fill="hsl(var(--muted))" />
+                  </Pie>
+                </PieChart>
               </ChartContainer>
+              <p className="text-center text-2xl font-semibold mt-2">70%</p>
             </Card>
 
             {/* Revenue Retained Chart */}
