@@ -1,6 +1,7 @@
 import CaseStudyLayout from "@/components/CaseStudyLayout";
+import { Card } from "@/components/ui/card";
 import { ChartContainer, ChartTooltip, ChartTooltipContent } from "@/components/ui/chart";
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid } from "recharts";
+import { BarChart, Bar, XAxis, YAxis, AreaChart, Area } from "recharts";
 import whatIsImg from "@/assets/dashboard-builder/WhatIs-DashboardLifeCycle.png";
 import theBestImg from "@/assets/dashboard-builder/TheBest.png";
 import researchDiscoveryImg from "@/assets/dashboard-builder/research-discovery.png";
@@ -308,47 +309,84 @@ const DashboardBuilder = () => {
         </section>
 
         <section className="space-y-8">
-          <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground mb-3 font-sans">Visual Breakdown</p>
-          <h4 className="mb-6">Impact at a Glance</h4>
-          <ChartContainer
-            config={{
-              value: { label: "Impact", color: "hsl(var(--primary))" },
-            }}
-            className="w-full aspect-[2/1] max-h-[400px]"
-          >
-            <BarChart
-              data={[
-                { metric: "Time Saved", value: 70, unit: "%" },
-                { metric: "Revenue Retained", value: 3, unit: "M" },
-                { metric: "Dashboards Created", value: 500, unit: "+" },
-              ]}
-              margin={{ top: 20, right: 20, bottom: 20, left: 20 }}
-            >
-              <CartesianGrid strokeDasharray="3 3" className="stroke-border/30" />
-              <XAxis
-                dataKey="metric"
-                tick={{ fontSize: 14 }}
-                className="fill-muted-foreground"
-              />
-              <YAxis className="fill-muted-foreground" />
-              <ChartTooltip
-                content={
-                  <ChartTooltipContent
-                    formatter={(value, name, item) => (
-                      <span className="font-mono font-medium">
-                        {value}{item.payload.unit}
-                      </span>
-                    )}
+          <div>
+            <p className="text-sm uppercase tracking-wider text-muted-foreground mb-2">Impact</p>
+            <h4>Visual Breakdown</h4>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {/* Time Saved Chart */}
+            <Card className="p-4">
+              <h6 className="mb-4 text-center">Time Saved</h6>
+              <ChartContainer 
+                config={{ value: { label: "Percentage", color: "hsl(var(--primary))" } }}
+                className="h-[200px] w-full"
+              >
+                <BarChart
+                  data={[
+                    { period: "Q1", value: 45 },
+                    { period: "Q2", value: 60 },
+                    { period: "Q3", value: 70 },
+                  ]}
+                >
+                  <XAxis dataKey="period" tickLine={false} axisLine={false} />
+                  <YAxis hide />
+                  <ChartTooltip content={<ChartTooltipContent formatter={(value) => `${value}%`} />} />
+                  <Bar dataKey="value" fill="hsl(var(--primary))" radius={[4, 4, 0, 0]} />
+                </BarChart>
+              </ChartContainer>
+            </Card>
+
+            {/* Revenue Retained Chart */}
+            <Card className="p-4">
+              <h6 className="mb-4 text-center">Revenue Retained</h6>
+              <ChartContainer 
+                config={{ value: { label: "Revenue", color: "hsl(var(--primary))" } }}
+                className="h-[200px] w-full"
+              >
+                <AreaChart
+                  data={[
+                    { period: "Q1", value: 1.2 },
+                    { period: "Q2", value: 2.1 },
+                    { period: "Q3", value: 3.0 },
+                  ]}
+                >
+                  <XAxis dataKey="period" tickLine={false} axisLine={false} />
+                  <YAxis hide />
+                  <ChartTooltip content={<ChartTooltipContent formatter={(value) => `$${value}M`} />} />
+                  <Area 
+                    type="monotone" 
+                    dataKey="value" 
+                    stroke="hsl(var(--primary))" 
+                    fill="hsl(var(--primary))" 
+                    fillOpacity={0.2}
                   />
-                }
-              />
-              <Bar
-                dataKey="value"
-                fill="hsl(var(--primary))"
-                radius={[8, 8, 0, 0]}
-              />
-            </BarChart>
-          </ChartContainer>
+                </AreaChart>
+              </ChartContainer>
+            </Card>
+
+            {/* Dashboards Created Chart */}
+            <Card className="p-4">
+              <h6 className="mb-4 text-center">Dashboards Created</h6>
+              <ChartContainer 
+                config={{ value: { label: "Dashboards", color: "hsl(var(--primary))" } }}
+                className="h-[200px] w-full"
+              >
+                <BarChart
+                  data={[
+                    { period: "Q1", value: 150 },
+                    { period: "Q2", value: 320 },
+                    { period: "Q3", value: 500 },
+                  ]}
+                >
+                  <XAxis dataKey="period" tickLine={false} axisLine={false} />
+                  <YAxis hide />
+                  <ChartTooltip content={<ChartTooltipContent />} />
+                  <Bar dataKey="value" fill="hsl(var(--primary))" radius={[4, 4, 0, 0]} />
+                </BarChart>
+              </ChartContainer>
+            </Card>
+          </div>
         </section>
       </div>
     </CaseStudyLayout>
