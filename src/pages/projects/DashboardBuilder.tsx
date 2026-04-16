@@ -306,6 +306,50 @@ const DashboardBuilder = () => {
             </div>
           </div>
         </section>
+
+        <section className="space-y-8">
+          <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground mb-3 font-sans">Visual Breakdown</p>
+          <h4 className="mb-6">Impact at a Glance</h4>
+          <ChartContainer
+            config={{
+              value: { label: "Impact", color: "hsl(var(--primary))" },
+            }}
+            className="w-full aspect-[2/1] max-h-[400px]"
+          >
+            <BarChart
+              data={[
+                { metric: "Time Saved", value: 70, unit: "%" },
+                { metric: "Revenue Retained", value: 3, unit: "M" },
+                { metric: "Dashboards Created", value: 500, unit: "+" },
+              ]}
+              margin={{ top: 20, right: 20, bottom: 20, left: 20 }}
+            >
+              <CartesianGrid strokeDasharray="3 3" className="stroke-border/30" />
+              <XAxis
+                dataKey="metric"
+                tick={{ fontSize: 14 }}
+                className="fill-muted-foreground"
+              />
+              <YAxis className="fill-muted-foreground" />
+              <ChartTooltip
+                content={
+                  <ChartTooltipContent
+                    formatter={(value, name, item) => (
+                      <span className="font-mono font-medium">
+                        {value}{item.payload.unit}
+                      </span>
+                    )}
+                  />
+                }
+              />
+              <Bar
+                dataKey="value"
+                fill="hsl(var(--primary))"
+                radius={[8, 8, 0, 0]}
+              />
+            </BarChart>
+          </ChartContainer>
+        </section>
       </div>
     </CaseStudyLayout>
   );
