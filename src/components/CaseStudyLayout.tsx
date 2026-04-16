@@ -30,17 +30,17 @@ const CaseStudyLayout = ({ title, subtitle, description, context, disclaimer, he
         <div className="container mx-auto max-w-6xl">
           <Link
             to="/"
-            className="inline-flex items-center gap-2 text-secondary-foreground/60 hover:text-primary transition-colors mb-8 animate-fade-in"
+            className="inline-flex items-center gap-2 text-primary/60 hover:text-primary transition-colors mb-8 animate-fade-in"
           >
             <ArrowLeft size={20} />
             <span>Back to My Work</span>
           </Link>
 
           <div className="animate-fade-in" style={{ animationDelay: "0.1s" }}>
-            <p className="text-xs uppercase tracking-[0.2em] text-secondary-foreground/50 mb-3 font-sans">
+            <p className="text-xs uppercase tracking-[0.2em] text-primary/50 mb-3 font-sans">
               Case Study
             </p>
-            <h1 className="text-5xl md:text-7xl font-bold text-secondary-foreground uppercase tracking-tight mb-12">
+            <h1 className="text-5xl md:text-7xl font-bold text-primary uppercase tracking-tight mb-12">
               {title}
             </h1>
           </div>
