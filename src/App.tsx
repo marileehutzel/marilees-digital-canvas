@@ -23,6 +23,7 @@ import Zipscene from "./pages/projects/Zipscene";
 import Ascribe from "./pages/projects/Ascribe";
 import McAlistersDeli from "./pages/projects/McAlistersDeli";
 import LovableWebsite from "./pages/projects/LovableWebsite";
+import DesignSystem from "./pages/DesignSystem";
 import NotFound from "./pages/NotFound";
 import PasswordGate from "./components/PasswordGate";
 
@@ -55,6 +56,7 @@ const App = () => (
           <Route path="/projects/ascribe" element={<Ascribe />} />
           <Route path="/projects/mcalisters-deli" element={<McAlistersDeli />} />
           {/* <Route path="/projects/lovable-website" element={<LovableWebsite />} /> */}
+          <Route path="/design-system" element={<DesignSystem />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
