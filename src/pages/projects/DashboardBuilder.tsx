@@ -418,12 +418,18 @@ const DashboardBuilder = () => {
                 <div className="flex items-center gap-4">
                   <span className="text-5xl font-bold text-muted-foreground leading-none">5</span>
                   <svg width="32" height="20" viewBox="0 0 32 20" fill="none" className="text-primary">
-                    <path d="M2 10 L26 10 M26 10 L20 4 M26 10 L20 16" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    <path
+                      d="M2 10 L26 10 M26 10 L20 4 M26 10 L20 16"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
                   </svg>
                   <span className="text-5xl font-bold text-primary leading-none">500+</span>
                 </div>
                 <span className="text-sm text-muted-foreground mt-2">Dashboards</span>
-                <span className="text-sm text-muted-foreground mt-1">1 month after dashboard builder released</span>
+                <span className="text-sm text-muted-foreground mt-1">1 month after dashboard builder release</span>
               </div>
             </Card>
           </div>
