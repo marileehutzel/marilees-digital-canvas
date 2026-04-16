@@ -23,7 +23,7 @@ import Zipscene from "./pages/projects/Zipscene";
 import Ascribe from "./pages/projects/Ascribe";
 import McAlistersDeli from "./pages/projects/McAlistersDeli";
 import LovableWebsite from "./pages/projects/LovableWebsite";
-import DesignSystem from "./pages/DesignSystem";
+import DesignSystem from "./pages/projects/DesignSystem";
 import NotFound from "./pages/NotFound";
 import PasswordGate from "./components/PasswordGate";
 
