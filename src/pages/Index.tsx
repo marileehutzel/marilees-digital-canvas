@@ -18,6 +18,7 @@ import justForFunHeroImg from "@/assets/hero/just-for-fun-hero.png";
 import zipsceneHeroImg from "@/assets/hero/zipscene-hero.png";
 import unstructuredDataImg from "@/assets/hero/unstructured-data-hero.png";
 import mcalistersDeliImg from "@/assets/hero/mcalisters-deli-hero.png";
+import designSystemHeroImg from "@/assets/hero/design-system-hero.png";
 const projects = [
   {
     title: "Hack-a-Thon",
@@ -123,6 +124,13 @@ const projects = [
     link: "/projects/just-for-fun",
     description: "Creative sketches & personal explorations",
     categories: ["Just For Fun"],
+  },
+  {
+    title: "Design System",
+    image: designSystemHeroImg,
+    link: "/design-system",
+    description: "Component library & design tokens reference",
+    categories: ["Design Systems"],
   },
   // {
   //   title: "Lovable Website",
