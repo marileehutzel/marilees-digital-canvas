@@ -311,9 +311,9 @@ const DashboardBuilder = () => {
         <section className="space-y-8">
           <div>
             <p className="text-sm uppercase tracking-wider text-muted-foreground mb-2">Impact</p>
-            <h4>Visual Breakdown</h4>
+            {/*<h4>Visual Breakdown</h4>*/}
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {/* Dashboard Creation Time Chart */}
             <Card className="p-4">
@@ -339,7 +339,14 @@ const DashboardBuilder = () => {
                     dataKey="period"
                     tickLine={false}
                     axisLine={true}
-                    label={{ value: "USER TIME", position: "insideBottom", offset: -12, fontSize: 10, letterSpacing: "0.1em", fill: "hsl(var(--muted-foreground))" }}
+                    label={{
+                      value: "USER TIME",
+                      position: "insideBottom",
+                      offset: -12,
+                      fontSize: 10,
+                      letterSpacing: "0.1em",
+                      fill: "hsl(var(--muted-foreground))",
+                    }}
                   />
                   <YAxis
                     hide={false}
@@ -347,7 +354,15 @@ const DashboardBuilder = () => {
                     axisLine={true}
                     tickLine={false}
                     width={28}
-                    label={{ value: "DEV TIME", angle: -90, position: "insideLeft", offset: 12, fontSize: 10, letterSpacing: "0.1em", fill: "hsl(var(--muted-foreground))" }}
+                    label={{
+                      value: "DEV TIME",
+                      angle: -90,
+                      position: "insideLeft",
+                      offset: 12,
+                      fontSize: 10,
+                      letterSpacing: "0.1em",
+                      fill: "hsl(var(--muted-foreground))",
+                    }}
                   />
                   <ChartTooltip
                     content={<ChartTooltipContent />}
@@ -371,7 +386,7 @@ const DashboardBuilder = () => {
             {/* Revenue Retained Chart */}
             <Card className="p-4">
               <h6 className="mb-4 text-center">Revenue Retained</h6>
-              <ChartContainer 
+              <ChartContainer
                 config={{ value: { label: "Revenue", color: "hsl(var(--primary))" } }}
                 className="h-[200px] w-full"
               >
@@ -385,31 +400,37 @@ const DashboardBuilder = () => {
                   <XAxis dataKey="period" tickLine={false} axisLine={false} />
                   <YAxis hide />
                   <ChartTooltip content={<ChartTooltipContent formatter={(value) => `$${value}M`} />} />
-                  <Area 
-                    type="monotone" 
-                    dataKey="value" 
-                    stroke="hsl(var(--primary))" 
-                    fill="hsl(var(--primary))" 
+                  <Area
+                    type="monotone"
+                    dataKey="value"
+                    stroke="hsl(var(--primary))"
+                    fill="hsl(var(--primary))"
                     fillOpacity={0.2}
                   />
                 </AreaChart>
               </ChartContainer>
             </Card>
 
-            {/* Dashboards Created */}
-            <Card className="p-4 flex flex-col">
+            {/* Dashboards Created Chart */}
+            <Card className="p-4">
               <h6 className="mb-4 text-center">Dashboards Created</h6>
-              <div className="flex-1 flex flex-col items-center justify-center gap-2 py-4">
-                <div className="flex items-center gap-4">
-                  <span className="text-5xl font-bold text-muted-foreground leading-none">5</span>
-                  <svg width="32" height="20" viewBox="0 0 32 20" fill="none" className="text-primary">
-                    <path d="M2 10 L26 10 M26 10 L20 4 M26 10 L20 16" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                  </svg>
-                  <span className="text-5xl font-bold text-primary leading-none">500+</span>
-                </div>
-                <span className="text-sm text-muted-foreground mt-2">Dashboards</span>
-              </div>
-              <p className="text-center text-sm text-muted-foreground mt-2">1 month after builder was introduced</p>
+              <ChartContainer
+                config={{ value: { label: "Dashboards", color: "hsl(var(--primary))" } }}
+                className="h-[200px] w-full"
+              >
+                <BarChart
+                  data={[
+                    { period: "Q1", value: 150 },
+                    { period: "Q2", value: 320 },
+                    { period: "Q3", value: 500 },
+                  ]}
+                >
+                  <XAxis dataKey="period" tickLine={false} axisLine={false} />
+                  <YAxis hide />
+                  <ChartTooltip content={<ChartTooltipContent />} />
+                  <Bar dataKey="value" fill="hsl(var(--primary))" radius={[4, 4, 0, 0]} />
+                </BarChart>
+              </ChartContainer>
             </Card>
           </div>
         </section>
