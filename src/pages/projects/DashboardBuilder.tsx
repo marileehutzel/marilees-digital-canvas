@@ -409,6 +409,7 @@ const DashboardBuilder = () => {
                   />
                 </AreaChart>
               </ChartContainer>
+              <p className="text-center text-sm text-muted-foreground mt-2">$3M retained</p>
             </Card>
 
             {/* Dashboards Created Metric */}
