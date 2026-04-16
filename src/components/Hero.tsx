@@ -12,7 +12,10 @@ const Hero = () => {
               className="w-24 h-24 rounded-full object-cover border-2 border-border shadow-lg grayscale"
             />
           </div>
-          <h1 className="text-5xl md:text-7xl font-bold text-foreground leading-tight">
+<h1
+            className="text-5xl md:text-7xl font-bold text-foreground leading-tight"
+            style={{ fontFamily: '"acta-poster-swashes", "cofo-raffine", serif' }}
+          >
             Creating <span className="bg-gradient-primary bg-clip-text text-transparent">intuitive</span> experiences
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto">
