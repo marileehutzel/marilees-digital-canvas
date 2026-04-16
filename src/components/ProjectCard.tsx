@@ -21,7 +21,7 @@ const ProjectCard = ({ title, image, link, description, imageClassName }: Projec
           src={image}
           alt={title}
           className={
-            imageClassName || "w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+            imageClassName || "w-full h-full object-cover scale-125 transition-transform duration-700 group-hover:scale-110"
           }
         />
         <div className="absolute inset-0 bg-[#459c96]/20 pointer-events-none" />
