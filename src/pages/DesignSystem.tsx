@@ -48,7 +48,7 @@ const DesignSystem = () => {
         <div className="container mx-auto max-w-5xl space-y-20">
           {/* Header */}
           <div>
-            <h1 className="mb-4">Design System</h1>
+            <h1 className="mb-4">The Flutter System</h1>
             <p className="max-w-2xl">
               A living reference of all UI components, tokens, and patterns used across this portfolio.
             </p>
@@ -74,7 +74,9 @@ const DesignSystem = () => {
           <Section title="Typography">
             <div className="space-y-8">
               <div className="space-y-4">
-                <p className="!text-sm !mb-0 font-sans font-medium text-muted-foreground uppercase tracking-wider">Sans — Inter</p>
+                <p className="!text-sm !mb-0 font-sans font-medium text-muted-foreground uppercase tracking-wider">
+                  Sans — Inter
+                </p>
                 <h1>Heading 1 — The quick brown fox</h1>
                 <h2>Heading 2 — The quick brown fox</h2>
                 <h3>Heading 3 — The quick brown fox</h3>
@@ -84,10 +86,12 @@ const DesignSystem = () => {
               </div>
               <Separator />
               <div>
-                <p className="!text-sm !mb-2 font-sans font-medium text-muted-foreground uppercase tracking-wider">Serif — Nunito Sans</p>
+                <p className="!text-sm !mb-2 font-sans font-medium text-muted-foreground uppercase tracking-wider">
+                  Serif — Nunito Sans
+                </p>
                 <p>
-                  Body text uses Nunito Sans at text-lg/text-xl with relaxed leading. This is the default paragraph style
-                  applied globally across all pages for comfortable reading.
+                  Body text uses Nunito Sans at text-lg/text-xl with relaxed leading. This is the default paragraph
+                  style applied globally across all pages for comfortable reading.
                 </p>
               </div>
             </div>
@@ -97,7 +101,9 @@ const DesignSystem = () => {
           <Section title="Buttons">
             <div className="space-y-6">
               <div>
-                <p className="!text-sm !mb-3 font-sans font-medium text-muted-foreground uppercase tracking-wider">Variants</p>
+                <p className="!text-sm !mb-3 font-sans font-medium text-muted-foreground uppercase tracking-wider">
+                  Variants
+                </p>
                 <div className="flex flex-wrap gap-3">
                   <Button variant="default">Default</Button>
                   <Button variant="secondary">Secondary</Button>
@@ -108,16 +114,22 @@ const DesignSystem = () => {
                 </div>
               </div>
               <div>
-                <p className="!text-sm !mb-3 font-sans font-medium text-muted-foreground uppercase tracking-wider">Sizes</p>
+                <p className="!text-sm !mb-3 font-sans font-medium text-muted-foreground uppercase tracking-wider">
+                  Sizes
+                </p>
                 <div className="flex flex-wrap items-center gap-3">
                   <Button size="sm">Small</Button>
                   <Button size="default">Default</Button>
                   <Button size="lg">Large</Button>
-                  <Button size="icon"><Bold className="h-4 w-4" /></Button>
+                  <Button size="icon">
+                    <Bold className="h-4 w-4" />
+                  </Button>
                 </div>
               </div>
               <div>
-                <p className="!text-sm !mb-3 font-sans font-medium text-muted-foreground uppercase tracking-wider">States</p>
+                <p className="!text-sm !mb-3 font-sans font-medium text-muted-foreground uppercase tracking-wider">
+                  States
+                </p>
                 <div className="flex flex-wrap gap-3">
                   <Button>Enabled</Button>
                   <Button disabled>Disabled</Button>
@@ -191,10 +203,14 @@ const DesignSystem = () => {
               <Card className="bg-secondary text-secondary-foreground">
                 <CardHeader>
                   <CardTitle className="text-secondary-foreground">Dark Card</CardTitle>
-                  <CardDescription className="text-secondary-foreground/70">A card using secondary colors.</CardDescription>
+                  <CardDescription className="text-secondary-foreground/70">
+                    A card using secondary colors.
+                  </CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <p className="!mb-0 text-secondary-foreground/80">Card content with inverted styling for contrast sections.</p>
+                  <p className="!mb-0 text-secondary-foreground/80">
+                    Card content with inverted styling for contrast sections.
+                  </p>
                 </CardContent>
               </Card>
             </div>
@@ -233,9 +249,15 @@ const DesignSystem = () => {
           {/* Toggle */}
           <Section title="Toggle">
             <div className="flex gap-2">
-              <Toggle aria-label="Bold"><Bold className="h-4 w-4" /></Toggle>
-              <Toggle aria-label="Italic"><Italic className="h-4 w-4" /></Toggle>
-              <Toggle aria-label="Underline"><Underline className="h-4 w-4" /></Toggle>
+              <Toggle aria-label="Bold">
+                <Bold className="h-4 w-4" />
+              </Toggle>
+              <Toggle aria-label="Italic">
+                <Italic className="h-4 w-4" />
+              </Toggle>
+              <Toggle aria-label="Underline">
+                <Underline className="h-4 w-4" />
+              </Toggle>
             </div>
           </Section>
 
@@ -329,7 +351,9 @@ const DesignSystem = () => {
           <Section title="Spacing & Shadows">
             <div className="grid md:grid-cols-2 gap-8">
               <div className="space-y-4">
-                <p className="!text-sm !mb-2 font-sans font-medium text-muted-foreground uppercase tracking-wider">Border Radius</p>
+                <p className="!text-sm !mb-2 font-sans font-medium text-muted-foreground uppercase tracking-wider">
+                  Border Radius
+                </p>
                 <div className="flex gap-4">
                   <div className="w-16 h-16 bg-primary/20 border border-border rounded-sm flex items-center justify-center">
                     <span className="text-xs font-sans text-muted-foreground">sm</span>
@@ -346,7 +370,9 @@ const DesignSystem = () => {
                 </div>
               </div>
               <div className="space-y-4">
-                <p className="!text-sm !mb-2 font-sans font-medium text-muted-foreground uppercase tracking-wider">Shadows</p>
+                <p className="!text-sm !mb-2 font-sans font-medium text-muted-foreground uppercase tracking-wider">
+                  Shadows
+                </p>
                 <div className="flex gap-6">
                   <div className="w-20 h-20 bg-card rounded-lg shadow-card flex items-center justify-center">
                     <span className="text-xs font-sans text-muted-foreground">card</span>
