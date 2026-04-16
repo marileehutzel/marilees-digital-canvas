@@ -10,7 +10,7 @@ const ProjectFilter = ({
   onCategoryChange,
 }: ProjectFilterProps) => {
   return (
-    <div className="flex flex-wrap md:justify-start justify-center gap-3 animate-fade-in">
+    <div className="flex flex-wrap justify-center gap-3 animate-fade-in">
       {(categories ?? []).map((category) => (
         <button
           key={category}
