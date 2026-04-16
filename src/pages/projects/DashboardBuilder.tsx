@@ -1,4 +1,6 @@
 import CaseStudyLayout from "@/components/CaseStudyLayout";
+import { ChartContainer, ChartTooltip, ChartTooltipContent } from "@/components/ui/chart";
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid } from "recharts";
 import whatIsImg from "@/assets/dashboard-builder/WhatIs-DashboardLifeCycle.png";
 import theBestImg from "@/assets/dashboard-builder/TheBest.png";
 import researchDiscoveryImg from "@/assets/dashboard-builder/research-discovery.png";
