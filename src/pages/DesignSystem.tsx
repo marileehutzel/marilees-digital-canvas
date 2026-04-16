@@ -48,7 +48,7 @@ const DesignSystem = () => {
         <div className="container mx-auto max-w-5xl space-y-20">
           {/* Header */}
           <div>
-            <h1 className="mb-4">The Flutter System</h1>
+            <h1 className="mb-4">Flutter Design System</h1>
             <p className="max-w-2xl">
               A living reference of all UI components, tokens, and patterns used across this portfolio.
             </p>
