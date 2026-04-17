@@ -125,10 +125,15 @@ export default {
       backgroundImage: {
         'gradient-primary': 'var(--gradient-primary)',
         'gradient-dark': 'var(--gradient-dark)',
+        'gradient-soft': 'var(--gradient-soft)',
       },
       boxShadow: {
         'elegant': 'var(--shadow-elegant)',
         'card': 'var(--shadow-card)',
+        'glass-sm': 'var(--shadow-glass-sm)',
+        'glass-md': 'var(--shadow-glass-md)',
+        'glass-lg': 'var(--shadow-glass-lg)',
+        'glass-xl': 'var(--shadow-glass-xl)',
       },
       transitionTimingFunction: {
         'smooth': 'var(--transition-smooth)',
