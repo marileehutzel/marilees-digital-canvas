@@ -1,4 +1,3 @@
-import { ArrowUpRight } from "lucide-react";
 import { Link } from "react-router-dom";
 
 interface ProjectCardProps {
@@ -30,10 +29,7 @@ const ProjectCard = ({ title, image, link, description, imageClassName }: Projec
 
       {/* Text — right */}
       <div className="flex flex-col justify-center flex-1 min-w-0 pr-2">
-        <div className="flex items-start justify-between gap-3">
-          <h6 className="!mb-1 truncate">{title}</h6>
-          <ArrowUpRight className="h-5 w-5 text-primary shrink-0 mt-1 transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1" />
-        </div>
+        <h6 className="!mb-1 truncate">{title}</h6>
         {description && (
           <p className="!text-sm md:!text-base !mb-0 font-sans text-muted-foreground line-clamp-2 leading-relaxed">
             {description}
