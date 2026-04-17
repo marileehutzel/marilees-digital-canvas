@@ -32,7 +32,12 @@ const Contact = () => {
 
       <section className="container mx-auto px-6 pt-32 pb-20">
         <div className="max-w-2xl mx-auto">
-          <h1 className="text-5xl md:text-6xl font-bold text-foreground mb-8 animate-fade-in text-center">Let's Connect</h1>
+          <h1
+            className="text-5xl md:text-6xl font-bold text-foreground mb-8 animate-fade-in text-center leading-tight"
+            style={{ fontFamily: '"nougat-script", sans-serif', fontWeight: 700 }}
+          >
+            Let's Connect
+          </h1>
           
           <p className="text-lg text-foreground/80 text-center mb-12 animate-fade-in" style={{ animationDelay: "0.2s" }}>
             I'm always interested in hearing about new projects and opportunities. Whether you have a question or
