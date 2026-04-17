@@ -21,7 +21,7 @@ const ProjectCard = ({ title, image, link, description, imageClassName }: Projec
           loading="lazy"
           className={
             imageClassName ||
-            "w-full h-full object-cover scale-125 transition-transform duration-700 group-hover:scale-[1.32]"
+            "w-full h-full object-cover scale-[1.4] transition-transform duration-700 group-hover:scale-[1.48]"
           }
         />
         <div className="absolute inset-0 bg-primary/10 group-hover:bg-primary/0 transition-colors duration-500" />
