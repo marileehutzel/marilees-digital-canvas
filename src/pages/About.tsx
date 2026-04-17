@@ -38,27 +38,6 @@ const About = () => {
                   className="w-full h-full object-cover rounded-2xl shadow-card"
                 />
               </div>
-              <div className="col-span-1">
-                <img
-                  src={skiingImg}
-                  alt="Skiing with my daughter"
-                  className="w-full h-full aspect-square object-cover rounded-2xl shadow-card"
-                />
-              </div>
-              <div className="col-span-1">
-                <img
-                  src={aerialImg}
-                  alt="Performing aerial silks"
-                  className="w-full h-full aspect-square object-cover rounded-2xl shadow-card"
-                />
-              </div>
-              <div className="col-span-2">
-                <img
-                  src={bryceImg}
-                  alt="Hiking in Bryce Canyon"
-                  className="w-full h-64 object-cover rounded-2xl shadow-card"
-                />
-              </div>
             </div>
 
             {/* About Content */}
@@ -81,6 +60,25 @@ const About = () => {
                 </p>
               </div>
             </div>
+          </div>
+
+          {/* Additional Photos Row */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-16 animate-fade-in">
+            <img
+              src={skiingImg}
+              alt="Skiing with my daughter"
+              className="w-full aspect-[4/5] object-cover rounded-2xl shadow-card"
+            />
+            <img
+              src={aerialImg}
+              alt="Performing aerial silks"
+              className="w-full aspect-[4/5] object-cover rounded-2xl shadow-card"
+            />
+            <img
+              src={bryceImg}
+              alt="Hiking in Bryce Canyon"
+              className="w-full aspect-[4/5] object-cover rounded-2xl shadow-card"
+            />
           </div>
 
           {/* Expertise Section */}
