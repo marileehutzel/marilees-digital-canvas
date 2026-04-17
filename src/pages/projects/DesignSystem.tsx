@@ -438,12 +438,24 @@ const DesignSystem = () => {
                 <p className="!text-sm !mb-2 font-sans font-medium text-muted-foreground uppercase tracking-wider">
                   Shadows
                 </p>
-                <div className="flex gap-6">
+                <div className="flex flex-wrap gap-6">
                   <div className="w-20 h-20 bg-card rounded-lg shadow-card flex items-center justify-center">
                     <span className="text-xs font-sans text-muted-foreground">card</span>
                   </div>
                   <div className="w-20 h-20 bg-card rounded-lg shadow-elegant flex items-center justify-center">
                     <span className="text-xs font-sans text-muted-foreground">elegant</span>
+                  </div>
+                  <div className="w-20 h-20 bg-card rounded-lg shadow-glass-sm flex items-center justify-center">
+                    <span className="text-xs font-sans text-muted-foreground">glass-sm</span>
+                  </div>
+                  <div className="w-20 h-20 bg-card rounded-lg shadow-glass-md flex items-center justify-center">
+                    <span className="text-xs font-sans text-muted-foreground">glass-md</span>
+                  </div>
+                  <div className="w-20 h-20 bg-card rounded-lg shadow-glass-lg flex items-center justify-center">
+                    <span className="text-xs font-sans text-muted-foreground">glass-lg</span>
+                  </div>
+                  <div className="w-20 h-20 bg-card rounded-lg shadow-glass-xl flex items-center justify-center">
+                    <span className="text-xs font-sans text-muted-foreground">glass-xl</span>
                   </div>
                 </div>
               </div>
