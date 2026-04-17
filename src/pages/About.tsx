@@ -38,27 +38,6 @@ const About = () => {
                   className="w-full h-full object-cover rounded-2xl shadow-card"
                 />
               </div>
-              <div className="col-span-1">
-                <img
-                  src={skiingImg}
-                  alt="Skiing with my daughter"
-                  className="w-full h-full aspect-square object-cover rounded-2xl shadow-card"
-                />
-              </div>
-              <div className="col-span-1">
-                <img
-                  src={aerialImg}
-                  alt="Performing aerial silks"
-                  className="w-full h-full aspect-square object-cover rounded-2xl shadow-card"
-                />
-              </div>
-              <div className="col-span-2">
-                <img
-                  src={bryceImg}
-                  alt="Hiking in Bryce Canyon"
-                  className="w-full h-64 object-cover rounded-2xl shadow-card"
-                />
-              </div>
             </div>
 
             {/* About Content */}
