@@ -14,7 +14,7 @@ const About = () => {
 
       <section className="container mx-auto px-6 pt-32 pb-20">
         <div className="max-w-6xl mx-auto">
-          <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
+          <div className="grid md:grid-cols-2 gap-12 items-start mb-16">
             {/* Image Collage */}
             <div className="grid grid-cols-2 gap-4 animate-fade-in">
               <div className="col-span-1 row-span-2">
