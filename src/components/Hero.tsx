@@ -1,5 +1,6 @@
 import profilePhoto from "@/assets/profile-photo.jpg";
 import ProjectFilter from "./ProjectFilter";
+import ButterflyUnfurl from "./ButterflyUnfurl";
 
 interface HeroProps {
   categories: string[];
@@ -9,8 +10,9 @@ interface HeroProps {
 
 const Hero = ({ categories, activeCategory, onCategoryChange }: HeroProps) => {
   return (
-    <section className="flex items-center justify-center px-6 pt-32 pb-16">
-      <div className="container mx-auto max-w-4xl">
+    <section className="relative flex items-center justify-center px-6 pt-32 pb-16 overflow-hidden">
+      <ButterflyUnfurl />
+      <div className="container relative mx-auto max-w-4xl">
         <div className="flex flex-col items-center text-center space-y-8 animate-fade-in">
           <img
             src={profilePhoto}
