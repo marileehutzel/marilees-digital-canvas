@@ -14,6 +14,25 @@ const About = () => {
 
       <section className="container mx-auto px-6 pt-32 pb-20">
         <div className="max-w-6xl mx-auto">
+          {/* Top Photos Row — small */}
+          <div className="max-w-2xl mx-auto grid grid-cols-3 gap-3 mb-12 animate-fade-in">
+            <img
+              src={skiingImg}
+              alt="Skiing with my daughter"
+              className="w-full aspect-square object-cover rounded-xl shadow-card"
+            />
+            <img
+              src={aerialImg}
+              alt="Performing aerial silks"
+              className="w-full aspect-square object-cover rounded-xl shadow-card"
+            />
+            <img
+              src={bryceImg}
+              alt="Hiking in Bryce Canyon"
+              className="w-full aspect-square object-cover rounded-xl shadow-card"
+            />
+          </div>
+
           <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
             {/* Image Collage */}
             <div className="grid grid-cols-2 gap-4 animate-fade-in">
@@ -60,25 +79,6 @@ const About = () => {
                 </p>
               </div>
             </div>
-          </div>
-
-          {/* Additional Photos Row */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-16 animate-fade-in">
-            <img
-              src={skiingImg}
-              alt="Skiing with my daughter"
-              className="w-full aspect-[4/5] object-cover rounded-2xl shadow-card"
-            />
-            <img
-              src={aerialImg}
-              alt="Performing aerial silks"
-              className="w-full aspect-[4/5] object-cover rounded-2xl shadow-card"
-            />
-            <img
-              src={bryceImg}
-              alt="Hiking in Bryce Canyon"
-              className="w-full aspect-[4/5] object-cover rounded-2xl shadow-card"
-            />
           </div>
 
           {/* Expertise Section */}
