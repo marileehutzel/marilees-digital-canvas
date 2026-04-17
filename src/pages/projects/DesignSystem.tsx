@@ -50,12 +50,24 @@ const DesignSystem = () => {
           <div>
             <h1 className="mb-4">Flutter Design System</h1>
             <p className="max-w-2xl">
-              A living reference of all UI components, tokens, and patterns used across this portfolio.
+              Apple Glass-inspired design system built on the Flutter brand palette — teal, navy, sage, and light green —
+              with translucent materials, soft navy-tinted shadows, and a 1rem base radius.
             </p>
           </div>
 
-          {/* Colors */}
-          <Section title="Colors">
+          {/* Flutter Brand Palette */}
+          <Section title="Flutter Brand Palette">
+            <div className="grid grid-cols-2 md:grid-cols-5 gap-6">
+              <ColorSwatch name="Navy" variable="#083158" className="bg-[hsl(var(--flutter-navy))]" />
+              <ColorSwatch name="Dark Teal" variable="#0A6C87" className="bg-[hsl(var(--flutter-dark-teal))]" />
+              <ColorSwatch name="Teal" variable="#459C96" className="bg-[hsl(var(--flutter-teal))]" />
+              <ColorSwatch name="Sage" variable="#92CCA4" className="bg-[hsl(var(--flutter-sage))]" />
+              <ColorSwatch name="Light Green" variable="#C9F0B1" className="bg-[hsl(var(--flutter-light-green))]" />
+            </div>
+          </Section>
+
+          {/* Semantic Tokens */}
+          <Section title="Semantic Tokens">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
               <ColorSwatch name="Background" variable="--background" className="bg-background" />
               <ColorSwatch name="Foreground" variable="--foreground" className="bg-foreground" />
@@ -67,6 +79,59 @@ const DesignSystem = () => {
               <ColorSwatch name="Card" variable="--card" className="bg-card" />
               <ColorSwatch name="Border" variable="--border" className="bg-border" />
               <ColorSwatch name="Ring" variable="--ring" className="bg-ring" />
+            </div>
+          </Section>
+
+          {/* Chart Palette */}
+          <Section title="Chart Palette">
+            <div className="grid grid-cols-2 md:grid-cols-5 gap-6">
+              <ColorSwatch name="Chart 1" variable="--chart-1" className="bg-[hsl(var(--chart-1))]" />
+              <ColorSwatch name="Chart 2" variable="--chart-2" className="bg-[hsl(var(--chart-2))]" />
+              <ColorSwatch name="Chart 3" variable="--chart-3" className="bg-[hsl(var(--chart-3))]" />
+              <ColorSwatch name="Chart 4" variable="--chart-4" className="bg-[hsl(var(--chart-4))]" />
+              <ColorSwatch name="Chart 5" variable="--chart-5" className="bg-[hsl(var(--chart-5))]" />
+            </div>
+          </Section>
+
+          {/* Gradients */}
+          <Section title="Gradients">
+            <div className="grid md:grid-cols-3 gap-4">
+              <div className="h-24 rounded-2xl bg-gradient-primary flex items-end p-3">
+                <span className="text-xs font-sans text-primary-foreground">bg-gradient-primary</span>
+              </div>
+              <div className="h-24 rounded-2xl bg-gradient-dark flex items-end p-3">
+                <span className="text-xs font-sans text-primary-foreground">bg-gradient-dark</span>
+              </div>
+              <div className="h-24 rounded-2xl bg-gradient-soft border border-border flex items-end p-3">
+                <span className="text-xs font-sans text-muted-foreground">bg-gradient-soft</span>
+              </div>
+            </div>
+          </Section>
+
+          {/* Glass Materials */}
+          <Section title="Glass Materials">
+            <div
+              className="relative rounded-3xl p-8 overflow-hidden"
+              style={{ background: "var(--gradient-primary)" }}
+            >
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div className="backdrop-blur-md bg-white/60 border border-white/30 rounded-2xl p-4 shadow-glass-sm">
+                  <p className="!text-sm !mb-1 font-sans font-medium text-foreground">Thin</p>
+                  <p className="!text-xs !mb-0 font-sans text-muted-foreground">white/60 · blur-md</p>
+                </div>
+                <div className="backdrop-blur-lg bg-white/75 border border-white/30 rounded-2xl p-4 shadow-glass-md">
+                  <p className="!text-sm !mb-1 font-sans font-medium text-foreground">Regular</p>
+                  <p className="!text-xs !mb-0 font-sans text-muted-foreground">white/75 · blur-lg</p>
+                </div>
+                <div className="backdrop-blur-xl bg-white/85 border border-white/40 rounded-2xl p-4 shadow-glass-lg">
+                  <p className="!text-sm !mb-1 font-sans font-medium text-foreground">Thick</p>
+                  <p className="!text-xs !mb-0 font-sans text-muted-foreground">white/85 · blur-xl</p>
+                </div>
+                <div className="backdrop-blur-2xl bg-white/95 border border-white/50 rounded-2xl p-4 shadow-glass-xl">
+                  <p className="!text-sm !mb-1 font-sans font-medium text-foreground">Ultra Thick</p>
+                  <p className="!text-xs !mb-0 font-sans text-muted-foreground">white/95 · blur-2xl</p>
+                </div>
+              </div>
             </div>
           </Section>
 
@@ -373,12 +438,24 @@ const DesignSystem = () => {
                 <p className="!text-sm !mb-2 font-sans font-medium text-muted-foreground uppercase tracking-wider">
                   Shadows
                 </p>
-                <div className="flex gap-6">
+                <div className="flex flex-wrap gap-6">
                   <div className="w-20 h-20 bg-card rounded-lg shadow-card flex items-center justify-center">
                     <span className="text-xs font-sans text-muted-foreground">card</span>
                   </div>
                   <div className="w-20 h-20 bg-card rounded-lg shadow-elegant flex items-center justify-center">
                     <span className="text-xs font-sans text-muted-foreground">elegant</span>
+                  </div>
+                  <div className="w-20 h-20 bg-card rounded-lg shadow-glass-sm flex items-center justify-center">
+                    <span className="text-xs font-sans text-muted-foreground">glass-sm</span>
+                  </div>
+                  <div className="w-20 h-20 bg-card rounded-lg shadow-glass-md flex items-center justify-center">
+                    <span className="text-xs font-sans text-muted-foreground">glass-md</span>
+                  </div>
+                  <div className="w-20 h-20 bg-card rounded-lg shadow-glass-lg flex items-center justify-center">
+                    <span className="text-xs font-sans text-muted-foreground">glass-lg</span>
+                  </div>
+                  <div className="w-20 h-20 bg-card rounded-lg shadow-glass-xl flex items-center justify-center">
+                    <span className="text-xs font-sans text-muted-foreground">glass-xl</span>
                   </div>
                 </div>
               </div>
