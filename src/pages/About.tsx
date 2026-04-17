@@ -3,6 +3,9 @@ import Footer from "@/components/Footer";
 import hikingImg from "@/assets/about-hiking.jpg";
 import kayakingImg from "@/assets/about-kayaking.jpg";
 import adventureImg from "@/assets/about-adventure.jpg";
+import skiingImg from "@/assets/about/skiing-with-daughter.jpeg";
+import aerialImg from "@/assets/about/aerial-silks.jpeg";
+import bryceImg from "@/assets/about/hiking-bryce.jpeg";
 
 const About = () => {
   return (
@@ -33,6 +36,27 @@ const About = () => {
                   src={adventureImg}
                   alt="Adventure moments"
                   className="w-full h-full object-cover rounded-2xl shadow-card"
+                />
+              </div>
+              <div className="col-span-1">
+                <img
+                  src={skiingImg}
+                  alt="Skiing with my daughter"
+                  className="w-full h-full aspect-square object-cover rounded-2xl shadow-card"
+                />
+              </div>
+              <div className="col-span-1">
+                <img
+                  src={aerialImg}
+                  alt="Performing aerial silks"
+                  className="w-full h-full aspect-square object-cover rounded-2xl shadow-card"
+                />
+              </div>
+              <div className="col-span-2">
+                <img
+                  src={bryceImg}
+                  alt="Hiking in Bryce Canyon"
+                  className="w-full h-64 object-cover rounded-2xl shadow-card"
                 />
               </div>
             </div>
