@@ -171,7 +171,7 @@ const Index = () => {
       />
 
       <section className="container mx-auto px-6 pb-20">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {filteredProjects.map((project, index) => (
             <div key={project.title} className="animate-fade-in" style={{ animationDelay: `${index * 0.05}s` }}>
               <ProjectCard {...project} />
