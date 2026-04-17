@@ -1,4 +1,5 @@
 import profilePhoto from "@/assets/profile-photo.jpg";
+import butterflyLogo from "@/assets/butterfly-logo.png";
 import ProjectFilter from "./ProjectFilter";
 
 interface HeroProps {
@@ -12,11 +13,19 @@ const Hero = ({ categories, activeCategory, onCategoryChange }: HeroProps) => {
     <section className="flex items-center justify-center px-6 pt-32 pb-16">
       <div className="container mx-auto max-w-4xl">
         <div className="flex flex-col items-center text-center space-y-8 animate-fade-in">
-          <img
-            src={profilePhoto}
-            alt="Marilee Hutzel"
-            className="w-48 h-48 rounded-full object-cover border-2 border-border shadow-lg grayscale"
-          />
+          <div className="relative flex items-center justify-center">
+            <img
+              src={butterflyLogo}
+              alt=""
+              aria-hidden="true"
+              className="absolute w-[28rem] h-[28rem] object-contain opacity-20 pointer-events-none select-none"
+            />
+            <img
+              src={profilePhoto}
+              alt="Marilee Hutzel"
+              className="relative w-48 h-48 rounded-full object-cover border-2 border-border shadow-lg grayscale"
+            />
+          </div>
           <div className="space-y-6">
             <h1
               className="text-5xl md:text-7xl font-bold text-foreground leading-tight"
