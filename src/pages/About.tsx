@@ -1,6 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import hikingImg from "@/assets/about-hiking.jpg";
+import hikingImg from "@/assets/about/hiking-bryce.jpeg";
 import kayakingImg from "@/assets/about-kayaking.jpg";
 import adventureImg from "@/assets/about-adventure.jpg";
 import skiingImg from "@/assets/about/skiing-with-daughter.jpeg";
