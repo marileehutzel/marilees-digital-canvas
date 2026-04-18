@@ -5,7 +5,7 @@ import kayakingImg from "@/assets/about-kayaking.jpg";
 import adventureImg from "@/assets/about-adventure.jpg";
 import skiingImg from "@/assets/about/skiing-with-daughter.jpeg";
 import aerialImg from "@/assets/about/aerial-silks.jpeg";
-import bryceImg from "@/assets/about/hiking-bryce.jpeg";
+import bryceImg from "@/assets/about-hiking.jpg";
 
 const About = () => {
   return (
