@@ -1,4 +1,4 @@
-import profilePhoto from "@/assets/profile-photo.jpg";
+import profilePhoto from "@/assets/about/hiking-bryce.jpeg";
 import ProjectFilter from "./ProjectFilter";
 
 interface HeroProps {
