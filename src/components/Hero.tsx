@@ -15,7 +15,8 @@ const Hero = ({ categories, activeCategory, onCategoryChange }: HeroProps) => {
           <img
             src={profilePhoto}
             alt="Marilee Hutzel"
-            className="w-48 h-48 rounded-full object-cover border-2 border-border shadow-lg grayscale"
+            className="w-48 h-52 object-cover shadow-lg grayscale"
+            style={{ clipPath: "path('M 0 192 L 0 96 A 96 96 0 0 1 192 96 L 192 192 Z')" }}
           />
           <div className="space-y-6">
             <h1
