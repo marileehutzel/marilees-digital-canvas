@@ -387,27 +387,63 @@ const DashboardBuilder = () => {
             <Card className="p-4">
               <h6 className="mb-4 text-center">Revenue Retained</h6>
               <ChartContainer
-                config={{ value: { label: "Revenue", color: "hsl(var(--primary))" } }}
+                config={{
+                  value: {
+                    label: "Revenue",
+                    color: "hsl(var(--primary))",
+                  },
+                }}
                 className="h-[200px] w-full"
               >
-                <AreaChart
+                <LineChart
                   data={[
-                    { period: "Q1", value: 1.2 },
-                    { period: "Q2", value: 2.1 },
-                    { period: "Q3", value: 3.0 },
+                    { period: "Before", value: 0 },
+                    { period: "After", value: 3 },
                   ]}
+                  margin={{ top: 16, right: 24, bottom: 24, left: 24 }}
                 >
-                  <XAxis dataKey="period" tickLine={false} axisLine={false} />
-                  <YAxis hide />
-                  <ChartTooltip content={<ChartTooltipContent formatter={(value) => `$${value}M`} />} />
-                  <Area
-                    type="monotone"
+                  <CartesianGrid strokeDasharray="3 3" className="stroke-muted" />
+                  <XAxis
+                    dataKey="period"
+                    tickLine={false}
+                    axisLine={true}
+                    label={{
+                      value: "TIMELINE",
+                      position: "insideBottom",
+                      offset: -12,
+                      fontSize: 10,
+                      letterSpacing: "0.1em",
+                      fill: "hsl(var(--muted-foreground))",
+                    }}
+                  />
+                  <YAxis
+                    hide={false}
+                    tick={false}
+                    axisLine={true}
+                    tickLine={false}
+                    width={28}
+                    label={{
+                      value: "REVENUE",
+                      angle: -90,
+                      position: "insideLeft",
+                      offset: 12,
+                      fontSize: 10,
+                      letterSpacing: "0.1em",
+                      fill: "hsl(var(--muted-foreground))",
+                    }}
+                  />
+                  <ChartTooltip
+                    content={<ChartTooltipContent />}
+                    formatter={(value: number) => [`$${value}M`, "Revenue"]}
+                  />
+                  <Line
+                    type="linear"
                     dataKey="value"
                     stroke="hsl(var(--primary))"
-                    fill="hsl(var(--primary))"
-                    fillOpacity={0.2}
+                    strokeWidth={3}
+                    dot={{ fill: "hsl(var(--primary))", r: 5 }}
                   />
-                </AreaChart>
+                </LineChart>
               </ChartContainer>
               <p className="text-center text-sm text-muted-foreground mt-2">$3M retained</p>
             </Card>
