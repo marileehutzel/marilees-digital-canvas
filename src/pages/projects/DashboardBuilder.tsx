@@ -1,5 +1,6 @@
 import CaseStudyLayout from "@/components/CaseStudyLayout";
 import { Card } from "@/components/ui/card";
+import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import { ChartContainer, ChartTooltip, ChartTooltipContent } from "@/components/ui/chart";
 import { BarChart, Bar, XAxis, YAxis, AreaChart, Area, LineChart, Line, CartesianGrid } from "recharts";
 import whatIsImg from "@/assets/dashboard-builder/WhatIs-DashboardLifeCycle.png";
@@ -255,11 +256,22 @@ const DashboardBuilder = () => {
               alt="High fidelity light mode design"
               className="w-full rounded-lg shadow-elegant"
             />
-            <img
-              src={highFidelityDarkImg}
-              alt="High fidelity dark mode design"
-              className="w-1/2 mx-auto rounded-lg shadow-elegant"
-            />
+            <Dialog>
+              <DialogTrigger asChild>
+                <img
+                  src={highFidelityDarkImg}
+                  alt="High fidelity dark mode design"
+                  className="w-1/2 mx-auto rounded-lg shadow-elegant cursor-zoom-in transition-transform hover:scale-[1.02]"
+                />
+              </DialogTrigger>
+              <DialogContent className="max-w-[95vw] w-fit p-2 bg-background/95 backdrop-blur">
+                <img
+                  src={highFidelityDarkImg}
+                  alt="High fidelity dark mode design"
+                  className="w-full h-auto max-h-[90vh] object-contain rounded"
+                />
+              </DialogContent>
+            </Dialog>
           </div>
         </section>
 
