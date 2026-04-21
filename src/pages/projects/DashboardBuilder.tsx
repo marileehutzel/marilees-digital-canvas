@@ -306,7 +306,7 @@ const DashboardBuilder = () => {
               <p>Custom dashboards created by users</p>
             </div>
           </div>
-        </section>
+        </section>*/}
 
         <section className="space-y-8">
           <div>
