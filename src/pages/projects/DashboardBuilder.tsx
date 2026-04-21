@@ -258,7 +258,7 @@ const DashboardBuilder = () => {
             <img
               src={highFidelityDarkImg}
               alt="High fidelity dark mode design"
-              className="w-1/2 rounded-lg shadow-elegant"
+              className="w-1/2 mx-auto rounded-lg shadow-elegant"
             />
           </div>
         </section>
