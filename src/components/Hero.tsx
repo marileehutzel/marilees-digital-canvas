@@ -1,5 +1,4 @@
-import profilePhoto from "@/assets/about/hiking-bryce.jpeg";
-import archFrame from "@/assets/arch-frame.png";
+import heroArch from "@/assets/hero-arch.png";
 import ProjectFilter from "./ProjectFilter";
 
 interface HeroProps {
@@ -13,20 +12,11 @@ const Hero = ({ categories, activeCategory, onCategoryChange }: HeroProps) => {
     <section className="flex items-center justify-center px-6 pt-32 pb-16">
       <div className="container mx-auto max-w-4xl">
         <div className="flex flex-col items-center text-center space-y-8 animate-fade-in">
-          <div className="relative w-72 h-96">
-            <img
-              src={profilePhoto}
-              alt="Marilee Hutzel"
-              className="absolute inset-2 w-[calc(100%-1rem)] h-[calc(100%-1rem)] object-cover grayscale"
-              style={{ clipPath: "path('M 0 368 L 0 144 A 144 144 0 0 1 288 144 L 288 368 Z')" }}
-            />
-            <img
-              src={archFrame}
-              alt=""
-              aria-hidden="true"
-              className="absolute inset-0 w-full h-full pointer-events-none"
-            />
-          </div>
+          <img
+            src={heroArch}
+            alt="Marilee Hutzel"
+            className="w-72 h-auto"
+          />
           <div className="space-y-6">
             <h1
               className="text-5xl md:text-7xl font-bold text-foreground leading-tight"
