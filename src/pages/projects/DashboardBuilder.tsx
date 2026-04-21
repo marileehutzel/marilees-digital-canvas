@@ -290,7 +290,7 @@ const DashboardBuilder = () => {
           </div>
         </section>
 
-        <section>
+        {/*<section>
           <h4 className="mb-6">Impact</h4>
           <div className="grid md:grid-cols-3 gap-8 text-center">
             <div className="p-6">
@@ -310,8 +310,8 @@ const DashboardBuilder = () => {
 
         <section className="space-y-8">
           <div>
-            <p className="text-sm uppercase tracking-wider text-muted-foreground mb-2">Impact</p>
-            {/*<h4>Visual Breakdown</h4>*/}
+            {/*<p className="text-sm uppercase tracking-wider text-muted-foreground mb-2">Impact</p>*/}
+            <h4>Visual Breakdown</h4>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
