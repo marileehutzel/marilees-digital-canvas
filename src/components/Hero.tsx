@@ -17,15 +17,8 @@ const Hero = ({ categories, activeCategory, onCategoryChange }: HeroProps) => {
             <img
               src={profilePhoto}
               alt="Marilee Hutzel"
-              className="absolute inset-0 w-full h-full object-cover grayscale"
-              style={{
-                WebkitMaskImage: `url(${archFrame})`,
-                maskImage: `url(${archFrame})`,
-                WebkitMaskSize: "100% 100%",
-                maskSize: "100% 100%",
-                WebkitMaskRepeat: "no-repeat",
-                maskRepeat: "no-repeat",
-              }}
+              className="absolute inset-2 w-[calc(100%-1rem)] h-[calc(100%-1rem)] object-cover grayscale"
+              style={{ clipPath: "path('M 0 368 L 0 144 A 144 144 0 0 1 288 144 L 288 368 Z')" }}
             />
             <img
               src={archFrame}
