@@ -311,7 +311,7 @@ const DashboardBuilder = () => {
         <section className="space-y-8">
           <div>
             {/*<p className="text-sm uppercase tracking-wider text-muted-foreground mb-2">Impact</p>*/}
-            <h4>Visual Breakdown</h4>
+            <h4>Impact</h4>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
