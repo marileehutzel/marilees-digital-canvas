@@ -38,7 +38,7 @@ const JustForFun = () => {
               styles and techniques.
             </p>
             <div className="columns-2 md:columns-3 gap-4 space-y-4 [&>*]:mb-4 [&>*]:break-inside-avoid animate-fade-in">
-              {[image2, image3, image4, image5, image6, image7, image8, image9, image10, image11, image12, image15, image16, image18, image19, image20, image21, image22, image23, image24].map((img, i) => (
+              {[monstera, image2, image3, image4, image5, image6, image7, image8, image9, image10, image11, image12, image15, image16, image18, image19, image20, image21, image22, image23, image24].map((img, i) => (
                 <Dialog key={i}>
                   <DialogTrigger asChild>
                     <img
