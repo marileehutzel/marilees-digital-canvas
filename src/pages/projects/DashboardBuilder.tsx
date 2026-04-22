@@ -150,11 +150,22 @@ const DashboardBuilder = () => {
               headache uncovered from research was the real issue of collaboration and sharing of dashboards. We had no
               system or structure designed for permissions or hierarchy of PII within our defined roles.
             </p>
-            <img
-              src={researchDiscoveryImg}
-              alt="Research and discovery phase findings"
-              className="w-full rounded-lg shadow-elegant"
-            />
+            <Dialog>
+              <DialogTrigger asChild>
+                <img
+                  src={researchDiscoveryImg}
+                  alt="Research and discovery phase findings"
+                  className="w-1/2 mx-auto rounded-lg shadow-elegant cursor-zoom-in transition-transform hover:scale-[1.02]"
+                />
+              </DialogTrigger>
+              <DialogContent className="max-w-[95vw] w-fit p-2 bg-background/95 backdrop-blur">
+                <img
+                  src={researchDiscoveryImg}
+                  alt="Research and discovery phase findings"
+                  className="w-full h-auto max-h-[90vh] object-contain rounded"
+                />
+              </DialogContent>
+            </Dialog>
           </div>
 
           <div>
@@ -181,11 +192,22 @@ const DashboardBuilder = () => {
             stakeholders and clients to find the best balance between complexity of chart dev time and importance of the
             data. I worked closely with both dev teams to define priorities.
           </p>
-          <img
-            src={chartMvpsImg}
-            alt="Chart MVP definitions and priorities"
-            className="w-full rounded-lg shadow-elegant"
-          />
+          <Dialog>
+            <DialogTrigger asChild>
+              <img
+                src={chartMvpsImg}
+                alt="Chart MVP definitions and priorities"
+                className="w-1/2 mx-auto rounded-lg shadow-elegant cursor-zoom-in transition-transform hover:scale-[1.02]"
+              />
+            </DialogTrigger>
+            <DialogContent className="max-w-[95vw] w-fit p-2 bg-background/95 backdrop-blur">
+              <img
+                src={chartMvpsImg}
+                alt="Chart MVP definitions and priorities"
+                className="w-full h-auto max-h-[90vh] object-contain rounded"
+              />
+            </DialogContent>
+          </Dialog>
         </section>
 
         <section className="space-y-4">
