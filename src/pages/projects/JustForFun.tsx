@@ -1,5 +1,4 @@
 import CaseStudyLayout from "@/components/CaseStudyLayout";
-import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import image2 from "@/assets/just-for-fun/image-2.png";
 import image3 from "@/assets/just-for-fun/image-3.png";
 import image4 from "@/assets/just-for-fun/image-4.jpg";
@@ -36,20 +35,15 @@ const JustForFun = () => {
               These sketches and illustrations represent personal creative time where I explore different artistic
               styles and techniques.
             </p>
-            <div className="relative px-12">
-              <Carousel className="w-full">
-                <CarouselContent>
-                  {[image2, image3, image4, image5, image6, image7, image8, image9, image10, image11, image12, image15, image16, image18, image19, image20, image21, image22, image23, image24].map((img, i) => (
-                    <CarouselItem key={i}>
-                      <div className="flex items-center justify-center h-[400px] md:h-[600px]">
-                        <img src={img} alt="Creative sketch" className="w-full h-full object-contain rounded-lg" />
-                      </div>
-                    </CarouselItem>
-                  ))}
-                </CarouselContent>
-                <CarouselPrevious />
-                <CarouselNext />
-              </Carousel>
+            <div className="columns-2 md:columns-3 gap-4 space-y-4 [&>img]:mb-4 [&>img]:break-inside-avoid animate-fade-in">
+              {[image2, image3, image4, image5, image6, image7, image8, image9, image10, image11, image12, image15, image16, image18, image19, image20, image21, image22, image23, image24].map((img, i) => (
+                <img
+                  key={i}
+                  src={img}
+                  alt="Creative sketch"
+                  className="w-full h-auto object-cover rounded-2xl shadow-card"
+                />
+              ))}
             </div>
           </div>
 
