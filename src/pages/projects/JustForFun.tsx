@@ -1,5 +1,6 @@
 import CaseStudyLayout from "@/components/CaseStudyLayout";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+import rainbowLeaves from "@/assets/just-for-fun/rainbow-leaves.jpg";
 import monstera from "@/assets/just-for-fun/monstera.jpg";
 import image2 from "@/assets/just-for-fun/image-2.png";
 import image3 from "@/assets/just-for-fun/image-3.png";
@@ -37,6 +38,22 @@ const JustForFun = () => {
               These sketches and illustrations represent personal creative time where I explore different artistic
               styles and techniques.
             </p>
+            <Dialog>
+              <DialogTrigger asChild>
+                <img
+                  src={rainbowLeaves}
+                  alt="Rainbow leaves painting"
+                  className="w-full h-auto object-cover rounded-2xl shadow-card cursor-zoom-in transition-transform hover:scale-[1.01] mb-4"
+                />
+              </DialogTrigger>
+              <DialogContent className="max-w-[95vw] w-fit p-2 bg-background/95 backdrop-blur">
+                <img
+                  src={rainbowLeaves}
+                  alt="Rainbow leaves painting"
+                  className="w-full h-auto max-h-[90vh] object-contain rounded"
+                />
+              </DialogContent>
+            </Dialog>
             <div className="columns-2 md:columns-3 gap-4 space-y-4 [&>*]:mb-4 [&>*]:break-inside-avoid animate-fade-in">
               {[monstera, image2, image3, image4, image5, image6, image7, image8, image9, image10, image11, image12, image15, image16, image18, image19, image20, image21, image22, image23, image24].map((img, i) => (
                 <Dialog key={i}>
