@@ -1,5 +1,6 @@
 import CaseStudyLayout from "@/components/CaseStudyLayout";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+import monstera from "@/assets/just-for-fun/monstera.jpg";
 import image2 from "@/assets/just-for-fun/image-2.png";
 import image3 from "@/assets/just-for-fun/image-3.png";
 import image4 from "@/assets/just-for-fun/image-4.jpg";
