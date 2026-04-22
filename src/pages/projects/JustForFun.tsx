@@ -1,4 +1,5 @@
 import CaseStudyLayout from "@/components/CaseStudyLayout";
+import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import image2 from "@/assets/just-for-fun/image-2.png";
 import image3 from "@/assets/just-for-fun/image-3.png";
 import image4 from "@/assets/just-for-fun/image-4.jpg";
@@ -35,14 +36,24 @@ const JustForFun = () => {
               These sketches and illustrations represent personal creative time where I explore different artistic
               styles and techniques.
             </p>
-            <div className="columns-2 md:columns-3 gap-4 space-y-4 [&>img]:mb-4 [&>img]:break-inside-avoid animate-fade-in">
+            <div className="columns-2 md:columns-3 gap-4 space-y-4 [&>*]:mb-4 [&>*]:break-inside-avoid animate-fade-in">
               {[image2, image3, image4, image5, image6, image7, image8, image9, image10, image11, image12, image15, image16, image18, image19, image20, image21, image22, image23, image24].map((img, i) => (
-                <img
-                  key={i}
-                  src={img}
-                  alt="Creative sketch"
-                  className="w-full h-auto object-cover rounded-2xl shadow-card"
-                />
+                <Dialog key={i}>
+                  <DialogTrigger asChild>
+                    <img
+                      src={img}
+                      alt="Creative sketch"
+                      className="w-full h-auto object-cover rounded-2xl shadow-card cursor-zoom-in transition-transform hover:scale-[1.02]"
+                    />
+                  </DialogTrigger>
+                  <DialogContent className="max-w-[95vw] w-fit p-2 bg-background/95 backdrop-blur">
+                    <img
+                      src={img}
+                      alt="Creative sketch"
+                      className="w-full h-auto max-h-[90vh] object-contain rounded"
+                    />
+                  </DialogContent>
+                </Dialog>
               ))}
             </div>
           </div>
