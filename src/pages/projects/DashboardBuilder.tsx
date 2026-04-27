@@ -35,7 +35,7 @@ const DashboardBuilder = () => {
       <div className="space-y-32 animate-fade-in">
         <section>
           <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground mb-3 font-sans">The Challenge</p>
-          <h4 className="mb-6 animate-fade-in">Data existed. Clarity didn't.</h4>
+          <h4 className="mb-6">Data existed. Clarity didn't.</h4>
           <p className="mb-6">
             Clients weren't short on data. They were drowning in it. Our basic MVP dashboards weren't cutting it for all
             of our customers. Internal business analysts had to file requests with developers for every 'custom'
@@ -46,7 +46,7 @@ const DashboardBuilder = () => {
           <div className="space-y-8 mt-12">
             <div className="p-6 bg-card rounded-lg shadow-card">
               <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground mb-1 font-sans">The Reality</p>
-              <h4 className="mb-4">What Existed</h4>
+              <h4 className="mb-6">What Existed</h4>
               <ul className="list-disc list-inside space-y-3 font-serif text-lg md:text-xl text-muted-foreground leading-relaxed">
                 <li>Static MVP dashboards with no customization</li>
                 <li>Developer dependency for every custom view</li>
@@ -61,7 +61,7 @@ const DashboardBuilder = () => {
               <p className="text-xs uppercase tracking-[0.2em] text-secondary-foreground/50 mb-1 font-sans">
                 The Ideal
               </p>
-              <h4 className="mb-4 text-secondary-foreground">What Could Be</h4>
+              <h4 className="mb-6 text-secondary-foreground">What Could Be</h4>
               <ul className="list-disc list-inside space-y-3 font-serif text-lg md:text-xl text-secondary-foreground/80 leading-relaxed">
                 <li>Self-Service Dashboards</li>
                 <li>Empowered clients not waiting for customization</li>
@@ -76,7 +76,7 @@ const DashboardBuilder = () => {
         </section>
 
         <section>
-          <h4 className="mb-6 animate-fade-in">Goal</h4>
+          <h4 className="mb-6">Goal</h4>
           <p className="mb-6">
             Dashboard builder should be simple enough for first-time users, robust enough for client analysts,
             consistent with our new design system, and performant with hundreds of widgets and data sources so users
@@ -96,13 +96,13 @@ const DashboardBuilder = () => {
 
         <section>
           <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground mb-3 font-sans">Two Developer Teams</p>
-          <h4 className="mb-10">A Tale of Two Javiers</h4>
+          <h4 className="mb-6">A Tale of Two Javiers</h4>
           <div className="grid md:grid-cols-2 gap-12">
             <div className="flex flex-col items-center text-center">
               <div className="w-48 h-48 rounded-full bg-[hsl(175,50%,70%)] flex items-center justify-center mb-8">
                 <span className="text-4xl font-bold text-white">J</span>
               </div>
-              <h4 className="mb-4">Javier</h4>
+              <h4 className="mb-6">Javier</h4>
               <ul className="list-disc list-outside space-y-2 text-muted-foreground font-serif text-lg text-left pl-5">
                 <li>Based in San Salvador</li>
                 <li>6 developers on team in San Salvador</li>
@@ -114,7 +114,7 @@ const DashboardBuilder = () => {
               <div className="w-48 h-48 rounded-full bg-[hsl(110,50%,65%)] flex items-center justify-center mb-8">
                 <span className="text-4xl font-bold text-white">J</span>
               </div>
-              <h4 className="mb-4">Javi</h4>
+              <h4 className="mb-6">Javi</h4>
               <ul className="list-disc list-outside space-y-2 text-muted-foreground font-serif text-lg text-left pl-5">
                 <li>Based in Barcelona</li>
                 <li>6 developers on team in United States</li>
@@ -127,7 +127,7 @@ const DashboardBuilder = () => {
 
         <section>
           <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground mb-3 font-sans">Team Dynamics</p>
-          <h4 className="mb-6 animate-fade-in">Collaboration and Communication</h4>
+          <h4 className="mb-6">Collaboration and Communication</h4>
           <img
             src={collaborationImg}
             alt="Collaboration and communication diagram showing team dynamics between stakeholders, project managers, developers, and clients"
@@ -140,7 +140,7 @@ const DashboardBuilder = () => {
             Research and Definition
           </p>
           <div>
-            <h4 className="mb-4">Reaching out with empathy</h4>
+            <h4 className="mb-6">Reaching out with empathy</h4>
             <p className="mb-6">
               Conducted user interviews to understand pain points and 'wish list.' Clients needed a way to quickly
               create custom dashboards to make real change, to find trends and help make their employees more effective
@@ -169,7 +169,7 @@ const DashboardBuilder = () => {
           </div>
 
           <div>
-            <h4 className="mb-4">Hierarchy and Architecture</h4>
+            <h4 className="mb-6">Hierarchy and Architecture</h4>
             <p className="mb-6">
               Needed to make sure that the new dashboard builder feature worked into the larger ecosystem already
               established. Found a way to add dashboard builder into the existing navigation with ways to access
@@ -213,7 +213,7 @@ const DashboardBuilder = () => {
         <section className="space-y-4">
           <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground mb-1 font-sans">It is time</p>
           <div>
-            <h4 className="mb-4">Let's Get to the Drawing Board</h4>
+            <h4 className="mb-6">Let's Get to the Drawing Board</h4>
             <p className="mb-6">
               I created low-fidelity wireframes to explore multiple layout options—grid, free-form, and responsive
               behavior—while carefully considering how the experience would adapt on smaller screens, where the drawer
@@ -301,24 +301,24 @@ const DashboardBuilder = () => {
           <h4 className="mb-6">Key Features</h4>
           <div className="grid md:grid-cols-2 gap-8">
             <div className="p-6 bg-card rounded-lg shadow-card hover:shadow-elegant transition-all duration-300">
-              <h4 className="mb-3">Drag-and-Drop Builder</h4>
+              <h4 className="mb-6">Drag-and-Drop Builder</h4>
               <p>
                 Intuitive interface allowing users to quickly arrange and configure dashboard widgets without technical
                 knowledge.
               </p>
             </div>
             <div className="p-6 bg-card rounded-lg shadow-card hover:shadow-elegant transition-all duration-300">
-              <h4 className="mb-3">Widget Library</h4>
+              <h4 className="mb-6">Widget Library</h4>
               <p>
                 Comprehensive collection of chart types, tables, and KPI widgets that adapt to different data sources.
               </p>
             </div>
             <div className="p-6 bg-card rounded-lg shadow-card hover:shadow-elegant transition-all duration-300">
-              <h4 className="mb-3">Real-time Preview</h4>
+              <h4 className="mb-6">Real-time Preview</h4>
               <p>Live preview of dashboard changes ensures users see exactly what their audience will see.</p>
             </div>
             <div className="p-6 bg-card rounded-lg shadow-card hover:shadow-elegant transition-all duration-300">
-              <h4 className="mb-3">Responsive Design</h4>
+              <h4 className="mb-6">Responsive Design</h4>
               <p>Dashboards automatically adapt to different screen sizes and devices without manual adjustment.</p>
             </div>
           </div>
@@ -345,7 +345,7 @@ const DashboardBuilder = () => {
         <section className="space-y-8">
           <div>
             {/*<p className="text-sm uppercase tracking-wider text-muted-foreground mb-2">Impact</p>*/}
-            <h4>Impact</h4>
+            <h4 className="mb-6">Impact</h4>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">

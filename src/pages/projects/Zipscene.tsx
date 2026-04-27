@@ -15,7 +15,7 @@ const Zipscene = () => {
     >
       <section className="space-y-8">
         <div className="space-y-4">
-          <h4>Insights Home Page</h4>
+          <h4 className="mb-6">Insights Home Page</h4>
           <p className="max-w-3xl">
             Use our database to identify new insights for Guests, Locations and Market Conditions
           </p>
@@ -31,7 +31,7 @@ const Zipscene = () => {
 
       <section className="space-y-8">
         <div className="space-y-4">
-          <h4>Advisor Home Page</h4>
+          <h4 className="mb-6">Advisor Home Page</h4>
 
           <img src={image5} alt="Advisor home page" className="w-full rounded-lg shadow-lg" />
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -43,7 +43,7 @@ const Zipscene = () => {
 
       <section className="space-y-8">
         <div className="space-y-4">
-          <h4>Custom Iconography</h4>
+          <h4 className="mb-6">Custom Iconography</h4>
           <p className="max-w-3xl">
             Designed a custom pixel-perfect icon font to create a unified visual language throughout the analytics
             platform.
@@ -52,7 +52,7 @@ const Zipscene = () => {
       </section>
 
       <section className="space-y-16">
-        <h4>Impact</h4>
+        <h4 className="mb-6">Impact</h4>
         <div className="grid md:grid-cols-3 gap-8 text-center">
           <div className="p-6">
             <div className="text-4xl font-bold text-primary mb-2">Custom</div>

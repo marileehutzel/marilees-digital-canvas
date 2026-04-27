@@ -15,7 +15,7 @@ const AIDataExplorer = () => {
     >
       <div className="space-y-16">
         <section>
-          <h4 className="mb-6 animate-fade-in">Intelligent Discovery</h4>
+          <h4 className="mb-6">Intelligent Discovery</h4>
           <p>
             The platform uses natural language processing to understand user questions and automatically generates
             relevant visualizations, statistical analyses, and predictive models. Users can refine results through
