@@ -7,19 +7,6 @@ import image3 from "@/assets/ai-data-explorer/image-3.png";
 const AIDataExplorer = () => {
   return (
     <CaseStudyLayout
-      title="Dashboard Builder"
-      subtitle="Empowering Users with Self-Service Analytics"
-      description="We had MVP for years, and it wasn't enough. We needed a flexible dashboard builder that gave the power to the users to tell their own data story."
-      disclaimer="Due to confidentiality agreements, some details and data have been anonymized or modified."
-      metadata={[
-        { label: "Type", value: "Enterprise B2B" },
-        { label: "Role", value: "Lead UX Designer" },
-        { label: "Platforms", value: "Web (React), Legacy" },
-        { label: "Design Tools", value: "Figma, Sketch" },
-        { label: "Product", value: "Concentrix CX" },
-      ]}
-    >
-    <CaseStudyLayout
       title="AI Data Explorer"
       subtitle="Intelligent Data Discovery"
       context="Data analysts spend up to 80% of their time preparing and exploring data before they can extract insights. This inefficiency stifles innovation and delays decision-making."
