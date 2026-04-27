@@ -15,7 +15,7 @@ const McAlistersDeli = () => {
     >
       <div className="space-y-32">
         <section className="space-y-8 animate-fade-in">
-          <h4>Initial Concepts & Sketches</h4>
+          <h4 className="mb-6">Initial Concepts & Sketches</h4>
           <p className="max-w-4xl">
             Early ideation phase exploring app structure, loyalty program integration, and custom iconography.
           </p>
@@ -23,7 +23,7 @@ const McAlistersDeli = () => {
         </section>
 
         <section className="space-y-8 animate-fade-in">
-          <h4>Loyalty Program Architecture</h4>
+          <h4 className="mb-6">Loyalty Program Architecture</h4>
           <p className="max-w-4xl">
             Detailed exploration of the loyalty program flow, rewards structure, and user journey mapping.
           </p>
@@ -32,7 +32,7 @@ const McAlistersDeli = () => {
 
         <section className="animate-fade-in -mx-6 md:-mx-12 lg:-mx-[calc((100vw-1024px)/2)] px-6 md:px-12 lg:px-[calc((100vw-1024px)/2)] py-16 bg-muted/100">
           <div className="max-w-7xl mx-auto space-y-8">
-            <h4>Custom Icon Set Design</h4>
+            <h4 className="mb-6">Custom Icon Set Design</h4>
             <p className="max-w-4xl">
               Development of a comprehensive custom icon set that aligns with McAlister's Deli brand identity.
             </p>
@@ -41,7 +41,7 @@ const McAlistersDeli = () => {
         </section>
 
         <section className="space-y-8 animate-fade-in">
-          <h4>Menu & Ordering Interface</h4>
+          <h4 className="mb-6">Menu & Ordering Interface</h4>
           <p className="max-w-4xl">
             Designing an intuitive ordering interface that integrates seamlessly with the loyalty program.
           </p>
@@ -49,7 +49,7 @@ const McAlistersDeli = () => {
         </section>
 
         <section className="space-y-8 animate-fade-in">
-          <h4>User Flow Refinement</h4>
+          <h4 className="mb-6">User Flow Refinement</h4>
           <p className="max-w-4xl">
             Iterative refinement of user flows to ensure smooth navigation between features.
           </p>
@@ -57,7 +57,7 @@ const McAlistersDeli = () => {
         </section>
 
         <section className="space-y-8 animate-fade-in">
-          <h4>Final Design Concepts</h4>
+          <h4 className="mb-6">Final Design Concepts</h4>
           <p className="max-w-4xl">
             Polished design concepts bringing together the loyalty experience and custom iconography.
           </p>
@@ -65,7 +65,7 @@ const McAlistersDeli = () => {
         </section>
 
         <section className="animate-fade-in">
-          <h4 className="mb-8">Impact</h4>
+          <h4 className="mb-6">Impact</h4>
           <div className="grid md:grid-cols-3 gap-8 text-center">
             <div className="p-6">
               <div className="text-4xl font-bold text-primary mb-2">Custom</div>
