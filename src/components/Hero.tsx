@@ -19,7 +19,10 @@ const Hero = ({ categories, activeCategory, onCategoryChange }: HeroProps) => {
                 className="text-5xl md:text-7xl font-bold text-foreground leading-tight"
                 style={{ fontFamily: '"nougat-script", sans-serif', fontWeight: 700 }}
               >
-                <span className="whitespace-nowrap">Creating <span className="bg-gradient-primary bg-clip-text text-transparent">intuitive</span></span> experiences
+                <span className="whitespace-nowrap">
+                  Creating <span className="bg-gradient-primary bg-clip-text text-transparent">Intuitive</span>
+                </span>{" "}
+                Experiences
               </h1>
               <p className="text-xl md:text-2xl text-muted-foreground max-w-xl">
                 Senior Product Designer | UI/UX Wrangler | AI Investigator | Inquisitive
