@@ -25,7 +25,7 @@ const Hero = ({ categories, activeCategory, onCategoryChange }: HeroProps) => {
                 Experiences
               </h1>
               <p className="text-xl md:text-2xl text-muted-foreground max-w-xl">
-                Senior Product Designer | UI/UX Wrangler | AI Investigator | Inquisitive
+                Senior Product Designer | UI/UX Wrangler | <span className="whitespace-nowrap">AI Investigator</span> | Inquisitive
               </p>
             </div>
           </div>
