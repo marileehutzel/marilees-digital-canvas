@@ -12,9 +12,9 @@ const Hero = ({ categories, activeCategory, onCategoryChange }: HeroProps) => {
     <section className="flex items-center justify-center px-6 pt-32 pb-16">
       <div className="container mx-auto max-w-4xl">
         <div className="flex flex-col items-center space-y-8 animate-fade-in">
-          <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12 w-full">
+          <div className="flex flex-col md:flex-row items-end gap-8 md:gap-12 w-full">
             <img src={heroArch} alt="Marilee Hutzel" className="w-72 h-auto shrink-0" />
-            <div className="space-y-6 text-center md:text-left">
+            <div className="space-y-6 text-center md:text-left pb-2">
               <h1
                 className="text-5xl md:text-7xl font-bold text-foreground leading-tight"
                 style={{ fontFamily: '"nougat-script", sans-serif', fontWeight: 700 }}
