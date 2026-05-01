@@ -63,8 +63,8 @@ const Header = () => {
     };
   }, []);
   
-  // Show background when scrolled or when page can't scroll
-  const showBackground = isScrolled || !canScroll;
+  // Always show background so header is visible at all times
+  const showBackground = true;
   // Use light text on dark backgrounds (when transparent header over dark content)
   const useLightText = !showBackground && isDarkBackground;
   
