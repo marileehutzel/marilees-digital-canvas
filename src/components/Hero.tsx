@@ -10,7 +10,7 @@ interface HeroProps {
 const Hero = ({ categories, activeCategory, onCategoryChange }: HeroProps) => {
   return (
     <section className="flex items-center justify-center px-6 pt-32 pb-16">
-      <div className="container mx-auto max-w-4xl">
+      <div className="container mx-auto">
         <div className="flex flex-col items-center space-y-8 animate-fade-in">
           <div className="flex flex-col md:flex-row items-end gap-8 md:gap-12 w-full">
             <img src={heroArch} alt="Marilee Hutzel" className="w-72 h-auto shrink-0" />
