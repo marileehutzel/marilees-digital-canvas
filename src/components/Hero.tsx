@@ -11,18 +11,20 @@ const Hero = ({ categories, activeCategory, onCategoryChange }: HeroProps) => {
   return (
     <section className="flex items-center justify-center px-6 pt-32 pb-16">
       <div className="container mx-auto max-w-4xl">
-        <div className="flex flex-col items-center text-center space-y-8 animate-fade-in">
-          <img src={heroArch} alt="Marilee Hutzel" className="w-72 h-auto" />
-          <div className="space-y-6">
-            <h1
-              className="text-5xl md:text-7xl font-bold text-foreground leading-tight"
-              style={{ fontFamily: '"nougat-script", sans-serif', fontWeight: 700 }}
-            >
-              Creating <span className="bg-gradient-primary bg-clip-text text-transparent">intuitive</span> experiences
-            </h1>
-            <p className="text-xl md:text-2xl text-muted-foreground max-w-xl mx-auto">
-              Senior Product Designer | UI/UX Wrangler | AI Investigator | Inquisitive
-            </p>
+        <div className="flex flex-col items-center space-y-8 animate-fade-in">
+          <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12 w-full">
+            <img src={heroArch} alt="Marilee Hutzel" className="w-72 h-auto shrink-0" />
+            <div className="space-y-6 text-center md:text-left">
+              <h1
+                className="text-5xl md:text-7xl font-bold text-foreground leading-tight"
+                style={{ fontFamily: '"nougat-script", sans-serif', fontWeight: 700 }}
+              >
+                Creating <span className="bg-gradient-primary bg-clip-text text-transparent">intuitive</span> experiences
+              </h1>
+              <p className="text-xl md:text-2xl text-muted-foreground max-w-xl">
+                Senior Product Designer | UI/UX Wrangler | AI Investigator | Inquisitive
+              </p>
+            </div>
           </div>
           <ProjectFilter categories={categories} activeCategory={activeCategory} onCategoryChange={onCategoryChange} />
         </div>
